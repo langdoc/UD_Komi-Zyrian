@@ -1,4 +1,4 @@
-## Komi-Zyrian Universal Dependency annotations
+## Komi-Zyrian [Universal Dependency](universaldependencies.org) annotations
 
 This is an experimental setup for Komi-Zyrian syntactic annotations. It is a part of a larger task to produce Komi-Zyrian gold corpus, and is primarily based into Public Domain data. However, a longer term goal is to include also spoken Komi-Zyrian data from [IKDP language documentation project](https://langdoc.github.io/IKDP).
 
