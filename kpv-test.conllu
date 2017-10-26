@@ -440,8 +440,8 @@
 1	Кыдзи	кыдзи	ADV	Adv	_	2	advmod	_	_
 2	лои	лоны	VERB	V	_	0	root	_	_
 3	Краснӧй	краснӧй	ADJ	A	_	4	amod	_	_
-4	Армияса	армия	NOUN	N	_	5	nmod	_	_
-5	командирӧн	командир	NOUN	N	_	2	nmod	_	_
+4	Армияса	армия	ADJ	A	_	5	amod	_	_
+5	командирӧн	командир	NOUN	N	_	2	obl	_	_
 6	?	?	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv_four_battles.007
