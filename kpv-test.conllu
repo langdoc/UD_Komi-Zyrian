@@ -704,7 +704,7 @@
 2	Петрсянь	Петр	NOUN	_	_	3	obl	_	Offset=743-751
 3	письмӧ	письмӧ	NOUN	_	_	0	root	_	Offset=752-758
 4	,	,	PUNCT	_	_	3	punct	_	Offset=759-760
-5	да	да	CONJ	_	_	3	cc	_	Offset=761-763
+5	да	да	CONJ	_	_	8	mark	_	Offset=761-763
 6	сійӧс	сійӧ	PRON	_	_	8	obj	_	Offset=764-769
 7	тӧрыт	тӧрыт	ADV	_	_	8	advmod	_	Offset=770-775
 8	вайисны	вайны	VERB	_	_	3	advcl	3:advcl	Offset=776-783
