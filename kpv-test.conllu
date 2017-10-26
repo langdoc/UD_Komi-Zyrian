@@ -344,7 +344,7 @@
 4	нин	нин	ADV	_	_	5	advmod	_	_
 5	кут	кутны	VERB	_	_	0	root	_	_
 6	вермыны	вермыны	VERB	_	_	5	xcomp	_	_
-7	.	.	PUNCT	_	_	6	punct	_	_
+7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = belyx-011.046
 # text = Тӧлыс да шерыс пӧрӧдісны кок·йывсьыд .
