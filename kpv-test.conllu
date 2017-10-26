@@ -626,7 +626,7 @@
 
 # sent_id = kpv-gt.12
 1	Найӧ	найӧ	PRON	_	_	4	nsubj	_	Offset=403-406
-2	дзик	дзик	ADV	_	_	3	advmod	_	Offset=407-411
+2	дзик	дзик	ADV	_	_	4	advmod	_	Offset=407-411
 3	оз	оз	AUX	_	_	4	aux	_	Offset=412-414
 4	тӧдны	тӧдны	VERB	_	_	0	root	_	Offset=415-420
 5	коді	коді	PRON	_	_	7	nsubj	_	Offset=423-427
