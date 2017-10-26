@@ -714,6 +714,6 @@
 1	Сійӧ	сійӧ	PRON	_	_	2	nsubj	_	Offset=786-790
 2	быдмис	быдмыны	VERB	_	_	0	root	_	Offset=791-797
 3	Парижын	Париж	PROPN	_	_	2	obl	_	Offset=798-805
-4	Францияса	Франция	PROPN	_	_	5	nmod	_	Offset=808-817
+4	Францияса	Франция	ADJ	Adj	_	5	amod	_	Offset=808-817
 5	юркарын	юркар	NOUN	_	_	3	appos	4:amod	Offset=818-825
 6	.	.	PUNCT	_	_	2	punct	_	Offset=826-827
