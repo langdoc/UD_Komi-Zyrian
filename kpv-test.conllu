@@ -668,7 +668,7 @@
 4	кутчысьлісны	кутчысьлыны	VERB	_	_	0	root	_	Offset=566-578
 5	да	да	CONJ	_	_	4	conj	_	Offset=579-581
 6	петісны	петны	VERB	_	_	4	cc	_	Offset=582-589
-7	вежӧсысь	вежӧсысь	NOUN	_	_	6	nmod	_	Offset=590-598
+7	вежӧсысь	вежӧсысь	NOUN	_	_	6	obl	_	Offset=590-598
 8	.	.	PUNCT	_	_	4	punct	_	Offset=599-600
 
 # sent_id = kpv-gt.17
