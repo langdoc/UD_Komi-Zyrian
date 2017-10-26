@@ -295,8 +295,8 @@
 7	сэтшӧма	сэтшӧма	ADV	Adv	_	10	advmod	_	_
 8	ёсь	ёсь	ADJ	A	_	9	amod	_	_
 9	тӧлыс	тӧв	NOUN	N	_	10	nsubj	_	_
-10	сатшис	сатшны	VERB	V	_	4	acl	_	_
-11	горшӧ	горш	NOUN	N	_	10	nmod	_	_
+10	сатшис	сатшны	VERB	V	_	4	advcl	_	_
+11	горшӧ	горш	NOUN	N	_	10	obl	_	_
 12	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.041
