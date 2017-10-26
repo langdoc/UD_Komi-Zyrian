@@ -587,9 +587,9 @@
 5	.	.	PUNCT	_	_	3	punct	_	Offset=221-222
 
 # sent_id = kpv-gt.08
-1	Менам	ме	PRON	_	_	2	det	_	Offset=223-228
+1	Менам	ме	PRON	_	_	2	nmod	_	Offset=223-228
 2	батьӧ	бать	NOUN	_	_	5	nsubj	_	Offset=229-234
-3	тэнад	тэ	PRON	_	_	4	det	_	Offset=235-240
+3	тэнад	тэ	PRON	_	_	4	nmod	_	Offset=235-240
 4	батьсьыд	бать	NOUN	_	_	5	iobj	_	Offset=241-249
 5	бурджык	бур	ADJ	_	_	0	_	_	Offset=250-257
 6	.	.	PUNCT	_	_	5	punct	_	Offset=258-259
