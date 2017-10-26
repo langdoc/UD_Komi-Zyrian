@@ -325,7 +325,7 @@
 3	кучкисны	кучкыны	VERB	_	_	0	root	_	_
 4	йи	йи	NOUN	_	_	5	nmod	_	_
 5	торъяс	тор	NOUN	_	_	3	nsubj	_	_
-6	.	.	PUNCT	_	_	5	punct	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = belyx-011.044
 # text = Тайӧ , вӧлӧмкӧ , шер .
