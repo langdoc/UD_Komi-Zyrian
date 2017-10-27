@@ -768,6 +768,7 @@
 13	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # Тайӧ нигаыс сетас сӧмын ичӧтик юкӧн вӧр велӧдысьлы.
+# sent_id = new_4
 1	Тайӧ	тайӧ	_	Pron	Dem|Sg|Nom	2	det	_	_
 2	нигаыс	нига	_	N	Sg|Nom|PxSg3	3	nsubj	_	_
 3	сетас	сетны	_	V	TV|Ind|Fut|Sg3	0	root	_	_
