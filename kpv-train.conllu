@@ -89,3 +89,30 @@
 3	лолавсьыны	лолавсьыны	VERB	_	_	4	xcomp	_	_
 4	кутіс	кутны	VERB	_	_	0	root	_	_
 5	.	.	PUNCT	_	_	4	punct	_	_
+
+# text = Сійӧ пыр жӧ гижис Максимлы зэв кузь да зэв стрӧг письмӧ, кӧні Валентина Ивановна моз жӧ нимтіс сійӧс «сюсь йӧйӧн».
+# sent_id = new_1
+1	Сійӧ	сійӧ	PRON	Pron	Pers Sg3 Nom	4	nsubj	_	_
+2	пыр	пыр	ADV	Adv	_	4	advmod	_	_
+3	жӧ	жӧ	PART	Pcle	_	2	advmod	_	_
+4	гижис	гижны	VERB	V	Ind Prt1 Sg3	0	root	_	_
+5	Максимлы	Максим	PROPN	N	Prop Sg Dat	4	iobj	_	_
+6	зэв	зэв	ADV	Adv	_	7	advmod	_	_
+7	кузь	кузь	ADJ	A	Sg Nom	10	conj	_	_
+8	да	да	CCONJ	CC	_	7	cc	_	_
+9	зэв	зэв	ADV	Adv	_	10	advmod	_	_
+10	стрӧг	стрӧг	ADJ	A	Sg Nom	11	amod	_	_
+11	письмӧ	письмӧ	NOUN	N	Sg Acc	4	obj	_	_
+12	,	,	PUNCT	CLB	_	11	punct	_	_
+13	кӧні	кӧні	ADV	Adv	Spat Ine Pred Sg Rel	18	advmod	_	_
+14	Валентина	Валентина	PROPN	N	Prop Sem/Fem Sem/Fem Sg Nom	16	nmod	_	_
+15	Ивановна	Ивановна	PROPN	N	Prop Sem/Patr Sem/Fem Sg Nom	14	flat:name	_	_
+16	моз	моз	ADV	Adv	_	18	advmod	_	_
+17	жӧ	жӧ	PART	Pcle	_	16	discourse	_	_
+18	нимтіс	нимтыны	VERB	V	Ind Prt1 Sg3	11	acl:relcl	_	_
+19	сійӧс	сійӧ	PRON	Pron	Pers Sg3 Acc	18	obj	_	_
+20	«	«	PUNCT	PUNCT	LEFT	22	punct	_	_
+21	сюсь	сюсь	ADJ	A	_	22	amod	_	_
+22	йӧйӧн	йӧй	ADJ	A	Sg Ins	18	nmod	_	_
+23	»	»	PUNCT	PUNCT	RIGHT	22	punct	_	_
+24	.	.	PUNCT	CLB	CLB	4	punct	_	_
