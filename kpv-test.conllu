@@ -778,3 +778,17 @@
 7	ывлавыв	ывлавыв	_	N	Sg|Nom	8	nmod	_	_
 8	велӧдысьлы	велӧдысь	_	N	Sg|Dat	3	iobj	_	_
 9	.	.	_	CLB	_	3	punct	_	_
+
+# Чакотка — зэв лёк висьӧм, медся ёна жугӧдӧ тыястӧ.
+# sent_id = new_5
+1	Чакотка	чакотка	_	N	Sg|Nom	5	nsubj	_	_
+2	—	—	_	PUNCT	_	3	punct	_	_
+3	зэв	зэв	_	Adv	_	4	advmod	_	_
+4	лёк	лёк	_	A	Sg|Nom	5	amod	_	_
+5	висьӧм	висьӧм	_	N	Sg|Nom	0	root	_	_
+6	,	,	_	CLB	_	7	punct	_	_
+7	медся	медся	_	Pcle	_	8	advmod	_	_
+8	ёна	ёна	_	Adv	_	9	advmod	_	_
+9	жугӧдӧ	жугӧдны	_	V	TV|Ind|Prs|Sg3	5	acl	_	_
+10	тыястӧ	ты	_	N	Pl|Acc|PxSg2	9	obj	_	_
+11	.	.	PUNCT	CLB	_	5	punct	_	_
