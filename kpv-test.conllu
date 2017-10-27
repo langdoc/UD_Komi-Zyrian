@@ -1,56 +1,56 @@
 # sent_id = belyx-011.011
 # text = Эг и тӧдлы , кыдзи юр·весьтын ӧти бӧрся мӧд тыдовтчисны кымӧрторъяс .
-1	Эг	оз	AUX	V	_	3	aux	_	_
+1	Эг	оз	AUX	V	Ind Prt Sg1	3	aux	_	_
 2	и	и	PART	Pcle	_	3	advmod	_	_
-3	тӧдлы	тӧд	VERB	VERB	_	0	root	_	_
+3	тӧдлы	тӧд	VERB	VERB	ConNeg	0	root	_	_
 4	,	,	PUNCT	CLB	_	10	punct	_	_
-5	кыдзи	кыдзи	ADV	Pron	_	10	advmod	_	_
-6	юр·весьтын	юр·весьт	NOUN	N	_	10	obl	_	_
-7	ӧти	ӧти	NUM	Num	_	8	nmod	_	_
-8	бӧрся	бӧрся	ADP	Po	_	9	case	_	_
-9	мӧд	мӧд	PRON	Pron	_	10	nmod	_	_
-10	тыдовтчисны	тыдовтчыны	VERB	V	_	3	advcl	_	_
-11	кымӧрторъяс	кымӧртор	NOUN	N	_	10	nsubj	_	_
+5	кыдзи	кыдзи	ADV	Adv	Manner Rel	10	advmod	_	_
+6	юр·весьтын	юр·весьт	NOUN	N	Sg Ine	10	obl	_	_
+7	ӧти	ӧти	NUM	Num	Card Sg Nom	8	nmod	_	_
+8	бӧрся	бӧрся	ADP	Po	Spat Sg Cmpr	9	case	_	_
+9	мӧд	мӧд	PRON	Pron	Ord Sg Nom	10	nmod	_	_
+10	тыдовтчисны	тыдовтчыны	VERB	V	Ind Prt1 Pl3	3	advcl	_	_
+11	кымӧрторъяс	кымӧртор	NOUN	N	Pl Acc	10	nsubj	_	_
 12	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = belyx-011.012
 # text = Первойсӧ ичӧтик баляяс кодьӧсь .
-1	Первойсӧ	первой	DET	Det	_	4	nsubj	_	_
-2	ичӧтик	ичӧтик	ADJ	A	_	3	amod	_	_
-3	баляяс	баля	NOUN	N	_	4	nmod	_	_
-4	кодьӧсь	кодь	ADJ	A	_	0	root	_	_
+1	Первойсӧ	первой	DET	Det	Ord Sg Nom Clt Clt/сӧ	4	nsubj	_	_
+2	ичӧтик	ичӧтик	ADJ	A	Sg Nom	3	amod	_	_
+3	баляяс	баля	NOUN	N	Pl Nom	4	nmod	_	_
+4	кодьӧсь	кодь	ADJ	A	Cop Pl	0	root	_	_
 5	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.013
 # text = А сэсся пыр отаджыкӧсь лоисны .
-1	А	а	SCONJ	_	_	2	cc	_	_
-2	сэсся	сэсся	ADV	_	_	5	advmod	_	_
-3	пыр	пыр	ADV	_	_	5	advmod	_	_
-4	отаджыкӧсь	ота	ADJ	_	_	5	amod	_	_
-5	лоисны	лоны	VERB	_	_	0	root	_	_
-6	.	.	PUNCT	_	_	5	punct	_	_
+1	А	а	SCONJ	CC	_	2	cc	_	_
+2	сэсся	сэсся	ADV	Adv	_	5	advmod	_	_
+3	пыр	пыр	ADV	Adv	_	5	advmod	_	_
+4	отаджыкӧсь	ота	ADJ	A	Comp Cop Pl	5	amod	_	_
+5	лоисны	лоны	VERB	V	Ind Prt1 Pl3	0	root	_	_
+6	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = belyx-011.014
 # text = Мӧдлапӧлысь Присада ді вывса пожӧма яг весьтын друг тыдовтчис эшкын кодь кымӧр пласт , коді син водзын кутіс быдмыны .
-1	Мӧдлапӧлысь	мӧдлапӧв	PROPN	N	_	9	obl	_	_
-2	Присада	Присада	ADJ	A	_	3	amod	_	_
-3	ді	ді	NOUN	N	_	4	nmod	_	_
-4	вывса	вывса	ADJ	A	_	5	amod	_	_
-5	пожӧма	пожӧма	ADJ	A	_	6	amod	_	_
-6	яг	яг	NOUN	N	_	9	nmod	_	_
-7	весьтын	весьт	ADP	Po	_	6	case	_	_
+1	Мӧдлапӧлысь	мӧдлапӧв	PROPN	N	Sg Ela	9	obl	_	_
+2	Присада	Присада	ADJ	A	Prop Sem/Sur Sg Nom	3	amod	_	_
+3	ді	ді	NOUN	N	Sg Nom	4	nmod	_	_
+4	вывса	вывса	ADJ	A	Sg Nom	5	amod	_	_
+5	пожӧма	пожӧма	ADJ	A	Sg Nom	6	amod	_	_
+6	яг	яг	NOUN	N	Sg Nom	9	nmod	_	_
+7	весьтын	весьт	ADP	Po	Sg Ine	6	case	_	_
 8	друг	друг	ADV	Adv	_	9	advmod	_	_
-9	тыдовтчис	тыдовтчыны	VERB	V	_	0	root	_	_
-10	эшкын	эшкын	NOUN	N	_	11	nmod	_	_
-11	кодь	кодь	ADJ	A	_	12	amod	_	_
-12	кымӧр	кымӧр	NOUN	N	_	13	nmod	_	_
-13	пласт	пласт	NOUN	N	_	9	nsubj	_	_
+9	тыдовтчис	тыдовтчыны	VERB	V	Ind Prt1 Sg3	0	root	_	_
+10	эшкын	эшкын	NOUN	N	N Sg	11	nmod	_	_
+11	кодь	кодь	ADJ	A	Sg Nom	12	amod	_	_
+12	кымӧр	кымӧр	NOUN	N	Sg Nom	13	nmod	_	_
+13	пласт	пласт	NOUN	N	Sg Nom	9	nsubj	_	_
 14	,	,	PUNCT	CLB	_	18	punct	_	_
-15	коді	коді	PRON	_	_	18	nsubj	_	_
-16	син	син	NOUN	N	_	18	nmod	_	_
-17	водзын	водз	ADP	Po	_	16	case	_	_
-18	кутіс	кутны	VERB	V	_	9	acl	_	_
-19	быдмыны	быдмыны	VERB	V	_	18	xcomp	_	_
+15	коді	коді	PRON	Pron	Sg Nom Rel	18	nsubj	_	_
+16	син	син	NOUN	N	Sg Nom	18	nmod	_	_
+17	водзын	водз	ADP	Po	Sg Ine	16	case	_	_
+18	кутіс	кутны	VERB	V	Ind Prt1 Sg3	9	acl	_	_
+19	быдмыны	быдмыны	VERB	V	Inf	18	xcomp	_	_
 20	.	.	PUNCT	CLB	_	9	punct	_	_
 
 # sent_id = belyx-011.015
@@ -440,7 +440,7 @@
 1	Кыдзи	кыдзи	ADV	Adv	_	2	advmod	_	_
 2	лои	лоны	VERB	V	_	0	root	_	_
 3	Краснӧй	краснӧй	ADJ	A	_	4	amod	_	_
-4	Армияса	армия	ADJ	A	_	5	amod	_	_
+4	Армияса	армияса	ADJ	A	_	5	amod	_	_
 5	командирӧн	командир	NOUN	N	_	2	obl	_	_
 6	?	?	PUNCT	CLB	_	2	punct	_	_
 
@@ -523,7 +523,7 @@
 5	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = kpv_izva19570000-291_1a-11
-1	Асывнас	асыв	ADV	Adv	_	2	advmod	_	_
+1	Асывнас	асывнас	ADV	Adv	_	2	advmod	_	_
 2	сувтім	сувтны	VERB	V	_	0	root	_	_
 3	водз	водз	ADV	Adv	_	2	advmod	_	_
 4	.	.	PUNCT	CLB	_	2	punct	_	_
@@ -662,14 +662,14 @@
 8	.	.	PUNCT	_	_	2	punct	_	Offset=550-551
 
 # sent_id = kpv-gt.16
-1	Питер	Питер	PROPN	_	_	4	nsubj	_	Offset=552-557
-2	да	да	CONJ	_	_	1	cc	_	Offset=558-560
-3	Мери	Мери	PROPN	_	_	1	conj	_	Offset=561-565
-4	кутчысьлісны	кутчысьлыны	VERB	_	_	0	root	_	Offset=566-578
-5	да	да	CONJ	_	_	4	conj	_	Offset=579-581
-6	петісны	петны	VERB	_	_	4	cc	_	Offset=582-589
-7	вежӧсысь	вежӧсысь	NOUN	_	_	6	obl	_	Offset=590-598
-8	.	.	PUNCT	_	_	4	punct	_	Offset=599-600
+1	Питер	Питер	PROPN	N	Prop Sg Nom	4	nsubj	_	Offset=552-557
+2	да	да	CONJ	CC	_	1	cc	_	Offset=558-560
+3	Мери	Мери	PROPN	N	Prop Sg Nom	1	conj	_	Offset=561-565
+4	кутчысьлісны	кутчысьлыны	VERB	V	Ind Prt1 Pl3	0	root	_	Offset=566-578
+5	да	да	CONJ	CC	_	4	conj	_	Offset=579-581
+6	петісны	петны	VERB	V	Ind Prt1 Pl3	4	cc	_	Offset=582-589
+7	вежӧсысь	вежӧс	NOUN	N	Sg Ela	6	obl	_	Offset=590-598
+8	.	.	PUNCT	CLB	_	4	punct	_	Offset=599-600
 
 # sent_id = kpv-gt.17
 1	Сылы	сійӧ	PRON	_	_	2	nsubj	_	Offset=601-605
@@ -684,7 +684,7 @@
 10	лунӧ	лунӧ	NOUN	_	_	13	advmod	_	Offset=649-653
 11	сійӧ	сійӧ	PRON	_	_	13	nsubj	_	Offset=654-658
 12	эз	эз	AUX	_	_	13	aux	_	Offset=659-661
-13	кӧсйы	кӧсйы	VERB	_	_	2	advcl	_	Offset=662-667
+13	кӧсйы	кӧсйыны	VERB	_	_	2	advcl	_	Offset=662-667
 14	.	.	PUNCT	_	_	2	punct	_	Offset=668-669
 
 # sent_id = kpv-gt.18
