@@ -1,17 +1,18 @@
 # sent_id = belyx-011.011
-# text = Эг и тӧдлы , кыдзи юр·весьтын ӧти бӧрся мӧд тыдовтчисны кымӧрторъяс .
+# text = Эг и тӧдлы , кыдзи юр весьтын ӧти бӧрся мӧд тыдовтчисны кымӧрторъяс .
 1	Эг	оз	AUX	V	Ind Prt Sg1	3	aux	_	_
 2	и	и	PART	Pcle	_	3	advmod	_	_
 3	тӧдлы	тӧд	VERB	VERB	ConNeg	0	root	_	_
-4	,	,	PUNCT	CLB	_	10	punct	_	_
-5	кыдзи	кыдзи	ADV	Adv	Manner Rel	10	advmod	_	_
-6	юр·весьтын	юр·весьт	NOUN	N	Sg Ine	10	obl	_	_
-7	ӧти	ӧти	NUM	Num	Card Sg Nom	8	nmod	_	_
-8	бӧрся	бӧрся	ADP	Po	Spat Sg Cmpr	9	case	_	_
-9	мӧд	мӧд	PRON	Pron	Ord Sg Nom	10	nmod	_	_
-10	тыдовтчисны	тыдовтчыны	VERB	V	Ind Prt1 Pl3	3	advcl	_	_
-11	кымӧрторъяс	кымӧртор	NOUN	N	Pl Acc	10	nsubj	_	_
-12	.	.	PUNCT	CLB	_	3	punct	_	_
+4	,	,	PUNCT	CLB	_	11	punct	_	_
+5	кыдзи	кыдзи	ADV	Adv	Manner Rel	11	advmod	_	_
+6	юр	юр	NOUN	N	Sg Nom	11	obl	_	_
+7	весьтын	весьт	ADP	Po	Sg Ine	6	case	_	_
+8	ӧти	ӧти	NUM	Num	Card Sg Nom	9	nmod	_	_
+9	бӧрся	бӧрся	ADP	Po	Spat Sg Cmpr	10	case	_	_
+10	мӧд	мӧд	PRON	Pron	Ord Sg Nom	11	nmod	_	_
+11	тыдовтчисны	тыдовтчыны	VERB	V	Ind Prt1 Pl3	3	advcl	_	_
+12	кымӧрторъяс	кымӧртор	NOUN	N	Pl Acc	11	nsubj	_	_
+13	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = belyx-011.012
 # text = Первойсӧ ичӧтик баляяс кодьӧсь .
