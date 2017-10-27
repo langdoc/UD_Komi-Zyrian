@@ -769,47 +769,60 @@
 
 # text = Тайӧ нигаыс сетас сӧмын ичӧтик юкӧн вӧр велӧдысьлы.
 # sent_id = new_4
-1	Тайӧ	тайӧ	PRON	Pron	Dem|Sg|Nom	2	det	_	_
-2	нигаыс	нига	NOUN	N	Sg|Nom|PxSg3	3	nsubj	_	_
-3	сетас	сетны	VERB	V	TV|Ind|Fut|Sg3	0	root	_	_
+1	Тайӧ	тайӧ	PRON	Pron	Dem Sg Nom	2	det	_	_
+2	нигаыс	нига	NOUN	N	Sg Nom PxSg3	3	nsubj	_	_
+3	сетас	сетны	VERB	V	TV Ind Fut Sg3	0	root	_	_
 4	сӧмын	сӧмын	ADV	Adv	_	3	advmod	_	_
-5	ичӧтик	ичӧтик	ADJ	A	Sg|Nom	6	amod	_	_
-6	юкӧн	юкӧн	NOUN	N	Sg|Acc	3	obj	_	_
-7	ывлавыв	ывлавыв	NOUN	N	Sg|Nom	8	nmod	_	_
-8	велӧдысьлы	велӧдысь	NOUN	N	Sg|Dat	3	iobj	_	_
+5	ичӧтик	ичӧтик	ADJ	A	Sg Nom	6	amod	_	_
+6	юкӧн	юкӧн	NOUN	N	Sg Acc	3	obj	_	_
+7	ывлавыв	ывлавыв	NOUN	N	Sg Nom	8	nmod	_	_
+8	велӧдысьлы	велӧдысь	NOUN	N	Sg Dat	3	iobj	_	_
 9	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # text = Чакотка — зэв лёк висьӧм, медся ёна жугӧдӧ тыястӧ.
 # sent_id = new_5
-1	Чакотка	чакотка	NOUN	N	Sg|Nom	5	nsubj	_	_
+1	Чакотка	чакотка	NOUN	N	Sg Nom	5	nsubj	_	_
 2	—	—	PUNCT	CLB	_	3	punct	_	_
 3	зэв	зэв	ADV	Adv	_	4	advmod	_	_
-4	лёк	лёк	ADJ	A	Sg|Nom	5	amod	_	_
-5	висьӧм	висьӧм	NOUN	N	Sg|Nom	0	root	_	_
+4	лёк	лёк	ADJ	A	Sg Nom	5	amod	_	_
+5	висьӧм	висьӧм	NOUN	N	Sg Nom	0	root	_	_
 6	,	,	PUNCT	CLB	_	7	punct	_	_
 7	медся	медся	PART	Pcle	_	8	advmod	_	_
 8	ёна	ёна	ADV	Adv	_	9	advmod	_	_
-9	жугӧдӧ	жугӧдны	VERB	V	TV|Ind|Prs|Sg3	5	acl	_	_
-10	тыястӧ	ты	NOUN	N	Pl|Acc|PxSg2	9	obj	_	_
+9	жугӧдӧ	жугӧдны	VERB	V	TV Ind Prs Sg3	5	acl	_	_
+10	тыястӧ	ты	NOUN	N	Pl Acc PxSg2	9	obj	_	_
 11	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # text = Гортад кос корӧсьӧн али ва корӧсьӧн чышкысьӧны?
 # sent_id = new_6
-1	Гортад	горт	_	N	Sg|Ine|PxSg2	7	obl	_	_
-2	кос	кос	_	A	Sg|Nom	3	amod	_	_
-3	корӧсьӧн	корӧсь	_	N	Sg|Ins	7	obl	_	_
+1	Гортад	горт	_	N	Sg Ine PxSg2	7	obl	_	_
+2	кос	кос	_	A	Sg Nom	3	amod	_	_
+3	корӧсьӧн	корӧсь	_	N	Sg Ins	7	obl	_	_
 4	али	али	_	CC	_	6	cc	_	_
-5	ва	ва	_	N	Sg|Nom	6	nmod	_	_
-6	корӧсьӧн	корӧсь	_	N	Sg|Ins	3	conj	_	_
-7	чышкысьӧны	чышкысьны	_	V	Refl|Ind|Prs|Pl3	0	root	_	_
+5	ва	ва	_	N	Sg Nom	6	nmod	_	_
+6	корӧсьӧн	корӧсь	_	N	Sg Ins	3	conj	_	_
+7	чышкысьӧны	чышкысьны	_	V	Refl Ind Prs Pl3	0	root	_	_
 8	?	?	_	CLB	_	7	punct	_	_
 
 # Доктор ордӧ воӧмаӧсь кык ичӧтик ныв.
 # sent_id = new_7
-1	Доктор	доктор	NOUN	N	Sg|Nom	3	obl	_	_
-2	ордӧ	ордӧ	ADP	Po	Spat|Sg|Ill	2	case	_	_
-3	воӧмаӧсь	воны	VERB	V	IV|Ind|Prt2|Pl3	0	root	_	_
-4	кык	кык	NUM	Num	Card|Sg|Nom	5	nmod	_	_
-5	ичӧтик	ичӧтик	ADJ	A	Sg|Nom	6	amod	_	_
-6	ныв	ныв	NOUN	N	Sg|Nom	3	nsubj	_	_
+1	Доктор	доктор	NOUN	N	Sg Nom	3	obl	_	_
+2	ордӧ	ордӧ	ADP	Po	Spat Sg Ill	1	case	_	_
+3	воӧмаӧсь	воны	VERB	V	IV Ind Prt2 Pl3	0	root	_	_
+4	кык	кык	NUM	Num	Card Sg Nom	5	nmod	_	_
+5	ичӧтик	ичӧтик	ADJ	A	Sg Nom	6	amod	_	_
+6	ныв	ныв	NOUN	N	Sg Nom	3	nsubj	_	_
 7	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# Аскинас сійӧ шуис Машалы, тэ пӧ этша вира.
+# sent_id = new_8
+1	Аскинас	аскинас	ADV	Adv	_	3	advmod	_	_
+2	сійӧ	сійӧ	PRON	Pron	Pers Sg3 Nom	3	nsubj	_	_
+3	шуис	шуны	VERB	V	TV Ind Prt1 Sg3	0	root	_	_
+4	Машалы	Маша	NOUN	N	Prop Sem Sg Dat	3	iobj	_	_
+5	,	,	PUNCT	CLB	_	6	punct	_	_
+6	тэ	тэ	PRON	Pron	Pers Sg2 Nom	9	nsubj	_	_
+7	пӧ	пӧ	PART	Pcle	_	9	discourse	_	_
+8	этша	этша	ADV	Qnt	Sg Nom	9	advmod	_	_
+9	вира	вира	ADJ	A	Sg Nom	3	acl	_	_
+10	.	.	PUNCT	CLB	_	3	punct	_	_
