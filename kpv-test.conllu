@@ -751,7 +751,7 @@
 25	торъясӧн	тор	NOUN	N	Pl Ins	23	obj	_	_
 26	.	.	PUNCT	CLB	_	0	_	_	_
 
-# Гырысь каръясын аскежъя пывсянъясыд абуӧсь жӧ, сэні ставныс ӧтласа пывсянъясын пывсьӧны.
+# text = Гырысь каръясын аскежъя пывсянъясыд абуӧсь жӧ, сэні ставныс ӧтласа пывсянъясын пывсьӧны.
 # sent_id = new_3
 1	Гырысь	гырысь	ADJ	A	Sg Nom	2	amod	_	_
 2	каръясын	кар	NOUN	N	Pl Ine	5	obl	_	_
@@ -767,28 +767,39 @@
 12	пывсьӧны	пывсьыны	VERB	V	IV Ind Prs Pl3	5	acl	_	_
 13	.	.	PUNCT	CLB	_	5	punct	_	_
 
-# Тайӧ нигаыс сетас сӧмын ичӧтик юкӧн вӧр велӧдысьлы.
+# text = Тайӧ нигаыс сетас сӧмын ичӧтик юкӧн вӧр велӧдысьлы.
 # sent_id = new_4
-1	Тайӧ	тайӧ	_	Pron	Dem|Sg|Nom	2	det	_	_
-2	нигаыс	нига	_	N	Sg|Nom|PxSg3	3	nsubj	_	_
-3	сетас	сетны	_	V	TV|Ind|Fut|Sg3	0	root	_	_
-4	сӧмын	сӧмын	_	Adv	_	3	advmod	_	_
-5	ичӧтик	ичӧтик	_	A	Sg|Nom	6	amod	_	_
-6	юкӧн	юкӧн	_	N	Sg|Acc	3	obj	_	_
-7	ывлавыв	ывлавыв	_	N	Sg|Nom	8	nmod	_	_
-8	велӧдысьлы	велӧдысь	_	N	Sg|Dat	3	iobj	_	_
-9	.	.	_	CLB	_	3	punct	_	_
+1	Тайӧ	тайӧ	PRON	Pron	Dem|Sg|Nom	2	det	_	_
+2	нигаыс	нига	NOUN	N	Sg|Nom|PxSg3	3	nsubj	_	_
+3	сетас	сетны	VERB	V	TV|Ind|Fut|Sg3	0	root	_	_
+4	сӧмын	сӧмын	ADV	Adv	_	3	advmod	_	_
+5	ичӧтик	ичӧтик	ADJ	A	Sg|Nom	6	amod	_	_
+6	юкӧн	юкӧн	NOUN	N	Sg|Acc	3	obj	_	_
+7	ывлавыв	ывлавыв	NOUN	N	Sg|Nom	8	nmod	_	_
+8	велӧдысьлы	велӧдысь	NOUN	N	Sg|Dat	3	iobj	_	_
+9	.	.	PUNCT	CLB	_	3	punct	_	_
 
-# Чакотка — зэв лёк висьӧм, медся ёна жугӧдӧ тыястӧ.
+# text = Чакотка — зэв лёк висьӧм, медся ёна жугӧдӧ тыястӧ.
 # sent_id = new_5
-1	Чакотка	чакотка	_	N	Sg|Nom	5	nsubj	_	_
-2	—	—	_	PUNCT	_	3	punct	_	_
-3	зэв	зэв	_	Adv	_	4	advmod	_	_
-4	лёк	лёк	_	A	Sg|Nom	5	amod	_	_
-5	висьӧм	висьӧм	_	N	Sg|Nom	0	root	_	_
-6	,	,	_	CLB	_	7	punct	_	_
-7	медся	медся	_	Pcle	_	8	advmod	_	_
-8	ёна	ёна	_	Adv	_	9	advmod	_	_
-9	жугӧдӧ	жугӧдны	_	V	TV|Ind|Prs|Sg3	5	acl	_	_
-10	тыястӧ	ты	_	N	Pl|Acc|PxSg2	9	obj	_	_
+1	Чакотка	чакотка	NOUN	N	Sg|Nom	5	nsubj	_	_
+2	—	—	PUNCT	CLB	_	3	punct	_	_
+3	зэв	зэв	ADV	Adv	_	4	advmod	_	_
+4	лёк	лёк	ADJ	A	Sg|Nom	5	amod	_	_
+5	висьӧм	висьӧм	NOUN	N	Sg|Nom	0	root	_	_
+6	,	,	PUNCT	CLB	_	7	punct	_	_
+7	медся	медся	PART	Pcle	_	8	advmod	_	_
+8	ёна	ёна	ADV	Adv	_	9	advmod	_	_
+9	жугӧдӧ	жугӧдны	VERB	V	TV|Ind|Prs|Sg3	5	acl	_	_
+10	тыястӧ	ты	NOUN	N	Pl|Acc|PxSg2	9	obj	_	_
 11	.	.	PUNCT	CLB	_	5	punct	_	_
+
+# text = Гортад кос корӧсьӧн али ва корӧсьӧн чышкысьӧны?
+# sent_id = new_6
+1	Гортад	горт	_	N	Sg|Ine|PxSg2	7	obl	_	_
+2	кос	кос	_	A	Sg|Nom	3	amod	_	_
+3	корӧсьӧн	корӧсь	_	N	Sg|Ins	7	obl	_	_
+4	али	али	_	CC	_	6	cc	_	_
+5	ва	ва	_	N	Sg|Nom	6	nmod	_	_
+6	корӧсьӧн	корӧсь	_	N	Sg|Ins	3	conj	_	_
+7	чышкысьӧны	чышкысьны	_	V	Refl|Ind|Prs|Pl3	0	root	_	_
+8	?	?	_	CLB	_	7	punct	_	_
