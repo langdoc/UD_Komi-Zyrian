@@ -766,3 +766,14 @@
 11	пывсянъясын	пывсян	NOUN	N	Pl Ine	12	obl	_	_
 12	пывсьӧны	пывсьыны	VERB	V	IV Ind Prs Pl3	5	acl	_	_
 13	.	.	PUNCT	CLB	_	5	punct	_	_
+
+# Тайӧ нигаыс сетас сӧмын ичӧтик юкӧн вӧр велӧдысьлы.
+1	Тайӧ	тайӧ	_	Pron	Dem|Sg|Nom	2	det	_	_
+2	нигаыс	нига	_	N	Sg|Nom|PxSg3	3	nsubj	_	_
+3	сетас	сетны	_	V	TV|Ind|Fut|Sg3	0	root	_	_
+4	сӧмын	сӧмын	_	Adv	_	3	advmod	_	_
+5	ичӧтик	ичӧтик	_	A	Sg|Nom	6	amod	_	_
+6	юкӧн	юкӧн	_	N	Sg|Acc	3	obj	_	_
+7	ывлавыв	ывлавыв	_	N	Sg|Nom	8	nmod	_	_
+8	велӧдысьлы	велӧдысь	_	N	Sg|Dat	3	iobj	_	_
+9	.	.	_	CLB	_	3	punct	_	_
