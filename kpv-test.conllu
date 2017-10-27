@@ -803,3 +803,13 @@
 6	корӧсьӧн	корӧсь	_	N	Sg|Ins	3	conj	_	_
 7	чышкысьӧны	чышкысьны	_	V	Refl|Ind|Prs|Pl3	0	root	_	_
 8	?	?	_	CLB	_	7	punct	_	_
+
+# Доктор ордӧ воӧмаӧсь кык ичӧтик ныв.
+# sent_id = new_7
+1	Доктор	доктор	NOUN	N	Sg|Nom	3	obl	_	_
+2	ордӧ	ордӧ	ADP	Po	Spat|Sg|Ill	2	case	_	_
+3	воӧмаӧсь	воны	VERB	V	IV|Ind|Prt2|Pl3	0	root	_	_
+4	кык	кык	NUM	Num	Card|Sg|Nom	5	nmod	_	_
+5	ичӧтик	ичӧтик	ADJ	A	Sg|Nom	6	amod	_	_
+6	ныв	ныв	NOUN	N	Sg|Nom	3	nsubj	_	_
+7	.	.	PUNCT	CLB	_	3	punct	_	_
