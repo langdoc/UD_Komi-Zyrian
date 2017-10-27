@@ -28,10 +28,11 @@
 
 # sent_id = belyx-011.003
 # text = Шондіыс нем·жалиттӧг пӧжис .
-1	Шондіыс	шонді	NOUN	_	_	3	nsubj	_	_
-2	нем·жалиттӧг	нем·жалиттӧг	VERB	_	_	3	acl	_	_
-3	пӧжис	пӧжны	VERB	_	_	0	root	_	_
-4	.	.	PUNCT	_	_	3	punct	_	_
+1	Шондіыс	шонді	NOUN	N	Sg Nom PxSg3	4	nsubj	_	_
+2	нем	нем	PRON	Pro	Neg Sg Nom	3	det	_	_
+3	жалиттӧг	жалитны	VERB	V	Der Car Ger	4	acl	_	_
+4	пӧжис	пӧжны	VERB	V	Ind Prt1 Sg3	0	root	_	_
+5	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.004
 # text = Енэжын ни ӧти кымӧртор эз тыдав .
