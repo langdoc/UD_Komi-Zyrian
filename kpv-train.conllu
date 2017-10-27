@@ -27,7 +27,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = belyx-011.003
-# text = Шондіыс нем·жалиттӧг пӧжис .
+# text = Шондіыс нем жалиттӧг пӧжис .
 1	Шондіыс	шонді	NOUN	N	Sg Nom PxSg3	4	nsubj	_	_
 2	нем	нем	PRON	Pro	Neg Sg Nom	3	det	_	_
 3	жалиттӧг	жалитны	VERB	V	Der Car Ger	4	acl	_	_
