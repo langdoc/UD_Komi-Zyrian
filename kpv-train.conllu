@@ -69,6 +69,24 @@
 7	кокньӧд	кокньӧдны	VERB	V	_	0	root	_	_
 8	.	.	PUNCT	CLB	_	7	punct	_	_
 
+# sent_id = belyx-011.008
+# text = Мед жӧ нин , мися , кӧть кутшӧмкӧ тӧвру пӧльыштлас , думайта ас кежысь .
+1	Мед	мед	SCONJ	CS	_	_	_	_	_
+2	жӧ	жӧ	PART	Pcle	_	_	_	_	_
+3	нин	нин	ADV	Adv	_	_	_	_	_
+4	,	,	PUNCT	CLB	_	_	_	_	_
+5	мися	мися	PART	Pcle	_	_	_	_	_
+6	,	,	PUNCT	CLB	_	_	_	_	_
+7	кӧть	кӧть	SCONJ	CS	_	_	_	_	_
+8	кутшӧмкӧ	кутшӧм	PRON	Pron	Der|Indef	_	_	_	_
+9	тӧвру	тӧвру	NOUN	N	Sg|Nom	_	_	_	_
+10	пӧльыштлас	пӧльыштлыны	VERB	V	Ind|Fut|Sg3	_	_	_	_
+11	,	,	PUNCT	CLB	_	_	_	_	_
+12	думайта	думайтны	VERB	V	Ind|Prs|Sg1	_	_	_	_
+13	ас	ас	ADJ	A	Refl|Attr	_	_	_	_
+14	кежысь	кеж	NOUN	N	Sg|Ela	_	_	_	_
+15	.	.	PUNCT	CLB	_	_	_	_	_
+
 # sent_id = belyx-011.009
 # text = Лун шӧр кадланьыс нин кыськӧ шур-шар воис неыджыд тӧвру .
 1	Лун	лун	NOUN	N	_	2	nmod	_	_
