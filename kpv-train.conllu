@@ -71,21 +71,21 @@
 
 # sent_id = belyx-011.008
 # text = Мед жӧ нин , мися , кӧть кутшӧмкӧ тӧвру пӧльыштлас , думайта ас кежысь .
-1	Мед	мед	SCONJ	CS	_	_	_	_	_
-2	жӧ	жӧ	PART	Pcle	_	_	_	_	_
-3	нин	нин	ADV	Adv	_	_	_	_	_
-4	,	,	PUNCT	CLB	_	_	_	_	_
-5	мися	мися	PART	Pcle	_	_	_	_	_
-6	,	,	PUNCT	CLB	_	_	_	_	_
-7	кӧть	кӧть	SCONJ	CS	_	_	_	_	_
-8	кутшӧмкӧ	кутшӧм	PRON	Pron	Der|Indef	_	_	_	_
-9	тӧвру	тӧвру	NOUN	N	Sg|Nom	_	_	_	_
-10	пӧльыштлас	пӧльыштлыны	VERB	V	Ind|Fut|Sg3	_	_	_	_
-11	,	,	PUNCT	CLB	_	_	_	_	_
+1	Мед	мед	SCONJ	CS	_	10	cc	_	_
+2	жӧ	жӧ	PART	Pcle	_	1	discourse	_	_
+3	нин	нин	ADV	Adv	_	1	advmod	_	_
+4	,	,	PUNCT	CLB	_	5	punct	_	_
+5	мися	мися	PART	Pcle	_	10	discourse	_	_
+6	,	,	PUNCT	CLB	_	7	punct	_	_
+7	кӧть	кӧть	SCONJ	CS	_	10	mark	_	_
+8	кутшӧмкӧ	кутшӧм	PRON	Pron	Der|Indef	9	advmod	_	_
+9	тӧвру	тӧвру	NOUN	N	Sg|Nom	10	nsubj	_	_
+10	пӧльыштлас	пӧльыштлыны	VERB	V	Ind|Fut|Sg3	12	advcl	_	_
+11	,	,	PUNCT	CLB	_	12	punct	_	_
 12	думайта	думайтны	VERB	V	Ind|Prs|Sg1	0	root	_	_
-13	ас	ас	ADJ	A	Refl|Attr	_	_	_	_
-14	кежысь	кеж	NOUN	N	Sg|Ela	_	_	_	_
-15	.	.	PUNCT	CLB	_	_	_	_	_
+13	ас	ас	ADJ	A	Refl|Attr	14	amod	_	_
+14	кежысь	кеж	NOUN	N	Sg|Ela	12	advmod	_	_
+15	.	.	PUNCT	CLB	_	12	punct	_	_
 
 # sent_id = belyx-011.009
 # text = Лун шӧр кадланьыс нин кыськӧ шур-шар воис неыджыд тӧвру .
