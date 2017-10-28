@@ -182,26 +182,27 @@
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = belyx-011.027
-# text = Сы вылӧ видзӧдігмоз весиг шуштӧм лолі сьӧлӧм вылын .
-1	Сы	сійӧ	PRON	Pron	Pers|Sg3|Cmpl	_	_	_	_
-2	вылӧ	вылӧ	ADP	Po	Spat|Sg|Ill	_	_	_	_
-3	видзӧдігмоз	видзӧдны	VERB	V	Der|Ger|Der|Ger	_	_	_	_
-4	весиг	весиг	ADV	Adv	_	_	_	_	_
-5	шуштӧм	шуштӧм	NOUN	N	Der|A	_	_	_	_
-6	лолі	лолыны	VERB	V	Ind|Prt1|Sg3	_	_	_	_
-7	сьӧлӧм	сьӧлӧм	NOUN	N	Sg|Nom	_	_	_	_
-8	вылын	вылын	ADP	Po	Spat|Sg|Ine	_	_	_	_
-9	.	.	PUNCT	CLB	_	_	_	_	_
+# text = Сы вылӧ видзӧдігмоз весиг шуштӧм лолі сьӧлӧм вылын.
+# ft_rus = Смотря на него, даже грустно становилось на сердце.
+1	Сы	сійӧ	PRON	Pron	Pers|Sg3|Cmpl	3	obl	_	_
+2	вылӧ	вылӧ	ADP	Po	Spat|Sg|Ill	1	case	_	_
+3	видзӧдігмоз	видзӧдны	VERB	V	Ger	7	acl	_	_
+4	весиг	весиг	ADV	Adv	_	7	mark	_	_
+5	шуштӧм	шуштӧм	ADJ	A	_	6	amod	_	_
+6	лолі	лолыны	VERB	V	Ind|Prt1|Sg3	7	cop	_	_
+7	сьӧлӧм	сьӧлӧм	NOUN	N	Sg|Nom	0	root	_	_
+8	вылын	вылын	ADP	Po	Spat|Sg|Ine	7	case	_	_
+9	.	.	PUNCT	CLB	_	7	punct	_	_
 
 # sent_id = belyx-011.028
 # text = Воа ог нӧ эськӧ зэрӧдзыс гортӧдз ?
-1	Воа	воны	VERB	V	Ind|Prs|Sg1	_	_	_	_
-2	ог	оз	AUX	V	Neg|Ind|Prs|Sg1	_	_	_	_
-3	нӧ	нӧ	PART	Pcle	_	_	_	_	_
-4	эськӧ	эськӧ	PART	Pcle	_	_	_	_	_
-5	зэрӧдзыс	зэр	NOUN	N	Sg|Ter|PxSg3	_	_	_	_
-6	гортӧдз	горт	NOUN	N	Sg|Ter	_	_	_	_
-7	?	?	PUNCT	CLB	_	_	_	_	_
+1	Воа	воны	VERB	V	Ind|Prs|Sg1	0	root	_	_
+2	ог	оз	VERB	V	Neg|Ind|Prs|Sg1	1	appos	_	_
+3	нӧ	нӧ	PART	Pcle	_	1	discourse	_	_
+4	эськӧ	эськӧ	PART	Pcle	_	1	discourse	_	_
+5	зэрӧдзыс	зэр	NOUN	N	Sg|Ter|PxSg3	6	nmod	_	_
+6	гортӧдз	горт	NOUN	N	Sg|Ter	1	obl	_	_
+7	?	?	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = belyx-011.029
 # text = Ӧд мунны колӧ бура унакодь на .
@@ -407,6 +408,126 @@
 5	орӧдлісны	орӧдлыны	VERB	_	_	0	root	_	_
 6	сынӧдсӧ	сынӧд	NOUN	_	_	5	obj	_	_
 7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = belyx-011.050
+# text = Вӧчны нинӧм .
+1	Вӧчны	вӧчны	VERB	V	Inf	0	root	_	_
+2	нинӧм	нинӧм	PRON	Pron	Neg|Sg|Nom	1	advmod	_	_
+3	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = belyx-011.051
+# text = Пыри пипу раскас да сувті неыджыд эрд вылӧ .
+1	Пыри	пырны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
+2	пипу	пипу	NOUN	N	Sg|Nom	3	nmod	_	_
+3	раскас	рас	NOUN	N	Sg|Ill|PxSg3	1	obl	_	_
+4	да	да	CCONJ	CC	_	5	cc	_	_
+5	сувті	сувтны	VERB	V	Ind|Prt1|Sg3	1	conj	_	_
+6	неыджыд	неыджыд	ADJ	A	_	7	amod	_	_
+7	эрд	эрд	NOUN	N	Sg|Nom	8	obl	_	_
+8	вылӧ	вылын	ADP	Po	Spat|Sg|Ill	7	case	_	_
+9	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = belyx-011.052
+# text = Гымалігад пу улын сулавны оз позь .
+1	Гымалігад	гымавны	VERB	V	Ger|Sg|Ill|PxSg2	_	_	_	_
+2	пу	пу	NOUN	N	Sg|Nom	_	_	_	_
+3	улын	улын	ADV	Adv	Spat|Ine	_	_	_	_
+4	сулавны	сулавны	VERB	V	Inf	_	_	_	_
+5	оз	оз	AUX	V	Neg|Ind|Prs|Sg3	_	_	_	_
+6	позь	позьны	VERB	V	ConNeg	0	root	_	_
+7	.	.	PUNCT	CLB	_	_	_	_	_
+
+# sent_id = belyx-011.053
+# text = Татчӧ тӧв·нырыс эз нин сэтшӧма писькӧдчы .
+1	Татчӧ	татчӧ	ADV	Adv	_	_	_	_	_
+2	тӧв·нырыс	тӧв·ныр	NOUN	N	Sg|Nom|PxSg3	_	_	_	_
+3	эз	оз	AUX	V	Neg|Ind|Pr|Sg3	_	_	_	_
+4	нин	нин	ADV	Adv	_	_	_	_	_
+5	сэтшӧма	сэтшӧма	ADV	Adv	_	_	_	_	_
+6	писькӧдчы	писькӧдчыны	VERB	V	Imprt|Sg2	0	root	_	_
+7	.	.	PUNCT	CLB	_	_	_	_	_
+
+# sent_id = belyx-011.054
+# text = Но чардби дугдывтӧг югъяліс син водзын .
+1	Но	но	CCONJ	CC	_	_	_	_	_
+2	чардби	чардби	NOUN	N	Sg|Nom	_	_	_	_
+3	дугдывтӧг	дугдывны	VERB	V	Car	_	_	_	_
+4	югъяліс	югъявны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
+5	син	син	NOUN	N	N|Sg|Nom	_	_	_	_
+6	водзын	водз	ADP	Po	Spat|Sg|Ine	_	_	_	_
+7	.	.	PUNCT	CLB	_	_	_	_	_
+
+# sent_id = belyx-011.055
+# text = Ас кежысь казьтышті нин , гашкӧ , став Енсӧ , тӧдсаясӧс и тӧдтӧмъясӧс , мед , кӧнкӧ найӧ эмӧсь кӧ , эз жӧ эновтны туй выв мортӧс .
+1	Ас	ас	ADJ	A	Refl|Attr	_	_	_	_
+2	кежысь	кежысь	ADP	Po	Sg|Ela	_	_	_	_
+3	казьтышті	казьтыштны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
+4	нин	нин	ADV	Adv	_	_	_	_	_
+5	,	,	PUNCT	CLB	_	_	_	_	_
+6	гашкӧ	гашкӧ	ADV	Adv	_	_	_	_	_
+7	,	,	PUNCT	CLB	_	_	_	_	_
+8	став	став	PRON	Pron	Qnt	_	_	_	_
+9	Енсӧ	Ен	NOUN	N	N|Sg|Acc|Clt|Clt	24	nsubj	_	_
+10	,	,	PUNCT	CLB	_	_	_	_	_
+11	тӧдсаясӧс	тӧдса	NOUN	N	Pl|Acc	_	_	_	_
+12	и	и	CCONJ	CC	_	_	_	_	_
+13	тӧдтӧмъясӧс	тӧдтӧм	NOUN	N	Der|A|Der|N|Pl|Acc	_	_	_	_
+14	,	,	PUNCT	CLB	_	_	_	_	_
+15	мед	мед	SCONJ	CS	_	_	_	_	_
+16	,	,	PUNCT	CLB	_	_	_	_	_
+17	кӧнкӧ	кӧнкӧ	ADV	Adv	Indef|Der	_	_	_	_
+18	найӧ	найӧ	PRON	Pron	Pers|Pl3|Nom	_	_	_	_
+19	эмӧсь	эм	ADJ	A	Cop|Pl	_	_	_	_
+20	кӧ	кӧ	SCONJ	CS	_	_	_	_	_
+21	,	,	PUNCT	CLB	_	_	_	_	_
+22	эз	оз	AUX	V	Neg|Ind|Pr|Pl3	24	aux	_	_
+23	жӧ	жӧ	PART	Pcle	_	_	_	_	_
+24	эновтны	эновтны	VERB	V	Inf	3	acl	_	_
+25	туй	туй	NOUN	N	Sg|Nom	_	_	_	_
+26	выв	выв	NOUN	N	Sg|Nom	_	_	_	_
+27	мортӧс	морт	NOUN	N	Sg|Acc	24	obj	_	_
+28	.	.	PUNCT	CLB	_	_	_	_	_
+
+# sent_id = belyx-011.056
+# text = И со шерыс вочасӧн вешйис бокӧ .
+1	И	и	SCONJ	CS	_	_	_	_	_
+2	со	со	PRON	Pron	Dem	_	_	_	_
+3	шерыс	шер	NOUN	N	Sg|Nom|PxSg3	_	_	_	_
+4	вочасӧн	вочасӧн	ADV	Adv	_	_	_	_	_
+5	вешйис	вешйыны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
+6	бокӧ	бокӧ	ADP	Po	Spat|Sg|Ill	_	_	_	_
+7	.	.	PUNCT	CLB	_	_	_	_	_
+
+# sent_id = belyx-011.057
+# text = Зэрыс мӧдӧдчис надзӧнджык .
+1	Зэрыс	зэр	NOUN	N	Sg|Nom|PxSg3	_	_	_	_
+2	мӧдӧдчис	мӧдӧдчыны	VERB	V	Ind|Prt1|Sg3	_	_	_	_
+3	надзӧнджык	надзӧн	ADV	Adv	Comp	_	_	_	_
+4	.	.	PUNCT	CLB	_	_	_	_	_
+
+# sent_id = belyx-011.058
+# text = Воддза моз гымаліс .
+1	Воддза	воддза	ADJ	A	_	_	_	_	_
+2	моз	моз	ADV	Adv	_	_	_	_	_
+3	гымаліс	гымавны	VERB	V	Ind|Prt1|Sg3	_	_	_	_
+4	.	.	PUNCT	CLB	_	_	_	_	_
+
+# sent_id = belyx-011.059
+# text = Но эз нин сэтшӧм яра .
+1	Но	но	CCONJ	CC	_	_	_	_	_
+2	эз	оз	AUX	V	Neg|Ind|Pr|Sg3	_	_	_	_
+3	нин	нин	ADV	Adv	_	_	_	_	_
+4	сэтшӧм	сэтшӧм	ADJ	A	_	_	_	_	_
+5	яра	яра	ADV	Adv	_	_	_	_	_
+6	.	.	PUNCT	CLB	_	_	_	_	_
+
+# sent_id = belyx-011.060
+# text = Сэсся и гымыс вешйис .
+1	Сэсся	сэсся	CONJ	CONJ	_	_	_	_	_
+2	и	и	PART	Pcle	_	_	_	_	_
+3	гымыс	гым	NOUN	N	Sg|Nom|PxSg3	_	_	_	_
+4	вешйис	вешйыны	VERB	V	Ind|Prt1|Sg3	_	_	_	_
+5	.	.	PUNCT	CLB	_	_	_	_	_
 
 # sent_id = kpv_four_battles.001
 1	Став	став	PRON	Pron	_	2	det	_	_
