@@ -1,3 +1,11 @@
+# sent_id = belyx-011.010
+# text = И кокниджыка лолавсьыны кутіс .
+1	И	и	CCONJ	CC	_	4	cc	_	_
+2	кокниджыка	кокни	ADJ	A	_	3	amod	_	_
+3	лолавсьыны	лолавсьыны	VERB	V	_	4	xcomp	_	_
+4	кутіс	кутны	VERB	V	_	0	root	_	_
+5	.	.	PUNCT	CLB	_	4	punct	_	_
+
 # sent_id = belyx-011.011
 # text = Эг и тӧдлы , кыдзи юр весьтын ӧти бӧрся мӧд тыдовтчисны кымӧрторъяс .
 1	Эг	оз	AUX	V	Ind Prt Sg1	3	aux	_	_
@@ -501,7 +509,7 @@
 # sent_id = belyx-011.057
 # text = Зэрыс мӧдӧдчис надзӧнджык .
 1	Зэрыс	зэр	NOUN	N	Sg|Nom|PxSg3	_	_	_	_
-2	мӧдӧдчис	мӧдӧдчыны	VERB	V	Ind|Prt1|Sg3	_	_	_	_
+2	мӧдӧдчис	мӧдӧдчыны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 3	надзӧнджык	надзӧн	ADV	Adv	Comp	_	_	_	_
 4	.	.	PUNCT	CLB	_	_	_	_	_
 
@@ -509,7 +517,7 @@
 # text = Воддза моз гымаліс .
 1	Воддза	воддза	ADJ	A	_	_	_	_	_
 2	моз	моз	ADV	Adv	_	_	_	_	_
-3	гымаліс	гымавны	VERB	V	Ind|Prt1|Sg3	_	_	_	_
+3	гымаліс	гымавны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 4	.	.	PUNCT	CLB	_	_	_	_	_
 
 # sent_id = belyx-011.059
@@ -526,8 +534,51 @@
 1	Сэсся	сэсся	CONJ	CONJ	_	_	_	_	_
 2	и	и	PART	Pcle	_	_	_	_	_
 3	гымыс	гым	NOUN	N	Sg|Nom|PxSg3	_	_	_	_
-4	вешйис	вешйыны	VERB	V	Ind|Prt1|Sg3	_	_	_	_
+4	вешйис	вешйыны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 5	.	.	PUNCT	CLB	_	_	_	_	_
+
+# sent_id = belyx-011.061
+# text = Ньӧжйӧник мӧдӧдчи гортлань .
+1	Ньӧжйӧник	ньӧжйӧник	ADV	Adv	_	_	_	_	_
+2	мӧдӧдчи	мӧдӧдчыны	VERB	V	Ind|Prt1|Sg3	_	_	_	_
+3	гортлань	горт	NOUN	N	Sg|Apr	_	_	_	_
+4	.	.	PUNCT	CLB	_	_	_	_	_
+
+# sent_id = belyx-011.062
+# text = Паськӧмӧй вӧлі брӧд ва .
+1	Паськӧмӧй	паськӧм	NOUN	N	Sg|Nom|PxSg1	_	_	_	_
+2	вӧлі	вӧвны	VERB	V	Ind|Prt1|Sg3	_	_	_	_
+3	брӧд	брӧд	ADV	Adv	_	_	_	_	_
+4	ва	ва	NOUN	N	Sg|Nom	_	_	_	_
+5	.	.	PUNCT	CLB	_	_	_	_	_
+
+# sent_id = belyx-011.063
+# text = Муртса верми восьлавны ляти кодь туйӧд .
+1	Муртса	муртса	ADJ	A	_	_	_	_	_
+2	верми	вермыны	VERB	V	Ind|Prt1|Sg3	_	_	_	_
+3	восьлавны	восьлавны	VERB	V	Inf	_	_	_	_
+4	ляти	ляти	NOUN	N	Sg|Nom	_	_	_	_
+5	кодь	кодь	ADJ	A	_	_	_	_	_
+6	туйӧд	туй	NOUN	N	Sg|Prl	_	_	_	_
+7	.	.	PUNCT	CLB	_	_	_	_	_
+
+# sent_id = belyx-011.064
+# text = Лысваыс болскакыліс сапӧг пытшкын .
+1	Лысваыс	лысва	NOUN	N	Sg|Nom|PxSg3	_	_	_	_
+2	болскакыліс	болскакывны	VERB	V	Ind|Prt1|Sg3	_	_	_	_
+3	сапӧг	сапӧг	NOUN	N	Sg|Nom	_	_	_	_
+4	пытшкын	пытш	ADP	Po	Spat|Sg|Ine	_	_	_	_
+5	.	.	PUNCT	CLB	_	_	_	_	_
+
+# sent_id = belyx-011.065
+# text = Медбӧрын кыр йылын тыдовтчисны сиктса керкаяс .
+1	Медбӧрын	медбӧрын	ADV	Adv	Ine	_	_	_	_
+2	кыр	кыр	NOUN	N	Sg|Nom	_	_	_	_
+3	йылын	йылын	ADP	Po	Spat|Sg|Ine	_	_	_	_
+4	тыдовтчисны	тыдовтчыны	VERB	V	Ind|Prt1|Pl3	_	_	_	_
+5	сиктса	сиктса	ADJ	A	_	_	_	_	_
+6	керкаяс	керка	NOUN	N	Pl|Nom	_	_	_	_
+7	.	.	PUNCT	CLB	_	_	_	_	_
 
 # sent_id = kpv_four_battles.001
 1	Став	став	PRON	Pron	_	2	det	_	_
@@ -856,6 +907,33 @@
 7	тӧрыт	тӧрыт	ADV	_	_	8	advmod	_	Offset=770-775
 8	вайисны	вайны	VERB	_	_	3	advcl	3:advcl	Offset=776-783
 9	.	.	PUNCT	_	_	3	punct	_	Offset=784-785
+
+# text = Сійӧ пыр жӧ гижис Максимлы зэв кузь да зэв стрӧг письмӧ, кӧні Валентина Ивановна моз жӧ нимтіс сійӧс «сюсь йӧйӧн».
+# sent_id = new_1
+1	Сійӧ	сійӧ	PRON	Pron	Pers Sg3 Nom	4	nsubj	_	_
+2	пыр	пыр	ADV	Adv	_	4	advmod	_	_
+3	жӧ	жӧ	PART	Pcle	_	2	advmod	_	_
+4	гижис	гижны	VERB	V	Ind Prt1 Sg3	0	root	_	_
+5	Максимлы	Максим	PROPN	N	Prop Sg Dat	4	iobj	_	_
+6	зэв	зэв	ADV	Adv	_	7	advmod	_	_
+7	кузь	кузь	ADJ	A	Sg Nom	10	conj	_	_
+8	да	да	CCONJ	CC	_	7	cc	_	_
+9	зэв	зэв	ADV	Adv	_	10	advmod	_	_
+10	стрӧг	стрӧг	ADJ	A	Sg Nom	11	amod	_	_
+11	письмӧ	письмӧ	NOUN	N	Sg Acc	4	obj	_	_
+12	,	,	PUNCT	CLB	_	11	punct	_	_
+13	кӧні	кӧні	ADV	Adv	Spat Ine Pred Sg Rel	18	advmod	_	_
+14	Валентина	Валентина	PROPN	N	Prop Sem/Fem Sem/Fem Sg Nom	16	nmod	_	_
+15	Ивановна	Ивановна	PROPN	N	Prop Sem/Patr Sem/Fem Sg Nom	14	flat:name	_	_
+16	моз	моз	ADV	Adv	_	18	advmod	_	_
+17	жӧ	жӧ	PART	Pcle	_	16	discourse	_	_
+18	нимтіс	нимтыны	VERB	V	Ind Prt1 Sg3	11	acl:relcl	_	_
+19	сійӧс	сійӧ	PRON	Pron	Pers Sg3 Acc	18	obj	_	_
+20	«	«	PUNCT	PUNCT	LEFT	22	punct	_	_
+21	сюсь	сюсь	ADJ	A	_	22	amod	_	_
+22	йӧйӧн	йӧй	ADJ	A	Sg Ins	18	nmod	_	_
+23	»	»	PUNCT	PUNCT	RIGHT	22	punct	_	_
+24	.	.	PUNCT	CLB	CLB	4	punct	_	_
 
 # sent_id = kpv-gt.20
 1	Сійӧ	сійӧ	PRON	_	_	2	nsubj	_	Offset=786-790
