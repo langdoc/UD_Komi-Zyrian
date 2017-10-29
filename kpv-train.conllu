@@ -99,3 +99,108 @@
 8	неыджыд	неыджыд	ADJ	A	_	9	amod	_	_
 9	тӧвру	тӧвру	NOUN	N	_	7	nsubj	_	_
 10	.	.	PUNCT	CLB	_	7	punct	_	_
+
+# sent_id = belyx-011.010
+# text = И кокниджыка лолавсьыны кутіс .
+1	И	и	CCONJ	CC	_	4	cc	_	_
+2	кокниджыка	кокни	ADJ	A	_	3	amod	_	_
+3	лолавсьыны	лолавсьыны	VERB	V	_	4	xcomp	_	_
+4	кутіс	кутны	VERB	V	_	0	root	_	_
+5	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = belyx-011.011
+# text = Эг и тӧдлы , кыдзи юр весьтын ӧти бӧрся мӧд тыдовтчисны кымӧрторъяс .
+1	Эг	оз	AUX	V	Ind Prt Sg1	3	aux	_	_
+2	и	и	PART	Pcle	_	3	advmod	_	_
+3	тӧдлы	тӧд	VERB	VERB	ConNeg	0	root	_	_
+4	,	,	PUNCT	CLB	_	11	punct	_	_
+5	кыдзи	кыдзи	ADV	Adv	Manner Rel	11	advmod	_	_
+6	юр	юр	NOUN	N	Sg Nom	11	obl	_	_
+7	весьтын	весьт	ADP	Po	Sg Ine	6	case	_	_
+8	ӧти	ӧти	NUM	Num	Card Sg Nom	9	nmod	_	_
+9	бӧрся	бӧрся	ADP	Po	Spat Sg Cmpr	10	case	_	_
+10	мӧд	мӧд	PRON	Pron	Ord Sg Nom	11	nmod	_	_
+11	тыдовтчисны	тыдовтчыны	VERB	V	Ind Prt1 Pl3	3	advcl	_	_
+12	кымӧрторъяс	кымӧртор	NOUN	N	Pl Acc	11	nsubj	_	_
+13	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = belyx-011.012
+# text = Первойсӧ ичӧтик баляяс кодьӧсь .
+1	Первойсӧ	первой	DET	Det	Ord Sg Nom Clt Clt/сӧ	4	nsubj	_	_
+2	ичӧтик	ичӧтик	ADJ	A	Sg Nom	3	amod	_	_
+3	баляяс	баля	NOUN	N	Pl Nom	4	nmod	_	_
+4	кодьӧсь	кодь	ADJ	A	Cop Pl	0	root	_	_
+5	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = belyx-011.013
+# text = А сэсся пыр отаджыкӧсь лоисны .
+1	А	а	SCONJ	CC	_	2	cc	_	_
+2	сэсся	сэсся	ADV	Adv	_	5	advmod	_	_
+3	пыр	пыр	ADV	Adv	_	5	advmod	_	_
+4	отаджыкӧсь	ота	ADJ	A	Comp Cop Pl	5	amod	_	_
+5	лоисны	лоны	VERB	V	Ind Prt1 Pl3	0	root	_	_
+6	.	.	PUNCT	CLB	_	5	punct	_	_
+
+# sent_id = belyx-011.014
+# text = Мӧдлапӧлысь Присада ді вывса пожӧма яг весьтын друг тыдовтчис эшкын кодь кымӧр пласт , коді син водзын кутіс быдмыны .
+1	Мӧдлапӧлысь	мӧдлапӧв	PROPN	N	Sg Ela	9	obl	_	_
+2	Присада	Присада	ADJ	A	Prop Sem/Sur Sg Nom	3	amod	_	_
+3	ді	ді	NOUN	N	Sg Nom	4	nmod	_	_
+4	вывса	вывса	ADJ	A	Sg Nom	5	amod	_	_
+5	пожӧма	пожӧма	ADJ	A	Sg Nom	6	amod	_	_
+6	яг	яг	NOUN	N	Sg Nom	9	nmod	_	_
+7	весьтын	весьт	ADP	Po	Sg Ine	6	case	_	_
+8	друг	друг	ADV	Adv	_	9	advmod	_	_
+9	тыдовтчис	тыдовтчыны	VERB	V	Ind Prt1 Sg3	0	root	_	_
+10	эшкын	эшкын	NOUN	N	N Sg	11	nmod	_	_
+11	кодь	кодь	ADJ	A	Sg Nom	12	amod	_	_
+12	кымӧр	кымӧр	NOUN	N	Sg Nom	13	nmod	_	_
+13	пласт	пласт	NOUN	N	Sg Nom	9	nsubj	_	_
+14	,	,	PUNCT	CLB	_	18	punct	_	_
+15	коді	коді	PRON	Pron	Sg Nom Rel	18	nsubj	_	_
+16	син	син	NOUN	N	Sg Nom	18	nmod	_	_
+17	водзын	водз	ADP	Po	Sg Ine	16	case	_	_
+18	кутіс	кутны	VERB	V	Ind Prt1 Sg3	9	acl	_	_
+19	быдмыны	быдмыны	VERB	V	Inf	18	xcomp	_	_
+20	.	.	PUNCT	CLB	_	9	punct	_	_
+
+# sent_id = belyx-011.015
+# text = Кыліс зэв ылысянь муркӧдчӧм шы .
+1	Кыліс	кывны	VERB	_	_	0	root	_	_
+2	зэв	зэв	ADV	_	_	3	advmod	_	_
+3	ылысянь	ылысянь	ADV	_	_	1	advmod	_	_
+4	муркӧдчӧм	муркӧдчыны	VERB	_	_	5	acl	_	_
+5	шы	шы	NOUN	_	_	1	nsubj	_	_
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = belyx-011.016
+# text = Ваыс лӧнис .
+1	Ваыс	ва	NOUN	_	_	2	nsubj	_	_
+2	лӧнис	лӧньны	VERB	_	_	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = belyx-011.017
+# text = Чериыд дзикӧдз раммис .
+1	Чериыд	чери	NOUN	_	_	3	nsubj	_	_
+2	дзикӧдз	дзикӧдз	ADV	_	_	3	advmod	_	_
+3	раммис	раммыны	VERB	_	_	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = belyx-011.018
+# text = Весиг бӧжсӧ эз петкӧдлы .
+1	Весиг	весиг	ADV	_	_	4	advmod	_	_
+2	бӧжсӧ	бӧж	NOUN	_	_	4	obj	_	_
+3	эз	оз	AUX	_	_	4	aux	_	_
+4	петкӧдлы	петкӧдлыны	VERB	_	_	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = belyx-011.019
+# text = Но весьшӧрӧ на , вӧлӧмкӧ , майшассьӧма .
+1	Но	но	CCONJ	CC	_	7	cc	_	_
+2	весьшӧрӧ	весьшӧрӧ	ADV	Adv	_	7	advmod	_	_
+3	на	на	ADV	Adv	_	2	advmod	_	_
+4	,	,	PUNCT	CLB	_	7	punct	_	_
+5	вӧлӧмкӧ	вӧлӧмкӧ	ADV	Adv	_	7	advmod	_	_
+6	,	,	PUNCT	CLB	_	7	punct	_	_
+7	майшассьӧма	майшассьыны	VERB	V	_	0	root	_	_
+8	.	.	PUNCT	CLB	_	7	punct	_	_
