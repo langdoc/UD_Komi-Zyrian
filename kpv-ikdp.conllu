@@ -1,0 +1,85 @@
+#
+# sent_id = ikdp.1
+1	Ме	ме	_	Pron	Pers|Sg1|Nom	_	_	_	_
+2	,	,	_	CLB	_	_	_	_	_
+3	кӧнешнӧ	кӧнешнӧ	_	Pcle	_	_	_	_	_
+4	жӧ	жӧ	_	Pcle	_	_	_	_	_
+5	,	,	_	CLB	_	_	_	_	_
+6	кык	кык	_	Num	Card|Sg|Nom	_	_	_	_
+7	лун	лун	_	N	Sg|Nom	_	_	_	_
+8	вӧлі	вӧвны	_	V	Ind|Prt1|Sg3	_	_	_	_
+9	в	в	_	Pr	_	_	_	_	_
+10	шоке	шок	_	N	Msc|Inan|Sg|Loc	_	_	_	_
+11	от	от	_	Pr	_	_	_	_	_
+12	Тайланда	Тайланд	_	Sem	N|Prop|Sg|Gen	_	_	_	_
+13	,	,	_	CLB	_	_	_	_	_
+14	потому	потому	_	CS	_	_	_	_	_
+15	что	что	_	CS	_	_	_	_	_
+16	,	,	_	CLB	_	_	_	_	_
+17	но	но	_	Pcle	_	_	_	_	_
+18	,	,	_	CLB	_	_	_	_	_
+19	менӧ	ме	_	Pron	Pers|Sg1|Acc	_	_	_	_
+20	страны	страна	_	N	Fem|Inan|Pl|Nom	_	_	_	_
+21	Юго-Восточной	юго-восточной	_	A	Sg|Nom	_	_	_	_
+22	Азии	Азия	_	N	Prop|Fem|Inan|Sg|Gen	_	_	_	_
+23	зэв	зэв	_	Adv	_	_	_	_	_
+24	эз	оз	_	V	Neg|Ind|Prt|Pl3	_	_	_	_
+25	привлекайтныс	привлекайтны	_	V	Refl|ConNeg	_	_	_	_
+26	.	.	PUNCT	CLB	punct	_	_	_	_
+
+#
+# sent_id = ikdp.2
+1	Сыысь	сійӧ	_	Pron	Pers|Sg3|Ela	_	_	_	_
+2	,	,	_	CLB	_	_	_	_	_
+3	гашкӧ	гашкӧ	_	Pcle	_	_	_	_	_
+4	,	,	_	CLB	_	_	_	_	_
+5	оз	оз	_	V	Neg|Ind|Prs|Sg3	_	_	_	_
+6	бросайтчы	бросайтчыны	_	V	ConNeg	_	_	_	_
+7	в	в	_	Pr	_	_	_	_	_
+8	глаза	глаз	_	N	Msc|Inan|Sg|Gen	_	_	_	_
+9	,	,	_	CLB	_	_	_	_	_
+10	потому	потому	_	CS	_	_	_	_	_
+11	что	что	_	CS	_	_	_	_	_
+12	уна	уна	_	Adv	_	_	_	_	_
+13	йӧз	йӧз	_	N	Sg|Nom	_	_	_	_
+14	.	.	PUNCT	CLB	punct	_	_	_	_
+
+#
+# sent_id = ikdp.3
+1	А	а	_	CC	_	_	_	_	_
+2	храмыс	храм	_	N	Sg|Nom|PxSg3	_	_	_	_
+3	восьса	восьса	_	A	Sg|Nom	_	_	_	_
+4	дзик	дзик	_	Adv	AdA	_	_	_	_
+5	быд	быд	_	Pron	Qnt	_	_	_	_
+6	лун	лун	_	N	Sg|Nom	_	_	_	_
+7	с	с	_	Pr	_	_	_	_	_
+8	десяти	десять	_	Num	Gen	_	_	_	_
+9	до	до	_	Pr	_	_	_	_	_
+10	часу	час	_	N	Msc|Inan|Sg|Dat	_	_	_	_
+11	.	.	PUNCT	CLB	punct	_	_	_	_
+
+#
+# sent_id = ikdp.4
+1	Ӧні	ӧні	_	Adv	_	_	_	_	_
+2	эськӧ	эськӧ	_	Pcle	_	_	_	_	_
+3	с	с	_	Pr	_	_	_	_	_
+4	удовольствием	удовольствие	_	N	Neu|Inan|Sg|Ins	_	_	_	_
+5	муна	мунны	_	V	IV|Ind|Prs|Sg1	_	_	_	_
+6	кӧр	кӧр	_	N	Sg|Nom	_	_	_	_
+7	дорас	дор	_	Po	Spat|Sg|Ill|PxSg3	_	_	_	_
+8	.	.	_	CLB	_	_	_	_	_
+9	.	.	PUNCT	CLB	punct	_	_	_	_
+
+#
+# sent_id = ikdp.5
+1	Ог	оз	_	V	Neg|Ind|Prs|Sg1	_	_	_	_
+2	тӧд	тӧдны	_	V	TV|ConNeg	_	_	_	_
+3	,	,	_	CLB	_	_	_	_	_
+4	мен	ме	_	Pron	Pers|Sg1|Dat	_	_	_	_
+5	кажитчӧ	кажитчыны	_	V	Refl|Ind|Prs|Sg3	_	_	_	_
+6	,	,	_	CLB	_	_	_	_	_
+7	без	без	_	Pr	_	_	_	_	_
+8	репетитора	репетитор	_	N	Msc|Anim|Sg|Gen	_	_	_	_
+9	сійӧ	сійӧ	_	Pron	Pers|Sg3|Nom	_	_	_	_
+10	невозможно	невозможно	_	Adv	_	_	_	_	_
+11	.	.	PUNCT	CLB	punct	_	_	_	_
