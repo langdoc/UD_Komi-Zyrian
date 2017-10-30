@@ -78,13 +78,13 @@
 5	мися	мися	PART	Pcle	_	10	discourse	_	_
 6	,	,	PUNCT	CLB	_	7	punct	_	_
 7	кӧть	кӧть	SCONJ	CS	_	10	mark	_	_
-8	кутшӧмкӧ	кутшӧм	PRON	Pron	Der|Indef	9	advmod	_	_
-9	тӧвру	тӧвру	NOUN	N	Sg|Nom	10	nsubj	_	_
-10	пӧльыштлас	пӧльыштлыны	VERB	V	Ind|Fut|Sg3	12	advcl	_	_
+8	кутшӧмкӧ	кутшӧм	PRON	Pron	Der Indef	9	advmod	_	_
+9	тӧвру	тӧвру	NOUN	N	Sg Nom	10	nsubj	_	_
+10	пӧльыштлас	пӧльыштлыны	VERB	V	Ind Fut Sg3	12	acl	_	_
 11	,	,	PUNCT	CLB	_	12	punct	_	_
-12	думайта	думайтны	VERB	V	Ind|Prs|Sg1	0	root	_	_
-13	ас	ас	ADJ	A	Refl|Attr	14	amod	_	_
-14	кежысь	кеж	NOUN	N	Sg|Ela	12	advmod	_	_
+12	думайта	думайтны	VERB	V	Ind Prs Sg1	0	root	_	_
+13	ас	ас	ADJ	A	Refl Attr	14	amod	_	_
+14	кежысь	кеж	NOUN	N	Sg Ela	12	advmod	_	_
 15	.	.	PUNCT	CLB	_	12	punct	_	_
 
 # sent_id = belyx-011.009
