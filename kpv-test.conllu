@@ -178,12 +178,12 @@
 2	да	да	PART	Pcle	_	1	advmod	_	_
 3	,	,	PUNCT	CLB	_	5	punct	_	_
 4	мед	мед	PART	Pcle	_	5	discourse	_	_
-5	кӧтӧдас	кӧтӧдны	VERB	V	_	1	advcl	_	_
+5	кӧтӧдас	кӧтӧдны	VERB	V	_	1	acl	_	_
 6	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = belyx-011.037
 # text = Зэригас кая гортӧдз .
-1	Зэригас	зэрны	VERB	V	_	2	advcl	_	_
+1	Зэригас	зэрны	VERB	V	_	2	acl	_	_
 2	кая	кайны	VERB	V	_	0	root	_	_
 3	гортӧдз	горт	NOUN	N	_	2	obl	_	_
 4	.	.	PUNCT	CLB	_	2	punct	_	_
@@ -298,7 +298,7 @@
 
 # sent_id = belyx-011.048
 # text = Дугдывтӧг гымаліс-чардаліс .
-1	Дугдывтӧг	дугдывны	VERB	V	_	2	advcl	_	_
+1	Дугдывтӧг	дугдывны	VERB	V	_	2	acl	_	_
 2	гымаліс-чардаліс	гымавны-чардавны	VERB	V	_	0	root	_	_
 3	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -379,7 +379,7 @@
 15	мед	мед	ADV	Adv	_	22	advmod	_	_
 16	,	,	PUNCT	CLB	_	17	punct	_	_
 17	кӧнкӧ	кӧнкӧ	ADV	Adv	Indef|Der	18	obl	_	_
-18	найӧ	найӧ	PRON	Pron	Pers|Pl3|Nom	8	acl	_	_
+18	найӧ	найӧ	PRON	Pron	Pers|Pl3|Nom	8	advcl	_	_
 19	эмӧсь	эм	ADJ	A	Cop|Pl	18	cop	_	_
 20	кӧ	кӧ	SCONJ	CS	_	18	mark	_	_
 21	,	,	PUNCT	CLB	_	21	punct	_	_
@@ -520,7 +520,7 @@
 6	мый	мый	SCONJ	CS	_	9	mark	_	_
 7	татшӧма	татшӧма	ADV	Adv	_	8	advmod	_	_
 8	зэрны-гымавны	зэрны-гымавны	VERB	V	Inf	9	xcomp	_	_
-9	кутас	кутны	VERB	V	Ind|Fut|Sg3	4	advcl	_	_
+9	кутас	кутны	VERB	V	Ind|Fut|Sg3	4	acl	_	_
 10	,	,	PUNCT	CLB	_	12	punct	_	_
 11	—	—	PUNCT	PUNCT	CLB	12	punct	_	_
 12	нурбыльті	нурбыльтны	VERB	V	Ind|Prt1|Sg3	4	parataxis	_	_
@@ -540,7 +540,7 @@
 9	кӧм-паськӧмӧс	кӧм-паськӧм	NOUN	N	Sg|Acc	5	obj	_	_
 10	да	да	CCONJ	CC	_	12	cc	_	_
 11	тэрыба	тэрыба	ADV	Adv	_	12	advmod	_	_
-12	кайи	кайны	VERB	V	Ind|Prt1|Sg3	5	advcl	_	_
+12	кайи	кайны	VERB	V	Ind|Prt1|Sg3	5	conj	_	_
 13	паччӧр	паччӧр	NOUN	N	Sg|Nom	12	obl	_	_
 14	вылӧ	вылын	ADP	Po	Spat|Sg|Ill	13	case	_	_
 15	шонтысьыштны	шонтысьыштны	VERB	V	Inf	12	xcomp	_	_
@@ -586,21 +586,21 @@
 
 # sent_id = belyx-011.074
 # text = И шензи нӧшта , кор тӧдмалі , мый шерыслӧн туйыс зэв векньыдик и вӧлӧма .
-1	И	и	SCONJ	CS	_	_	cc	_	_
+1	И	и	SCONJ	CS	_	2	cc	_	_
 2	шензи	шензьыны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
-3	нӧшта	нӧшта	ADV	Adv	_	_	advmod	_	_
-4	,	,	PUNCT	CLB	_	_	punct	_	_
-5	кор	кор	ADV	Adv	Rel|Temp	_	_	_	_
-6	тӧдмалі	тӧдмавны	VERB	V	Ind|Prt1|Sg3	_	_	_	_
-7	,	,	PUNCT	CLB	_	_	punct	_	_
-8	мый	мый	CONJ	CONJ	_	_	_	_	_
-9	шерыслӧн	шер	NOUN	N	Sg|Gen|PxSg3	_	_	_	_
+3	нӧшта	нӧшта	ADV	Adv	_	2	advmod	_	_
+4	,	,	PUNCT	CLB	_	5	punct	_	_
+5	кор	кор	SCONJ	CS	_	6	mark	_	_
+6	тӧдмалі	тӧдмавны	VERB	V	Ind|Prt1|Sg3	2	advcl	_	_
+7	,	,	PUNCT	CLB	_	8	punct	_	_
+8	мый	мый	SCONJ	CS	_	14	mark	_	_
+9	шерыслӧн	шер	NOUN	N	Sg|Gen|PxSg3	9	nmod	_	_
 10	туйыс	туй	NOUN	N	Sg|Nom|PxSg3	12	nsubj	_	_
-11	зэв	зэв	ADV	Adv	_	_	_	_	_
+11	зэв	зэв	ADV	Adv	_	12	advmod	_	_
 12	векньыдик	векньыдик	ADJ	A	_	10	advcl	_	_
-13	и	и	PART	Pcle	_	_	_	_	_
-14	вӧлӧма	вӧвны	VERB	V	Ind|Prt2|Sg3	_	_	_	_
-15	.	.	PUNCT	CLB	_	_	punct	_	_
+13	и	и	PART	Pcle	_	14	discourse	_	_
+14	вӧлӧма	вӧвны	VERB	V	Ind|Prt2|Sg3	6	acl	_	_
+15	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = belyx-011.075
 # text = Неылысса сикт-грездын сы йылысь абу весиг тӧдлӧмаӧсь
@@ -828,7 +828,7 @@
 3	ыджыд	ыджыд	ADJ	A	_	6	amod	_	Offset=328-333
 4	либӧ	либӧ	CCONJ	CC	_	3	cc	_	Offset=334-338
 5	ичӧт	ичӧт	ADJ	A	_	3	conj	_	Offset=339-343
-6	канму	канму	NOUN	N	_	0	_	_	Offset=344-349
+6	канму	канму	NOUN	N	_	0	root	_	Offset=344-349
 7	?	?	PUNCT	CLB	_	6	punct	_	Offset=350-351
 
 # sent_id = kpv-gt.11
