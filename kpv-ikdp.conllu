@@ -41,7 +41,7 @@
 10	потому	потому	SCONJ	CS	_	_	11	advmod	_
 11	что	что	SCONJ	CS	_	_	13	mark	_
 12	уна	уна	ADV	Adv	_	_	13	advmod	_
-13	йӧз	йӧз	NOUN	N	Sg|Nom	_	6	advmod	_
+13	йӧз	йӧз	NOUN	N	Sg|Nom	_	6	advcl	_
 14	.	.	PUNCT	CLB	punct	_	6	punct	_
 
 #
@@ -80,5 +80,5 @@
 7	без	без	ADP	Pr	_	_	8	case	_
 8	репетитора	репетитор	NOUN	N	Msc|Anim|Sg|Gen	_	10	obl	_
 9	сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	_	10	nsubj	_
-10	невозможно	невозможно	ADV	Adv	_	_	5	advcl	_
+10	невозможно	невозможно	ADV	Adv	_	_	5	acl	_
 11	.	.	PUNCT	CLB	punct	_	10	punct	_
