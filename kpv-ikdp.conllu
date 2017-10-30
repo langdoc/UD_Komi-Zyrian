@@ -19,8 +19,8 @@
 16	,	,	PUNCT	CLB	_	17	punct	_	_
 17	но	но	PART	Pcle	_	25	cc	_	_
 18	,	,	PUNCT	CLB	_	19	punct	_	_
-19	менӧ	ме	PRON	Pron	Pers|Sg1|Acc	25	iobj	_	_
-20	страны	страна	NOUN	N	Fem|Inan|Pl|Nom	25	obj	_	_
+19	менӧ	ме	PRON	Pron	Pers|Sg1|Acc	25	obj	_	_
+20	страны	страна	NOUN	N	Fem|Inan|Pl|Nom	25	nsubj	_	_
 21	Юго-Восточной	юго-восточной	ADJ	A	Sg|Nom	22	amod	_	_
 22	Азии	Азия	NOUN	N	Prop|Fem|Inan|Sg|Gen	20	nmod	_	_
 23	зэв	зэв	ADV	Adv	_	25	advmod	_	_
