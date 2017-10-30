@@ -1,85 +1,84 @@
 #
 # sent_id = ikdp.1
-1	Ме	ме	_	Pron	Pers|Sg1|Nom	_	_	_	_
-2	,	,	_	CLB	_	_	_	_	_
-3	кӧнешнӧ	кӧнешнӧ	_	Pcle	_	_	_	_	_
-4	жӧ	жӧ	_	Pcle	_	_	_	_	_
-5	,	,	_	CLB	_	_	_	_	_
-6	кык	кык	_	Num	Card|Sg|Nom	_	_	_	_
-7	лун	лун	_	N	Sg|Nom	_	_	_	_
-8	вӧлі	вӧвны	_	V	Ind|Prt1|Sg3	_	_	_	_
-9	в	в	_	Pr	_	_	_	_	_
-10	шоке	шок	_	N	Msc|Inan|Sg|Loc	_	_	_	_
-11	от	от	_	Pr	_	_	_	_	_
-12	Тайланда	Тайланд	_	Sem	N|Prop|Sg|Gen	_	_	_	_
-13	,	,	_	CLB	_	_	_	_	_
-14	потому	потому	_	CS	_	_	_	_	_
-15	что	что	_	CS	_	_	_	_	_
-16	,	,	_	CLB	_	_	_	_	_
-17	но	но	_	Pcle	_	_	_	_	_
-18	,	,	_	CLB	_	_	_	_	_
-19	менӧ	ме	_	Pron	Pers|Sg1|Acc	_	_	_	_
-20	страны	страна	_	N	Fem|Inan|Pl|Nom	_	_	_	_
-21	Юго-Восточной	юго-восточной	_	A	Sg|Nom	_	_	_	_
-22	Азии	Азия	_	N	Prop|Fem|Inan|Sg|Gen	_	_	_	_
-23	зэв	зэв	_	Adv	_	_	_	_	_
-24	эз	оз	_	V	Neg|Ind|Prt|Pl3	_	_	_	_
-25	привлекайтныс	привлекайтны	_	V	Refl|ConNeg	_	_	_	_
-26	.	.	PUNCT	CLB	punct	_	_	_	_
+1	Ме	ме	PRON	Pron	Pers|Sg1|Nom	_	8	nsubj	_
+2	,	,	PUNCT	CLB	_	_	3	punct	_
+3	конечно	конечно	ADV	Adv	_	_	10	discourse	_
+4	же	же	PART	Pcle	_	_	3	discourse	_
+5	,	,	PUNCT	CLB	_	_	3	punct	_
+6	кык	кык	NUM	Num	Card|Sg|Nom	_	7	nmod	_
+7	лун	лун	NOUN	N	Sg|Nom	_	10	obl	_
+8	вӧлі	вӧвны	VERB	V	Ind|Prt1|Sg3	_	10	cop	_
+9	в	в	ADP	Pr	_	_	10	case	_
+10	шоке	шок	NOUN	N	Msc|Inan|Sg|Loc	_	0	root	_
+11	от	от	ADP	Pr	_	_	12	case	_
+12	Тайланда	Тайланд	NOUN	Prop	Sg|Gen	_	10	obl	_
+13	,	,	PUNCT	CLB	_	_	14	punct	_
+14	потому	потому	SCONJ	CS	_	_	5	advmod	_
+15	что	что	SCONJ	CS	_	_	25	mark	_
+16	,	,	PUNCT	CLB	_	_	17	punct	_
+17	но	но	PART	Pcle	_	_	25	cc	_
+18	,	,	PUNCT	CLB	_	_	19	punct	_
+19	менӧ	ме	PRON	Pron	Pers|Sg1|Acc	_	25	iobj	_
+20	страны	страна	NOUN	N	Fem|Inan|Pl|Nom	_	25	obj	_
+21	Юго-Восточной	юго-восточной	ADJ	A	Sg|Nom	_	22	amod	_
+22	Азии	Азия	NOUN	N	Prop|Fem|Inan|Sg|Gen	20	nmod	_	_
+23	зэв	зэв	ADV	Adv	_	_	25	advmod	_
+24	эз	оз	AUX	V	Neg|Ind|Prt|Pl3	_	25	aux	_
+25	привлекайтныс	привлекайтны	VERB	V	Refl|ConNeg	_	10	advcl	_
+26	.	.	PUNCT	CLB	punct	_	8	punct	_
 
 #
 # sent_id = ikdp.2
-1	Сыысь	сійӧ	_	Pron	Pers|Sg3|Ela	_	_	_	_
-2	,	,	_	CLB	_	_	_	_	_
-3	гашкӧ	гашкӧ	_	Pcle	_	_	_	_	_
-4	,	,	_	CLB	_	_	_	_	_
-5	оз	оз	_	V	Neg|Ind|Prs|Sg3	_	_	_	_
-6	бросайтчы	бросайтчыны	_	V	ConNeg	_	_	_	_
-7	в	в	_	Pr	_	_	_	_	_
-8	глаза	глаз	_	N	Msc|Inan|Sg|Gen	_	_	_	_
-9	,	,	_	CLB	_	_	_	_	_
-10	потому	потому	_	CS	_	_	_	_	_
-11	что	что	_	CS	_	_	_	_	_
-12	уна	уна	_	Adv	_	_	_	_	_
-13	йӧз	йӧз	_	N	Sg|Nom	_	_	_	_
-14	.	.	PUNCT	CLB	punct	_	_	_	_
+1	Сыысь	сійӧ	PRON	Pron	Pers|Sg3|Ela	_	6	obl	_
+2	,	,	PUNCT	CLB	_	_	3	punct	_
+3	гашкӧ	гашкӧ	PART	Pcle	_	_	6	discourse	_
+4	,	,	PUNCT	CLB	_	_	5	punct	_
+5	оз	оз	AUX	V	Neg|Ind|Prs|Sg3	_	6	aux	_
+6	бросайтчы	бросайтчыны	VERB	V	ConNeg	_	0	root	_
+7	в	в	ADP	Pr	_	_	8	case	_
+8	глаза	глаз	NOUN	N	Msc|Inan|Sg|Gen	_	6	obl	_
+9	,	,	PUNCT	CLB	_	_	10	punct	_
+10	потому	потому	SCONJ	CS	_	_	11	advmod	_
+11	что	что	SCONJ	CS	_	_	13	mark	_
+12	уна	уна	ADV	Adv	_	_	13	advmod	_
+13	йӧз	йӧз	NOUN	N	Sg|Nom	_	6	advmod	_
+14	.	.	PUNCT	CLB	punct	_	6	punct	_
 
 #
 # sent_id = ikdp.3
-1	А	а	_	CC	_	_	_	_	_
-2	храмыс	храм	_	N	Sg|Nom|PxSg3	_	_	_	_
-3	восьса	восьса	_	A	Sg|Nom	_	_	_	_
-4	дзик	дзик	_	Adv	AdA	_	_	_	_
-5	быд	быд	_	Pron	Qnt	_	_	_	_
-6	лун	лун	_	N	Sg|Nom	_	_	_	_
-7	с	с	_	Pr	_	_	_	_	_
-8	десяти	десять	_	Num	Gen	_	_	_	_
-9	до	до	_	Pr	_	_	_	_	_
-10	часу	час	_	N	Msc|Inan|Sg|Dat	_	_	_	_
-11	.	.	PUNCT	CLB	punct	_	_	_	_
+1	А	а	CCONJ	CC	_	_	3	cc	_
+2	храмыс	храм	NOUN	N	Sg|Nom|PxSg3	_	3	nsubj	_
+3	восьса	восьса	ADJ	A	Sg|Nom	_	0	root	_
+4	дзик	дзик	ADV	Adv	AdA	_	5	advmod	_
+5	быд	быд	DET	Pron	Qnt	_	6	amod	_
+6	лун	лун	NOUN	N	Sg|Nom	_	3	advmod	_
+7	с	с	ADP	Pr	_	_	8	case	_
+8	десяти	десять	NUM	Num	Gen	_	3	nmod	_
+9	до	до	ADP	Pr	_	_	10	case	_
+10	часу	час	NOUN	N	Msc|Inan|Sg|Dat	_	3	nmod	_
+11	.	.	PUNCT	CLB	punct	_	3	punct	_
 
 #
 # sent_id = ikdp.4
-1	Ӧні	ӧні	_	Adv	_	_	_	_	_
-2	эськӧ	эськӧ	_	Pcle	_	_	_	_	_
-3	с	с	_	Pr	_	_	_	_	_
-4	удовольствием	удовольствие	_	N	Neu|Inan|Sg|Ins	_	_	_	_
-5	муна	мунны	_	V	IV|Ind|Prs|Sg1	_	_	_	_
-6	кӧр	кӧр	_	N	Sg|Nom	_	_	_	_
-7	дорас	дор	_	Po	Spat|Sg|Ill|PxSg3	_	_	_	_
-8	.	.	_	CLB	_	_	_	_	_
-9	.	.	PUNCT	CLB	punct	_	_	_	_
+1	Ӧні	ӧні	ADV	Adv	_	_	5	advmod	_
+2	эськӧ	эськӧ	PART	Pcle	_	_	5	discourse	_
+3	с	с	ADP	Pr	_	_	4	case	_
+4	удовольствием	удовольствие	NOUN	N	Neu|Inan|Sg|Ins	_	5	advmod	_
+5	муна	мунны	VERB	V	Ind|Prs|Sg1	_	0	root	_
+6	кӧр	кӧр	NOUN	N	Sg|Nom	_	5	obl	_
+7	дорас	дор	ADP	Po	Spat|Sg|Ill|PxSg3	6	case	_	_
+8	.	.	PUNCT	CLB	punct	_	5	_	_
 
 #
 # sent_id = ikdp.5
-1	Ог	оз	_	V	Neg|Ind|Prs|Sg1	_	_	_	_
-2	тӧд	тӧдны	_	V	TV|ConNeg	_	_	_	_
-3	,	,	_	CLB	_	_	_	_	_
-4	мен	ме	_	Pron	Pers|Sg1|Dat	_	_	_	_
-5	кажитчӧ	кажитчыны	_	V	Refl|Ind|Prs|Sg3	_	_	_	_
-6	,	,	_	CLB	_	_	_	_	_
-7	без	без	_	Pr	_	_	_	_	_
-8	репетитора	репетитор	_	N	Msc|Anim|Sg|Gen	_	_	_	_
-9	сійӧ	сійӧ	_	Pron	Pers|Sg3|Nom	_	_	_	_
-10	невозможно	невозможно	_	Adv	_	_	_	_	_
-11	.	.	PUNCT	CLB	punct	_	_	_	_
+1	Ог	оз	AUX	V	Neg|Ind|Prs|Sg1	_	2	aux	_
+2	тӧд	тӧдны	VERB	V	TV|ConNeg	_	0	root	_
+3	,	,	PUNCT	CLB	_	_	4	punct	_
+4	мен	ме	PRON	Pron	Pers|Sg1|Dat	_	5	nsubj	_
+5	кажитчӧ	кажитчыны	VERB	V	Refl|Ind|Prs|Sg3	_	3	advcl	_
+6	,	,	PUNCT	CLB	_	_	7	punct	_
+7	без	без	ADP	Pr	_	_	8	case	_
+8	репетитора	репетитор	NOUN	N	Msc|Anim|Sg|Gen	_	10	obl	_
+9	сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	_	10	nsubj	_
+10	невозможно	невозможно	ADV	Adv	_	_	5	advcl	_
+11	.	.	PUNCT	CLB	punct	_	10	punct	_
