@@ -1,65 +1,65 @@
 # text = Ме, кӧнечнэ же, кык лун вӧлі в шоке от Тайланда, потому что, но, менэ страны Юго - Восточной Азии зэй из привлекайтныс.
 # sent_id = kpv_izva20140330-1-b-097
 # corpus_version = f0d4b02b2cdba3ddf9e5bd1c5cd875167b4e97fc
-1	Ме	ме	PRON	Pron	_	10	nsubj	_	_
+1	Ме	ме	PRON	Pron	Pers|Sg1|Nom	10	nsubj	_	_
 2	,	,	PUNCT	CLB	_	3	punct	_	_
 3	конечно	конечно	ADV	Adv	_	10	discourse	_	_
 4	же	же	PART	Pcle	_	3	discourse	_	_
 5	,	,	PUNCT	CLB	_	3	punct	_	_
-6	кык	кык	NUM	Num	_	7	nmod	_	_
-7	лун	лун	NOUN	N	_	10	obl	_	_
-8	вӧлі	вӧвны	VERB	V	_	10	cop	_	_
+6	кык	кык	NUM	Num	Card|Sg|Nom	7	nmod	_	_
+7	лун	лун	NOUN	N	Sg|Nom	10	obl	_	_
+8	вӧлі	вӧвны	VERB	V	Ind|Prt1|Sg3	10	cop	_	_
 9	в	в	ADP	Pr	_	10	case	_	_
-10	шоке	шок	NOUN	N	_	0	root	_	_
+10	шоке	шок	NOUN	N	Msc|Inan|Sg|Loc	0	root	_	_
 11	от	от	ADP	Pr	_	12	case	_	_
-12	Тайланда	Тайланд	NOUN	Prop	_	10	obl	_	_
+12	Тайланда	Тайланд	NOUN	Prop	Sg|Gen	10	obl	_	_
 13	,	,	PUNCT	CLB	_	14	punct	_	_
 14	потому	потому	SCONJ	CS	_	15	advmod	_	_
 15	что	что	SCONJ	CS	_	25	mark	_	_
 16	,	,	PUNCT	CLB	_	17	punct	_	_
 17	но	но	PART	Pcle	_	25	cc	_	_
 18	,	,	PUNCT	CLB	_	19	punct	_	_
-19	менӧ	ме	PRON	Pron	_	25	obj	_	_
-20	страны	страна	NOUN	N	_	25	nsubj	_	_
-21	Юго-Восточной	юго-восточной	ADJ	A	_	22	amod	_	_
-22	Азии	Азия	NOUN	N	_	20	nmod	_	_
+19	менӧ	ме	PRON	Pron	Pers|Sg1|Acc	25	obj	_	_
+20	страны	страна	NOUN	N	Fem|Inan|Pl|Nom	25	nsubj	_	_
+21	Юго-Восточной	юго-восточной	ADJ	A	Sg|Nom	22	amod	_	_
+22	Азии	Азия	NOUN	N	Prop|Fem|Inan|Sg|Gen	20	nmod	_	_
 23	зэв	зэв	ADV	Adv	_	25	advmod	_	_
-24	эз	оз	AUX	V	_	25	aux	_	_
-25	привлекайтныс	привлекайтны	VERB	V	_	10	advcl	_	_
-26	.	.	PUNCT	CLB	_	10	punct	_	_
+24	эз	оз	AUX	V	Neg|Ind|Prt|Pl3	25	aux	_	_
+25	привлекайтныс	привлекайтны	VERB	V	Refl|ConNeg	10	advcl	_	_
+26	.	.	PUNCT	CLB	punct	10	punct	_	_
 
 # text = Сыысь, гашке, оз бросайтчы в глаза, потому что уна йӧз.
 # sent_id = kpv_izva20140330-1-b-176
 # corpus_version = f0d4b02b2cdba3ddf9e5bd1c5cd875167b4e97fc
-1	Сыысь	сійӧ	PRON	Pron	_	6	obl	_	_
+1	Сыысь	сійӧ	PRON	Pron	Pers|Sg3|Ela	6	obl	_	_
 2	,	,	PUNCT	CLB	_	3	punct	_	_
 3	гашкӧ	гашкӧ	PART	Pcle	_	6	discourse	_	_
 4	,	,	PUNCT	CLB	_	5	punct	_	_
-5	оз	оз	AUX	V	_	6	aux	_	_
-6	бросайтчы	бросайтчыны	VERB	V	_	0	root	_	_
+5	оз	оз	AUX	V	Neg|Ind|Prs|Sg3	6	aux	_	_
+6	бросайтчы	бросайтчыны	VERB	V	ConNeg	0	root	_	_
 7	в	в	ADP	Pr	_	8	case	_	_
-8	глаза	глаз	NOUN	N	_	6	obl	_	_
+8	глаза	глаз	NOUN	N	Msc|Inan|Sg|Gen	6	obl	_	_
 9	,	,	PUNCT	CLB	_	10	punct	_	_
 10	потому	потому	SCONJ	CS	_	11	advmod	_	_
 11	что	что	SCONJ	CS	_	13	mark	_	_
 12	уна	уна	ADV	Adv	_	13	advmod	_	_
-13	йӧз	йӧз	NOUN	N	_	6	advcl	_	_
-14	.	.	PUNCT	CLB	_	6	punct	_	_
+13	йӧз	йӧз	NOUN	N	Sg|Nom	6	advcl	_	_
+14	.	.	PUNCT	CLB	punct	6	punct	_	_
 
 # text = А храмыс восьса дзик быд лун с десяти до часу.
 # sent_id = kpv_izva20140329-1-b-541
 # corpus_version = f0d4b02b2cdba3ddf9e5bd1c5cd875167b4e97fc
 1	А	а	CCONJ	CC	_	3	cc	_	_
-2	храмыс	храм	NOUN	N	_	3	nsubj	_	_
-3	восьса	восьса	ADJ	A	_	0	root	_	_
-4	дзик	дзик	ADV	Adv	_	5	advmod	_	_
-5	быд	быд	DET	Pron	_	6	amod	_	_
-6	лун	лун	NOUN	N	_	3	advmod	_	_
+2	храмыс	храм	NOUN	N	Sg|Nom|PxSg3	3	nsubj	_	_
+3	восьса	восьса	ADJ	A	Sg|Nom	0	root	_	_
+4	дзик	дзик	ADV	Adv	AdA	5	advmod	_	_
+5	быд	быд	DET	Pron	Qnt	6	amod	_	_
+6	лун	лун	NOUN	N	Sg|Nom	3	advmod	_	_
 7	с	с	ADP	Pr	_	8	case	_	_
-8	десяти	десять	NUM	Num	_	3	nmod	_	_
+8	десяти	десять	NUM	Num	Gen	3	nmod	_	_
 9	до	до	ADP	Pr	_	10	case	_	_
-10	часу	час	NOUN	N	_	3	nmod	_	_
-11	.	.	PUNCT	CLB	_	3	punct	_	_
+10	часу	час	NOUN	N	Msc|Inan|Sg|Dat	3	nmod	_	_
+11	.	.	PUNCT	CLB	punct	3	punct	_	_
 
 # text = ӧні эське с удовольствием муна кӧр дорас
 # sent_id = kpv_izva20140325-2-a-094
@@ -67,25 +67,23 @@
 1	Ӧні	ӧні	ADV	Adv	_	5	advmod	_	_
 2	эськӧ	эськӧ	PART	Pcle	_	5	discourse	_	_
 3	с	с	ADP	Pr	_	4	case	_	_
-4	удовольствием	удовольствие	NOUN	N	_	5	advmod	_	_
-5	муна	мунны	VERB	V	_	0	root	_	_
-6	кӧр	кӧр	NOUN	N	_	5	obl	_	_
-7	дорас	дор	ADP	Po	_	6	case	_	_
+4	удовольствием	удовольствие	NOUN	N	Neu|Inan|Sg|Ins	5	advmod	_	_
+5	муна	мунны	VERB	V	Ind|Prs|Sg1	0	root	_	_
+6	кӧр	кӧр	NOUN	N	Sg|Nom	5	obl	_	_
+7	дорас	дор	ADP	Po	Spat|Sg|Ill|PxSg3	6	case	_	_
 8	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # text = ог тӧд, мен кажитче, без репетитора сыа невозможнэ.
 # sent_id = kpv_izva20140330-1-b-336
 # corpus_version = f0d4b02b2cdba3ddf9e5bd1c5cd875167b4e97fc
-1	Ог	оз	AUX	V	_	2	aux	_	_
-2	тӧд	тӧдны	VERB	V	_	0	root	_	_
+1	Ог	оз	AUX	V	Neg|Ind|Prs|Sg1	2	aux	_	_
+2	тӧд	тӧдны	VERB	V	TV|ConNeg	0	root	_	_
 3	,	,	PUNCT	CLB	_	4	punct	_	_
-4	мен	ме	PRON	Pron	_	5	nsubj	_	_
-5	кажитчӧ	кажитчыны	VERB	V	_	2	advcl	_	_
+4	мен	ме	PRON	Pron	Pers|Sg1|Dat	5	nsubj	_	_
+5	кажитчӧ	кажитчыны	VERB	V	Refl|Ind|Prs|Sg3	2	advcl	_	_
 6	,	,	PUNCT	CLB	_	7	punct	_	_
 7	без	без	ADP	Pr	_	8	case	_	_
-8	репетитора	репетитор	NOUN	N	_	10	obl	_	_
-9	сійӧ	сійӧ	PRON	Pron	_	10	nsubj	_	_
+8	репетитора	репетитор	NOUN	N	Msc|Anim|Sg|Gen	10	obl	_	_
+9	сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	10	nsubj	_	_
 10	невозможно	невозможно	ADV	Adv	_	5	acl	_	_
-11	.	.	PUNCT	CLB	_	2	punct	_	_
-
-
+11	.	.	PUNCT	CLB	punct	2	punct	_	_
