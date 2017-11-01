@@ -28,10 +28,10 @@
 
 # sent_id = belyx-011.003
 # text = Шондіыс нем жалиттӧг пӧжис .
-1	Шондіыс	шонді	NOUN	N	Sg Nom PxSg3	4	nsubj	_	_
-2	нем	нем	PRON	Pro	Neg Sg Nom	3	det	_	_
-3	жалиттӧг	жалитны	VERB	V	Der Car Ger	4	acl	_	_
-4	пӧжис	пӧжны	VERB	V	Ind Prt1 Sg3	0	root	_	_
+1	Шондіыс	шонді	NOUN	N	Sg|Nom|PxSg3	4	nsubj	_	_
+2	нем	нем	PRON	Pro	Neg|Sg|Nom	3	det	_	_
+3	жалиттӧг	жалитны	VERB	V	Der|Car|Ger	4	acl	_	_
+4	пӧжис	пӧжны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 5	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.004
@@ -78,13 +78,13 @@
 5	мися	мися	PART	Pcle	_	10	discourse	_	_
 6	,	,	PUNCT	CLB	_	7	punct	_	_
 7	кӧть	кӧть	SCONJ	CS	_	10	mark	_	_
-8	кутшӧмкӧ	кутшӧм	PRON	Pron	Der Indef	9	advmod	_	_
-9	тӧвру	тӧвру	NOUN	N	Sg Nom	10	nsubj	_	_
-10	пӧльыштлас	пӧльыштлыны	VERB	V	Ind Fut Sg3	12	acl	_	_
+8	кутшӧмкӧ	кутшӧм	PRON	Pron	Der|Indef	9	advmod	_	_
+9	тӧвру	тӧвру	NOUN	N	Sg|Nom	10	nsubj	_	_
+10	пӧльыштлас	пӧльыштлыны	VERB	V	Ind|Fut|Sg3	12	acl	_	_
 11	,	,	PUNCT	CLB	_	12	punct	_	_
-12	думайта	думайтны	VERB	V	Ind Prs Sg1	0	root	_	_
-13	ас	ас	ADJ	A	Refl Attr	14	amod	_	_
-14	кежысь	кеж	NOUN	N	Sg Ela	12	advmod	_	_
+12	думайта	думайтны	VERB	V	Ind|Prs|Sg1	0	root	_	_
+13	ас	ас	ADJ	A	Refl|Attr	14	amod	_	_
+14	кежысь	кеж	NOUN	N	Sg|Ela	12	advmod	_	_
 15	.	.	PUNCT	CLB	_	12	punct	_	_
 
 # sent_id = belyx-011.009
@@ -110,26 +110,26 @@
 
 # sent_id = belyx-011.011
 # text = Эг и тӧдлы , кыдзи юр весьтын ӧти бӧрся мӧд тыдовтчисны кымӧрторъяс .
-1	Эг	оз	AUX	V	Ind Prt Sg1	3	aux	_	_
+1	Эг	оз	AUX	V	Ind|Prt|Sg1	3	aux	_	_
 2	и	и	PART	Pcle	_	3	advmod	_	_
 3	тӧдлы	тӧд	VERB	VERB	ConNeg	0	root	_	_
 4	,	,	PUNCT	CLB	_	11	punct	_	_
-5	кыдзи	кыдзи	ADV	Adv	Manner Rel	11	advmod	_	_
-6	юр	юр	NOUN	N	Sg Nom	11	obl	_	_
-7	весьтын	весьт	ADP	Po	Sg Ine	6	case	_	_
-8	ӧти	ӧти	NUM	Num	Card Sg Nom	9	nmod	_	_
-9	бӧрся	бӧрся	ADP	Po	Spat Sg Cmpr	10	case	_	_
-10	мӧд	мӧд	PRON	Pron	Ord Sg Nom	11	nmod	_	_
-11	тыдовтчисны	тыдовтчыны	VERB	V	Ind Prt1 Pl3	3	advcl	_	_
-12	кымӧрторъяс	кымӧртор	NOUN	N	Pl Acc	11	nsubj	_	_
+5	кыдзи	кыдзи	ADV	Adv	Manner|Rel	11	advmod	_	_
+6	юр	юр	NOUN	N	Sg|Nom	11	obl	_	_
+7	весьтын	весьт	ADP	Po	Sg|Ine	6	case	_	_
+8	ӧти	ӧти	NUM	Num	Card|Sg|Nom	9	nmod	_	_
+9	бӧрся	бӧрся	ADP	Po	Spat|Sg|Cmpr	10	case	_	_
+10	мӧд	мӧд	PRON	Pron	Ord|Sg|Nom	11	nmod	_	_
+11	тыдовтчисны	тыдовтчыны	VERB	V	Ind|Prt1|Pl3	3	advcl	_	_
+12	кымӧрторъяс	кымӧртор	NOUN	N	Pl|Acc	11	nsubj	_	_
 13	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = belyx-011.012
 # text = Первойсӧ ичӧтик баляяс кодьӧсь .
 1	Первойсӧ	первой	DET	Det	Ord Sg Nom Clt Clt/сӧ	4	nsubj	_	_
-2	ичӧтик	ичӧтик	ADJ	A	Sg Nom	3	amod	_	_
-3	баляяс	баля	NOUN	N	Pl Nom	4	nmod	_	_
-4	кодьӧсь	кодь	ADJ	A	Cop Pl	0	root	_	_
+2	ичӧтик	ичӧтик	ADJ	A	Sg|Nom	3	amod	_	_
+3	баляяс	баля	NOUN	N	Pl|Nom	4	nmod	_	_
+4	кодьӧсь	кодь	ADJ	A	Cop|Pl	0	root	_	_
 5	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.013
@@ -137,30 +137,30 @@
 1	А	а	SCONJ	CC	_	2	cc	_	_
 2	сэсся	сэсся	ADV	Adv	_	5	advmod	_	_
 3	пыр	пыр	ADV	Adv	_	5	advmod	_	_
-4	отаджыкӧсь	ота	ADJ	A	Comp Cop Pl	5	amod	_	_
-5	лоисны	лоны	VERB	V	Ind Prt1 Pl3	0	root	_	_
+4	отаджыкӧсь	ота	ADJ	A	Comp|Cop|Pl	5	amod	_	_
+5	лоисны	лоны	VERB	V	Ind|Prt1|Pl3	0	root	_	_
 6	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = belyx-011.014
 # text = Мӧдлапӧлысь Присада ді вывса пожӧма яг весьтын друг тыдовтчис эшкын кодь кымӧр пласт , коді син водзын кутіс быдмыны .
-1	Мӧдлапӧлысь	мӧдлапӧв	PROPN	N	Sg Ela	9	obl	_	_
-2	Присада	Присада	ADJ	A	Prop Sem/Sur Sg Nom	3	amod	_	_
-3	ді	ді	NOUN	N	Sg Nom	4	nmod	_	_
-4	вывса	вывса	ADJ	A	Sg Nom	5	amod	_	_
-5	пожӧма	пожӧма	ADJ	A	Sg Nom	6	amod	_	_
-6	яг	яг	NOUN	N	Sg Nom	9	nmod	_	_
-7	весьтын	весьт	ADP	Po	Sg Ine	6	case	_	_
+1	Мӧдлапӧлысь	мӧдлапӧв	PROPN	N	Sg|Ela	9	obl	_	_
+2	Присада	Присада	ADJ	A	Prop|Sem/Sur|Sg|Nom	3	amod	_	_
+3	ді	ді	NOUN	N	Sg|Nom	4	nmod	_	_
+4	вывса	вывса	ADJ	A	Sg|Nom	5	amod	_	_
+5	пожӧма	пожӧма	ADJ	A	Sg|Nom	6	amod	_	_
+6	яг	яг	NOUN	N	Sg|Nom	9	nmod	_	_
+7	весьтын	весьт	ADP	Po	Sg|Ine	6	case	_	_
 8	друг	друг	ADV	Adv	_	9	advmod	_	_
-9	тыдовтчис	тыдовтчыны	VERB	V	Ind Prt1 Sg3	0	root	_	_
-10	эшкын	эшкын	NOUN	N	N Sg	11	nmod	_	_
-11	кодь	кодь	ADJ	A	Sg Nom	12	amod	_	_
-12	кымӧр	кымӧр	NOUN	N	Sg Nom	13	nmod	_	_
-13	пласт	пласт	NOUN	N	Sg Nom	9	nsubj	_	_
+9	тыдовтчис	тыдовтчыны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
+10	эшкын	эшкын	NOUN	N	N|Sg	11	nmod	_	_
+11	кодь	кодь	ADJ	A	Sg|Nom	12	amod	_	_
+12	кымӧр	кымӧр	NOUN	N	Sg|Nom	13	nmod	_	_
+13	пласт	пласт	NOUN	N	Sg|Nom	9	nsubj	_	_
 14	,	,	PUNCT	CLB	_	18	punct	_	_
-15	коді	коді	PRON	Pron	Sg Nom Rel	18	nsubj	_	_
-16	син	син	NOUN	N	Sg Nom	18	nmod	_	_
-17	водзын	водз	ADP	Po	Sg Ine	16	case	_	_
-18	кутіс	кутны	VERB	V	Ind Prt1 Sg3	9	acl	_	_
+15	коді	коді	PRON	Pron	Sg|Nom|Rel	18	nsubj	_	_
+16	син	син	NOUN	N	Sg|Nom	18	nmod	_	_
+17	водзын	водз	ADP	Po	Sg|Ine	16	case	_	_
+18	кутіс	кутны	VERB	V	Ind|Prt1|Sg3	9	acl	_	_
 19	быдмыны	быдмыны	VERB	V	Inf	18	xcomp	_	_
 20	.	.	PUNCT	CLB	_	9	punct	_	_
 
