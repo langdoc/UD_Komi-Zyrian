@@ -772,176 +772,176 @@
 
 # sent_id = kpv-gt.01
 # text = Ныв ёртыслы гижис письмӧ .
-1	Ныв	ныв	NOUN	N	_	3	nsubj	_	Offset=7-10
-2	ёртыслы	ёрт	NOUN	N	_	3	iobj	_	Offset=11-18
-3	гижис	гижны	VERB	V	_	0	root	_	Offset=19-24
-4	письмӧ	письмӧ	NOUN	N	_	3	obj	_	Offset=25-31
-5	.	.	PUNCT	CLB	_	3	punct	_	Offset=32-33
+1	Ныв	ныв	NOUN	N	_	3	nsubj	_	_
+2	ёртыслы	ёрт	NOUN	N	_	3	iobj	_	_
+3	гижис	гижны	VERB	V	_	0	root	_	_
+4	письмӧ	письмӧ	NOUN	N	_	3	obj	_	_
+5	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = kpv-gt.02
 # text = Меным кажитчӧ , мый зэрӧ .
-1	Меным	ме	PRON	Pron	_	2	obl	_	Offset=34-39
-2	кажитчӧ	кажитчыны	VERB	V	_	0	root	_	Offset=40-47
+1	Меным	ме	PRON	Pron	_	2	obl	_	_
+2	кажитчӧ	кажитчыны	VERB	V	_	0	root	_	_
 3	,	,	PUNCT	CLB	_	2	punct	_	_
-4	мый	мый	SCONJ	_	_	5	mark	_	Offset=50-53
-5	зэрӧ	зэрны	VERB	V	_	2	ccomp	_	Offset=54-58
-6	.	_	PUNCT	CLB	_	2	punct	_	Offset=59-60
+4	мый	мый	SCONJ	_	_	5	mark	_	_
+5	зэрӧ	зэрны	VERB	V	_	2	ccomp	_	_
+6	.	_	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv-gt.03
 # text = Сійӧ заводитліс чӧвтны куритчӧмсӧ да юӧмсӧ
-1	Сійӧ	сійӧ	PRON	Pron	_	2	nsubj	_	Offset=61-65
-2	заводитліс	заводітны	VERB	V	_	0	root	_	Offset=66-76
-3	чӧвтны	чӧвтны	VERB	V	_	2	xcomp	_	Offset=77-83
-4	куритчӧмсӧ	куритчӧм	NOUN	N	_	3	obj	_	Offset=84-94
-5	да	да	CCONJ	CC	_	4	cc	_	Offset=95-97
-6	юӧмсӧ	юӧм	NOUN	N	_	4	conj	_	Offset=98-103
-7	.	.	PUNCT	CLB	_	2	punct	_	Offset=104-105
+1	Сійӧ	сійӧ	PRON	Pron	_	2	nsubj	_	_
+2	заводитліс	заводітны	VERB	V	_	0	root	_	_
+3	чӧвтны	чӧвтны	VERB	V	_	2	xcomp	_	_
+4	куритчӧмсӧ	куритчӧм	NOUN	N	_	3	obj	_	_
+5	да	да	CCONJ	CC	_	4	cc	_	_
+6	юӧмсӧ	юӧм	NOUN	N	_	4	conj	_	_
+7	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv-gt.04
 # text = Кӧсъян мунны ?
-1	Кӧсъян	кӧсйыны	VERB	V	_	0	root	_	Offset=106-112
-2	мунны	мунны	VERB	V	_	1	xcomp	_	Offset=113-118
-3	?	?	PUNCT	CLB	_	1	punct	_	Offset=119-120
+1	Кӧсъян	кӧсйыны	VERB	V	_	0	root	_	_
+2	мунны	мунны	VERB	V	_	1	xcomp	_	_
+3	?	?	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = kpv-gt.05
 # text = Сэм , восьты ӧшиньсӧ !
-1	Сэм	сэм	PROPN	N	_	3	vocative	_	Offset=121-124
-2	,	,	PUNCT	CLB	_	3	punct	_	Offset=125-126
-3	восьты	восьтны	VERB	V	_	0	root	_	Offset=127-133
-4	ӧшиньсӧ	ӧшинь	NOUN	N	_	3	obj	_	Offset=134-141
-5	!	!	PUNCT	CLB	_	3	punct	_	Offset=142-143
+1	Сэм	сэм	PROPN	N	_	3	vocative	_	_
+2	,	,	PUNCT	CLB	_	3	punct	_	_
+3	восьты	восьтны	VERB	V	_	0	root	_	_
+4	ӧшиньсӧ	ӧшинь	NOUN	N	_	3	obj	_	_
+5	!	!	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = kpv-gt.06
 # text = Сійӧ тшӧктіс верӧсыслы мыськыны машинасӧ .
-1	Сійӧ	сійӧ	PRON	Pron	_	2	nsubj	_	Offset=144-148
-2	тшӧктіс	тшӧктыны	VERB	V	_	0	root	_	Offset=149-156
-3	верӧсыслы	верӧс	NOUN	N	_	2	obl	_	Offset=157-166
-4	мыськыны	мыськыны	VERB	V	_	2	xcomp	_	Offset=167-175
-5	машинасӧ	машина	NOUN	N	_	4	obj	_	Offset=176-184
-6	.	.	PUNCT	CLB	_	2	punct	_	Offset=185-186
+1	Сійӧ	сійӧ	PRON	Pron	_	2	nsubj	_	_
+2	тшӧктіс	тшӧктыны	VERB	V	_	0	root	_	_
+3	верӧсыслы	верӧс	NOUN	N	_	2	obl	_	_
+4	мыськыны	мыськыны	VERB	V	_	2	xcomp	_	_
+5	машинасӧ	машина	NOUN	N	_	4	obj	_	_
+6	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv-gt.07
 # text = Петилӧн суседыс краситӧма заборсӧ .
-1	Петилӧн	Пети	PROPN	N	_	2	nmod	_	Offset=187-194
-2	суседыс	сусед	NOUN	N	_	3	nsubj	_	Offset=195-202
-3	краситӧма	краситны	VERB	V	_	0	root	_	Offset=203-212
-4	заборсӧ	забор	NOUN	N	_	3	obj	_	Offset=213-220
-5	.	.	PUNCT	CLB	_	3	punct	_	Offset=221-222
+1	Петилӧн	Пети	PROPN	N	_	2	nmod	_	_
+2	суседыс	сусед	NOUN	N	_	3	nsubj	_	_
+3	краситӧма	краситны	VERB	V	_	0	root	_	_
+4	заборсӧ	забор	NOUN	N	_	3	obj	_	_
+5	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = kpv-gt.08
 # text = Менам батьӧ тэнад батьсьыд бурджык .
-1	Менам	ме	PRON	Pron	_	2	nmod	_	Offset=223-228
-2	батьӧ	бать	NOUN	N	_	5	nsubj	_	Offset=229-234
-3	тэнад	тэ	PRON	Pron	_	4	nmod	_	Offset=235-240
-4	батьсьыд	бать	NOUN	N	_	5	iobj	_	Offset=241-249
-5	бурджык	бур	ADJ	A	_	0	root	_	Offset=250-257
-6	.	.	PUNCT	CLB	_	5	punct	_	Offset=258-259
+1	Менам	ме	PRON	Pron	_	2	nmod	_	_
+2	батьӧ	бать	NOUN	N	_	5	nsubj	_	_
+3	тэнад	тэ	PRON	Pron	_	4	nmod	_	_
+4	батьсьыд	бать	NOUN	N	_	5	iobj	_	_
+5	бурджык	бур	ADJ	A	_	0	root	_	_
+6	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = kpv-gt.09
 # text = Мери шедӧдіс бронза , Питер - эзысь , а Джейн - зарни .
-1	Мери	Мери	PROPN	N	_	2	nsubj	_	Offset=260-264
-2	шедӧдіс	шедӧдны	VERB	V	_	0	root	_	Offset=265-272
-3	бронза	бронза	NOUN	N	_	2	obj	_	Offset=273-279
-4	Питер	Питер	PROPN	N	_	1	conj	_	Offset=281-286
-5	эзысь	эзысь	NOUN	N	_	3	conj	_	Offset=289-294
-6	а	а	SCONJ	CS	_	2	cc	_	Offset=296-297
-7	Джейн	Джейн	PROPN	N	_	1	conj	_	Offset=298-303
-8	зарни	зарни	NOUN	N	_	3	conj	_	Offset=306-311
-9	.	.	PUNCT	CLB	_	2	punct	_	Offset=312-313
+1	Мери	Мери	PROPN	N	_	2	nsubj	_	_
+2	шедӧдіс	шедӧдны	VERB	V	_	0	root	_	_
+3	бронза	бронза	NOUN	N	_	2	obj	_	_
+4	Питер	Питер	PROPN	N	_	1	conj	_	_
+5	эзысь	эзысь	NOUN	N	_	3	conj	_	_
+6	а	а	SCONJ	CS	_	2	cc	_	_
+7	Джейн	Джейн	PROPN	N	_	1	conj	_	_
+8	зарни	зарни	NOUN	N	_	3	conj	_	_
+9	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv-gt.10
 # text = Игаузу - тайӧ ыджыд либӧ ичӧт канму ?
-1	Игаузу	Игаузу	PROPN	N	_	6	nsubj	_	Offset=314-320
+1	Игаузу	Игаузу	PROPN	N	_	6	nsubj	_	_
 2	-	-	PUNCT	CLB	_	1	punct	_	_
-3	тайӧ	тайӧ	PRON	Pron	_	7	det	_	Offset=323-327
-4	ыджыд	ыджыд	ADJ	A	_	7	amod	_	Offset=328-333
-5	либӧ	либӧ	CCONJ	CC	_	4	cc	_	Offset=334-338
-6	ичӧт	ичӧт	ADJ	A	_	4	conj	_	Offset=339-343
-7	канму	канму	NOUN	N	_	0	root	_	Offset=344-349
-8	?	?	PUNCT	CLB	_	7	punct	_	Offset=350-351
+3	тайӧ	тайӧ	PRON	Pron	_	7	det	_	_
+4	ыджыд	ыджыд	ADJ	A	_	7	amod	_	_
+5	либӧ	либӧ	CCONJ	CC	_	4	cc	_	_
+6	ичӧт	ичӧт	ADJ	A	_	4	conj	_	_
+7	канму	канму	NOUN	N	_	0	root	_	_
+8	?	?	PUNCT	CLB	_	7	punct	_	_
 
 # sent_id = kpv-gt.11
 # text = Эз позь бӧрйыны ни Питер Смитӧс , ни Мери Браунӧс
-1	Эз	оз	AUX	V	_	2	aux	_	Offset=352-354
-2	позь	позьны	VERB	V	_	0	root	_	Offset=355-359
-3	бӧрйыны	бӧрйыны	VERB	V	_	2	xcomp	_	Offset=360-367
+1	Эз	оз	AUX	V	_	2	aux	_	_
+2	позь	позьны	VERB	V	_	0	root	_	_
+3	бӧрйыны	бӧрйыны	VERB	V	_	2	xcomp	_	_
 4	ни	ни	PART	Pcle	_	5	advmod	_	_
-5	Питер	Питер	PROPN	N	_	3	obj	_	Offset=371-376
-6	Смитӧс	Смит	PROPN	N	_	5	flat	_	Offset=377-383
+5	Питер	Питер	PROPN	N	_	3	obj	_	_
+6	Смитӧс	Смит	PROPN	N	_	5	flat	_	_
 7	,	,	PUNCT	CLB	_	8	punct	_	_
 8	ни	ни	PART	Pcle	_	9	advmod	_	_
-9	Мери	Мери	PROPN	N	_	5	conj	_	Offset=388-392
-10	Браунӧс	Браун	PROPN	N	_	9	flat	_	Offset=393-400
-11	.	.	PUNCT	CLB	_	2	punct	_	Offset=401-402
+9	Мери	Мери	PROPN	N	_	5	conj	_	_
+10	Браунӧс	Браун	PROPN	N	_	9	flat	_	_
+11	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv-gt.12
 # text = Найӧ дзик оз тӧдны , коді тайӧс гижис .
-1	Найӧ	найӧ	PRON	Pron	_	4	nsubj	_	Offset=403-406
-2	дзик	дзик	ADV	Adv	_	4	advmod	_	Offset=407-411
-3	оз	оз	AUX	V	_	4	aux	_	Offset=412-414
-4	тӧдны	тӧдны	VERB	V	_	0	root	_	Offset=415-420
-5	коді	коді	PRON	Pron	_	7	nsubj	_	Offset=423-427
-6	тайӧс	тайӧ	PRON	Pron	_	7	obj	_	Offset=428-433
-7	гижис	гижны	VERB	V	_	4	acl	_	Offset=434-439
-8	.	.	PUNCT	CLB	_	4	punct	_	Offset=440-441
+1	Найӧ	найӧ	PRON	Pron	_	4	nsubj	_	_
+2	дзик	дзик	ADV	Adv	_	4	advmod	_	_
+3	оз	оз	AUX	V	_	4	aux	_	_
+4	тӧдны	тӧдны	VERB	V	_	0	root	_	_
+5	коді	коді	PRON	Pron	_	7	nsubj	_	_
+6	тайӧс	тайӧ	PRON	Pron	_	7	obj	_	_
+7	гижис	гижны	VERB	V	_	4	acl	_	_
+8	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = kpv-gt.13
 # text = Мый вылӧ тэ видзӧдан ?
-1	Мый	мый	PRON	Pron	_	4	obj	_	Offset=442-445
-2	вылӧ	вылӧ	ADP	Po	_	1	case	_	Offset=446-450
-3	тэ	тэ	PRON	Pron	_	4	nsubj	_	Offset=451-453
-4	видзӧдан	видзӧдны	VERB	V	_	0	root	_	Offset=454-462
-5	?	?	PUNCT	CLB	_	4	punct	_	Offset=463-464
+1	Мый	мый	PRON	Pron	_	4	obj	_	_
+2	вылӧ	вылӧ	ADP	Po	_	1	case	_	_
+3	тэ	тэ	PRON	Pron	_	4	nsubj	_	_
+4	видзӧдан	видзӧдны	VERB	V	_	0	root	_	_
+5	?	?	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = kpv-gt.14
 # text = Тэ кыдзи мӧвпалан , кор верман волыны ?
-1	Тэ	тэ	PRON	Pron	_	3	nsubj	_	Offset=465-467
-2	кыдзи	кыдзи	ADV	Adv	_	3	advmod	_	Offset=468-473
-3	мӧвпалан	мӧвпавны	VERB	V	_	0	root	_	Offset=474-482
-4	,	,	PUNCT	CLB	_	3	punct	_	Offset=483-484
-5	кор	кор	ADV	Adv	_	6	advmod	_	Offset=485-488
-6	верман	вермыны	VERB	V	_	3	advcl	_	Offset=489-495
-7	волыны	волыны	VERB	V	_	6	xcomp	_	Offset=496-502
-8	?	?	PUNCT	CLB	_	3	punct	_	Offset=503-504
+1	Тэ	тэ	PRON	Pron	_	3	nsubj	_	_
+2	кыдзи	кыдзи	ADV	Adv	_	3	advmod	_	_
+3	мӧвпалан	мӧвпавны	VERB	V	_	0	root	_	_
+4	,	,	PUNCT	CLB	_	3	punct	_	_
+5	кор	кор	ADV	Adv	_	6	advmod	_	_
+6	верман	вермыны	VERB	V	_	3	advcl	_	_
+7	волыны	волыны	VERB	V	_	6	xcomp	_	_
+8	?	?	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = kpv-gt.15
 # text = Сійӧ ньӧбис машина , а вокыс сӧмын велосипед .
-1	Сійӧ	сійӧ	PRON	Pron	_	2	nsubj	_	Offset=505-509
-2	ньӧбис	ньӧбны	VERB	V	_	0	root	_	Offset=510-516
-3	машина	машина	NOUN	N	_	2	obj	_	Offset=517-523
-4	а	а	SCONJ	CS	_	2	cc	_	Offset=526-527
-5	вокыс	вок	NOUN	N	_	1	conj	_	Offset=528-533
-6	сӧмын	сӧмын	ADV	Adv	_	7	advmod	_	Offset=534-539
-7	велосипед	велосипед	NOUN	N	_	3	conj	_	Offset=540-549
-8	.	.	PUNCT	CLB	_	2	punct	_	Offset=550-551
+1	Сійӧ	сійӧ	PRON	Pron	_	2	nsubj	_	_
+2	ньӧбис	ньӧбны	VERB	V	_	0	root	_	_
+3	машина	машина	NOUN	N	_	2	obj	_	_
+4	а	а	SCONJ	CS	_	2	cc	_	_
+5	вокыс	вок	NOUN	N	_	1	conj	_	_
+6	сӧмын	сӧмын	ADV	Adv	_	7	advmod	_	_
+7	велосипед	велосипед	NOUN	N	_	3	conj	_	_
+8	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv-gt.16
 # text = Питер да Мери кутчысьлісны да петісны вежӧсысь
-1	Питер	Питер	PROPN	N	Prop|Sg|Nom	4	nsubj	_	Offset=552-557
-2	да	да	CONJ	CC	_	1	cc	_	Offset=558-560
-3	Мери	Мери	PROPN	N	Prop|Sg|Nom	1	conj	_	Offset=561-565
-4	кутчысьлісны	кутчысьлыны	VERB	V	Ind|Prt1|Pl3	0	root	_	Offset=566-578
-5	да	да	CONJ	CC	_	4	conj	_	Offset=579-581
-6	петісны	петны	VERB	V	Ind|Prt1|Pl3	4	cc	_	Offset=582-589
-7	вежӧсысь	вежӧс	NOUN	N	Sg|Ela	6	obl	_	Offset=590-598
-8	.	.	PUNCT	CLB	_	4	punct	_	Offset=599-600
+1	Питер	Питер	PROPN	N	Prop|Sg|Nom	4	nsubj	_	_
+2	да	да	CONJ	CC	_	1	cc	_	_
+3	Мери	Мери	PROPN	N	Prop|Sg|Nom	1	conj	_	_
+4	кутчысьлісны	кутчысьлыны	VERB	V	Ind|Prt1|Pl3	0	root	_	_
+5	да	да	CONJ	CC	_	4	conj	_	_
+6	петісны	петны	VERB	V	Ind|Prt1|Pl3	4	cc	_	_
+7	вежӧсысь	вежӧс	NOUN	N	Sg|Ela	6	obl	_	_
+8	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = kpv-gt.17
 # text = Сылы коліс юрсисӧ мичаа вӧчны , но мыйлакӧ тайӧ лунӧ сійӧ эз кӧсйы .
-1	Сылы	сійӧ	PRON	Pron	_	2	nsubj	_	Offset=601-605
-2	коліс	ковны	VERB	V	_	0	root	_	Offset=606-611
-3	юрсисӧ	юрси	NOUN	N	_	5	obj	_	Offset=612-618
-4	мичаа	мича	ADV	Adv	_	5	advmod	_	Offset=619-624
-5	вӧчны	вӧчны	VERB	V	_	2	xcomp	_	Offset=625-630
-6	,	,	PUNCT	CLB	_	2	punct	_	Offset=631-632
-7	но	но	SCONJ	CS	_	13	conj	_	Offset=633-635
-8	мыйлакӧ	мыйла	ADV	Adv	_	13	advmod	_	Offset=636-643
-9	тайӧ	тайӧ	PRON	Pron	_	10	det	_	Offset=644-648
-10	лунӧ	лунӧ	NOUN	N	_	13	advmod	_	Offset=649-653
-11	сійӧ	сійӧ	PRON	Pron	_	13	nsubj	_	Offset=654-658
-12	эз	эз	AUX	V	_	13	aux	_	Offset=659-661
-13	кӧсйы	кӧсйыны	VERB	V	_	2	advcl	_	Offset=662-667
-14	.	.	PUNCT	CLB	_	2	punct	_	Offset=668-669
+1	Сылы	сійӧ	PRON	Pron	_	2	nsubj	_	_
+2	коліс	ковны	VERB	V	_	0	root	_	_
+3	юрсисӧ	юрси	NOUN	N	_	5	obj	_	_
+4	мичаа	мича	ADV	Adv	_	5	advmod	_	_
+5	вӧчны	вӧчны	VERB	V	_	2	xcomp	_	_
+6	,	,	PUNCT	CLB	_	2	punct	_	_
+7	но	но	SCONJ	CS	_	13	conj	_	_
+8	мыйлакӧ	мыйла	ADV	Adv	_	13	advmod	_	_
+9	тайӧ	тайӧ	PRON	Pron	_	10	det	_	_
+10	лунӧ	лунӧ	NOUN	N	_	13	advmod	_	_
+11	сійӧ	сійӧ	PRON	Pron	_	13	nsubj	_	_
+12	эз	эз	AUX	V	_	13	aux	_	_
+13	кӧсйы	кӧсйыны	VERB	V	_	2	advcl	_	_
+14	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv-gt.18
 # text = Ме эг вермы сійӧс вӧтӧдны, сы вӧсна мый сійӧ зэв тэрыба котӧртіс .
@@ -962,15 +962,15 @@
 
 # sent_id = kpv-gt.19
 # text = Тайӧ Петрсянь письмӧ, да сійӧс тӧрыт вайисны .
-1	Тайӧ	тайӧ	PRON	Pron	_	3	det	_	Offset=738-742
-2	Петрсянь	Петр	NOUN	N	_	3	obl	_	Offset=743-751
-3	письмӧ	письмӧ	NOUN	N	_	0	root	_	Offset=752-758
-4	,	,	PUNCT	CLB	_	3	punct	_	Offset=759-760
-5	да	да	CCONJ	CC	_	8	mark	_	Offset=761-763
-6	сійӧс	сійӧ	PRON	Pron	_	8	obj	_	Offset=764-769
-7	тӧрыт	тӧрыт	ADV	Adv	_	8	advmod	_	Offset=770-775
-8	вайисны	вайны	VERB	V	_	3	advcl	3:advcl	Offset=776-783
-9	.	.	PUNCT	CLB	_	3	punct	_	Offset=784-785
+1	Тайӧ	тайӧ	PRON	Pron	_	3	det	_	_
+2	Петрсянь	Петр	NOUN	N	_	3	obl	_	_
+3	письмӧ	письмӧ	NOUN	N	_	0	root	_	_
+4	,	,	PUNCT	CLB	_	3	punct	_	_
+5	да	да	CCONJ	CC	_	8	mark	_	_
+6	сійӧс	сійӧ	PRON	Pron	_	8	obj	_	_
+7	тӧрыт	тӧрыт	ADV	Adv	_	8	advmod	_	_
+8	вайисны	вайны	VERB	V	_	3	advcl	3:advcl	_
+9	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # text = Сійӧ пыр жӧ гижис Максимлы зэв кузь да зэв стрӧг письмӧ, кӧні Валентина Ивановна моз жӧ нимтіс сійӧс «сюсь йӧйӧн».
 # sent_id = new_1
@@ -1001,12 +1001,12 @@
 
 # sent_id = kpv-gt.20
 # text = Сійӧ быдмис Парижын , Францияса юркарын .
-1	Сійӧ	сійӧ	PRON	Pron	_	2	nsubj	_	Offset=786-790
-2	быдмис	быдмыны	VERB	V	_	0	root	_	Offset=791-797
-3	Парижын	Париж	PROPN	N	_	2	obl	_	Offset=798-805
-4	Францияса	Франция	ADJ	Adj	_	5	amod	_	Offset=808-817
-5	юркарын	юркар	NOUN	N	_	3	appos	4:amod	Offset=818-825
-6	.	.	PUNCT	CLB	_	2	punct	_	Offset=826-827
+1	Сійӧ	сійӧ	PRON	Pron	_	2	nsubj	_	_
+2	быдмис	быдмыны	VERB	V	_	0	root	_	_
+3	Парижын	Париж	PROPN	N	_	2	obl	_	_
+4	Францияса	Франция	ADJ	Adj	_	5	amod	_	_
+5	юркарын	юркар	NOUN	N	_	3	appos	4:amod	_
+6	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # text = Ва, керӧс, из, му, сынӧд некор эз вӧвны ловъяӧсь, сы понда найӧясӧс ог шуӧй кулӧм торъясӧн — шуам ловтӧм торъяс
 # sent_id = new_2
