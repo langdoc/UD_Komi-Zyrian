@@ -11,7 +11,7 @@
 # sent_id = belyx-011.021
 # text = А ачым думайта , мый грӧзитӧ кӧ енэжыс гыма зэрӧн , сідз-тадз ставыс оз помась .
 1	А	а	SCONJ	CS	_	3	cc	_	_
-2	ачым	ас	PRON	Pron	_	3	advmod	_	_
+2	ачым	ас	PRON	Pron	_	3	nsubj	_	_
 3	думайта	думайтны	VERB	V	_	0	root	_	_
 4	,	,	PUNCT	CLB	_	6	punct	_	_
 5	мый	мый	CCONJ	CONJ	_	6	conj	_	_
@@ -31,7 +31,7 @@
 # text = Коркӧ век нин гымалас и зэрас .
 1	Коркӧ	коркӧ	ADV	Adv	_	4	advmod	_	_
 2	век	век	ADV	Adv	_	4	advmod	_	_
-3	нин	нин	ADV	Adv	_	2	fixed	_	_
+3	нин	нин	ADV	Adv	_	2	advmod	_	_
 4	гымалас	гымавны	VERB	V	_	0	root	_	_
 5	и	и	CCONJ	CC	_	6	cc	_	_
 6	зэрас	зэрны	VERB	V	_	4	conj	_	_
@@ -175,10 +175,10 @@
 # sent_id = belyx-011.036
 # text = Думайта да , мед кӧтӧдас .
 1	Думайта	думайтны	VERB	V	_	0	root	_	_
-2	да	да	PART	Pcle	_	1	advmod	_	_
+2	да	да	PART	Pcle	_	1	discourse	_	_
 3	,	,	PUNCT	CLB	_	5	punct	_	_
-4	мед	мед	PART	Pcle	_	5	discourse	_	_
-5	кӧтӧдас	кӧтӧдны	VERB	V	_	1	acl	_	_
+4	мед	мед	ADV	Adv	_	5	advmod	_	_
+5	кӧтӧдас	кӧтӧдны	VERB	V	_	1	advcl	_	_
 6	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = belyx-011.037
@@ -945,16 +945,20 @@
 
 # sent_id = kpv-gt.18
 # text = Ме эг вермы сійӧс вӧтӧдны, сы вӧсна мый сійӧ зэв тэрыба котӧртіс .
-1	Ме	ме	PRON	Pron	_	3	nsubj	_	Offset=670-672
-2	эг	оз	AUX	V	_	3	aux	_	Offset=673-675
-3	вермы	вермыны	VERB	V	_	0	root	_	Offset=676-681
-4	сійӧс	сійӧ	PRON	Pron	_	5	obj	_	Offset=682-687
-5	вӧтӧдны	вӧтӧдны	VERB	V	_	3	xcomp	_	Offset=688-695
-6	сійӧ	сійӧ	PRON	Pron	_	9	nsubj	_	Offset=711-715
-7	зэв	зэв	ADV	Adv	_	8	advmod	_	Offset=716-719
-8	тэрыба	тэрыб	ADV	Adv	_	9	advmod	_	Offset=720-726
-9	котӧртіс	котӧртыны	VERB	V	_	3	conj	_	Offset=727-735
-10	.	.	PUNCT	CLB	_	3	punct	_	Offset=736-737
+1	Ме	ме	PRON	Pron	_	3	nsubj	_	rus
+2	эг	оз	AUX	V	_	3	aux	_	rus
+3	вермы	вермыны	VERB	V	_	0	root	_	rus
+4	сійӧс	сійӧ	PRON	Pron	_	5	obj	_	_
+5	вӧтӧдны	вӧтӧдны	VERB	V	_	3	xcomp	_	rus
+6	,	,	PUNCT	CLB	_	7	punct	_	_
+7	сы	сійӧ	PRON	Pron	_	13	advmod	_	_
+8	вӧсна	вӧсна	ADP	Po	_	7	case	_	_
+9	мый	мый	SCONJ	CS	_	13	mark	_	_
+10	сійӧ	сійӧ	PRON	Pron	_	13	nsubj	_	_
+11	зэв	зэв	ADV	Adv	_	12	advmod	_	_
+12	тэрыба	тэрыб	ADV	Adv	_	13	advmod	_	_
+13	котӧртіс	котӧртыны	VERB	V	_	3	advcl	_	_
+14	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = kpv-gt.19
 # text = Тайӧ Петрсянь письмӧ, да сійӧс тӧрыт вайисны .
@@ -1108,5 +1112,4 @@
 8	этша	этша	ADV	Qnt	Sg|Nom	9	advmod	_	_
 9	вира	вира	ADJ	A	Sg|Nom	3	acl	_	_
 10	.	.	PUNCT	CLB	_	3	punct	_	_
-
 
