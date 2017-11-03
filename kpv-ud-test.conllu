@@ -332,7 +332,7 @@
 
 # sent_id = belyx-011.049
 # text = Гым-биясыс быттьӧ дзик орччӧн орӧдлісны сынӧдсӧ .
-# text_rus = 
+# text_rus = Молнии словно совсем рядом разрывали воздух.
 1	Гым-биясыс	гым-би	NOUN	N	_	5	nsubj	_	_
 2	быттьӧ	быттьӧ	PART	Pcle	_	5	advmod	_	_
 3	дзик	дзик	ADV	Adv	_	4	advmod	_	_
@@ -343,14 +343,14 @@
 
 # sent_id = belyx-011.050
 # text = Вӧчны нинӧм .
-# text_rus = 
+# text_rus = Делать нечего.
 1	Вӧчны	вӧчны	VERB	V	Inf	0	root	_	_
 2	нинӧм	нинӧм	PRON	Pron	Neg|Sg|Nom	1	advmod	_	_
 3	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = belyx-011.051
 # text = Пыри пипу раскас да сувті неыджыд эрд вылӧ .
-# text_rus = 
+# text_rus = Зашёл в осиновую рощу и встал на небольшую поляну.
 1	Пыри	пырны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 2	пипу	пипу	NOUN	N	Sg|Nom	3	nmod	_	_
 3	раскас	рас	NOUN	N	Sg|Ill|PxSg3	1	obl	_	_
@@ -363,7 +363,7 @@
 
 # sent_id = belyx-011.052
 # text = Гымалігад пу улын сулавны оз позь .
-# text_rus = 
+# text_rus = При грозе под деревом стоять нельзя.
 1	Гымалігад	гымавны	VERB	V	Ger|Sg|Ill|PxSg2	4	acl	_	_
 2	пу	пу	NOUN	N	Sg|Nom	4	obl	_	_
 3	улын	улын	ADV	Adv	Spat|Ine	2	case	_	_
@@ -374,7 +374,7 @@
 
 # sent_id = belyx-011.053
 # text = Татчӧ тӧв·нырыс эз нин сэтшӧма писькӧдчы .
-# text_rus = 
+# text_rus = До сюда порывы ветра не так сильно доходили.
 1	Татчӧ	татчӧ	ADV	Adv	_	6	obl	_	_
 2	тӧв·нырыс	тӧв·ныр	NOUN	N	Sg|Nom|PxSg3	6	nsubj	_	_
 3	эз	оз	AUX	V	Neg|Ind|Pr|Sg3	6	aux	_	_
@@ -385,7 +385,7 @@
 
 # sent_id = belyx-011.054
 # text = Но чардби дугдывтӧг югъяліс син водзын .
-# text_rus = 
+# text_rus = Но молния без остановок сверкала перед глазами.
 1	Но	но	CCONJ	CC	_	4	cc	_	_
 2	чардби	чардби	NOUN	N	Sg|Nom	4	nsubj	_	_
 3	дугдывтӧг	дугдывны	VERB	V	Car	4	acl	_	_
@@ -396,7 +396,7 @@
 
 # sent_id = belyx-011.055
 # text = Ас кежысь казьтышті нин , гашкӧ , став Енсӧ , тӧдсаясӧс и тӧдтӧмъясӧс , мед , кӧнкӧ найӧ эмӧсь кӧ , эз жӧ эновтны туй выв мортӧс .
-# text_rus = 
+# text_rus = Про себя вспомнил уже, может быть, всех Богов, знакомых и незнакомых, чтобы, если они где-то есть, не оставили человека в дороге.
 1	Ас	ас	ADJ	A	Refl|Attr	2	amod	_	_
 2	кежысь	кежысь	ADP	Po	Sg|Ela	3	advmod	_	_
 3	казьтышті	казьтыштны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
@@ -428,7 +428,7 @@
 
 # sent_id = belyx-011.056
 # text = И со шерыс вочасӧн вешйис бокӧ .
-# text_rus = 
+# text_rus = И вот град по-тихоньку отошёл в сторону.
 1	И	и	SCONJ	CS	_	5	cc	_	_
 2	со	со	PART	Pcle	Dem	5	discourse	_	_
 3	шерыс	шер	NOUN	N	Sg|Nom|PxSg3	5	nsubj	_	_
@@ -439,7 +439,7 @@
 
 # sent_id = belyx-011.057
 # text = Зэрыс мӧдӧдчис надзӧнджык .
-# text_rus = 
+# text_rus = Дождь шёл медленее.
 1	Зэрыс	зэр	NOUN	N	Sg|Nom|PxSg3	2	nsubj	_	_
 2	мӧдӧдчис	мӧдӧдчыны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 3	надзӧнджык	надзӧн	ADV	Adv	Comp	2	advmod	_	_
@@ -447,7 +447,7 @@
 
 # sent_id = belyx-011.058
 # text = Воддза моз гымаліс .
-# text_rus = 
+# text_rus = Гремело как раньше.
 1	Воддза	воддза	ADJ	A	_	2	amod	_	_
 2	моз	моз	ADV	Adv	_	3	advmod	_	_
 3	гымаліс	гымавны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
@@ -455,7 +455,7 @@
 
 # sent_id = belyx-011.059
 # text = Но эз нин сэтшӧм яра .
-# text_rus = 
+# text_rus = Но уже не так сильно.
 1	Но	но	CCONJ	CC	_	2	cc	_	_
 2	эз	оз	AUX	V	Neg|Ind|Pr|Sg3	0	root	_	_
 3	нин	нин	ADV	Adv	_	2	advmod	_	_
@@ -465,7 +465,7 @@
 
 # sent_id = belyx-011.060
 # text = Сэсся и гымыс вешйис .
-# text_rus = 
+# text_rus = Затем и гром отошёл.
 1	Сэсся	сэсся	CCONJ	CONJ	_	4	cc	_	_
 2	и	и	PART	Pcle	_	4	discourse	_	_
 3	гымыс	гым	NOUN	N	Sg|Nom|PxSg3	4	nsubj	_	_
@@ -474,7 +474,7 @@
 
 # sent_id = belyx-011.061
 # text = Ньӧжйӧник мӧдӧдчи гортлань .
-# text_rus = 
+# text_rus = Не торопясь направился в сторону дома.
 1	Ньӧжйӧник	ньӧжйӧник	ADV	Adv	_	2	advmod	_	_
 2	мӧдӧдчи	мӧдӧдчыны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 3	гортлань	горт	NOUN	N	Sg|Apr	2	obl	_	_
@@ -482,7 +482,7 @@
 
 # sent_id = belyx-011.062
 # text = Паськӧмӧй вӧлі брӧд ва .
-# text_rus = 
+# text_rus = Одежда была насквозь мокрой.
 1	Паськӧмӧй	паськӧм	NOUN	N	Sg|Nom|PxSg1	4	nsubj	_	_
 2	вӧлі	вӧвны	VERB	V	Ind|Prt1|Sg3	4	cop	_	_
 3	брӧд	брӧд	ADV	Adv	_	4	advmod	_	_
@@ -491,7 +491,7 @@
 
 # sent_id = belyx-011.063
 # text = Муртса верми восьлавны ляти кодь туйӧд .
-# text_rus = 
+# text_rus = Еле мог шагать по грязной дороге.
 1	Муртса	муртса	ADV	Adv	_	2	advmod	_	_
 2	верми	вермыны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 3	восьлавны	восьлавны	VERB	V	Inf	2	xcomp	_	_
@@ -502,7 +502,7 @@
 
 # sent_id = belyx-011.064
 # text = Лысваыс болскакыліс сапӧг пытшкын .
-# text_rus = 
+# text_rus = Роса булькала в сапоге.
 1	Лысваыс	лысва	NOUN	N	Sg|Nom|PxSg3	2	nsubj	_	_
 2	болскакыліс	болскакывны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 3	сапӧг	сапӧг	NOUN	N	Sg|Nom	4	nmod	_	_
@@ -511,7 +511,7 @@
 
 # sent_id = belyx-011.065
 # text = Медбӧрын кыр йылын тыдовтчисны сиктса керкаяс .
-# text_rus = 
+# text_rus = Затем на пригорке появились сельские дома.
 1	Медбӧрын	медбӧрын	ADV	Adv	Ine	2	advmod	_	_
 2	кыр	кыр	NOUN	N	Sg|Nom	4	obl	_	_
 3	йылын	йылын	ADP	Po	Spat|Sg|Ine	2	case	_	_
@@ -522,7 +522,7 @@
 
 # sent_id = belyx-011.066
 # text = Тэрыбджыка восьлавны вын-эбӧсӧй эз нин тырмы .
-# text_rus = 
+# text_rus = Шагать быстрее сил уже не было.
 1	Тэрыбджыка	тэрыб	ADV	Adv	Adv	2	advmod	_	_
 2	восьлавны	восьлавны	VERB	V	Inf	6	xcomp	_	_
 3	вын-эбӧсӧй	вын-эбӧс	NOUN	N	Sg|Nom|PxSg1	6	nsubj	_	_
@@ -533,7 +533,7 @@
 
 # sent_id = belyx-011.067
 # text = Мамӧй паныдаліс кильчӧ вылӧ петӧмӧн .
-# text_rus = 
+# text_rus = Мама встретила, выйдя на крыльцо.
 1	Мамӧй	мам	NOUN	N	Sg|Nom|PxSg1	2	nsubj	_	_
 2	паныдаліс	паныдавны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 3	кильчӧ	кильчӧ	NOUN	N	Sg|Nom	2	obl	_	_
@@ -543,7 +543,7 @@
 
 # sent_id = belyx-011.068
 # text = — Мыйла нӧ водзджык эн вермы кайны , — жалитӧмпырысь шуис меным .
-# text_rus = 
+# text_rus = — Почему не смог раньше прийти, — с жалостью сказала мама.
 1	—	—	PUNCT	PUNCT	CLB	2	punct	_	_
 2	Мыйла	мыйла	SCONJ	CS	_	6	cc	_	_
 3	нӧ	нӧ	PART	Pcle	_	6	discourse	_	_
@@ -560,7 +560,7 @@
 
 # sent_id = belyx-011.069
 # text = — Он ӧд тӧд , мый татшӧма зэрны-гымавны кутас , — нурбыльті сӧмын .
-# text_rus = 
+# text_rus = — Не знаешь, что будет такой дождь с грозой,  — брякнул под нос только.
 1	—	—	PUNCT	PUNCT	CLB	2	punct	_	_
 2	Он	оз	AUX	V	Neg|Ind|Prs|Sg2	4	aux	_	_
 3	ӧд	ӧд	PART	Pcle	_	4	discourse	_	_
@@ -578,7 +578,7 @@
 
 # sent_id = belyx-011.070
 # text = Керкаӧ пырӧм бӧрын тэрмасьӧмӧн пӧрччи сӧдз ваӧдз кӧтасьӧм кӧм-паськӧмӧс да тэрыба кайи паччӧр вылӧ шонтысьыштны , став тайӧ страксьыс пальӧдчыштны .
-# text_rus = 
+# text_rus = После того, как зашёл домой, торопясь снял насквозь промокшую одежду и обувь, и быстро залез на печку погреться, прийти в себя от этого страха.
 1	Керкаӧ	керка	NOUN	N	Sg|Ill	2	nmod	_	_
 2	пырӧм	пырӧм	NOUN	N	Sg|Nom	3	acl	_	_
 3	бӧрын	бӧрын	ADV	Adv	Spat|Ine	5	advmod	_	_
@@ -603,7 +603,7 @@
 
 # sent_id = belyx-011.071
 # text = Шерыс уна омӧльтор вайӧма сэки сиктсаяслы .
-# text_rus = 
+# text_rus = Град много проблем принёс тогда сельчанам.
 1	Шерыс	шер	NOUN	N	Sg|Nom|PxSg3	4	nsubj	_	_
 2	уна	уна	ADV	Qnt	Sg|Nom	3	advmod	_	_
 3	омӧльтор	омӧльтор	NOUN	N	Sg|Nom	4	obj	_	_
@@ -614,7 +614,7 @@
 
 # sent_id = belyx-011.072
 # text = Чеглалӧма картупель да град выв пуктас коръяс , пӧрӧдӧма потшӧсъяс .
-# text_rus = 
+# text_rus = Сломал листья картофеля и овощей, повалил заборы.
 1	Чеглалӧма	чеглавны	VERB	V	Ind|Prt2|Sg3	0	root	_	_
 2	картупель	картупель	NOUN	N	Sg|Nom	7	nmod	_	_
 3	да	да	CCONJ	CC	_	6	cc	_	_
@@ -629,7 +629,7 @@
 
 # sent_id = belyx-011.073
 # text = А кодлыськӧ весиг чашнитӧма керка·вевтсӧ .
-# text_rus = 
+# text_rus = А у кого-то даже снёс крышу.
 1	А	а	SCONJ	CS	_	4	cc	_	_
 2	кодлыськӧ	коді	PRON	Pron	Sg|Abl|Der|Indef	4	obl	_	_
 3	весиг	весиг	ADV	Adv	_	4	advmod	_	_
@@ -639,7 +639,7 @@
 
 # sent_id = belyx-011.074
 # text = И шензи нӧшта , кор тӧдмалі , мый шерыслӧн туйыс зэв векньыдик и вӧлӧма .
-# text_rus = 
+# text_rus = И удивился ещё, что полоса града была очень узкой.
 1	И	и	SCONJ	CS	_	2	cc	_	_
 2	шензи	шензьыны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 3	нӧшта	нӧшта	ADV	Adv	_	2	advmod	_	_
@@ -658,7 +658,7 @@
 
 # sent_id = belyx-011.075
 # text = Неылысса сикт-грездын сы йылысь абу весиг тӧдлӧмаӧсь .
-# text_rus = 
+# text_rus = В близлежащих селах и деревнях о нём даже не знали.
 1	Неылысса	неылысса	ADJ	A	_	2	amod	_	_
 2	сикт-грездын	сикт-грезд	NOUN	N	Sg|Ine	7	obl	_	_
 3	сы	сійӧ	PRON	Pron	Pers|Sg3|Cmpl	7	obj	_	_
