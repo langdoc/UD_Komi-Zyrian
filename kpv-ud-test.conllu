@@ -66,7 +66,7 @@
 # sent_id = belyx-011.025
 # text = Тӧдлытӧг асыв-войвывсяньыс тыдовтчис нӧшта кымӧр пласт да ӧдйӧ кутіс кайны енэж шӧрлань .
 # text_rus = Незаметно с северо-востока показалась ещё туча и быстро стала направляться к середине неба.
-1	Тӧдлытӧг	тӧдлыны	VERB	V	_	3	xcomp	_	_
+1	Тӧдлытӧг	тӧдлыны	VERB	V	_	3	advcl	_	_
 2	асыв-войвывсяньыс	асыв-войвыв	NOUN	N	_	3	obl	_	_
 3	тыдовтчис	тыдовтчыны	VERB	V	_	0	root	_	_
 4	нӧшта	нӧшта	ADV	Adv	_	3	advmod	_	_
@@ -366,7 +366,7 @@
 # text_rus = При грозе под деревом стоять нельзя.
 1	Гымалігад	гымавны	VERB	V	Ger|Sg|Ill|PxSg2	4	acl	_	_
 2	пу	пу	NOUN	N	Sg|Nom	4	obl	_	_
-3	улын	улын	ADV	Adv	Spat|Ine	2	case	_	_
+3	улын	улын	ADP	Po	Spat|Ine	2	case	_	_
 4	сулавны	сулавны	VERB	V	Inf	6	xcomp	_	_
 5	оз	оз	AUX	V	Neg|Ind|Prs|Sg3	6	aux	_	_
 6	позь	позьны	VERB	V	ConNeg	0	root	_	_
@@ -505,8 +505,8 @@
 # text_rus = Роса булькала в сапоге.
 1	Лысваыс	лысва	NOUN	N	Sg|Nom|PxSg3	2	nsubj	_	_
 2	болскакыліс	болскакывны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
-3	сапӧг	сапӧг	NOUN	N	Sg|Nom	4	nmod	_	_
-4	пытшкын	пытш	ADP	Po	Spat|Sg|Ine	2	obl	_	_
+3	сапӧг	сапӧг	NOUN	N	Sg|Nom	2	obl	_	_
+4	пытшкын	пытш	ADP	Po	Spat|Sg|Ine	3	case	_	_
 5	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = belyx-011.065
