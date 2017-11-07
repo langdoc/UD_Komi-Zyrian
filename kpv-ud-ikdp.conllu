@@ -161,7 +161,6 @@
 18	песняяс	песня	NOUN	N	Pl|Nom	16	nsubj	_	_
 19	.	.	PUNCT	CLB	_	5	punct	_	_
 
-
 # text = Именнэ для девушек вӧлі ачыс сарафан.
 # sent_id = kpv_izva20140329-1-b-438
 1	Именно	именно	ADV	Adv	_	3	advmod	_	_
@@ -225,8 +224,8 @@
 6	,	,	PUNCT	CLB	_	5	punct	_	_
 7	но	но	CCONJ	CC	_	11	cc	_	_
 8	какой	какой	DET	Det	_	11	amod	_	_
-9	-		PUNCT	CLB	_	8	goeswith	_	_
-10	то		ADV	Adv	_	8	goeswith	_	_
+9	-	-	PUNCT	CLB	_	8	goeswith	_	_
+10	то	то	ADV	Adv	_	8	goeswith	_	_
 11	процент	процент	NOUN	N	Sg|Nom	5	acl	_	_
 12	там	там	ADV	Adv	_	11	advmod	_	_
 13	,	,	PUNCT	CLB	_	12	punct	_	_
@@ -242,16 +241,16 @@
 
 # text = У меня-то завидь петаліс-а на ваше пение.
 # sent_id = kpv_vym19570000-292_1a-Vym-1-43
-1	У	у	ADP	Pr		2	case	_	_
-2	меня	я	PRON	Pron		6	obl	_	_
-3	-	-	PUNCT	CLB		2	goeswith	_	_
-4	то	то	PART	Pcle		2	goeswith	_	_
-5	завидь	завидь	NOUN	N		6	nsubj	_	_
-6	петаліс-а	петаліс	VERB	V		0	root	_	_
-7	на	на	ADP	Pr		9	case	_	_
-8	ваше	ваш	DET	Pron		9	det	_	_
-9	пение	пение	NOUN	N		6	obl	_	_
-10	.	.	PUNCT	CLB		6	punct	_	_
+1	У	у	ADP	Pr	_	2	case	_	_
+2	меня	я	PRON	Pron	_	6	obl	_	_
+3	-	-	PUNCT	CLB	_	2	goeswith	_	_
+4	то	то	PART	Pcle	_	2	goeswith	_	_
+5	завидь	завидь	NOUN	N	_	6	nsubj	_	_
+6	петаліс-а	петаліс	VERB	V	_	0	root	_	_
+7	на	на	ADP	Pr	_	9	case	_	_
+8	ваше	ваш	DET	Pron	_	9	det	_	_
+9	пение	пение	NOUN	N	_	6	obl	_	_
+10	.	.	PUNCT	CLB	_	6	punct	_	_
 
 # text = И менум предложитісны должность директора межпоселенческого клубного объединения.
 # sent_id = izva_new
@@ -278,17 +277,17 @@
 
 # text = Однажды один-от мужик решился обмануть тайӧ царскӧй семятӧ.
 # sent_id = kpv_vym19570000-292_1a-Vym-1-11
-1	Однажды	однажды	ADV	Adv	_	7	advmod	_	_
-2	один	один	NUM	Num	Num	6	nummod	_	_
-4	-	-	PUNCT	CLB	_	2	goeswith	_	_
-5	от	от	PART	Pcle		2	goeswith	_	_
-6	мужик	мужик	NOUN	N	Nom|Sg	7	nsubj	_	_
-7	решился	решить	VERB	V	Pst|Sg	0	root	_	_
-8	обмануть	обмануть	VERB	V	Inf	7	xcomp	_	_
-9	тайӧ	тайӧ	DET	Pron	Dem|Sg|Nom	11	det	_	_
-10	царскӧй	царскӧй	ADJ	A	Sg|Nom	11	amod	_	_
-11	семъятӧ	семя	NOUN	N	Sg|Acc|PxSg2	8	obj	_	_
-12	.	.	PUNCT	CLB	_	7	punct	_	_
+1	Однажды	однажды	ADV	Adv	_	6	advmod	_	_
+2	один	один	NUM	Num	Num	5	nummod	_	_
+3	-	-	PUNCT	CLB	_	2	goeswith	_	_
+4	от	от	PART	Pcle	_	2	goeswith	_	_
+5	мужик	мужик	NOUN	N	Nom|Sg	6	nsubj	_	_
+6	решился	решить	VERB	V	Pst|Sg	0	root	_	_
+7	обмануть	обмануть	VERB	V	Inf	6	xcomp	_	_
+8	тайӧ	тайӧ	DET	Pron	Dem|Sg|Nom	10	det	_	_
+9	царскӧй	царскӧй	ADJ	A	Sg|Nom	10	amod	_	_
+10	семъятӧ	семя	NOUN	N	Sg|Acc|PxSg2	9	obj	_	_
+11	.	.	PUNCT	CLB	_	6	punct	_	_
 
 # text = Сесся мужик-от зашол мӧд комнатаас, а там у царичи доцка-то была.
 # sent_id = kpv_vym19570000-292_1a-Vym-1-25+kpv_vym19570000-292_1a-Vym-1-26
