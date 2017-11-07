@@ -88,3 +88,225 @@
 10	невозможно	невозможно	ADV	Adv	_	5	acl	_	_
 11	.	.	PUNCT	CLB	punct	2	punct	_	_
 
+# text = 
+# sent_id = izva_4
+1	До	до	ADP	Pr	_	3	case	_	_
+2	школьного	школьный	ADJ	A	Sg|Gen	3	amod	_	_
+3	возраста	возраст	NOUN	N	Sg|Gen	4	nmod	_	_
+4	ветлі	ветлыны	VERB	V	IV|Ind|Prt1|Sg1	0	root	_	_
+5	родительяскӧд	родитель	NOUN	N	Sg|Com	4	nmod	_	_
+6	тундраын	тундра	NOUN	N	Sg|Ine	4	obl	_	_
+7	.	.	_	CLB	_	4	punct	_	_
+
+# text = Ваыс зэй ыджыд кор вӧлі, дак берегсэ жугедэді, сідз и смыло всю деревню.
+# sent_id = izva_3
+1	Ваыс	ва	NOUN	N	Sg|Nom|PxSg3	9	csubj	_	_
+2	зэв	зэв	ADV	Adv	_	3	advmod	_	_
+3	ыджыд	ыджыд	ADJ	A	Sg|Nom	1	amod	_	_
+4	кор	кор	ADV	Adv	Rel|Temp	1	advmod	_	_
+5	вӧлі	вӧвны	VERB	V	Ind|Prt1|Sg3	1	cop	_	_
+6	,	,	PUNCT	CLB	_	7	punct	_	_
+7	дак	дак	SCONJ	CS	_	9	mark	_	_
+8	берегсӧ	берег	NOUN	N	Sg|Acc|PxSg3	9	obj	_	_
+9	жугöдöді	жыгӧдны	VERB	V	Ind|Pst1|Sg3	0	root	_	_
+10	,	,	PUNCT	CLB	_	9	punct	_	_
+11	сідз	сідз	ADV	Adv	_	13	mark	_	_
+12	и	и	PART	Pcle	_	13	discourse	_	_
+13	смыло	смыть	VERB	V	_	9	advcl	_	_
+14	всю	весь	DET	_	Sg|Acc	15	det	_	_
+15	деревню	деревня	NOUN	N	Sg|Acc	13	obj	_	_
+16	.	.	PUNCT	CLB	_	15	punct	_	_
+
+# text = Менам ае пырема тридцеть седьмой годын в Ненецкий олень-совхоз.
+# sent_id = izva_1
+1	Менам	ме	PRON	Pron	Pers|Sg1|Gen	2	nmod	_	_
+2	айӧй	ай	NOUN	N	Sg|Nom|PxSg1	3	nsubj	_	_
+3	пырӧма	пырны	VERB	V	IV|Ind|Prt2|Sg3	0	root	_	_
+4	тридцать	тридцать	NUM	Num	Nom	5	compound	_	_
+5	седьмой	седьмой	ADJ	A	Card|Abs	6	amod	_	_
+6	годын	год	NOUN	N	Sg|Ine	3	obl	_	_
+7	в	в	ADP	Pr	_	9	case	_	_
+8	Ненецкий	ненецкӧй	ADJ	A	Sg|Nom	9	amod	_	_
+9	олень-совхоз	олень-совхоз	NOUN	N	Sg|Nom	3	obl	_	_
+10	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# text = Став вӧлэсьсэ километров четыреста будет.
+# sent_id = izva_2
+1	Став	став	DET	Pron	Sg|Nom	2	det	_	_
+2	вӧлэсьсэ	вӧлэсь	NOUN	N	Sg|Nom|Clt|Clt	5	nsubj	_	_
+3	километров	километр	NOUN	N	Pl|Gen	5	obl	_	_
+4	четыреста	четыреста	NUM	Num	Card|Sg|Nom	3	nummod	_	_
+5	будет	лоны	VERB	V	IV|Ind|Fut|Sg3	0	root	_	_
+6	.	.	PUNCT	CLB	_	5	punct	_	_
+
+# text = Сіес Генриетта Петровналы кодке звӧнитчылэма сэтысянь, и висьталэма: колэныс, для оформления спектаклей колэныс коми песняяс. 
+# sent_id = kpv_izva20140324-5dom_tradici-c.190
+1	Сійӧс	сійӧ	PRON	Pron	Pers|Sg3|Acc	5	obj	_	_
+2	Генриетта	Генриетта	NOUN	Prop	Prop|Sg|Nom	5	iobj	_	_
+3	Петровналы	Пётр	NOUN	Prop	N|Prop|Sg|Dat	2	flat	_	_
+4	кодкӧ	кодкӧ	PRON	Pron	Nom|Der|Indef	5	nsubj	_	_
+5	звӧнитчылӧма	звӧнитчывны	VERB	V	IV|Ind|Prt2|Sg3	0	root	_	_
+6	сэтысянь	сэтысянь	ADV	Adv	_	5	advmod	_	_
+7	,	,	PUNCT	CLB	_	6	punct	_	_
+8	и	и	CCONJ	CC	_	9	cc	_	_
+9	висьталӧма	висьтавны	VERB	V	TV|Ind|Prt2|Sg3	5	advcl	_	_
+10	:	:	PUNCT	CLB	_	9	punct	_	_
+11	колӧны	ковны	VERB	V	TV|Ind|Prs|Pl3	9	ccomp	_	_
+12	,	,	PUNCT	CLB	_	11	punct	_	_
+13	для	для	ADP	Pr	_	15	case	_	_
+14	оформления	оформление	NOUN	N	Neu|Sg|Gen	15	nmod	_	_
+15	спектаклей	спектакль	NOUN	N	Msc|Pl|Gen	16	obl	_	_
+16	колӧны	ковны	VERB	V	TV|Ind|Prs|Pl3	11	advcl	_	_
+17	коми	коми	NOUN	N	Sg|Nom	18	nmod	_	_
+18	песняяс	песня	NOUN	N	Pl|Nom	16	nsubj	_	_
+19	.	.	PUNCT	CLB	_	5	punct	_	_
+
+
+# text = Именнэ для девушек вӧлі ачыс сарафан.
+# sent_id = kpv_izva20140329-1-b-438
+1	Именно	именно	ADV	Adv	_	3	advmod	_	_
+2	для	для	ADP	Pr	_	3	case	_	_
+3	девушек	дешувка	NOUN	N	Pl|Gen	6	nmod	_	_
+4	вӧлі	вӧвны	AUX	V	Ind|Prt1|Sg3	6	cop	_	_
+5	ачыс	ас	ADV	Pron	Refl|Sg3|Nom	6	advmod	_	_
+6	сарафан	сарапан	NOUN	N	Sg|Nom	0	root	_	_
+7	.	.	PUNCT	CLB	_	6	punct	_	_
+
+# text = Ме рӧдитчи сорок первом году, девятого юля.
+# sent_id = kpv_izva20150403-2-b.014
+1	Ме	ме	PRON	Pron	Pers|Sg1|Nom	2	nsubj	_	_
+2	рӧдитчи	рӧдитчыны	VERB	V	Refl|Ind|Prt1|Sg1	0	root	_	_
+3	сорок	сорок	NUM	Num	Nom	4	nummod	_	_
+4	первом	первый	ADJ	A	Sg|Loc	5	amod	_	_
+5	году	год	NOUN	N	Sg|Dat	2	obl	_	_
+6	,	,	PUNCT	CLB	_	5	punct	_	_
+7	девятого	девятый	ADJ	A	Sg|Gen	8	amod	_	_
+8	юля	юль	NOUN	N	Sg|Gen	2	obl	_	_
+9	.	.	PUNCT	CLB	PUNCT	2	punct	_	_
+
+# text = А ае тоже рӧбитіс столярын ли слесарьын ли, но, чё-то делал. 
+# sent_id = kpv_izva20150403-2-b.021
+1	А	а	CCONJ	CC	_	4	cc	_	_
+2	айӧй	ай	NOUN	N	Sg|Nom|PxSg1	4	nsubj	_	_
+3	тоже	тоже	PART	Pcle	_	4	discourse	_	_
+4	рӧбитіс	рӧбитны	VERB	V	IV|Ind|Prt1|Sg3	0	root	_	_
+5	столярын	столяр	NOUN	N	Sg|Ine	4	obl	_	_
+6	ли	ли	PART	Pcle	_	5	discourse	_	_
+7	слесарьын	слесарь	NOUN	N	Sg|Ine	5	appos	_	_
+8	ли	ли	PART	Pcle	_	7	discourse	_	_
+9	,	,	PUNCT	CLB	_	8	punct	_	_
+10	но	но	CCONJ	CC	_	15	cc	_	_
+11	,	,	PUNCT	CLB	_	10	punct	_	_
+12	чё	чё	_	_	_	15	obj	_	_
+13	-	-	PUNCT	CLB	_	12	goeswith	_	_
+14	то	чё-то	PART	Pcle	_	12	goeswith	_	_
+15	делал	делать	VERB	V	Pst|Sg	4	advcl	_	_
+16	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# text = Сылэн вӧлі этадз через плечо дӧраысь сумка вурема.
+# sent_id = kpv_izva20150403-2-b.062
+1	Сылӧн	сійӧ	PRON	Pron	Pers|Sg3|Gen	8	nsubj	_	_
+2	вӧлі	вӧвны	VERB	V	Ind|Prt1|Sg3	8	aux	_	_
+3	этадз	этадз	ADV	Adv	_	5	advmod	_	_
+4	через	через	ADP	Pr	_	5	case	_	_
+5	плечо	плечо	NOUN	N	Sg|Acc	8	obl	_	_
+6	дӧраысь	дӧра	NOUN	N	Sg|Ela	7	nmod	_	_
+7	сумка	сумка	NOUN	N	Sg|Nom	8	obj	_	_
+8	вурӧма	вурны	VERB	V	TV|Ind|Prt2|Sg3	0	root	_	_
+9	.	.	PUNCT	CLB	_	8	punct	_	_
+
+# text = Он, он живносьсэ сдайт, но какой-то процент там, сколько налог сетасныс мыйттэм, сіе и сдайтан.
+# sent_id = kpv_izva20150403-2-b.114
+1	Он	оз	VERB	V	Neg|Ind|Prs|Sg2	3	reparandum	_	_
+2	,	,	PUNCT	CLB	_	1	punct	_	_
+3	он	оз	VERB	V	Neg|Ind|Prs|Sg2	5	aux	_	_
+4	живносьсэ	живнось	NOUN	N	Acc	5	obj	_	_
+5	сдайт	сдайтны	VERB	V	TV|ConNeg	0	root	_	_
+6	,	,	PUNCT	CLB	_	5	punct	_	_
+7	но	но	CCONJ	CC	_	11	cc	_	_
+8	какой	какой	DET	Det	_	11	amod	_	_
+9	-		PUNCT	CLB	_	8	goeswith	_	_
+10	то		ADV	Adv	_	8	goeswith	_	_
+11	процент	процент	NOUN	N	Sg|Nom	5	acl	_	_
+12	там	там	ADV	Adv	_	11	advmod	_	_
+13	,	,	PUNCT	CLB	_	12	punct	_	_
+14	сколько	сколько	ADV	Adv	Rel	16	advmod	_	_
+15	налог	налог	NOUN	N	Sg|Nom	16	obj	_	_
+16	сетасны	сетны	VERB	V	TV|Ind|Fut|Pl3	11	ccomp	_	_
+17	мыйтӧм	мыйтӧм	PRON	Pron	NonHum|Rel	16	advmod	_	_
+18	,	,	PUNCT	CLB	_	17	punct	_	_
+19	сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Acc	21	obj	_	_
+20	и	и	PART	Pcle	_	21	discourse	_	_
+21	сдайтан	сдайтны	VERB	V	TV|Ind|Prs|Sg2	5	advcl	_	_
+22	.	.	PUNCT	CLB	_	21	punct	_	_
+
+# text = У меня-то завидь петаліс-а на ваше пение.
+# sent_id = kpv_vym19570000-292_1a-Vym-1-43
+1	У	у	ADP	Pr		2	case	_	_
+2	меня	я	PRON	Pron		6	obl	_	_
+3	-	-	PUNCT	CLB		2	goeswith	_	_
+4	то	то	PART	Pcle		2	goeswith	_	_
+5	завидь	завидь	NOUN	N		6	nsubj	_	_
+6	петаліс-а	петаліс	VERB	V		0	root	_	_
+7	на	на	ADP	Pr		9	case	_	_
+8	ваше	ваш	DET	Pron		9	det	_	_
+9	пение	пение	NOUN	N		6	obl	_	_
+10	.	.	PUNCT	CLB		6	punct	_	_
+
+# text = И менум предложитісны должность директора межпоселенческого клубного объединения.
+# sent_id = izva_new
+1	И	и	CCONJ	CC	_	3	cc	_	_
+2	меным	ме	PRON	Pron	Pers|Sg1|Dat	3	iobj	_	_
+3	предложитісны	предложитны	VERB	V	TV|Ind|Prt1|Pl3	0	root	_	_
+4	должность	должность	NOUN	N	Sg|Nom	3	obj	_	_
+5	директора	директор	NOUN	N	Sg|Gen	4	nmod	_	_
+6	межпоселенческого	межпоселенческий	ADJ	A	Sg|Gen	7	amod	_	_
+7	клубного	клубный	ADJ	A	Sg|Gen	8	amod	_	_
+8	объединения	объединения	NOUN	N	Sg|Nom	5	nmod	_	_
+9	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# text = Коркӧ давно жили да были цар гожъя.
+# sent_id = kpv_vym19570000-292_1a-Vym-1-06
+1	Коркӧ	коркӧ	ADV	Adv	_	3	advmod	_	_
+2	давно	давно	ADV	Adv	_	3	advmod	_	_
+3	жили	жить	VERB	V	Pst|Pl	0	root	_	_
+4	да	да	CCONJ	CC	_	5	cc	_	_
+5	были	быть	VERB	V	Pst|Pl	3	conj	_	_
+6	цар	цар	NOUN	N	Sg|Nom	7	nmod	_	_
+7	гожъя	гожъя	NOUN	N	Sg|Nom	3	nsubj	_	_
+8	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# text = Однажды один-от мужик решился обмануть тайӧ царскӧй семятӧ.
+# sent_id = kpv_vym19570000-292_1a-Vym-1-11
+1	Однажды	однажды	ADV	Adv	_	7	advmod	_	_
+2	один	один	NUM	Num	Num	6	nummod	_	_
+4	-	-	PUNCT	CLB	_	2	goeswith	_	_
+5	от	от	PART	Pcle		2	goeswith	_	_
+6	мужик	мужик	NOUN	N	Nom|Sg	7	nsubj	_	_
+7	решился	решить	VERB	V	Pst|Sg	0	root	_	_
+8	обмануть	обмануть	VERB	V	Inf	7	xcomp	_	_
+9	тайӧ	тайӧ	DET	Pron	Dem|Sg|Nom	11	det	_	_
+10	царскӧй	царскӧй	ADJ	A	Sg|Nom	11	amod	_	_
+11	семъятӧ	семя	NOUN	N	Sg|Acc|PxSg2	8	obj	_	_
+12	.	.	PUNCT	CLB	_	7	punct	_	_
+
+# text = Сесся мужик-от зашол мӧд комнатаас, а там у царичи доцка-то была.
+# sent_id = kpv_vym19570000-292_1a-Vym-1-25+kpv_vym19570000-292_1a-Vym-1-26
+1	Сэсся	сэсся	ADV	Adv	_	5	advmod	_	_
+2	мужик	мужик	NOUN	N	Sg|Nom	5	nsubj	_	_
+3	-	-	PUNCT	PUNCT	_	2	goeswith	_	_
+4	от	от	PART	Pcle	_	2	goeswith	_	_
+5	зашол	зайти	VERB	V	Pst|Sg3	0	root	_	_
+6	мӧд	мӧд	PRON	Pron	Dem	7	amod	_	_
+7	комнатаас	комната	NOUN	N	Sg|Ill|PxSg3	5	obl	_	_
+8	,	,	PUNCT	CLB	_	7	punct	_	_
+9	а	а	CCONJ	CC	_	13	cc	_	_
+10	там	там	ADV	Adv	_	13	advmod	_	_
+11	у	у	ADP	Pr	_	12	case	_	_
+12	царичи	царича	NOUN	N	Sg|Gen	13	nmod	_	_
+13	доцка	доцка	NOUN	N	Sg|Nom	5	advcl	_	_
+14	-	-	PUNCT	CLB	_	13	goeswith	_	_
+15	то	то	PART	Pcle	_	13	goeswith	_	_
+16	была	быть	VERB	V	Pst|Fem|Sg	13	cop	_	_
+17	.	.	PUNCT	CLB	_	5	punct	_	_
+
