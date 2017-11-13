@@ -118,7 +118,7 @@
 16	.	.	PUNCT	CLB	_	15	punct	_	_
 
 # text = Менам ае пырема тридцеть седьмой годын в Ненецкий олень-совхоз.
-# sent_id = izva_1
+# sent_id = kpv_izva20150406-3-a.0928
 1	Менам	ме	PRON	Pron	Pers|Sg1|Gen	2	nmod	_	_
 2	айӧй	ай	NOUN	N	Sg|Nom|PxSg1	3	nsubj	_	_
 3	пырӧма	пырны	VERB	V	IV|Ind|Prt2|Sg3	0	root	_	_
@@ -331,7 +331,7 @@
 
 # sent_id = kpv_izva20140324-1-b-541
 # text = Вот сы деньга вылас сыа ньӧбис, значит, лыж комплект, да?
-1	Вот	вот	PART	Pcle	_	6	discourse	_	rus
+1	Вот	вот	PART	Pcle	_	2	discourse	_	rus
 2	сы	сійӧ	PRON	Pron	Pers|Sg3	3	nmod	_	_
 3	деньга	деньга	NOUN	N	Sg|Nom	6	obl	_	mixed
 4	вылас	вылын	ADP	Po	Spat|Sg|Ill|PxSg3	3	case	_	_
@@ -363,18 +363,18 @@
 # text = Сэтэн лиса вӧлі, песцы были, норки были.
 1	Сэтӧн	сэтӧн	ADV	Adv	_	2	advmod	_	_
 2	лиса	лиса	NOUN	N	Sg|Nom	0	root	_	rus
-3	вӧлі	вӧвны	VERB	V	Ind|Prt1|Sg3	2	cop	_	_
+3	вӧлі	вӧвны	VERB	V	Ind|Prt1|Sg3	2	aux	_	_
 4	,	,	PUNCT	CLB	_	3	punct	_	_
 5	песцы	песец	NOUN	N	Msc|Pl|Nom	2	appos	_	rus
-6	были	быть	VERB	V	Pst|Pl	5	cop	_	rus
+6	были	быть	AUX	V	Pst|Pl	5	aux	_	rus
 7	,	,	PUNCT	CLB	_	6	punct	_	_
 8	норки	норка	NOUN	N	Pl|Nom	2	appos	_	rus
-9	были	быть	VERB	V	Pst|Pl	8	cop	_	rus
+9	были	быть	AUX	V	Pst|Pl	8	aux	_	rus
 10	.	.	PUNCT	CLB	_	9	punct	_	_
 
 # sent_id = kpv_izva20140325-2-a-279
 # text = Считай, три раза в год пересчитывайтэны стадосэ.
-1	Считай	считать	VERB	V	TV|Imprt|Sg2	7	discourse	_	rus
+1	Считай	считать	VERB	V	TV|Imprt|Sg2	7	advcl	_	rus
 2	,	,	PUNCT	CLB	_	1	punct	_	_
 3	три	три	NUM	Num	Card|Sg|Nom	4	nummod	_	rus
 4	раза	раз	NOUN	N	Sg|Gen	7	obl	_	rus
@@ -384,25 +384,18 @@
 8	стадосӧ	стадосӧ	NOUN	N	Sg|Acc|PxSg3	7	obj	_	mixed
 9	.	.	PUNCT	CLB	_	7	punct	_	_
 
-# sent_id = kpv_izva20150403-3-b.0182
-# text = Только вот сы мында и мыйке, такое детство у нас было.
-1	Только	только	PART	Adv	_	3	advmod	_	rus
-2	вот	вот	PART	Pcle	_	9	discourse	_	rus
-3	сы	сійӧ	PRON	Pron	Pers|Sg3|Cmpl	4	nmod	_	_
-4	мында	мында	NOUN	N	Sg|Nom	9	advmod	_	_
-5	и	и	_	CC	_	4	cc	_	mixed
-6	мыйкӧ	мыйкӧ	PRON	Pron	Nom|Der|Indef	4	appos	_	_
-7	,	,	PUNCT	CLB	_	6	punct	_	_
-8	такое	такой	ADJ	A	Sg|Nom	9	det	_	rus
-9	детство	детство	NOUN	N	Sg|Nom	0	root	_	rus
-10	у	у	ADP	Pr	_	11	case	_	rus
-11	нас	мы	PRON	Pron	Pers|Pl1|Gen	9	obl	_	rus
-12	было	быть	VERB	V	Pst|Sg	9	cop	_	rus
-13	.	.	PUNCT	CLB	_	9	punct	_	_
+# sent_id = kpv_izva19850730-1Igusev_doryn-627
+# text = Тоже чистэ ижемскей черта характера.
+1	Тоже	тоже	ADV	Adv	_	4	discourse	_	mixed
+2	чистэ	чистэ	ADJ	A	_	3	amod	_	mixed
+3	ижемскей	ижемскей	ADJ	A	_	4	amod	_	mixed
+4	черта	черт	NOUN	N	_	0	root	_	rus
+5	характера	характер	NOUN	N	_	4	nmod	_	rus
+6	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = kpv_izva20150403-3-b.1311
 # text = Вот у меня сэтэн выйым, гашке, братан, сестренница, а ме никодэс ог тӧд. 
-1	Вот	вот	PART	Pcle	_	9	discourse	_	rus
+1	Вот	вот	PART	Pcle	_	3	discourse	_	rus
 2	у	у	ADP	Pr	_	3	case	_	rus
 3	меня	я	PRON	Pron	Pers|Sg1|Gen	9	obl	_	rus
 4	сэтӧн	сэтӧн	ADV	Adv	_	9	advmod	_	_
@@ -412,37 +405,28 @@
 8	,	,	PUNCT	CLB	_	7	punct	_	_
 9	братан	братан	NOUN	N	Sg|Nom	0	root	_	rus
 10	,	,	PUNCT	CLB	_	9	punct	_	_
-11	сестренница	сестренница	NOUN	N	Sg|Nom	9	appos	_	rus
+11	сестренница	сестренница	NOUN	N	Sg|Nom	9	conj	_	rus
 12	,	,	PUNCT	CLB	_	13	punct	_	_
 13	а	а	_	CC	_	17	cc	_	mixed
 14	ме	ме	PRON	Pron	Pers|Sg1|Nom	17	nsubj	_	_
 15	некодöс	некод	PRON	Pron	Neg|Sg|Acc	17	obj	_	_
 16	ог	оз	VERB	V	Neg|Ind|Prs|Sg1	17	aux	_	_
-17	тӧд	тӧдны	VERB	V	TV|ConNeg	9	advcl	_	_
+17	тӧд	тӧдны	VERB	V	TV|ConNeg	9	acl	_	_
 18	.	.	PUNCT	CLB	_	9	punct	_	_
 
-# sent_id = kpv_izva20150407-1-b.125
-# text = И как коми рӧдыс всегда чтоб по прозвищу знали, у нас бабушка Елена вӧлі Зӧт Дань Тимкалэн нылыс. 
-1	И	и	_	CC	_	9	cc	_	mixed
-2	как	как	ADV	Adv	_	9	advmod	_	rus
-3	коми	коми	NOUN	N	Sg|Nom	4	nmod	_	_
-4	рӧдыс	рӧд	NOUN	N	Sg|Nom|PxSg3	9	nsubj	_	_
-5	всегда	всегда	ADV	Adv	_	9	advmod	_	rus
-6	чтоб	чтоб	_	CS	_	9	mark	_	rus
-7	по	по	ADP	Pr	_	8	case	_	rus
-8	прозвищу	прозвище	NOUN	N	Sg|Dat	9	obj	_	rus
-9	знали	знать	VERB	V	Pst|Pl	0	root	_	rus
-10	,	,	PUNCT	CLB	_	9	punct	_	_
-11	у	у	NOUN	N	case	12	case	_	rus
-12	нас	я	PRON	Pron	Pers|Pl1|Gen	13	obl	_	rus
-13	бабушка	бабушка	NOUN	N	Sem|Sg|Nom	14	nmod	_	rus
-14	Елена	Елена	NOUN	N	Prop|Sem|Sg|Nom	15	nsubj	_	_
-15	вӧлі	вӧвны	VERB	V	Ind|Prt1|Sg3	19	cop	_	_
-16	Зӧт	Зӧт	NOUN	N	Prop|Sem|Sg|Nom	15	nmod	_	_
-17	Дань	Дань	NOUN	N	Prop|Sem|Sg|Nom	16	flat	_	_
-18	Тимкалӧн	Тимка	NOUN	N	Prop|Sem|Sg|Gen	17	flat	_	_
-19	нылыс	ныв	NOUN	N	Sg|Nom|PxSg3	9	acl	_	_
-20	.	.	PUNCT	CLB	_	19	punct	_	_
+# sent_id = kpv_izva20000320-1AndrejevaMM-625
+# text = Вот молодэесь вӧлім, а разумнум всё-таки хватитіс.
+1	Вот	вот	PART	Pcle	_	2	discourse	_	rus
+2	молодӧйӧсь	молодӧй	ADJ	A	_	0	root	_	mixed
+3	вӧлім	вӧвны	AUX	V	_	2	aux	_	_
+4	,	,	PUNCT	CLB	_	3	punct	_	_
+5	а	а	CCONJ	CC	_	10	cc	_	mixed
+6	разумнум	разум	NOUN	N	_	10	nsubj	_	mixed
+7	всё	всё	PART	Pcle	_	10	advmod	_	rus
+8	-	-	PUNCT	CLB	_	7	goeswith	_	_
+9	таки	таки	ADV	Adv	_	7	goeswith	_	rus
+10	хватитіс	хватитны	VERB	V	_	2	conj	_	mixed
+11	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv_izva20150407-4-a.1108
 # text = Ребята ыдзыдэсь, ребята-то у меня большие.
@@ -453,7 +437,7 @@
 5	-	-	PUNCT	CLB	_	4	punct	_	_
 6	то	то	PART	Pcle	_	4	goeswith	_	rus
 7	у	у	ADP	Pr	_	8	case	_	rus
-8	меня	я	PRON	Pron	_	9	obl	_	rus
+8	меня	я	PRON	Pron	_	9	nmod	_	rus
 9	большие	большой	ADJ	A	_	2	appos	_	rus
 10	.	.	PUNCT	CLB	_	2	punct	_	_
 
