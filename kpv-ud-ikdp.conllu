@@ -365,10 +365,10 @@
 2	лиса	лиса	NOUN	N	Sg|Nom	0	root	_	rus
 3	вӧлі	вӧвны	VERB	V	Ind|Prt1|Sg3	2	aux	_	_
 4	,	,	PUNCT	CLB	_	3	punct	_	_
-5	песцы	песец	NOUN	N	Msc|Pl|Nom	2	appos	_	rus
+5	песцы	песец	NOUN	N	Msc|Pl|Nom	2	conj	_	rus
 6	были	быть	AUX	V	Pst|Pl	5	aux	_	rus
 7	,	,	PUNCT	CLB	_	6	punct	_	_
-8	норки	норка	NOUN	N	Pl|Nom	2	appos	_	rus
+8	норки	норка	NOUN	N	Pl|Nom	2	conj	_	rus
 9	были	быть	AUX	V	Pst|Pl	8	aux	_	rus
 10	.	.	PUNCT	CLB	_	9	punct	_	_
 
