@@ -4,9 +4,9 @@
 1	Кымӧрыс	кымӧр	NOUN	N	_	5	nsubj	_	_
 2	недыр	недыр	ADV	Adv	_	3	advmod	_	_
 3	повзьӧдчӧм	повзьӧдчыны	VERB	V	_	5	obl	_	_
-4	бӧрын	бӧр	ADV	Adv	_	3	advmod	_	_
+4	бӧрын	бӧр	ADP	Adv	_	3	case	_	_
 5	вешйис	вешйыны	VERB	V	_	0	root	_	_
-6	бокӧ	бокӧ	ADP	Po	_	5	obl	_	_
+6	бокӧ	бокӧ	ADV	Po	_	5	advmod	_	_
 7	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = belyx-011.021
@@ -17,7 +17,7 @@
 3	думайта	думайтны	VERB	V	_	0	root	_	_
 4	,	,	PUNCT	CLB	_	6	punct	_	_
 5	мый	мый	CCONJ	CONJ	_	6	conj	_	_
-6	грӧзитӧ	грӧзитны	VERB	V	_	3	acl	_	_
+6	грӧзитӧ	грӧзитны	VERB	V	_	15	advcl	_	_
 7	кӧ	кӧ	SCONJ	CS	_	6	mark	_	_
 8	енэжыс	енэж	NOUN	N	_	6	nsubj	_	_
 9	гыма	гыма	ADJ	A	_	10	amod	_	_
@@ -26,7 +26,7 @@
 12	сідз-тадз	сідз-тадз	ADV	Adv	_	15	advmod	_	_
 13	ставыс	став	PRON	Pron	_	15	nsubj	_	_
 14	оз	оз	AUX	V	_	15	aux	_	_
-15	помась	помасьны	VERB	V	_	3	acl	_	_
+15	помась	помасьны	VERB	V	_	3	ccomp	_	_
 16	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = belyx-011.022
@@ -43,7 +43,7 @@
 # sent_id = belyx-011.023
 # text = Пукавны вадорын водзӧ вӧлі весьшӧрӧ .
 # text_rus = Сидеть у берега было попусту.
-1	Пукавны	пукавны	VERB	V	_	4	xcomp	_	_
+1	Пукавны	пукавны	VERB	V	_	4	csubj	_	_
 2	вадорын	вадор	NOUN	N	_	1	nmod	_	_
 3	водзӧ	водз	ADV	Adv	_	1	advmod	_	_
 4	вӧлі	вӧвны	VERB	V	_	0	root	_	_
@@ -74,7 +74,7 @@
 6	пласт	пласт	NOUN	N	_	3	nsubj	_	_
 7	да	да	CCONJ	CC	_	3	cc	_	_
 8	ӧдйӧ	ӧдйӧ	ADV	Adv	_	9	advmod	_	_
-9	кутіс	кутны	VERB	V	_	3	acl	_	_
+9	кутіс	кутны	VERB	V	_	3	conj	_	_
 10	кайны	кайны	VERB	V	_	9	xcomp	_	_
 11	енэж	енэж	NOUN	N	_	12	nmod	_	_
 12	шӧрлань	шӧр	NOUN	N	_	10	obl	_	_
@@ -108,7 +108,7 @@
 # text = Воа ог нӧ эськӧ зэрӧдзыс гортӧдз ?
 # text_rus = Дойду ли до начала дождя до дома?
 1	Воа	воны	VERB	V	Ind|Prs|Sg1	0	root	_	_
-2	ог	оз	VERB	V	Neg|Ind|Prs|Sg1	1	appos	_	_
+2	ог	оз	VERB	V	Neg|Ind|Prs|Sg1	1	parataxis	_	_
 3	нӧ	нӧ	PART	Pcle	_	1	discourse	_	_
 4	эськӧ	эськӧ	PART	Pcle	_	1	discourse	_	_
 5	зэрӧдзыс	зэр	NOUN	N	Sg|Ter|PxSg3	6	nmod	_	_
@@ -118,7 +118,7 @@
 # sent_id = belyx-011.029
 # text = Ӧд мунны колӧ бура унакодь на .
 # text_rus = Ведь пройти надо немало.
-1	Ӧд	ӧд	PART	Pcle	_	2	advmod	_	_
+1	Ӧд	ӧд	PART	Pcle	_	3	advmod	_	_
 2	мунны	мунны	VERB	V	_	3	xcomp	_	_
 3	колӧ	ковны	VERB	V	_	0	root	_	_
 4	бура	бура	ADV	Adv	_	5	advmod	_	_
@@ -147,7 +147,7 @@
 # text = Кутіс нин гымавны-чардавны .
 # text_rus = Уже начались гром и молнии.
 1	Кутіс	кутны	VERB	V	_	0	root	_	_
-2	нин	нин	ADV	Adv	_	3	advmod	_	_
+2	нин	нин	ADV	Adv	_	1	advmod	_	_
 3	гымавны-чардавны	гымавны-чардавны	VERB	V	_	1	xcomp	_	_
 4	.	.	PUNCT	CLB	_	3	punct	_	_
 
@@ -159,7 +159,7 @@
 3	вылісянь	вылісянь	ADV	Adv	_	4	obl	_	_
 4	мӧдӧдчисны	мӧдӧдчыны	VERB	V	_	0	root	_	_
 5	гырысь	гырысь	ADJ	A	_	7	amod	_	_
-6	зэр	зэр	NOUN	N	_	7	nmod	_	_
+6	зэр	зэр	NOUN	N	_	7	compound	_	_
 7	войтъяс	войт	NOUN	N	_	4	nsubj	_	_
 8	.	.	PUNCT	CLB	_	4	punct	_	_
 
@@ -167,11 +167,11 @@
 # text = Сэк жӧ удиті на воны сӧмын пипу рас весьтӧдз .
 # text_rus = До этого успел дойти только к осиновой роще.
 1	Сэк	сэк	ADV	Adv	_	3	advmod	_	_
-2	жӧ	жӧ	PART	Pcle	_	3	advmod	_	_
+2	жӧ	жӧ	PART	Pcle	_	1	advmod	_	_
 3	удиті	удитны	VERB	V	_	0	root	_	_
 4	на	на	ADV	Adv	_	3	advmod	_	_
 5	воны	воны	VERB	V	_	3	xcomp	_	_
-6	сӧмын	сӧмын	ADV	Adv	_	5	advmod	_	_
+6	сӧмын	сӧмын	ADV	Adv	_	8	advmod	_	_
 7	пипу	пипу	NOUN	N	_	8	nmod	_	_
 8	рас	рас	NOUN	N	_	5	obl	_	_
 9	весьтӧдз	весьт	ADP	Po	_	8	case	_	_
@@ -181,11 +181,11 @@
 # text = Зэрсьыс дзебсьыны вӧлі весьшӧрӧ нин .
 # text_rus = От дождя прятаться было уже бесполезно.
 1	Зэрсьыс	зэр	NOUN	N	_	2	obl	_	_
-2	дзебсьыны	дзебсьыны	VERB	V	_	0	root	_	_
-3	вӧлі	вӧвны	VERB	V	_	2	xcomp	_	_
-4	весьшӧрӧ	весьшӧрӧ	ADV	Adv	_	2	advmod	_	_
-5	нин	нин	ADV	Adv	_	2	advmod	_	_
-6	.	.	PUNCT	CLB	_	2	punct	_	_
+2	дзебсьыны	дзебсьыны	VERB	V	_	4	csubj	_	_
+3	вӧлі	вӧвны	VERB	V	_	4	cop	_	_
+4	весьшӧрӧ	весьшӧрӧ	ADV	Adv	_	0	root	_	_
+5	нин	нин	ADV	Adv	_	4	advmod	_	_
+6	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.036
 # text = Думайта да , мед кӧтӧдас .
@@ -193,14 +193,14 @@
 1	Думайта	думайтны	VERB	V	_	0	root	_	_
 2	да	да	PART	Pcle	_	1	discourse	_	_
 3	,	,	PUNCT	CLB	_	5	punct	_	_
-4	мед	мед	ADV	Adv	_	5	advmod	_	_
-5	кӧтӧдас	кӧтӧдны	VERB	V	_	1	advcl	_	_
+4	мед	мед	CCONJ	Adv	_	5	cc	_	_
+5	кӧтӧдас	кӧтӧдны	VERB	V	_	1	conj	_	_
 6	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = belyx-011.037
 # text = Зэригас кая гортӧдз .
 # text_rus = В дождь дойду до дома.
-1	Зэригас	зэрны	VERB	V	_	2	acl	_	_
+1	Зэригас	зэрны	VERB	V	_	2	advcl	_	_
 2	кая	кайны	VERB	V	_	0	root	_	_
 3	гортӧдз	горт	NOUN	N	_	2	obl	_	_
 4	.	.	PUNCT	CLB	_	2	punct	_	_
@@ -245,7 +245,7 @@
 7	сэтшӧма	сэтшӧма	ADV	Adv	_	10	advmod	_	_
 8	ёсь	ёсь	ADJ	A	_	9	amod	_	_
 9	тӧлыс	тӧв	NOUN	N	_	10	nsubj	_	_
-10	сатшис	сатшны	VERB	V	_	4	advcl	_	_
+10	сатшис	сатшны	VERB	V	_	4	conj	_	_
 11	горшӧ	горш	NOUN	N	_	10	obl	_	_
 12	.	.	PUNCT	CLB	_	4	punct	_	_
 
@@ -276,14 +276,14 @@
 1	Медбӧрын	медбӧрын	ADV	Adv	_	3	advmod	_	_
 2	чужӧмӧ	чужӧм	NOUN	N	_	3	obl	_	_
 3	кучкисны	кучкыны	VERB	V	_	0	root	_	_
-4	йи	йи	NOUN	N	_	5	nmod	_	_
+4	йи	йи	NOUN	N	_	5	compound	_	_
 5	торъяс	тор	NOUN	N	_	3	nsubj	_	_
 6	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = belyx-011.044
 # text = Тайӧ , вӧлӧмкӧ , шер .
 # text_rus = Это, оказывается, град.
-1	Тайӧ	тайӧ	PRON	Pron	_	5	det	_	_
+1	Тайӧ	тайӧ	PRON	Pron	_	5	nsubj	_	_
 2	,	,	PUNCT	CLB	_	3	punct	_	_
 3	вӧлӧмкӧ	вӧлӧмкӧ	ADV	Adv	_	5	advmod	_	_
 4	,	,	PUNCT	CLB	_	5	punct	_	_
@@ -314,19 +314,19 @@
 # sent_id = belyx-011.047
 # text = Туйыс зэр вӧснаыс лоис ичӧтик ю кодь .
 # text_rus = Дорога из-за дождя стала похожа на небольшую речку.
-1	Туйыс	туй	NOUN	N	_	4	nsubj	_	_
-2	зэр	зэр	NOUN	N	_	4	obl	_	_
+1	Туйыс	туй	NOUN	N	_	7	nsubj	_	_
+2	зэр	зэр	NOUN	N	_	7	obl	_	_
 3	вӧснаыс	вӧсна	ADP	Po	_	2	case	_	_
-4	лоис	лоны	VERB	V	_	0	root	_	_
+4	лоис	лоны	VERB	V	_	7	cop	_	_
 5	ичӧтик	ичӧтик	ADJ	A	_	6	amod	_	_
-6	ю	ю	NOUN	N	_	4	obl	_	_
-7	кодь	кодь	ADV	Adv	_	6	advmod	_	_
-8	.	.	PUNCT	CLB	_	4	punct	_	_
+6	ю	ю	NOUN	N	_	7	compound	_	_
+7	кодь	кодь	ADJ	Adv	_	0	root	_	_
+8	.	.	PUNCT	CLB	_	7	punct	_	_
 
 # sent_id = belyx-011.048
 # text = Дугдывтӧг гымаліс-чардаліс .
 # text_rus = Без конца гремел гром и сверкали молнии.
-1	Дугдывтӧг	дугдывны	VERB	V	_	2	acl	_	_
+1	Дугдывтӧг	дугдывны	VERB	V	_	2	advcl	_	_
 2	гымаліс-чардаліс	гымавны-чардавны	VERB	V	_	0	root	_	_
 3	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -345,7 +345,7 @@
 # text = Вӧчны нинӧм .
 # text_rus = Делать нечего.
 1	Вӧчны	вӧчны	VERB	V	Inf	0	root	_	_
-2	нинӧм	нинӧм	PRON	Pron	Neg|Sg|Nom	1	advmod	_	_
+2	нинӧм	нинӧм	PRON	Pron	Neg|Sg|Nom	1	nsubj	_	_
 3	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = belyx-011.051
@@ -364,7 +364,7 @@
 # sent_id = belyx-011.052
 # text = Гымалігад пу улын сулавны оз позь .
 # text_rus = При грозе под деревом стоять нельзя.
-1	Гымалігад	гымавны	VERB	V	Ger|Sg|Ill|PxSg2	4	acl	_	_
+1	Гымалігад	гымавны	VERB	V	Ger|Sg|Ill|PxSg2	4	advcl	_	_
 2	пу	пу	NOUN	N	Sg|Nom	4	obl	_	_
 3	улын	улын	ADP	Po	Spat|Ine	2	case	_	_
 4	сулавны	сулавны	VERB	V	Inf	6	xcomp	_	_
@@ -378,7 +378,7 @@
 1	Татчӧ	татчӧ	ADV	Adv	_	6	obl	_	_
 2	тӧв·нырыс	тӧв·ныр	NOUN	N	Sg|Nom|PxSg3	6	nsubj	_	_
 3	эз	оз	AUX	V	Neg|Ind|Pr|Sg3	6	aux	_	_
-4	нин	нин	ADV	Adv	_	6	advmod	_	_
+4	нин	нин	ADV	Adv	_	3	advmod	_	_
 5	сэтшӧма	сэтшӧма	ADV	Adv	_	6	advmod	_	_
 6	писькӧдчы	писькӧдчыны	VERB	V	Imprt|Sg2	0	root	_	_
 7	.	.	PUNCT	CLB	_	6	punct	_	_
@@ -388,7 +388,7 @@
 # text_rus = Но молния без остановок сверкала перед глазами.
 1	Но	но	CCONJ	CC	_	4	cc	_	_
 2	чардби	чардби	NOUN	N	Sg|Nom	4	nsubj	_	_
-3	дугдывтӧг	дугдывны	VERB	V	Car	4	acl	_	_
+3	дугдывтӧг	дугдывны	VERB	V	Car	4	advcl	_	_
 4	югъяліс	югъявны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 5	син	син	NOUN	N	N|Sg|Nom	4	obl	_	_
 6	водзын	водз	ADP	Po	Spat|Sg|Ine	5	case	_	_
@@ -404,12 +404,12 @@
 5	,	,	PUNCT	CLB	_	6	punct	_	_
 6	гашкӧ	гашкӧ	ADV	Adv	_	24	advmod	_	_
 7	,	,	PUNCT	CLB	_	8	punct	_	_
-8	став	став	PRON	Pron	Qnt	9	advmod	_	_
+8	став	став	PRON	Pron	Qnt	9	det	_	_
 9	Енсӧ	Ен	NOUN	N	N|Sg|Acc|Clt|Clt	24	nsubj	_	_
 10	,	,	PUNCT	CLB	_	11	punct	_	_
 11	тӧдсаясӧс	тӧдса	NOUN	N	Pl|Acc	9	appos	_	_
 12	и	и	CCONJ	CC	_	13	cc	_	_
-13	тӧдтӧмъясӧс	тӧдтӧм	NOUN	N	Der|A|Der|N|Pl|Acc	11	appos	_	_
+13	тӧдтӧмъясӧс	тӧдтӧм	NOUN	N	Der|A|Der|N|Pl|Acc	11	conj	_	_
 14	,	,	PUNCT	CLB	_	15	punct	_	_
 15	мед	мед	ADV	Adv	_	22	advmod	_	_
 16	,	,	PUNCT	CLB	_	17	punct	_	_
@@ -420,9 +420,9 @@
 21	,	,	PUNCT	CLB	_	22	punct	_	_
 22	эз	оз	AUX	V	Neg|Ind|Pr|Pl3	24	aux	_	_
 23	жӧ	жӧ	PART	Pcle	_	24	discourse	_	_
-24	эновтны	эновтны	VERB	V	Inf	3	acl	_	_
-25	туй	туй	NOUN	N	Sg|Nom	26	nmod	_	_
-26	выв	выв	NOUN	N	Sg|Nom	27	nmod	_	_
+24	эновтны	эновтны	VERB	V	Inf	3	ccomp	_	_
+25	туй	туй	NOUN	N	Sg|Nom	26	compound	_	_
+26	выв	выв	NOUN	N	Sg|Nom	27	compound	_	_
 27	мортӧс	морт	NOUN	N	Sg|Acc	24	obj	_	_
 28	.	.	PUNCT	CLB	_	3	punct	_	_
 
@@ -496,7 +496,7 @@
 2	верми	вермыны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 3	восьлавны	восьлавны	VERB	V	Inf	2	xcomp	_	_
 4	ляти	ляти	NOUN	N	Sg|Nom	5	nmod	_	_
-5	кодь	кодь	ADJ	A	_	6	advmod	_	_
+5	кодь	кодь	ADJ	A	_	6	amod	_	_
 6	туйӧд	туй	NOUN	N	Sg|Prl	3	obl	_	_
 7	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -527,7 +527,7 @@
 2	восьлавны	восьлавны	VERB	V	Inf	6	xcomp	_	_
 3	вын-эбӧсӧй	вын-эбӧс	NOUN	N	Sg|Nom|PxSg1	6	nsubj	_	_
 4	эз	оз	AUX	V	Neg|Ind|Pr|Sg3	6	aux	_	_
-5	нин	нин	ADV	Adv	_	6	advmod	_	_
+5	нин	нин	ADV	Adv	_	4	advmod	_	_
 6	тырмы	тырмыны	VERB	V	Imprt|Sg2	0	root	_	_
 7	.	.	PUNCT	CLB	_	6	punct	_	_
 
@@ -538,7 +538,7 @@
 2	паныдаліс	паныдавны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 3	кильчӧ	кильчӧ	NOUN	N	Sg|Nom	2	obl	_	_
 4	вылӧ	вылӧ	ADP	Po	Spat|Sg|Ill	3	case	_	_
-5	петӧмӧн	петны	VERB	V	Ger|Sg|Ins	2	acl	_	_
+5	петӧмӧн	петны	VERB	V	Ger|Sg|Ins	2	advcl	_	_
 6	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = belyx-011.068
@@ -555,7 +555,7 @@
 9	—	—	PUNCT	PUNCT	CLB	11	punct	_	_
 10	жалитӧмпырысь	жалитӧмпырысь	ADV	Adv	_	11	advmod	_	_
 11	шуис	шуны	VERB	V	Ind|Prt1|Sg3	6	parataxis	_	_
-12	меным	ме	PRON	Pron	Pers|Sg1|Dat	11	iobj	_	_
+12	меным	ме	PRON	Pron	Pers|Sg1|Dat	11	obl	_	_
 13	.	.	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = belyx-011.069
@@ -563,13 +563,13 @@
 # text_rus = — Не знаешь, что будет такой дождь с грозой,  — брякнул под нос только.
 1	—	—	PUNCT	PUNCT	CLB	2	punct	_	_
 2	Он	оз	AUX	V	Neg|Ind|Prs|Sg2	4	aux	_	_
-3	ӧд	ӧд	PART	Pcle	_	4	discourse	_	_
+3	ӧд	ӧд	PART	Pcle	_	2	discourse	_	_
 4	тӧд	тӧд	NOUN	N	Sg|Nom	0	root	_	_
 5	,	,	PUNCT	CLB	_	6	punct	_	_
 6	мый	мый	SCONJ	CS	_	9	mark	_	_
 7	татшӧма	татшӧма	ADV	Adv	_	8	advmod	_	_
 8	зэрны-гымавны	зэрны-гымавны	VERB	V	Inf	9	xcomp	_	_
-9	кутас	кутны	VERB	V	Ind|Fut|Sg3	4	acl	_	_
+9	кутас	кутны	VERB	V	Ind|Fut|Sg3	4	ccomp	_	_
 10	,	,	PUNCT	CLB	_	12	punct	_	_
 11	—	—	PUNCT	PUNCT	CLB	12	punct	_	_
 12	нурбыльті	нурбыльтны	VERB	V	Ind|Prt1|Sg3	4	parataxis	_	_
@@ -579,14 +579,14 @@
 # sent_id = belyx-011.070
 # text = Керкаӧ пырӧм бӧрын тэрмасьӧмӧн пӧрччи сӧдз ваӧдз кӧтасьӧм кӧм-паськӧмӧс да тэрыба кайи паччӧр вылӧ шонтысьыштны , став тайӧ страксьыс пальӧдчыштны .
 # text_rus = После того, как зашёл домой, торопясь снял насквозь промокшую одежду и обувь, и быстро залез на печку погреться, прийти в себя от этого страха.
-1	Керкаӧ	керка	NOUN	N	Sg|Ill	2	nmod	_	_
-2	пырӧм	пырӧм	NOUN	N	Sg|Nom	3	acl	_	_
-3	бӧрын	бӧрын	ADV	Adv	Spat|Ine	5	advmod	_	_
-4	тэрмасьӧмӧн	тэрмасьӧмӧн	ADV	Adv	_	5	advmod	_	_
+1	Керкаӧ	керка	NOUN	N	Sg|Ill	2	obl	_	_
+2	пырӧм	пырӧм	VERB	N	Sg|Nom	5	obl	_	_
+3	бӧрын	бӧрын	ADV	Adv	Spat|Ine	2	case	_	_
+4	тэрмасьӧмӧн	тэрмасьӧмӧн	VERB	Adv	_	5	advcl	_	_
 5	пӧрччи	пӧрччыны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 6	сӧдз	сӧдз	ADJ	A	_	7	amod	_	_
-7	ваӧдз	ва	NOUN	N	Sg|Ter	8	nmod	_	_
-8	кӧтасьӧм	кӧтасьӧм	NOUN	N	Sg|Nom	9	nmod	_	_
+7	ваӧдз	ва	NOUN	N	Sg|Ter	8	obl	_	_
+8	кӧтасьӧм	кӧтасьӧм	VERB	N	Sg|Nom	9	nmod	_	_
 9	кӧм-паськӧмӧс	кӧм-паськӧм	NOUN	N	Sg|Acc	5	obj	_	_
 10	да	да	CCONJ	CC	_	12	cc	_	_
 11	тэрыба	тэрыба	ADV	Adv	_	12	advmod	_	_
@@ -609,7 +609,7 @@
 3	омӧльтор	омӧльтор	NOUN	N	Sg|Nom	4	obj	_	_
 4	вайӧма	вайны	VERB	V	Ind|Prt2|Sg3	0	root	_	_
 5	сэки	сэки	ADV	Adv	_	4	advmod	_	_
-6	сиктсаяслы	сиктса	NOUN	N	Pl|Dat	4	iobj	_	_
+6	сиктсаяслы	сиктса	NOUN	N	Pl|Dat	4	obl	_	_
 7	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.072
@@ -621,10 +621,10 @@
 4	град	град	NOUN	N	Sg|Nom	5	nmod	_	_
 5	выв	выв	NOUN	N	Sg|Nom	6	nmod	_	_
 6	пуктас	пуктас	NOUN	N	Sg|Nom	7	nmod	_	_
-7	коръяс	кор	NOUN	N	Pl|Nom	1	nsubj	_	_
+7	коръяс	кор	NOUN	N	Pl|Nom	1	obj	_	_
 8	,	,	PUNCT	CLB	_	9	punct	_	_
-9	пӧрӧдӧма	пӧрӧдны	VERB	V	Ind|Prt2|Sg3	1	parataxis	_	_
-10	потшӧсъяс	потшӧс	NOUN	N	Pl|Nom	9	nsubj	_	_
+9	пӧрӧдӧма	пӧрӧдны	VERB	V	Ind|Prt2|Sg3	1	conj	_	_
+10	потшӧсъяс	потшӧс	NOUN	N	Pl|Nom	9	obj	_	_
 11	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = belyx-011.073
@@ -670,7 +670,7 @@
 
 # sent_id = kpv_four_battles.001
 # text = Став челядь миян странаын тӧдӧны Климент Ефремович Ворошиловӧс , Советскӧй Союзса маршалӧс , Оборона кузя Народнӧй Комиссарӧс .
-# text_rus = 
+# text_rus =
 1	Став	став	PRON	Pron	_	2	det	_	_
 2	челядь	челядь	NOUN	N	_	5	nsubj	_	_
 3	миян	ми	PRON	Pron	_	4	nmod	_	_
@@ -692,23 +692,23 @@
 
 # sent_id = kpv_four_battles.002
 # text = Тӧдӧны сійӧс и радейтӧны .
-# text_rus = 
+# text_rus =
 1	Тӧдӧны	тӧдны	VERB	V	_	0	root	_	_
 2	сійӧс	сійӧ	PRON	Pron	_	1	obj	_	_
-3	и	и	CCONJ	CC	_	1	cc	_	_
+3	и	и	CCONJ	CC	_	4	cc	_	_
 4	радейтӧны	радейтны	VERB	V	_	1	conj	_	_
 5	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = kpv_four_battles.003
 # text = И , дерт , кӧсйӧны тӧдны сы йылысь дзик ставсӧ .
-# text_rus = 
+# text_rus =
 1	И	и	SCONJ	CS	_	5	cc	_	_
 2	,	,	PUNCT	CLB	_	5	punct	_	_
 3	дерт	дерт	ADV	Adv	_	5	advmod	_	_
 4	,	,	PUNCT	CLB	_	5	punct	_	_
 5	кӧсйӧны	кӧсйыны	VERB	V	_	0	root	_	_
 6	тӧдны	тӧдны	VERB	V	_	5	xcomp	_	_
-7	сы	сійӧ	PRON	Pron	_	10	nmod	_	_
+7	сы	сійӧ	PRON	Pron	_	6	obl	_	_
 8	йылысь	йылысь	ADP	Po	_	7	case	_	_
 9	дзик	дзик	ADV	Adv	_	10	advmod	_	_
 10	ставсӧ	став	PRON	Pron	_	6	obj	_	_
@@ -716,7 +716,7 @@
 
 # sent_id = kpv_four_battles.004
 # text = Кыдзи сійӧ оліс ичӧтдырйиыс ?
-# text_rus = 
+# text_rus =
 1	Кыдзи	кыдзи	ADV	CONJ	_	3	advmod	_	_
 2	сійӧ	сійӧ	PRON	Pron	_	3	nsubj	_	_
 3	оліс	овны	VERB	V	_	0	root	_	_
@@ -725,7 +725,7 @@
 
 # sent_id = kpv_four_battles.005
 # text = Кыдзи сійӧ лои большевикӧн ?
-# text_rus = 
+# text_rus =
 1	Кыдзи	кыдзи	ADV	Adv	_	3	advmod	_	_
 2	сійӧ	сійӧ	PRON	Pron	_	3	nsubj	_	_
 3	лои	лоны	VERB	V	_	0	root	_	_
@@ -734,7 +734,7 @@
 
 # sent_id = kpv_four_battles.006
 # text = Кыдзи лои Краснӧй Армияса командирӧн ?
-# text_rus = 
+# text_rus =
 1	Кыдзи	кыдзи	ADV	Adv	_	2	advmod	_	_
 2	лои	лоны	VERB	V	_	0	root	_	_
 3	Краснӧй	краснӧй	ADJ	A	_	4	amod	_	_
@@ -744,19 +744,19 @@
 
 # sent_id = kpv_four_battles.007
 # text = Кыдзи нуӧдіс бойӧ миянлысь армияясӧс белӧйяслы паныд ?
-# text_rus = 
+# text_rus =
 1	Кыдзи	кыдзи	ADV	Adv	_	2	advmod	_	_
 2	нуӧдіс	нуӧдны	VERB	V	_	0	root	_	_
 3	бойӧ	бой	NOUN	N	_	2	obl	_	_
 4	миянлысь	ми	PRON	Pron	_	5	nmod	_	_
 5	армияясӧс	армия	NOUN	N	_	2	obj	_	_
-6	белӧйяслы	белӧй	ADJ	A	_	2	iobj	_	_
+6	белӧйяслы	белӧй	ADJ	A	_	2	obl	_	_
 7	паныд	паныд	ADP	Po	_	6	case	_	_
 8	?	?	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv_four_battles.008
 # text = Кыдзи вермывліс врагъясӧс ?
-# text_rus = 
+# text_rus =
 1	Кыдзи	кыдзи	ADV	Adv	_	2	advmod	_	_
 2	вермывліс	вермывлыны	VERB	V	_	0	root	_	_
 3	врагъясӧс	враг	NOUN	N	_	2	obj	_	_
@@ -764,7 +764,7 @@
 
 # sent_id = kpv_four_battles.x1
 # text = Дженьыдик висьтӧ ыджыд мортлӧн олӧмыс оз тӧр .
-# text_rus = 
+# text_rus =
 1	Дженьыдик	дженьыдик	ADJ	A	_	2	amod	_	_
 2	висьтӧ	висьт	NOUN	N	_	7	obl	_	_
 3	ыджыд	ыджыд	ADJ	A	_	4	amod	_	_
@@ -776,16 +776,16 @@
 
 # sent_id = kpv_four_battles.x2
 # text = Враг быттьӧ сыліс кытчӧкӧ .
-# text_rus = 
+# text_rus =
 1	Враг	враг	NOUN	N	_	3	nsubj	_	_
 2	быттьӧ	быттьӧ	PART	Pcle	_	3	advmod	_	_
 3	сыліс	сывны	VERB	V	_	0	root	_	_
-4	кытчӧкӧ	кытчӧ	ADV	Adv	_	3	obl	_	_
+4	кытчӧкӧ	кытчӧ	ADV	Adv	_	3	advmod	_	_
 5	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = kpv_four_battles.x3
 # text = Кытчӧ сійӧ воши ?
-# text_rus = 
+# text_rus =
 1	Кытчӧ	кытчӧ	ADV	Adv	_	3	advmod	_	_
 2	сійӧ	сійӧ	PRON	Pron	_	3	nsubj	_	_
 3	воши	вошны	VERB	V	_	0	root	_	_
@@ -793,7 +793,7 @@
 
 # sent_id = kpv_four_battles.x4
 # text = Некод оз тӧд !
-# text_rus = 
+# text_rus =
 1	Некод	некод	PRON	Pron	_	3	nsubj	_	_
 2	оз	оз	AUX	V	_	3	aux	_	_
 3	тӧд	тӧдны	VERB	V	_	0	root	_	_
@@ -801,7 +801,7 @@
 
 # sent_id = kpv_four_battles.x64
 # text = Шоферыс , том зонка на , дзикӧдз растеряйтчис .
-# text_rus = 
+# text_rus =
 1	Шоферыс	шофёр	NOUN	N	_	8	nsubj	_	_
 2	,	,	PUNCT	CLB	_	1	punct	_	_
 3	том	том	ADJ	A	_	4	amod	_	_
@@ -814,14 +814,14 @@
 
 # sent_id = kpv_four_battles.x65
 # text = Мый вӧчны ?
-# text_rus = 
+# text_rus =
 1	Мый	мый	PRON	Pron	_	2	obj	_	_
 2	вӧчны	вӧчны	VERB	V	_	0	root	_	_
 3	?	?	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv_four_battles.x69
 # text = Чорыд киыс Ворошиловлӧн усис сылы пельпом вылас .
-# text_rus = 
+# text_rus =
 1	Чорыд	чорыд	ADJ	A	_	2	amod	_	_
 2	киыс	ки	NOUN	N	_	4	nsubj	_	_
 3	Ворошиловлӧн	Ворошилов	NOUN	N	_	2	nmod	_	_
@@ -833,26 +833,26 @@
 
 # sent_id = kpv_izva20140327-3-b-099
 # text = Но вӧвъяссӧ миян унаӧн видзӧны .
-# text_rus = 
+# text_rus =
 1	Но	но	CCONJ	CC	_	5	cc	_	_
 2	вӧвъяссӧ	вӧв	NOUN	N	_	5	obj	_	_
-3	миян	ми	PRON	Pron	_	5	nmod	_	_
+3	миян	ми	PRON	Pron	_	5	obl	_	_
 4	унаӧн	уна	ADV	Adv	_	5	advmod	_	_
 5	видзӧны	видзны	VERB	V	_	0	root	_	_
 6	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = kpv-gt.01
 # text = Ныв ёртыслы гижис письмӧ .
-# text_rus = 
+# text_rus =
 1	Ныв	ныв	NOUN	N	_	3	nsubj	_	_
-2	ёртыслы	ёрт	NOUN	N	_	3	iobj	_	_
+2	ёртыслы	ёрт	NOUN	N	_	3	obl	_	_
 3	гижис	гижны	VERB	V	_	0	root	_	_
 4	письмӧ	письмӧ	NOUN	N	_	3	obj	_	_
 5	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = kpv-gt.02
 # text = Меным кажитчӧ , мый зэрӧ .
-# text_rus = 
+# text_rus =
 1	Меным	ме	PRON	Pron	_	2	obl	_	_
 2	кажитчӧ	кажитчыны	VERB	V	_	0	root	_	_
 3	,	,	PUNCT	CLB	_	2	punct	_	_
@@ -862,7 +862,7 @@
 
 # sent_id = kpv-gt.03
 # text = Сійӧ заводитліс чӧвтны куритчӧмсӧ да юӧмсӧ
-# text_rus = 
+# text_rus =
 1	Сійӧ	сійӧ	PRON	Pron	_	2	nsubj	_	_
 2	заводитліс	заводітны	VERB	V	_	0	root	_	_
 3	чӧвтны	чӧвтны	VERB	V	_	2	xcomp	_	_
@@ -873,23 +873,23 @@
 
 # sent_id = kpv-gt.04
 # text = Кӧсъян мунны ?
-# text_rus = 
+# text_rus =
 1	Кӧсъян	кӧсйыны	VERB	V	_	0	root	_	_
 2	мунны	мунны	VERB	V	_	1	xcomp	_	_
 3	?	?	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = kpv-gt.05
 # text = Сэм , восьты ӧшиньсӧ !
-# text_rus = 
+# text_rus =
 1	Сэм	сэм	PROPN	N	_	3	vocative	_	_
-2	,	,	PUNCT	CLB	_	3	punct	_	_
+2	,	,	PUNCT	CLB	_	1	punct	_	_
 3	восьты	восьтны	VERB	V	_	0	root	_	_
 4	ӧшиньсӧ	ӧшинь	NOUN	N	_	3	obj	_	_
 5	!	!	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = kpv-gt.06
 # text = Сійӧ тшӧктіс верӧсыслы мыськыны машинасӧ .
-# text_rus = 
+# text_rus =
 1	Сійӧ	сійӧ	PRON	Pron	_	2	nsubj	_	_
 2	тшӧктіс	тшӧктыны	VERB	V	_	0	root	_	_
 3	верӧсыслы	верӧс	NOUN	N	_	2	obl	_	_
@@ -899,7 +899,7 @@
 
 # sent_id = kpv-gt.07
 # text = Петилӧн суседыс краситӧма заборсӧ .
-# text_rus = 
+# text_rus =
 1	Петилӧн	Пети	PROPN	N	_	2	nmod	_	_
 2	суседыс	сусед	NOUN	N	_	3	nsubj	_	_
 3	краситӧма	краситны	VERB	V	_	0	root	_	_
@@ -908,11 +908,11 @@
 
 # sent_id = kpv-gt.08
 # text = Менам батьӧ тэнад батьсьыд бурджык .
-# text_rus = 
+# text_rus =
 1	Менам	ме	PRON	Pron	_	2	nmod	_	_
 2	батьӧ	бать	NOUN	N	_	5	nsubj	_	_
 3	тэнад	тэ	PRON	Pron	_	4	nmod	_	_
-4	батьсьыд	бать	NOUN	N	_	5	iobj	_	_
+4	батьсьыд	бать	NOUN	N	_	5	obl	_	_
 5	бурджык	бур	ADJ	A	_	0	root	_	_
 6	.	.	PUNCT	CLB	_	5	punct	_	_
 
