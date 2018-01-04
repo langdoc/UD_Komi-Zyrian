@@ -931,8 +931,8 @@
 
 # sent_id = kpv-gt.10
 # text = Игаузу - тайӧ ыджыд либӧ ичӧт канму ?
-# text_rus = 
-1	Игаузу	Игаузу	PROPN	N	_	6	nsubj	_	_
+# text_rus =
+1	Игаузу	Игаузу	PROPN	N	_	7	nsubj	_	_
 2	-	-	PUNCT	CLB	_	1	punct	_	_
 3	тайӧ	тайӧ	PRON	Pron	_	7	det	_	_
 4	ыджыд	ыджыд	ADJ	A	_	7	amod	_	_
@@ -991,21 +991,21 @@
 
 # sent_id = kpv-gt.15
 # text = Сійӧ ньӧбис машина , а вокыс сӧмын велосипед .
-# text_rus = 
+# text_rus =
 1	Сійӧ	сійӧ	PRON	Pron	_	2	nsubj	_	_
 2	ньӧбис	ньӧбны	VERB	V	_	0	root	_	_
 3	машина	машина	NOUN	N	_	2	obj	_	_
-4	а	а	SCONJ	CS	_	2	cc	_	_
-5	вокыс	вок	NOUN	N	_	1	conj	_	_
+4	а	а	SCONJ	CS	_	5	mark	_	_
+5	вокыс	вок	NOUN	N	_	2	conj	_	_
 6	сӧмын	сӧмын	ADV	Adv	_	7	advmod	_	_
 7	велосипед	велосипед	NOUN	N	_	3	conj	_	_
 8	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv-gt.16
 # text = Питер да Мери кутчысьлісны да петісны вежӧсысь
-# text_rus = 
+# text_rus =
 1	Питер	Питер	PROPN	N	Prop|Sg|Nom	4	nsubj	_	_
-2	да	да	CONJ	CC	_	1	cc	_	_
+2	да	да	CONJ	CC	_	3	cc	_	_
 3	Мери	Мери	PROPN	N	Prop|Sg|Nom	1	conj	_	_
 4	кутчысьлісны	кутчысьлыны	VERB	V	Ind|Prt1|Pl3	0	root	_	_
 5	да	да	CONJ	CC	_	4	conj	_	_
@@ -1063,13 +1063,13 @@
 9	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # text = Сійӧ пыр жӧ гижис Максимлы зэв кузь да зэв стрӧг письмӧ, кӧні Валентина Ивановна моз жӧ нимтіс сійӧс «сюсь йӧйӧн».
-# text_rus = 
+# text_rus =
 # sent_id = new_1
 1	Сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	4	nsubj	_	_
 2	пыр	пыр	ADV	Adv	_	4	advmod	_	_
 3	жӧ	жӧ	PART	Pcle	_	2	advmod	_	_
 4	гижис	гижны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
-5	Максимлы	Максим	PROPN	N	Prop|Sg|Dat	4	iobj	_	_
+5	Максимлы	Максим	PROPN	N	Prop|Sg|Dat	4	obl	_	_
 6	зэв	зэв	ADV	Adv	_	7	advmod	_	_
 7	кузь	кузь	ADJ	A	Sg|Nom	10	conj	_	_
 8	да	да	CCONJ	CC	_	7	cc	_	_
@@ -1131,7 +1131,7 @@
 26	.	.	PUNCT	CLB	_	13	punct	_	_
 
 # text = Гырысь каръясын аскежъя пывсянъясыд абуӧсь жӧ , сэні ставныс ӧтласа пывсянъясын пывсьӧны .
-# text_rus = 
+# text_rus =
 # sent_id = new_3
 1	Гырысь	гырысь	ADJ	A	Sg|Nom	2	amod	_	_
 2	каръясын	кар	NOUN	N	Pl|Ine	5	obl	_	_
@@ -1144,11 +1144,11 @@
 9	ставныс	став	PRON	Pron	Sg|Nom|PxPl3	12	nsubj	_	_
 10	ӧтласа	ӧтласа	ADJ	A	Sg|Nom	11	amod	_	_
 11	пывсянъясын	пывсян	NOUN	N	Pl|Ine	12	obl	_	_
-12	пывсьӧны	пывсьыны	VERB	V	IV|Ind|Prs|Pl3	5	acl	_	_
+12	пывсьӧны	пывсьыны	VERB	V	IV|Ind|Prs|Pl3	5	ccomp	_	_
 13	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # text = Тайӧ нигаыс сетас сӧмын ичӧтик юкӧн вӧр велӧдысьлы .
-# text_rus = 
+# text_rus =
 # sent_id = new_4
 1	Тайӧ	тайӧ	PRON	Pron	Dem|Sg|Nom	2	det	_	_
 2	нигаыс	нига	NOUN	N	Sg|Nom|PxSg3	3	nsubj	_	_
@@ -1157,11 +1157,11 @@
 5	ичӧтик	ичӧтик	ADJ	A	Sg|Nom	6	amod	_	_
 6	юкӧн	юкӧн	NOUN	N	Sg|Acc	3	obj	_	_
 7	ывлавыв	ывлавыв	NOUN	N	Sg|Nom	8	nmod	_	_
-8	велӧдысьлы	велӧдысь	NOUN	N	Sg|Dat	3	iobj	_	_
+8	велӧдысьлы	велӧдысь	NOUN	N	Sg|Dat	3	obl	_	_
 9	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # text = Чакотка — зэв лёк висьӧм , медся ёна жугӧдӧ тыястӧ .
-# text_rus = 
+# text_rus =
 # sent_id = new_5
 1	Чакотка	чакотка	NOUN	N	Sg|Nom	5	nsubj	_	_
 2	—	—	PUNCT	CLB	_	3	punct	_	_
@@ -1171,7 +1171,7 @@
 6	,	,	PUNCT	CLB	_	7	punct	_	_
 7	медся	медся	PART	Pcle	_	8	advmod	_	_
 8	ёна	ёна	ADV	Adv	_	9	advmod	_	_
-9	жугӧдӧ	жугӧдны	VERB	V	TV|Ind|Prs|Sg3	5	acl	_	_
+9	жугӧдӧ	жугӧдны	VERB	V	TV|Ind|Prs|Sg3	5	ccomp	_	_
 10	тыястӧ	ты	NOUN	N	Pl|Acc|PxSg2	9	obj	_	_
 11	.	.	PUNCT	CLB	_	5	punct	_	_
 
@@ -1192,7 +1192,7 @@
 1	Доктор	доктор	NOUN	N	Sg|Nom	3	obl	_	_
 2	ордӧ	ордӧ	ADP	Po	Spat|Sg|Ill	1	case	_	_
 3	воӧмаӧсь	воны	VERB	V	IV|Ind|Prt2|Pl3	0	root	_	_
-4	кык	кык	NUM	Num	Card|Sg|Nom	5	nmod	_	_
+4	кык	кык	NUM	Num	Card|Sg|Nom	5	nummod	_	_
 5	ичӧтик	ичӧтик	ADJ	A	Sg|Nom	6	amod	_	_
 6	ныв	ныв	NOUN	N	Sg|Nom	3	nsubj	_	_
 7	.	.	PUNCT	CLB	_	3	punct	_	_
@@ -1202,7 +1202,7 @@
 1	Аскинас	аскинас	ADV	Adv	_	3	advmod	_	_
 2	сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	3	nsubj	_	_
 3	шуис	шуны	VERB	V	TV|Ind|Prt1|Sg3	0	root	_	_
-4	Машалы	Маша	NOUN	N	Prop|Sem|Sg|Dat	3	iobj	_	_
+4	Машалы	Маша	NOUN	N	Prop|Sem|Sg|Dat	3	obl	_	_
 5	,	,	PUNCT	CLB	_	6	punct	_	_
 6	тэ	тэ	PRON	Pron	Pers|Sg2|Nom	9	nsubj	_	_
 7	пӧ	пӧ	PART	Pcle	_	9	discourse	_	_
