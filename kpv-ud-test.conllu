@@ -1245,6 +1245,190 @@
 3	машинасӧ	машина	N	_	Sg|Acc|PxSg3	2	obj	_	_
 4	.	.	CLB	_	_	2	punct	_	_
 
+# sent_id = kpv_four_battles.043
+1	Чужӧмыс	чужӧм	N	_	Sg|Nom|PxSg3	3	nsubj	_	_
+2	сылӧн	сійӧ	Pron	_	Pers|Sg3|Gen	1	nmod	_	_
+3	лои	лоны	V	_	Ind|Prt1|Sg3	0	x	_	_
+4	мел	мел	N	_	Sg|Nom	5	x	_	_
+5	кодь	кодь	Po	_	_	6	x	_	_
+6	еджыд	еджыд	A	_	_	3	x	_	_
+7	.	.	CLB	_	_	_	x	_	_
+
+# sent_id = kpv_four_battles.044
+1	—	—	PUNCT	_	_	4	punct	_	_
+2	Мый	мый	CONJ	_	_	4	obj	_	_
+3	тэ	тэ	Pron	_	Pers|Sg2|Nom	4	nsubj	_	_
+4	вӧчан	вӧчны	V	_	Ind|Prs|Sg2	_	_	_	_
+5	?	?	CLB	_	_	4	punct	_	_
+
+# sent_id = kpv_four_battles.045
+1	Мыйла	мыйла	ADV	_	_	2	advmod	_	_
+2	тормозитін	тормозитны	V	_	Ind|Prt1|Sg2	0	x	_	_
+3	?	?	CLB	_	_	2	punct	_	_
+
+# sent_id = kpv_four_battles.046
+1	—	—	PUNCT	_	_	2	punct	_	_
+2	горӧдіс	горӧдны	V	_	Ind|Prt1|Sg3	_	x	_	_
+3	Ворошилов	Ворошилов	N	_	Prop|Sem/Sur|Sem/Mal|Sg|Nom	2	nsubj	_	_
+4	.	.	CLB	_	_	2	punct	_	_
+
+# sent_id = kpv_four_battles.047
+1	—	—	PUNCT	_	_	2	punct	_	_
+2	Векни	векни	A	_	_	_	x	_	_
+3	!	^excl	CLB	_	_	2	punct	_	_
+
+# sent_id = kpv_four_battles.048
+1	Мунігмозыс	мунны	V	_	Der/иг|Ger|Der/моз|Ger|PxSg3	3	advcl	_	_
+2	он	оз	V	_	Neg|Ind|Prs|Sg2	3	aux	_	_
+3	тӧр	тӧрны	V	_	ConNeg	_	_	_	_
+4	бергӧдчыныс	бергӧдчыны	V	_	Inf|Px3	3	xcomp	_	_
+5	,	,	CLB	_	_	_	_	_	_
+6	командир	командир	N	_	Sg|Nom	7	nmod	_	_
+7	ёрт	ёрт	N	_	Sg|Nom	3	vocative	_	_
+8	!	^excl	CLB	_	_	_	_	_	_
+
+# sent_id = kpv_four_battles.049
+1	Сійӧ	сійӧ	Pron	_	Pers|Sg3|Nom	4	nsubj	_	_
+2	эз	оз	V	_	Neg|Ind|Pr|Sg3	4	aux	_	_
+3	на	на	Pcle	_	_	2	discourse	_	_
+4	удит	удитны	V	_	Conneg	_	x	_	_
+5	шуны	шуны	V	_	Inf	4	xcomp	_	_
+6	тайӧс	тайӧ	Pron	_	Dem|Sg|Acc	5	obj	_	_
+7	,	,	CLB	_	_	_	x	_	_
+8	кыдз	кыдз	Pron	_	Adv|Manner|Rel	11	advmod	_	_
+9	казакъяс	казак	N	_	Pl|Nom	11	nsubj	_	_
+10	горзігтырйи	горзыны	V	_	Der/иг|Ger|Der/тырйи|Ger	11	advcl	_	_
+11	уськӧдчисны	уськӧдчыны	V	_	Ind|Prt1|Pl3	_	x	_	_
+12	машиналань	машина	N	_	Sg|Apr	11	obl	_	_
+13	.	.	CLB	_	_	4	punct	_	_
+
+# sent_id = kpv_four_battles.050
+1	И	и	CS	_	_	6	mark	_	_
+2	пыр	пыр	Adv	_	_	6	advmod	_	_
+3	жӧ	жӧ	Pcle	_	_	2	discourse	_	_
+4	броневик	броневик	N	_	Sg|Nom	6	nsubj	_	_
+5	пытшкас	пытш	Po	_	Spat|Sg|Ine|PxSg3	4	case	_	_
+6	пондіс	пондыны	V	_	Ind|Prt1|Sg3	_	_	_	_
+7	шумитны	шумитны	V	_	Inf	6	xcomp	_	_
+8	,	,	CLB	_	_	9	punct	_	_
+9	тратшкакывны	тратшкакывны	V	_	Inf	7	conj	_	_
+10	да	да	CC	_	_	11	cc	_	_
+11	чеччавны	чеччавны	V	_	Inf	7	conj	_	_
+12	:	:	CLB	_	_	_	_	_	_
+13	тайӧ	тайӧ	Pron	_	Dem|Sg|Nom	14	nsubj	_	_
+14	мӧдіс	мӧдны	V	_	Ind|Prt1|Sg3	_	_	_	_
+15	уджавны	уджавны	V	_	Inf	14	xcomp	_	_
+16	краснӧйяслӧн	краснӧӥ	N	_	Pl|Gen	_	_	_	_
+17	дзик	дзик	Adv	_	AdA	18	advmod	_	_
+18	ӧти	ӧти	Num	_	Card|Attr	19	nummod	_	_
+19	пулемёт	пулемёт	N	_	Sg|Nom	_	_	_	_
+20	.	.	CLB	_	_	_	_	_	_
+
+
+# sent_id = kpv_four_battles.051
+1	Ага	Ага	Interj	_	_	0	root	_	_
+2	!	^excl	CLB	_	_	1	punct	_	_
+
+# sent_id = kpv_four_battles.052
+1	Эз	оз	V	_	Neg|Ind|Pr|Sg3	2	aux	_	_
+2	кажитчы	кажитчыны	V	_	ConNeg	_	x	_	_
+3	!	^excl	CLB	_	_	2	punct	_	_
+
+# sent_id = kpv_four_battles.053
+1	Водінныд	водны	V	_	Ind|Prt1|Pl2	_	x	_	_
+2	пуляяс	пуля	N	_	Pl|Nom	1	obl	_	_
+3	улӧ	ув	Po	_	Spat|Sg|Ill	2	case	_	_
+4	,	,	CLB	_	_	_	x	_	_
+5	бандитъяс	бандит	N	_	Pl|Nom	1	vocative	_	_
+6	?	?	CLB	_	_	1	punct	_	_
+
+# sent_id = kpv_four_battles.054
+1	Шоферыс	шофёр	N	_	Sg|Nom|PxSg3	4	nsubj	_	_
+2	паръяссӧ	пар	N	_	Pl|Nom|Clt|Clt/сӧ	3	obj	_	_
+3	курччӧмӧн	курччӧм	VERB	_	Sg|Ins|<W:0.0000000000	4	advcl	_	_
+4	тракнитіс	тракнитны	V	_	Ind|Prt1|Sg3	_	x	_	_
+5	задньӧй	задньӧй	A	_	_	6	amod	_	_
+6	ходлысь	ход	N	_	Sg|Abl	7	nmod	_	_
+7	рычагсӧ	рычаг	N	_	Sg|Nom|Clt|Clt/сӧ	4	obj	_	_
+8	.	.	CLB	_	_	4	punct	_	_
+
+# sent_id = kpv_four_battles.055
+1	—	—	PUNCT	_	_	_	x	_	_
+2	Ох	ох	Interj	_	_	7	discourse	_	_
+3	,	,	CLB	_	_	_	x	_	_
+4	командир	командир	N	_	Sg|Nom	5	nmod	_	_
+5	ёрт	ёрт	N	_	Sg|Nom	7	vocative	_	_
+6	,	,	CLB	_	_	_	x	_	_
+7	беда	беда	Adv	_	_	_	x	_	_
+8	!	^excl	CLB	_	_	7	punct	_	_
+
+# sent_id = kpv_four_battles.056
+1	Задньӧй	задньӧй	A	_	_	2	amod	_	_
+2	ходыс	ход	N	_	Sg|Nom|PxSg3	3	obl	_	_
+3	портитчис	портитчыны	V	_	Ind|Prt1|Sg3	_	x	_	_
+4	…	…	CLB	_	_	3	punct	_	_
+
+# sent_id = kpv_four_battles.057
+1	Крукасис	крукасьны	V	_	Ind|Prt1|Sg3	_	x	_	_
+2	мыйкӧ	мыйкӧ	Pron	_	Nom|Der/кӧ|Indef	1	nsubj	_	_
+3	.	.	CLB	_	_	1	punct	_	_
+
+# sent_id = kpv_four_battles.058
+1	Не	не	Pcle	_	_	2	advmod	_	_
+2	петны	петны	V	_	Inf	_	x	_	_
+3	миянлы	ми	Pron	_	Pers|Pl1|Dat	2	obl	_	_
+4	.	.	CLB	_	_	2	punct	_	_
+
+# sent_id = kpv_four_battles.059
+1	Казакъяс	казак	N	_	Pl|Nom	4	nsubj	_	_
+2	пыр	пыр	Adv	_	_	4	advmod	_	_
+3	жӧ	жӧ	Pcle	_	_	2	discourse	_	_
+4	гӧгӧрвоисны	гӧгӧрвоны	V	_	Ind|Prt1|Pl3	_	x	_	_
+5	,	,	CLB	_	_	_	x	_	_
+6	мый	мый	CONJ	_	_	_	x	_	_
+7	броневикыс	броневик	N	_	Sg|Nom|PxSg3	8	nsubj	_	_
+8	сибдіс	сибдыны	V	_	Ind|Prt1|Sg3	_	x	_	_
+9	.	.	CLB	_	_	_	x	_	_
+
+# sent_id = kpv_four_battles.060
+1	—	—	PUNCT	_	_	2	punct	_	_
+2	Мый	мый	Pron	_	N|Nom|Interr	_	x	_	_
+3	?	?	CLB	_	_	2	punct	_	_
+
+# sent_id = kpv_four_battles.061
+1	Сюринныд	сюрны	V	_	Ind|Prt1|Pl2	_	x	_	_
+2	краснӧй	краснӧӥ	ADJ	_	Sg|Nom	3	amod	_	_
+3	чӧртъяс	чӧрт	N	_	Pl|Nom	1	obj	_	_
+4	?	?	CLB	_	_	_	x	_	_
+
+# sent_id = kpv_four_battles.062
+1	Ну	ну	Pcle	_	_	_	_	_	_
+2	,	,	CLB	_	_	_	_	_	_
+3	ӧні	ӧні	Adv	_	_	_	_	_	_
+4	ми	ми	Pron	_	Pers|Pl1|Nom	_	_	_	_
+5	тіянӧс	ті	Pron	_	Pers|Pl2|Acc	_	_	_	_
+6	!	^excl	CLB	_	_	_	_	_	_
+
+# sent_id = kpv_four_battles.063
+1	И	и	Pcle	_	_	4	discourse	_	_
+2	вот	вот	Pcle	_	_	1	discourse	_	_
+3	найӧ	найӧ	Pron	_	Pers|Pl3|Nom	4	advmod	_	_
+4	шыбласьӧны	шыбласьны	V	_	Ind|Prs|Pl3	_	x	_	_
+5	нин	нин	Adv	_	_	4	advmod	_	_
+6	канаваӧ	канава	N	_	Sg|Ill	4	obl	_	_
+7	,	,	CLB	_	_	_	x	_	_
+8	кыссьӧны	кыссьыны	V	_	Ind|Prs|Pl3	4	conj	_	_
+9	турун	турун	N	_	Sg|Nom	8	obl	_	_
+10	пӧвстті	пӧвст	Po	_	Spat|Sg|Tra	9	case	_	_
+11	,	,	CLB	_	_	_	x	_	_
+12	старайтчӧны	старайтчыны	V	_	Ind|Prs|Pl3	4	conj	_	_
+13	воӧдчыны	воӧдчыны	V	_	Inf	12	xcomp	_	_
+14	кыдз	кыдз	Adv	_	_	15	advmod	_	_
+15	позьӧ	позьны	V	_	Ind|Prs|Sg3	13	ccomp	_	_
+16	матӧджык	матӧ	Adv	_	Ill|Comp	15	advmod	_	_
+17	.	.	CLB	_	_	4	punct	_	_
+
+
 # sent_id = kpv_four_battles.x64
 # text = Шоферыс , том зонка на , дзикӧдз растеряйтчис .
 # text_rus =
