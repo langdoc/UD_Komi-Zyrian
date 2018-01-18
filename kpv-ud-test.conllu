@@ -1685,16 +1685,6 @@
 7	вылас	вылын	ADP	Po	_	6	case	_	_
 8	.	.	PUNCT	CLB	_	4	punct	_	_
 
-# sent_id = kpv_izva20140327-3-b-099
-# text = Но вӧвъяссӧ миян унаӧн видзӧны .
-# text_rus =
-1	Но	но	CCONJ	CC	_	5	cc	_	_
-2	вӧвъяссӧ	вӧв	NOUN	N	_	5	obj	_	_
-3	миян	ми	PRON	Pron	_	5	obl	_	_
-4	унаӧн	уна	ADV	Adv	_	5	advmod	_	_
-5	видзӧны	видзны	VERB	V	_	0	root	_	_
-6	.	.	PUNCT	CLB	_	5	punct	_	_
-
 # sent_id = kpv-gt.01
 # text = Ныв ёртыслы гижис письмӧ .
 # text_rus =
