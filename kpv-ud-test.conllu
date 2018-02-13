@@ -1417,7 +1417,7 @@
 
 # sent_id = kpv_four_battles.037
 1	Мӧд	мӧд	Pron	_	Dem	2	nmod	_	_
-2	петанін	петанін	N	_	Sg|Nom	_	x	_	_
+2	петанін	петанін	N	_	Sg|Nom	0	root	_	_
 3	сэтысь	сэтысь	Adv	_	_	2	obl	_	_
 4	эз	оз	V	_	Neg|Ind|Pr|Sg3	5	aux	_	_
 5	вӧв	вӧвны	V	_	ConNeg	2	cop	_	_
@@ -1432,7 +1432,7 @@
 6	пу	пу	N	_	Sg|Nom	7	nmod	_	_
 7	заборъяс	забор	N	_	Pl|Nom	1	conj	_	_
 8	дінӧ	дінӧ	Po	_	Spat|Sg|Ill	7	case	_	_
-9	домавлӧмаӧсь	домавлыны	V	_	Ind|Prt2|Pl3	_	x	_	_
+9	домавлӧмаӧсь	домавлыны	V	_	Ind|Prt2|Pl3	0	root	_	_
 10	седлӧа	седлӧ	A	_	_	11	amod	_	_
 11	казацкӧй	казацкӧй	A	_	_	12	amod	_	_
 12	вӧвъясӧс	вӧв	N	_	Pl|Acc	9	obj	_	_
@@ -1449,7 +1449,7 @@
 8	мотор	мотор	N	_	Sg|Nom	9	nmod	_	_
 9	шум	шум	N	_	Sg|Nom	11	obl	_	_
 10	вылӧ	вылӧ	Po	_	Spat|Sg|Ill	9	case	_	_
-11	котӧртісны	котӧртны	V	_	Ind|Prt1|Pl3	_	x	_	_
+11	котӧртісны	котӧртны	V	_	Ind|Prt1|Pl3	0	root	_	_
 12	нин	нин	Adv	_	_	14	advmod	_	_
 13	вооружитчӧм	вооружитчӧм	VERB	_	Sg|Nom	14	acl	_	_
 14	йӧз	йӧз	N	_	Sg|Nom	11	nsubj	_	_
@@ -1457,50 +1457,50 @@
 
 # sent_id = kpv_four_battles.040
 # text = Казакъяс !
-1	Казакъяс	казак	NOUN	N	PL|Nom	0	_	_	_
+1	Казакъяс	казак	NOUN	N	PL|Nom	0	root	_	_
 2	!	!	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = kpv_four_battles.041
 # text = Белӧйяс !
-1	Белӧйяс	белӧй	NOUN	N	PL|Nom	0	_	_	_
+1	Белӧйяс	белӧй	NOUN	N	PL|Nom	0	root	_	_
 2	!	!	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = kpv_four_battles.042
 1	Шоферыс	шофёр	N	_	Sg|Nom|PxSg3	2	nsubj	_	_
-2	сувтӧдіс	сувтӧдны	V	_	Ind|Prt1|Sg3	0	x	_	_
+2	сувтӧдіс	сувтӧдны	V	_	Ind|Prt1|Sg3	0	root	_	_
 3	машинасӧ	машина	N	_	Sg|Acc|PxSg3	2	obj	_	_
 4	.	.	CLB	_	_	2	punct	_	_
 
 # sent_id = kpv_four_battles.043
 1	Чужӧмыс	чужӧм	N	_	Sg|Nom|PxSg3	3	nsubj	_	_
 2	сылӧн	сійӧ	Pron	_	Pers|Sg3|Gen	1	nmod	_	_
-3	лои	лоны	V	_	Ind|Prt1|Sg3	0	x	_	_
+3	лои	лоны	V	_	Ind|Prt1|Sg3	0	root	_	_
 4	мел	мел	N	_	Sg|Nom	5	x	_	_
 5	кодь	кодь	Po	_	_	6	x	_	_
 6	еджыд	еджыд	A	_	_	3	obl	_	_
-7	.	.	CLB	_	_	_	x	_	_
+7	.	.	CLB	_	_	3	punct	_	_
 
 # sent_id = kpv_four_battles.044
 1	—	—	PUNCT	_	_	4	punct	_	_
 2	Мый	мый	CONJ	_	_	4	obj	_	_
 3	тэ	тэ	Pron	_	Pers|Sg2|Nom	4	nsubj	_	_
-4	вӧчан	вӧчны	V	_	Ind|Prs|Sg2	_	_	_	_
+4	вӧчан	вӧчны	V	_	Ind|Prs|Sg2	0	root	_	_
 5	?	?	CLB	_	_	4	punct	_	_
 
 # sent_id = kpv_four_battles.045
 1	Мыйла	мыйла	ADV	_	_	2	advmod	_	_
-2	тормозитін	тормозитны	V	_	Ind|Prt1|Sg2	0	x	_	_
+2	тормозитін	тормозитны	V	_	Ind|Prt1|Sg2	0	root	_	_
 3	?	?	CLB	_	_	2	punct	_	_
 
 # sent_id = kpv_four_battles.046
 1	—	—	PUNCT	_	_	2	punct	_	_
-2	горӧдіс	горӧдны	V	_	Ind|Prt1|Sg3	_	x	_	_
+2	горӧдіс	горӧдны	V	_	Ind|Prt1|Sg3	0	root	_	_
 3	Ворошилов	Ворошилов	N	_	Prop|Sem/Sur|Sem/Mal|Sg|Nom	2	nsubj	_	_
 4	.	.	CLB	_	_	2	punct	_	_
 
 # sent_id = kpv_four_battles.047
 1	—	—	PUNCT	_	_	2	punct	_	_
-2	Векни	векни	A	_	_	_	x	_	_
+2	Векни	векни	A	_	_	0	root	_	_
 3	!	^excl	CLB	_	_	2	punct	_	_
 
 # sent_id = kpv_four_battles.048
@@ -1517,7 +1517,7 @@
 1	Сійӧ	сійӧ	Pron	_	Pers|Sg3|Nom	4	nsubj	_	_
 2	эз	оз	V	_	Neg|Ind|Pr|Sg3	4	aux	_	_
 3	на	на	Pcle	_	_	2	discourse	_	_
-4	удит	удитны	V	_	Conneg	_	x	_	_
+4	удит	удитны	V	_	Conneg	0	root	_	_
 5	шуны	шуны	V	_	Inf	4	xcomp	_	_
 6	тайӧс	тайӧ	Pron	_	Dem|Sg|Acc	5	obj	_	_
 7	,	,	CLB	_	_	8	punct	_	_
