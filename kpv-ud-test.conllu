@@ -1112,7 +1112,7 @@
 # sent_id = kpv_four_battles.015
 1	Туйыс	туй	N	_	Sg|Nom|PxSg3	3	nsubj	_	_
 2	вӧлі	вӧвны	V	_	Ind|Prt1|Sg3	3	cop	_	_
-3	сьӧкыд	сьӧкыд	A	_	_	_	_	_	_
+3	сьӧкыд	сьӧкыд	A	_	_	0	root	_	_
 4	,	,	CLB	_	_	5	punct	_	_
 5	белӧйяс	белӧй	N	_	Pl|Nom	6	nsubj	_	_
 6	потшисны	потшны	V	_	Ind|Prt1|Pl3	3	ccomp	_	_
@@ -1122,50 +1122,48 @@
 
 # sent_id = kpv_four_battles.016
 1	Быдлаысь	быдла	Adv	_	Spat|Ela	2	advmod	_	_
-2	кыліс	кывны	V	_	Ind|Prt1|Sg3	_	_	_	_
+2	кыліс	кывны	V	_	Ind|Prt1|Sg3	0	root	_	_
 3	винтовкаяслӧн	винтовка	N	_	Pl|Gen	4	nmod	_	_
 4	трачӧдчӧм	трачӧдчӧм	VERB	_	Sg|Nom	2	csubj	_	_
-5	,	,	CLB	_	_	_	_	_	_
-6	орудиеысь	орудие	N	_	Sg|Ela	_	_	_	_
-7	лыйлӧм	лыйлӧм	N	_	Sg|Nom	_	_	_	_
-8	,	,	CLB	_	_	_	_	_	_
-9	взрывъяслӧн	взрыв	N	_	Pl|Gen	_	_	_	_
-10	грымгӧм	грымгӧм	N	_	Sg|Nom	_	_	_	_
+5	,	,	CLB	_	_	6	punct	_	_
+6	орудиеысь	орудие	N	_	Sg|Ela	7	nmod	_	_
+7	лыйлӧм	лыйлӧм	N	_	Sg|Nom	4	conj	_	_
+8	,	,	CLB	_	_	9	punct	_	_
+9	взрывъяслӧн	взрыв	N	_	Pl|Gen	10	nmod	_	_
+10	грымгӧм	грымгӧм	N	_	Sg|Nom	4	conj	_	_
 11	…	…	CLB	_	_	2	punct	_	_
 
 # sent_id = kpv_four_battles.017
-1	И	и	CC	_	_	_	x	_	_
-2	друг	друг	Adv	_	_	_	x	_	_
-3	,	,	CLB	_	_	_	x	_	_
-4	кор	кор	Adv	_	Rel|Temp	_	x	_	_
-5	миян	ми	Pron	_	Pers|Pl1|Gen	_	x	_	_
+1	И	и	CC	_	_	10	mark	_	_
+2	друг	друг	Adv	_	_	10	advmod	_	_
+3	,	,	CLB	_	_	4	punct	_	_
+4	кор	кор	Adv	_	Rel|Temp	10	advmod	_	_
+5	миян	ми	Pron	_	Pers|Pl1|Gen	6	nmod	_	_
 6	войскаяс	войска	N	_	Pl|Nom	10	nsubj	_	_
-7	ас	ас	A	_	Refl|Attr	_	x	_	_
-8	водзсьыныс	водз	Po	_	Spat|Sg|Ela|PxPl3	_	x	_	_
-9	ылысь	ылын	ADP	_	Spat|Ela	_	x	_	_
-10	аддзисны	аддзыны	V	_	Ind|Prt1|Pl3	_	x	_	_
+7	ас	ас	A	_	Refl|Attr	8	nmod	_	_
+8	водзсьыныс	водз	Po	_	Spat|Sg|Ela|PxPl3	10	obl	_	_
+9	ылысь	ылын	ADP	_	Spat|Ela	8	case	_	_
+10	аддзисны	аддзыны	V	_	Ind|Prt1|Pl3	21	advcl	_	_
 11	неыджыд	неыджыд	A	_	_	12	amod	_	_
 12	казацкӧй	казацкӧй	A	_	_	13	amod	_	_
 13	сикт	сикт	N	_	Sg|Nom	10	obj	_	_
-14	,	,	CLB	_	_	_	x	_	_
+14	,	,	CLB	_	_	15	punct	_	_
 15	Пятиизбеннӧй	пятиизбеннӧй	A	_	Der/MWN|N|Sg|Nom|PxSg1	16	amod	_	_
-16	станица	станица	N	_	Sg|Nom	_	x	_	_
-17	,	,	CLB	_	_	_	x	_	_
+16	станица	станица	N	_	Sg|Nom	13	conj	_	_
+17	,	,	CLB	_	_	18	punct	_	_
 18	ставыс	став	Pron	_	Qnt|Sg|Nom|PxSg3	21	nsubj	_	_
 19	гӧгӧр	гӧгӧр	Adv	_	_	21	advmod	_	_
 20	виччысьтӧг	виччысьны	V	_	Car	21	advcl	_	_
-21	лӧнис	лӧньны	V	_	Ind|Prt1|Sg3	_	x	_	_
-22	.	.	CLB	_	_	_	x	_	_
+21	лӧнис	лӧньны	V	_	Ind|Prt1|Sg3	0	root	_	_
+22	.	.	CLB	_	_	21	punct	_	_
 
 # sent_id = kpv_four_battles.018
-1	Ни	ни	CC	_	_	2	_	_	_
-2	горзӧмъяс	горзӧм	N	_	Pl|Nom	_	_	_	_
-3	,	,	CLB	_	_	_	_	_	_
-4	ни	ни	CC	_	_	5	_	_	_
-5	лыйсьӧмъяс	лыйсьӧм	N	_	Pl|Nom	_	_	_	_
-6	.	.	CLB	_	_	2	_	_	_
-
-# sent_id = kpv_four_battles.018
+1	Ни	ни	PART	_	_	2	advmod	_	_
+2	горзӧмъяс	горзӧм	N	_	Pl|Nom	0	root	_	_
+3	,	,	CLB	_	_	4	punct	_	_
+4	ни	ни	PART	_	_	5	advmod	_	_
+5	лыйсьӧмъяс	лыйсьӧм	N	_	Pl|Nom	2	conj	_	_
+6	.	.	CLB	_	_	2	punct	_	_
 
 # sent_id = kpv_four_battles.019
 # text = Враг быттьӧ сыліс кытчӧкӧ .
