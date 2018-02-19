@@ -2,29 +2,29 @@
 # text = Водз асылын лэччи Эжва дорӧ вуграсьны.
 # text_rus = Рано утром спустился к Вычегде поудить.
 1	Водз	водз	ADV	Adv	_	2	advmod	_	_
-2	асылын	асыв	NOUN	N	_	3	advmod	_	_
-3	лэччи	лэччыны	VERB	V	_	0	root	_	_
-4	Эжва	Эжва	NOUN	N	_	3	obl	_	_
-5	дорӧ	дор	ADP	Po	_	4	case	_	_
-6	вуграсьны	вуграсьны	VERB	V	_	3	xcomp	_	SpaceAfter=No
+2	асылын	асыв	NOUN	N	Sg|Ine	3	advmod	_	_
+3	лэччи	лэччыны	VERB	V	Ind|Prt1|Sg1	0	root	_	_
+4	Эжва	Эжва	NOUN	N	Prop|Sg|Nom	3	obl	_	_
+5	дорӧ	дор	ADP	Po	Po|Sg|Ill	4	case	_	_
+6	вуграсьны	вуграсьны	VERB	V	Inf	3	xcomp	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = belyx-011.001
 # text = Но чериыс мыйлакӧ эз сёй.
 # text_rus = Но рыба почему-то не ела.
 1	Но	но	CCONJ	CC	_	5	cc	_	_
-2	чериыс	чери	NOUN	N	_	5	nsubj	_	_
+2	чериыс	чери	NOUN	N	Sg|Nom|PxSg3	5	nsubj	_	_
 3	мыйлакӧ	мыйлакӧ	PRON	Pron	_	5	advmod	_	_
-4	эз	оз	AUX	V	_	5	aux	_	_
-5	сёй	сёйны	VERB	V	_	0	root	_	_
+4	эз	оз	AUX	V	Neg|Ind|Prt3	5	aux	_	_
+5	сёй	сёйны	VERB	V	Conneg	0	root	_	_
 6	.	.	PUNCT	CLB	_	5	punct	_	SpaceAfter=No
 
 # sent_id = belyx-011.002
 # text = Кӧть луныс вӧлі зэв мича.
 # text_rus = Хотя день был очень хорошим.
 1	Кӧть	кӧть	SCONJ	CS	_	5	mark	_	_
-2	луныс	лун	NOUN	N	_	5	nsubj	_	_
-3	вӧлі	вӧвны	VERB	V	_	5	cop	_	_
+2	луныс	лун	NOUN	N	Sg|Nom|PxSg3	5	nsubj	_	_
+3	вӧлі	вӧвны	VERB	V	Ind|Prt1|Sg3	5	cop	_	_
 4	зэв	зэв	ADV	Adv	_	5	advmod	_	_
 5	мича	мича	ADJ	A	_	0	root	_	_
 6	.	.	PUNCT	CLB	_	5	punct	_	SpaceAfter=No
@@ -34,47 +34,47 @@
 # text_rus = Солнце пекло, ничего не жалея.
 1	Шондіыс	шонді	NOUN	N	Sg|Nom|PxSg3	4	nsubj	_	_
 2	нем	нем	PRON	Pro	Neg|Sg|Nom	3	det	_	_
-3	жалиттӧг	жалитны	VERB	V	Der|Car|Ger	4	advcl	_	_
+3	жалиттӧг	жалитны	VERB	V	Car|Ger	4	advcl	_	_
 4	пӧжис	пӧжны	VERB	V	Ind|Prt1|Sg3	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.004
 # text = Енэжын ни ӧти кымӧртор эз тыдав.
 # text_rus = В небе не было видно ни облачка.
-1	Енэжын	енэж	NOUN	N	_	6	obl	_	_
+1	Енэжын	енэж	NOUN	N	N|Sg|Ine	6	obl	_	_
 2	ни	ни	PART	Pcle	_	3	advmod	_	_
-3	ӧти	ӧти	NUM	Num	_	4	nummod	_	_
-4	кымӧртор	кымӧртор	NOUN	N	_	6	nsubj	_	_
-5	эз	оз	AUX	V	_	6	aux	_	_
-6	тыдав	тыдавны	VERB	V	_	0	root	_	SpaceAfter=No
+3	ӧти	ӧти	NUM	Num	Card	4	nummod	_	_
+4	кымӧртор	кымӧртор	NOUN	N	Sg|Nom	6	nsubj	_	_
+5	эз	оз	AUX	V	Neg|Ind|Prt3	6	aux	_	_
+6	тыдав	тыдавны	VERB	V	Conneg	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = belyx-011.005
 # text = Пӧсь сынӧдыс кыскис вын-эбӧстӧ.
 # text_rus = Жаркий воздух отнимал силы.
 1	Пӧсь	пӧсь	ADJ	A	_	2	amod	_	_
-2	сынӧдыс	сынӧд	NOUN	N	_	3	nsubj	_	_
-3	кыскис	кыскыны	VERB	V	_	0	root	_	_
-4	вын-эбӧстӧ	вын-эбӧс	NOUN	N	_	3	obj	_	_
+2	сынӧдыс	сынӧд	NOUN	N	Sg|Nom|PxSg3	3	nsubj	_	_
+3	кыскис	кыскыны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
+4	вын-эбӧстӧ	вын-эбӧс	NOUN	N	Sg|Acc|PxSg2	3	obj	_	_
 5	.	.	PUNCT	CLB	_	3	punct	_	SpaceAfter=No
 
 # sent_id = belyx-011.006
 # text = Дзикӧдз жайӧдіс.
 # text_rus = Совсем изнемог.
 1	Дзикӧдз	дзикӧдз	ADV	Adv	_	2	advmod	_	_
-2	жайӧдіс	жайӧдны	VERB	V	_	0	root	_	SpaceAfter=No
+2	жайӧдіс	жайӧдны	VERB	V	Ind|Prt1|Sg3	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = belyx-011.007
 # text = Весиг юсянь неуна локтысь ыркыдыс эз кокньӧд.
 # text_rus = Даже прохлада, доносящаяся с реки, не помогала.
 1	Весиг	весиг	ADV	Adv	_	5	advmod	_	_
-2	юсянь	ю	NOUN	N	_	4	obl	_	_
+2	юсянь	ю	NOUN	N	Sg|Egr	4	obl	_	_
 3	неуна	неуна	ADV	Adv	_	4	advmod	_	_
 4	локтысь	локны	VERB	V	_	5	acl	_	_
-5	ыркыдыс	ыркыд	ADJ	A	_	7	nsubj	_	_
-6	эз	оз	AUX	V	_	7	aux	_	_
-7	кокньӧд	кокньӧдны	VERB	V	_	0	root	_	_
+5	ыркыдыс	ыркыд	NOUN	N	Sg|Nom|PxSg	7	nsubj	_	_
+6	эз	оз	AUX	V	Neg|Ind|Prt3	7	aux	_	_
+7	кокньӧд	кокньӧдны	VERB	V	ConNeg	0	root	_	_
 8	.	.	PUNCT	CLB	_	7	punct	_	SpaceAfter=No
 
 # sent_id = belyx-011.008
@@ -99,24 +99,24 @@
 # sent_id = belyx-011.009
 # text = Лун шӧр кадланьыс нин кыськӧ шур-шар воис неыджыд тӧвру.
 # text_rus = К середине дня откуда-то с шуршанием донёсся небольшой ветерок.
-1	Лун	лун	NOUN	N	_	2	nmod	_	_
-2	шӧр	шӧр	ADJ	A	_	3	amod	_	_
-3	кадланьыс	кад	NOUN	N	_	7	obl	_	_
+1	Лун	лун	NOUN	N	Sg|Nom	2	compound	_	_
+2	шӧр	шӧр	NOUN	N	_	3	nmod	_	_
+3	кадланьыс	кад	NOUN	N	Sg|Apr|PxSg3	7	obl	_	_
 4	нин	нин	ADV	Adv	_	7	advmod	_	_
 5	кыськӧ	кысь	ADV	Adv	_	7	obl	_	_
 6	шур-шар	шур-шар	ADV	Adv	_	7	advmod	_	_
-7	воис	воны	VERB	V	_	0	root	_	_
+7	воис	воны	VERB	V	Prt1|Sg3	0	root	_	_
 8	неыджыд	неыджыд	ADJ	A	_	9	amod	_	_
-9	тӧвру	тӧвру	NOUN	N	_	7	nsubj	_	SpaceAfter=No
+9	тӧвру	тӧвру	NOUN	N	Sg|Nom	7	nsubj	_	SpaceAfter=No
 10	.	.	PUNCT	CLB	_	7	punct	_	_
 
 # sent_id = belyx-011.010
 # text = И кокниджыка лолавсьыны кутіс.
 # text_rus = И дышать стало легче.
 1	И	и	CCONJ	CC	_	4	cc	_	_
-2	кокниджыка	кокни	ADJ	A	_	3	amod	_	_
-3	лолавсьыны	лолавсьыны	VERB	V	_	4	xcomp	_	_
-4	кутіс	кутны	VERB	V	_	0	root	_	SpaceAfter=No
+2	кокниджыка	кокни	ADV	Adv	_	3	advmod	_	_
+3	лолавсьыны	лолавсьыны	VERB	V	Inf	4	xcomp	_	_
+4	кутіс	кутны	VERB	V	Ind|Prt1|Sg3	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.011
@@ -182,18 +182,18 @@
 # sent_id = belyx-011.015
 # text = Кыліс зэв ылысянь муркӧдчӧм шы.
 # text_rus = Издалека послышались звуки грома.
-1	Кыліс	кывны	VERB	V	_	0	root	_	_
+1	Кыліс	кывны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 2	зэв	зэв	ADV	Adv	_	3	advmod	_	_
-3	ылысянь	ылысянь	ADV	Adv	_	1	advmod	_	_
-4	муркӧдчӧм	муркӧдчыны	VERB	V	_	5	acl	_	_
-5	шы	шы	NOUN	N	_	1	nsubj	_	SpaceAfter=No
+3	ылысянь	ылысянь	ADV	Adv	Egr	1	advmod	_	_
+4	муркӧдчӧм	муркӧдчыны	VERB	V	PastPtc	5	acl	_	_
+5	шы	шы	NOUN	N	Sg|Nom	1	nsubj	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = belyx-011.016
 # text = Ваыс лӧнис.
 # text_rus = Вода стихла.
-1	Ваыс	ва	NOUN	N	_	2	nsubj	_	_
-2	лӧнис	лӧньны	VERB	V	_	0	root	_	SpaceAfter=No
+1	Ваыс	ва	NOUN	N	Sg|Nom	2	nsubj	_	_
+2	лӧнис	лӧньны	VERB	V	Ind|Prt1|Sg3	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = belyx-011.017
@@ -201,16 +201,16 @@
 # text_rus = Рыба совсем присмирела.
 1	Чериыд	чери	NOUN	N	_	3	nsubj	_	_
 2	дзикӧдз	дзикӧдз	ADV	Adv	_	3	advmod	_	_
-3	раммис	раммыны	VERB	V	_	0	root	_	SpaceAfter=No
+3	раммис	раммыны	VERB	V	Ind|Prt1|Sg3	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = belyx-011.018
 # text = Весиг бӧжсӧ эз петкӧдлы.
 # text_rus = Даже хвост не показывала.
 1	Весиг	весиг	ADV	Adv	_	4	advmod	_	_
-2	бӧжсӧ	бӧж	NOUN	N	_	4	obj	_	_
-3	эз	оз	AUX	V	_	4	aux	_	_
-4	петкӧдлы	петкӧдлыны	VERB	V	_	0	root	_	SpaceAfter=No
+2	бӧжсӧ	бӧж	NOUN	N	Sg|Acc|PxSg3	4	obj	_	_
+3	эз	оз	AUX	V	Ind|Prt|Sg1	4	aux	_	_
+4	петкӧдлы	петкӧдлыны	VERB	V	Conneg	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.019
@@ -222,38 +222,38 @@
 4	,	,	PUNCT	CLB	_	7	punct	_	_
 5	вӧлӧмкӧ	вӧлӧмкӧ	ADV	Adv	_	7	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	7	punct	_	_
-7	майшассьӧма	майшассьыны	VERB	V	_	0	root	_	SpaceAfter=No
+7	майшассьӧма	майшассьыны	VERB	V	Ind|Prt2|Sg3	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	7	punct	_	_
 
 # sent_id = belyx-011.020
 # text = Кымӧрыс недыр повзьӧдчӧм бӧрын вешйис бокӧ.
 # text_rus = Туча после того, как немного попугала, ушла в сторону.
-1	Кымӧрыс	кымӧр	NOUN	N	_	5	nsubj	_	_
+1	Кымӧрыс	кымӧр	NOUN	N	Sg|Nom|PxSg3	5	nsubj	_	_
 2	недыр	недыр	ADV	Adv	_	3	advmod	_	_
 3	повзьӧдчӧм	повзьӧдчыны	VERB	V	_	5	obl	_	_
-4	бӧрын	бӧр	ADP	Adv	_	3	case	_	_
-5	вешйис	вешйыны	VERB	V	_	0	root	_	_
-6	бокӧ	бокӧ	ADV	Po	_	5	advmod	_	SpaceAfter=No
+4	бӧрын	бӧр	ADP	Po	Sg|Ine	3	case	_	_
+5	вешйис	вешйыны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
+6	бокӧ	бокӧ	ADV	Adv	Ill	5	advmod	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = belyx-011.021
 # text = А ачым думайта, мый грӧзитӧ кӧ енэжыс гыма зэрӧн, сідз-тадз ставыс оз помась.
 # text_rus = А сам думаю, что если небеса грозят громом и дождём, просто так всё не закончится.
 1	А	а	SCONJ	CS	_	3	cc	_	_
-2	ачым	ас	PRON	Pron	_	3	nsubj	_	_
-3	думайта	думайтны	VERB	V	_	0	root	_	SpaceAfter=No
+2	ачым	ас	PRON	Pron	Sg1|Nom	3	nsubj	_	_
+3	думайта	думайтны	VERB	V	Ind|Prs|Sg1	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	6	punct	_	_
 5	мый	мый	CCONJ	CONJ	_	6	conj	_	_
-6	грӧзитӧ	грӧзитны	VERB	V	_	15	advcl	_	_
+6	грӧзитӧ	грӧзитны	VERB	V	Ind|Prs|Sg3	15	advcl	_	_
 7	кӧ	кӧ	SCONJ	CS	_	6	mark	_	_
-8	енэжыс	енэж	NOUN	N	_	6	nsubj	_	_
+8	енэжыс	енэж	NOUN	N	Sg|Nom|PxSg3	6	nsubj	_	_
 9	гыма	гыма	ADJ	A	_	10	amod	_	_
-10	зэрӧн	зэр	NOUN	N	_	6	obl	_	SpaceAfter=No
+10	зэрӧн	зэр	NOUN	N	Sg|Ins	6	obl	_	SpaceAfter=No
 11	,	,	PUNCT	CLB	_	15	punct	_	_
 12	сідз-тадз	сідз-тадз	ADV	Adv	_	15	advmod	_	_
-13	ставыс	став	PRON	Pron	_	15	nsubj	_	_
-14	оз	оз	AUX	V	_	15	aux	_	_
-15	помась	помасьны	VERB	V	_	3	ccomp	_	SpaceAfter=No
+13	ставыс	став	PRON	Pron	Nom|PxSg3	15	nsubj	_	_
+14	оз	оз	AUX	V	Neg|Ind|Prs|Sg3	15	aux	_	_
+15	помась	помасьны	VERB	V	ConNeg	3	ccomp	_	SpaceAfter=No
 16	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = belyx-011.022
@@ -262,60 +262,60 @@
 1	Коркӧ	коркӧ	ADV	Adv	_	4	advmod	_	_
 2	век	век	ADV	Adv	_	4	advmod	_	_
 3	нин	нин	ADV	Adv	_	2	advmod	_	_
-4	гымалас	гымавны	VERB	V	_	0	root	_	_
+4	гымалас	гымавны	VERB	V	Ind|Fut|Sg3	0	root	_	_
 5	и	и	CCONJ	CC	_	6	cc	_	_
-6	зэрас	зэрны	VERB	V	_	4	conj	_	SpaceAfter=No
+6	зэрас	зэрны	VERB	V	Ind|Fut|Sg3	4	conj	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.023
 # text = Пукавны вадорын водзӧ вӧлі весьшӧрӧ.
 # text_rus = Сидеть у берега было попусту.
-1	Пукавны	пукавны	VERB	V	_	4	csubj	_	_
-2	вадорын	вадор	NOUN	N	_	1	nmod	_	_
-3	водзӧ	водз	ADV	Adv	_	1	advmod	_	_
-4	вӧлі	вӧвны	VERB	V	_	0	root	_	_
-5	весьшӧрӧ	весьшӧрӧ	ADV	Adv	_	4	advmod	_	SpaceAfter=No
+1	Пукавны	пукавны	VERB	V	Inf	4	csubj	_	_
+2	вадорын	вадор	NOUN	N	Sg|Ine	1	nmod	_	_
+3	водзӧ	водз	ADV	Adv	Sg|Ill	1	advmod	_	_
+4	вӧлі	вӧвны	VERB	V	Prt1|Sg3	0	root	_	_
+5	весьшӧрӧ	весьшӧрӧ	ADV	Adv	Ill	4	advmod	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.024
 # text = Ньӧжйӧник чукӧрті чери кыян кӧлуйӧс да мӧдӧдчи гортлань.
 # text_rus = По-тихоньку собрал рыболовные снасти и пошёл в сторону дома.
 1	Ньӧжйӧник	ньӧжйӧник	ADV	Adv	_	2	advmod	_	_
-2	чукӧрті	чукӧртны	VERB	V	_	0	root	_	_
-3	чери	чери	NOUN	N	_	4	nmod	_	_
-4	кыян	кыян	NOUN	N	_	5	nmod	_	_
-5	кӧлуйӧс	кӧлуй	NOUN	N	_	2	obj	_	_
+2	чукӧрті	чукӧртны	VERB	V	Ind|Prt1|Sg1	0	root	_	_
+3	чери	чери	NOUN	N	Sg|Nom	4	nmod	_	_
+4	кыян	кыян	NOUN	N	Sg|Nom	5	nmod	_	_
+5	кӧлуйӧс	кӧлуй	NOUN	N	Sg|Acc|PxSg1	2	obj	_	_
 6	да	да	CCONJ	CC	_	5	cc	_	_
-7	мӧдӧдчи	мӧдӧдчыны	VERB	V	_	2	conj	_	_
-8	гортлань	горт	NOUN	N	_	7	obl	_	SpaceAfter=No
+7	мӧдӧдчи	мӧдӧдчыны	VERB	V	Ind|Prt1|Sg1	2	conj	_	_
+8	гортлань	горт	NOUN	N	Sg|Apr	7	obl	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = belyx-011.025
 # text = Тӧдлытӧг асыв-войвывсяньыс тыдовтчис нӧшта кымӧр пласт да ӧдйӧ кутіс кайны енэж шӧрлань.
 # text_rus = Незаметно с северо-востока показалась ещё туча и быстро стала направляться к середине неба.
 1	Тӧдлытӧг	тӧдлыны	VERB	V	_	3	advcl	_	_
-2	асыв-войвывсяньыс	асыв-войвыв	NOUN	N	_	3	obl	_	_
-3	тыдовтчис	тыдовтчыны	VERB	V	_	0	root	_	_
+2	асыв-войвывсяньыс	асыв-войвыв	NOUN	N	Sg|Egr|PxSg3	3	obl	_	_
+3	тыдовтчис	тыдовтчыны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 4	нӧшта	нӧшта	ADV	Adv	_	3	advmod	_	_
-5	кымӧр	кымӧр	NOUN	N	_	6	nmod	_	_
-6	пласт	пласт	NOUN	N	_	3	nsubj	_	_
+5	кымӧр	кымӧр	NOUN	N	Sg|Nom	6	nmod	_	_
+6	пласт	пласт	NOUN	N	Sg|Nom	3	nsubj	_	_
 7	да	да	CCONJ	CC	_	3	cc	_	_
 8	ӧдйӧ	ӧдйӧ	ADV	Adv	_	9	advmod	_	_
-9	кутіс	кутны	VERB	V	_	3	conj	_	_
-10	кайны	кайны	VERB	V	_	9	xcomp	_	_
-11	енэж	енэж	NOUN	N	_	12	nmod	_	_
-12	шӧрлань	шӧр	NOUN	N	_	10	obl	_	SpaceAfter=No
+9	кутіс	кутны	VERB	V	Ind|Prt1|Sg3	3	conj	_	_
+10	кайны	кайны	VERB	V	Inf	9	xcomp	_	_
+11	енэж	енэж	NOUN	N	Sg|Nom	12	nmod	_	_
+12	шӧрлань	шӧр	NOUN	N	Sg|Apr	10	obl	_	SpaceAfter=No
 13	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = belyx-011.026
 # text = Сійӧ вочасӧн пыр паськаліс да лӧзӧдіс.
 # text_rus = Постепенно она становилась шире и синела.
-1	Сійӧ	сійӧ	PRON	Pron	_	4	nsubj	_	_
+1	Сійӧ	сійӧ	PRON	Pron	Sg3|Nom	4	nsubj	_	_
 2	вочасӧн	вочасӧн	ADV	Adv	_	4	advmod	_	_
 3	пыр	пыр	ADV	Adv	_	4	advmod	_	_
-4	паськаліс	паськавны	VERB	V	_	0	root	_	_
+4	паськаліс	паськавны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 5	да	да	CCONJ	CC	_	6	cc	_	_
-6	лӧзӧдіс	лӧзӧдны	VERB	V	_	4	conj	_	SpaceAfter=No
+6	лӧзӧдіс	лӧзӧдны	VERB	V	Ind|Prt1|Sg3	4	conj	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = belyx-011.027
@@ -346,8 +346,8 @@
 # text = Ӧд мунны колӧ бура унакодь на.
 # text_rus = Ведь пройти надо немало.
 1	Ӧд	ӧд	PART	Pcle	_	3	advmod	_	_
-2	мунны	мунны	VERB	V	_	3	xcomp	_	_
-3	колӧ	ковны	VERB	V	_	0	root	_	_
+2	мунны	мунны	VERB	V	Inf	3	xcomp	_	_
+3	колӧ	ковны	VERB	V	Ind|Prs|Sg3	0	root	_	_
 4	бура	бура	ADV	Adv	_	5	advmod	_	_
 5	унакодь	унакодь	ADV	A	_	3	advmod	_	_
 6	на	на	ADV	Adv	_	5	advmod	_	SpaceAfter=No
@@ -356,26 +356,26 @@
 # sent_id = belyx-011.030
 # text = Ӧддзӧді воськовъясӧс.
 # text_rus = Ускорил шаги.
-1	Ӧддзӧді	ӧддзӧдны	VERB	V	_	0	root	_	_
-2	воськовъясӧс	воськов	NOUN	N	_	1	obj	_	SpaceAfter=No
+1	Ӧддзӧді	ӧддзӧдны	VERB	V	Ind|Prt1|Sg1	0	root	_	_
+2	воськовъясӧс	воськов	NOUN	N	Pl|Acc|PxSg1	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = belyx-011.031
 # text = Но кымӧрыд локтіс нӧшта ӧдйӧджык.
 # text_rus = Но туча шла ещё быстрее.
 1	Но	но	CCONJ	CC	_	3	cc	_	_
-2	кымӧрыд	кымӧр	NOUN	N	_	3	nsubj	_	_
-3	локтіс	локны	VERB	V	_	0	root	_	_
+2	кымӧрыд	кымӧр	NOUN	N	Sg|Nom|PxSg2	3	nsubj	_	_
+3	локтіс	локны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 4	нӧшта	нӧшта	ADV	Adv	_	5	advmod	_	_
-5	ӧдйӧджык	ӧдйӧ	ADV	Adv	_	3	advmod	_	SpaceAfter=No
+5	ӧдйӧджык	ӧдйӧ	ADV	Adv	Comp	3	advmod	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = belyx-011.032
 # text = Кутіс нин гымавны-чардавны.
 # text_rus = Уже начались гром и молнии.
-1	Кутіс	кутны	VERB	V	_	0	root	_	_
+1	Кутіс	кутны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 2	нин	нин	ADV	Adv	_	1	advmod	_	_
-3	гымавны-чардавны	гымавны-чардавны	VERB	V	_	1	xcomp	_	SpaceAfter=No
+3	гымавны-чардавны	гымавны-чардавны	VERB	V	Inf	1	xcomp	_	SpaceAfter=No
 4	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = belyx-011.033
@@ -383,11 +383,11 @@
 # text_rus = А потом сверху пошли большие капли дождя.
 1	А	а	SCONJ	CS	_	4	cc	_	_
 2	сэсся	сэсся	ADV	Adv	_	4	advmod	_	_
-3	вылісянь	вылісянь	ADV	Adv	_	4	obl	_	_
-4	мӧдӧдчисны	мӧдӧдчыны	VERB	V	_	0	root	_	_
+3	вылісянь	вылісянь	ADV	Adv	Sg|Egr	4	obl	_	_
+4	мӧдӧдчисны	мӧдӧдчыны	VERB	V	Ind|Prt1|Pl3	0	root	_	_
 5	гырысь	гырысь	ADJ	A	_	7	amod	_	_
-6	зэр	зэр	NOUN	N	_	7	compound	_	_
-7	войтъяс	войт	NOUN	N	_	4	nsubj	_	SpaceAfter=No
+6	зэр	зэр	NOUN	N	Pl|Nom	7	compound	_	_
+7	войтъяс	войт	NOUN	N	Pl|Nom	4	nsubj	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.034
@@ -395,177 +395,177 @@
 # text_rus = До этого успел дойти только к осиновой роще.
 1	Сэк	сэк	ADV	Adv	_	3	advmod	_	_
 2	жӧ	жӧ	PART	Pcle	_	1	advmod	_	_
-3	удиті	удитны	VERB	V	_	0	root	_	_
+3	удиті	удитны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 4	на	на	ADV	Adv	_	3	advmod	_	_
-5	воны	воны	VERB	V	_	3	xcomp	_	_
+5	воны	воны	VERB	V	Inf	3	xcomp	_	_
 6	сӧмын	сӧмын	ADV	Adv	_	8	advmod	_	_
-7	пипу	пипу	NOUN	N	_	8	nmod	_	_
-8	рас	рас	NOUN	N	_	5	obl	_	_
-9	весьтӧдз	весьт	ADP	Po	_	8	case	_	SpaceAfter=No
+7	пипу	пипу	NOUN	N	Sg|Nom	8	nmod	_	_
+8	рас	рас	NOUN	N	Sg|Nom	5	obl	_	_
+9	весьтӧдз	весьт	ADP	Po	Sg|Ter	8	case	_	SpaceAfter=No
 10	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = belyx-011.035
 # text = Зэрсьыс дзебсьыны вӧлі весьшӧрӧ нин.
 # text_rus = От дождя прятаться было уже бесполезно.
-1	Зэрсьыс	зэр	NOUN	N	_	2	obl	_	_
-2	дзебсьыны	дзебсьыны	VERB	V	_	4	csubj	_	_
-3	вӧлі	вӧвны	VERB	V	_	4	cop	_	_
-4	весьшӧрӧ	весьшӧрӧ	ADV	Adv	_	0	root	_	_
+1	Зэрсьыс	зэр	NOUN	N	Sg|Ela|PxSg3	2	obl	_	_
+2	дзебсьыны	дзебсьыны	VERB	V	Inf	4	csubj	_	_
+3	вӧлі	вӧвны	VERB	V	Ind|Prt1|Sg3	4	cop	_	_
+4	весьшӧрӧ	весьшӧрӧ	ADV	Adv	Ill	0	root	_	_
 5	нин	нин	ADV	Adv	_	4	advmod	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.036
 # text = Думайта да, мед кӧтӧдас.
 # text_rus = Думаю, пусть намокну.
-1	Думайта	думайтны	VERB	V	_	0	root	_	_
+1	Думайта	думайтны	VERB	V	Ind|Prs|Sg1	0	root	_	_
 2	да	да	PART	Pcle	_	1	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	CLB	_	5	punct	_	_
 4	мед	мед	CCONJ	Adv	_	5	cc	_	_
-5	кӧтӧдас	кӧтӧдны	VERB	V	_	1	conj	_	SpaceAfter=No
+5	кӧтӧдас	кӧтӧдны	VERB	V	Ind|Fut|Sg3	1	conj	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = belyx-011.037
 # text = Зэригас кая гортӧдз.
 # text_rus = В дождь дойду до дома.
-1	Зэригас	зэрны	VERB	V	_	2	advcl	_	_
-2	кая	кайны	VERB	V	_	0	root	_	_
-3	гортӧдз	горт	NOUN	N	_	2	obl	_	SpaceAfter=No
+1	Зэригас	зэрны	VERB	V	Ger|Sg|Ill|PxSg3	2	advcl	_	_
+2	кая	кайны	VERB	V	Ind|Prs|Sg1	0	root	_	_
+3	гортӧдз	горт	NOUN	N	Sg|Ter	2	obl	_	SpaceAfter=No
 4	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = belyx-011.038
 # text = Эг нин сэтшӧма кут тэрмасьны.
 # text_rus = Уже не стал сильно торопиться.
-1	Эг	оз	AUX	V	_	4	aux	_	_
+1	Эг	оз	AUX	V	Neg|Ind|Prt|Sg1	4	aux	_	_
 2	нин	нин	ADV	Adv	_	4	advmod	_	_
 3	сэтшӧма	сэтшӧма	ADV	Adv	_	4	advmod	_	_
-4	кут	кутны	VERB	V	_	0	root	_	_
-5	тэрмасьны	тэрмасьны	VERB	V	_	4	xcomp	_	SpaceAfter=No
+4	кут	кутны	VERB	V	ConNeg	0	root	_	_
+5	тэрмасьны	тэрмасьны	VERB	V	Inf	4	xcomp	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.039
 # text = Друг асыв-войвывсянь бара воис зэв ыджыд тӧв·ныр, коді муртса кок·йылысь эз пӧрӧд.
 # text_rus = Вдруг с северо-востока опять пришёл порыв ветра, который чуть не сбил с ног.
 1	Друг	друг	ADV	Adv	_	4	advmod	_	_
-2	асыв-войвывсянь	асыв-войвыв	NOUN	N	_	4	obl	_	_
+2	асыв-войвывсянь	асыв-войвыв	NOUN	N	Sg|Egr	4	obl	_	_
 3	бара	бара	ADV	Adv	_	4	advmod	_	_
-4	воис	воны	VERB	V	_	0	root	_	_
+4	воис	воны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 5	зэв	зэв	ADV	Adv	_	6	advmod	_	_
 6	ыджыд	ыджыд	ADJ	A	_	7	amod	_	_
-7	тӧв·ныр	тӧв·ныр	NOUN	N	_	4	nsubj	_	SpaceAfter=No
+7	тӧв·ныр	тӧв·ныр	NOUN	N	Sg|Nom	4	nsubj	_	SpaceAfter=No
 8	,	,	PUNCT	CLB	_	13	punct	_	_
 9	коді	коді	CCONJ	CC	_	13	nsubj	_	_
 10	муртса	муртса	ADJ	A	_	11	amod	_	_
-11	кок·йылысь	кок·йыв	NOUN	N	_	13	obl	_	_
-12	эз	оз	AUX	V	_	13	aux	_	_
-13	пӧрӧд	пӧрӧдны	VERB	V	_	4	acl	_	SpaceAfter=No
+11	кок·йылысь	кок·йыв	NOUN	N	Sg|Ela	13	obl	_	_
+12	эз	оз	AUX	V	Neg|Ind|Prt|Sg3	13	aux	_	_
+13	пӧрӧд	пӧрӧдны	VERB	V	ConNeg	4	acl	_	SpaceAfter=No
 14	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.040
 # text = Лолӧй быдӧн эз кут сюрны, сэтшӧма ёсь тӧлыс сатшис горшӧ.
 # text_rus = Даже дыхания не хватало, так сильно ветер перехватывал горло.
-1	Лолӧй	лов	NOUN	N	_	4	nsubj	_	_
+1	Лолӧй	лов	NOUN	N	Sg|Nom|PxSg1	4	nsubj	_	_
 2	быдӧн	быд	NOUN	N	_	4	nmod	_	_
-3	эз	оз	AUX	V	_	4	aux	_	_
-4	кут	кутны	VERB	V	_	0	root	_	_
-5	сюрны	сюрны	VERB	V	_	4	xcomp	_	SpaceAfter=No
+3	эз	оз	AUX	V	Neg|Ind|Prt|Sg3	4	aux	_	_
+4	кут	кутны	VERB	V	ConNeg	0	root	_	_
+5	сюрны	сюрны	VERB	V	Inf	4	xcomp	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	10	punct	_	_
 7	сэтшӧма	сэтшӧма	ADV	Adv	_	10	advmod	_	_
 8	ёсь	ёсь	ADJ	A	_	9	amod	_	_
-9	тӧлыс	тӧв	NOUN	N	_	10	nsubj	_	_
-10	сатшис	сатшны	VERB	V	_	4	conj	_	_
-11	горшӧ	горш	NOUN	N	_	10	obl	_	SpaceAfter=No
+9	тӧлыс	тӧв	NOUN	N	Sg|Nom|PxSg3	10	nsubj	_	_
+10	сатшис	сатшны	VERB	V	Ind|Prt1|Sg3	4	conj	_	_
+11	горшӧ	горш	NOUN	N	Sg|Ill	10	obl	_	SpaceAfter=No
 12	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.041
 # text = Тӧв·ныркӧд тшӧтш сынӧдыс кутіс рудӧдны.
 # text_rus = Вместе с порывом ветра воздух становился серым.
-1	Тӧв·ныркӧд	тӧв·ныр	NOUN	N	_	4	obl	_	_
+1	Тӧв·ныркӧд	тӧв·ныр	NOUN	N	Sg|Com	4	obl	_	_
 2	тшӧтш	тшӧтш	ADV	Adv	_	1	advmod	_	_
-3	сынӧдыс	сынӧд	NOUN	N	_	4	nsubj	_	_
-4	кутіс	кутны	VERB	V	_	0	root	_	_
-5	рудӧдны	рудӧдны	VERB	V	_	4	xcomp	_	SpaceAfter=No
+3	сынӧдыс	сынӧд	NOUN	N	Sg|Nom|PxSg3	4	nsubj	_	_
+4	кутіс	кутны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
+5	рудӧдны	рудӧдны	VERB	V	Inf	4	xcomp	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.042
 # text = Тайӧ рудыс зэв ӧдйӧ матыстчис мелань.
 # text_rus = Эта серость очень быстро приблизилась ко мне.
 1	Тайӧ	тайӧ	PRON	Pron	_	2	det	_	_
-2	рудыс	руд	ADJ	A	_	5	nsubj	_	_
+2	рудыс	руд	ADJ	A	Sg|Nom|PxSg3	5	nsubj	_	_
 3	зэв	зэв	ADV	Adv	_	4	advmod	_	_
 4	ӧдйӧ	ӧдйӧ	ADV	Adv	_	5	advmod	_	_
-5	матыстчис	матыстчыны	VERB	V	_	0	root	_	_
-6	мелань	ме	PRON	Pron	_	5	obl	_	SpaceAfter=No
+5	матыстчис	матыстчыны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
+6	мелань	ме	PRON	Pron	Sg1|Apr	5	obl	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = belyx-011.043
 # text = Медбӧрын чужӧмӧ кучкисны йи торъяс.
 # text_rus = В последний момент в лицо ударили льдинки.
-1	Медбӧрын	медбӧрын	ADV	Adv	_	3	advmod	_	_
-2	чужӧмӧ	чужӧм	NOUN	N	_	3	obl	_	_
-3	кучкисны	кучкыны	VERB	V	_	0	root	_	_
-4	йи	йи	NOUN	N	_	5	compound	_	_
-5	торъяс	тор	NOUN	N	_	3	nsubj	_	SpaceAfter=No
+1	Медбӧрын	медбӧрын	ADV	Adv	Ine	3	advmod	_	_
+2	чужӧмӧ	чужӧм	NOUN	N	Sg|Ill	3	obl	_	_
+3	кучкисны	кучкыны	VERB	V	Ind|Prt1|Pl3	0	root	_	_
+4	йи	йи	NOUN	N	Sg|Nom	5	compound	_	_
+5	торъяс	тор	NOUN	N	Pl|Nom	3	nsubj	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = belyx-011.044
 # text = Тайӧ, вӧлӧмкӧ, шер.
 # text_rus = Это, оказывается, град.
-1	Тайӧ	тайӧ	PRON	Pron	_	5	nsubj	_	SpaceAfter=No
+1	Тайӧ	тайӧ	PRON	Pron	Sg	5	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	CLB	_	3	punct	_	_
 3	вӧлӧмкӧ	вӧлӧмкӧ	ADV	Adv	_	5	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	5	punct	_	_
-5	шер	шер	NOUN	N	_	0	root	_	SpaceAfter=No
+5	шер	шер	NOUN	N	Sg|Nom	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = belyx-011.045
 # text = Восьлавны водзӧ эг нин кут вермыны.
 # text_rus = Шагать дальше я уже не мог.
-1	Восьлавны	восьлавны	VERB	V	_	6	xcomp	_	_
-2	водзӧ	водз	ADV	Adv	_	1	advmod	_	_
-3	эг	оз	AUX	V	_	5	aux	_	_
+1	Восьлавны	восьлавны	VERB	V	Inf	6	xcomp	_	_
+2	водзӧ	водз	ADV	Adv	Ill	1	advmod	_	_
+3	эг	оз	AUX	V	Neg|Ind|Prt|Sg1	5	aux	_	_
 4	нин	нин	ADV	Adv	_	5	advmod	_	_
-5	кут	кутны	VERB	V	_	0	root	_	_
-6	вермыны	вермыны	VERB	V	_	5	xcomp	_	SpaceAfter=No
+5	кут	кутны	VERB	V	ConNeg	0	root	_	_
+6	вермыны	вермыны	VERB	V	Inf	5	xcomp	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = belyx-011.046
 # text = Тӧлыс да шерыс пӧрӧдісны кок·йывсьыд.
 # text_rus = Ветер и град сбили с ног.
-1	Тӧлыс	тӧв	NOUN	N	_	4	nsubj	_	_
+1	Тӧлыс	тӧв	NOUN	N	Sg|Nom|PxSg3	4	nsubj	_	_
 2	да	да	CCONJ	CC	_	3	cc	_	_
-3	шерыс	шер	NOUN	N	_	1	conj	_	_
-4	пӧрӧдісны	пӧрӧдны	VERB	V	_	0	root	_	_
-5	кок·йывсьыд	кок·йыв	NOUN	N	_	4	obl	_	SpaceAfter=No
+3	шерыс	шер	NOUN	N	Sg|Nom|PxSg3	1	conj	_	_
+4	пӧрӧдісны	пӧрӧдны	VERB	V	Ind|Prt1|Pl3	0	root	_	_
+5	кок·йывсьыд	кок·йыв	NOUN	N	Sg|Ela|PxSg2	4	obl	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.047
 # text = Туйыс зэр вӧснаыс лоис ичӧтик ю кодь.
 # text_rus = Дорога из-за дождя стала похожа на небольшую речку.
-1	Туйыс	туй	NOUN	N	_	7	nsubj	_	_
-2	зэр	зэр	NOUN	N	_	7	obl	_	_
-3	вӧснаыс	вӧсна	ADP	Po	_	2	case	_	_
-4	лоис	лоны	VERB	V	_	7	cop	_	_
+1	Туйыс	туй	NOUN	N	Sg|Nom|PxSg3	7	nsubj	_	_
+2	зэр	зэр	NOUN	N	Sg|Nom	7	obl	_	_
+3	вӧснаыс	вӧсна	ADP	Po	Px|Sg3	2	case	_	_
+4	лоис	лоны	VERB	V	Ind|Prt1|Sg3	7	cop	_	_
 5	ичӧтик	ичӧтик	ADJ	A	_	6	amod	_	_
-6	ю	ю	NOUN	N	_	7	compound	_	_
+6	ю	ю	NOUN	N	Sg|Nom	7	compound	_	_
 7	кодь	кодь	ADJ	Adv	_	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	7	punct	_	_
 
 # sent_id = belyx-011.048
 # text = Дугдывтӧг гымаліс-чардаліс.
 # text_rus = Без конца гремел гром и сверкали молнии.
-1	Дугдывтӧг	дугдывны	VERB	V	_	2	advcl	_	_
-2	гымаліс-чардаліс	гымавны-чардавны	VERB	V	_	0	root	_	SpaceAfter=No
+1	Дугдывтӧг	дугдывны	VERB	V	Ger	2	advcl	_	_
+2	гымаліс-чардаліс	гымавны-чардавны	VERB	V	Ind|Prt1|Sg3	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = belyx-011.049
 # text = Гым-биясыс быттьӧ дзик орччӧн орӧдлісны сынӧдсӧ.
 # text_rus = Молнии словно совсем рядом разрывали воздух.
-1	Гым-биясыс	гым-би	NOUN	N	_	5	nsubj	_	_
+1	Гым-биясыс	гым-би	NOUN	N	Pl|Nom|PxSg3	5	nsubj	_	_
 2	быттьӧ	быттьӧ	PART	Pcle	_	5	advmod	_	_
 3	дзик	дзик	ADV	Adv	_	4	advmod	_	_
 4	орччӧн	орччӧн	ADV	Adv	_	5	advmod	_	_
-5	орӧдлісны	орӧдлыны	VERB	V	_	0	root	_	_
-6	сынӧдсӧ	сынӧд	NOUN	N	_	5	obj	_	SpaceAfter=No
+5	орӧдлісны	орӧдлыны	VERB	V	Ind|Prt1|Pl3	0	root	_	_
+6	сынӧдсӧ	сынӧд	NOUN	N	Sg|Acc|PxSg3	5	obj	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = belyx-011.050
@@ -632,7 +632,7 @@
 6	гашкӧ	гашкӧ	ADV	Adv	_	24	advmod	_	SpaceAfter=No
 7	,	,	PUNCT	CLB	_	8	punct	_	_
 8	став	став	PRON	Pron	Qnt	9	det	_	_
-9	Енсӧ	Ен	NOUN	N	N|Sg|Acc|Clt|Clt	24	nsubj	_	SpaceAfter=No
+9	Енсӧ	Ен	NOUN	N	Sg|Acc|Clt|Clt	24	nsubj	_	SpaceAfter=No
 10	,	,	PUNCT	CLB	_	11	punct	_	_
 11	тӧдсаясӧс	тӧдса	NOUN	N	Pl|Acc	9	appos	_	_
 12	и	и	CCONJ	CC	_	13	cc	_	_
@@ -771,7 +771,7 @@
 # sent_id = belyx-011.068
 # text = — Мыйла нӧ водзджык эн вермы кайны, — жалитӧмпырысь шуис меным.
 # text_rus = — Почему не смог раньше прийти, — с жалостью сказала мама.
-1	—	—	PUNCT	PUNCT	CLB	2	punct	_	_
+1	—	—	PUNCT	PUNCT	_	2	punct	_	_
 2	Мыйла	мыйла	SCONJ	CS	_	6	cc	_	_
 3	нӧ	нӧ	PART	Pcle	_	6	discourse	_	_
 4	водзджык	водзджык	ADV	Adv	_	6	advmod	_	_
@@ -779,7 +779,7 @@
 6	вермы	вермыны	VERB	V	ConNeg	0	root	_	_
 7	кайны	кайны	VERB	V	Inf	6	xcomp	_	SpaceAfter=No
 8	,	,	PUNCT	CLB	_	11	punct	_	_
-9	—	—	PUNCT	PUNCT	CLB	11	punct	_	_
+9	—	—	PUNCT	PUNCT	_	11	punct	_	_
 10	жалитӧмпырысь	жалитӧмпырысь	ADV	Adv	_	11	advmod	_	_
 11	шуис	шуны	VERB	V	Ind|Prt1|Sg3	6	parataxis	_	_
 12	меным	ме	PRON	Pron	Pers|Sg1|Dat	11	obl	_	SpaceAfter=No
@@ -788,7 +788,7 @@
 # sent_id = belyx-011.069
 # text = — Он ӧд тӧд, мый татшӧма зэрны-гымавны кутас, — нурбыльті сӧмын.
 # text_rus = — Не знаешь, что будет такой дождь с грозой,  — брякнул под нос только.
-1	—	—	PUNCT	PUNCT	CLB	2	punct	_	_
+1	—	—	PUNCT	PUNCT	_	2	punct	_	_
 2	Он	оз	AUX	V	Neg|Ind|Prs|Sg2	4	aux	_	_
 3	ӧд	ӧд	PART	Pcle	_	2	discourse	_	_
 4	тӧд	тӧд	NOUN	N	Sg|Nom	0	root	_	SpaceAfter=No
@@ -798,7 +798,7 @@
 8	зэрны-гымавны	зэрны-гымавны	VERB	V	Inf	9	xcomp	_	_
 9	кутас	кутны	VERB	V	Ind|Fut|Sg3	4	ccomp	_	SpaceAfter=No
 10	,	,	PUNCT	CLB	_	12	punct	_	_
-11	—	—	PUNCT	PUNCT	CLB	12	punct	_	_
+11	—	—	PUNCT	PUNCT	_	12	punct	_	_
 12	нурбыльті	нурбыльтны	VERB	V	Ind|Prt1|Sg3	4	parataxis	_	_
 13	сӧмын	сӧмын	ADV	Adv	_	12	advmod	_	SpaceAfter=No
 14	.	.	PUNCT	CLB	_	4	punct	_	_
@@ -819,7 +819,7 @@
 11	тэрыба	тэрыба	ADV	Adv	_	12	advmod	_	_
 12	кайи	кайны	VERB	V	Ind|Prt1|Sg3	5	conj	_	_
 13	паччӧр	паччӧр	NOUN	N	Sg|Nom	12	obl	_	_
-14	вылӧ	вылын	ADP	Po	Spat|Sg|Ill	13	case	_	_
+14	вылӧ	вылын	ADP	Po	Sg|Ill	13	case	_	_
 15	шонтысьыштны	шонтысьыштны	VERB	V	Inf	12	xcomp	_	SpaceAfter=No
 16	,	,	PUNCT	CLB	_	17	punct	_	_
 17	став	став	PRON	Pron	Qnt	18	det	_	_
@@ -898,32 +898,32 @@
 # sent_id = kpv_four_battles.001
 # text = Став челядь миян странаын тӧдӧны Климент Ефремович Ворошиловӧс, Советскӧй Союзса маршалӧс, Оборона кузя Народнӧй Комиссарӧс.
 # text_rus = Все ребята нашей страны знают Климента Ефремовича Ворошилова, маршала Советского Союза, Народного Комиссара Обороны.
-1	Став	став	PRON	Pron	_	2	det	_	_
-2	челядь	челядь	NOUN	N	_	5	nsubj	_	_
-3	миян	ми	PRON	Pron	_	4	nmod	_	_
-4	странаын	страна	NOUN	N	_	5	obl	_	_
-5	тӧдӧны	тӧдны	VERB	V	_	0	root	_	_
-6	Климент	Климент	NOUN	N	_	5	obj	_	_
-7	Ефремович	Ефрем	NOUN	N	_	6	flat	_	_
-8	Ворошиловӧс	Ворошилов	NOUN	N	_	7	flat	_	SpaceAfter=No
+1	Став	став	PRON	Pron	Sg|Nom	2	det	_	_
+2	челядь	челядь	NOUN	N	Sg|Nom	5	nsubj	_	_
+3	миян	ми	PRON	Pron	Pers|Pl1|Gen	4	nmod	_	_
+4	странаын	страна	NOUN	N	Sg|Ine	5	obl	_	_
+5	тӧдӧны	тӧдны	VERB	V	Ind|Prs|Pl3	0	root	_	_
+6	Климент	Климент	PROPN	N	Sg|Nom	5	obj	_	_
+7	Ефремович	Ефрем	PROPN	N	Sg|Nom	6	flat	_	_
+8	Ворошиловӧс	Ворошилов	PROPN	N	Sg|Acc	7	flat	_	SpaceAfter=No
 9	,	,	PUNCT	CLB	_	10	punct	_	_
 10	Советскӧй	Советскӧй	ADJ	A	_	11	amod	_	_
 11	Союзса	союз	ADJ	A	_	12	amod	_	_
-12	маршалӧс	маршал	NOUN	N	_	6	appos	_	SpaceAfter=No
+12	маршалӧс	маршал	NOUN	N	Sg|Acc	6	appos	_	SpaceAfter=No
 13	,	,	PUNCT	CLB	_	14	punct	_	_
-14	Оборона	оборона	NOUN	N	_	17	nmod	_	_
+14	Оборона	оборона	PROPN	N	Sg|Nom	17	nmod	_	_
 15	кузя	кузя	ADV	Adv	_	14	advmod	_	_
 16	Народнӧй	народнӧй	ADJ	A	_	17	amod	_	_
-17	Комиссарӧс	комиссар	NOUN	N	_	6	appos	_	SpaceAfter=No
+17	Комиссарӧс	комиссар	NOUN	N	Sg|Acc	6	appos	_	SpaceAfter=No
 18	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = kpv_four_battles.002
 # text = Тӧдӧны сійӧс и радейтӧны.
 # text_rus = Знают его и любят.
-1	Тӧдӧны	тӧдны	VERB	V	_	0	root	_	_
-2	сійӧс	сійӧ	PRON	Pron	_	1	obj	_	_
+1	Тӧдӧны	тӧдны	VERB	V	Ind|Prs|Pl3	0	root	_	_
+2	сійӧс	сійӧ	PRON	Pron	Pers|Sg3|Acc	1	obj	_	_
 3	и	и	CCONJ	CC	_	4	cc	_	_
-4	радейтӧны	радейтны	VERB	V	_	1	conj	_	SpaceAfter=No
+4	радейтӧны	радейтны	VERB	V	Ind|Prs|Pl3	1	conj	_	SpaceAfter=No
 5	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = kpv_four_battles.003
@@ -933,51 +933,51 @@
 2	,	,	PUNCT	CLB	_	5	punct	_	_
 3	дерт	дерт	ADV	Adv	_	5	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	5	punct	_	_
-5	кӧсйӧны	кӧсйыны	VERB	V	_	0	root	_	_
-6	тӧдны	тӧдны	VERB	V	_	5	xcomp	_	_
-7	сы	сійӧ	PRON	Pron	_	6	obl	_	_
-8	йылысь	йылысь	ADP	Po	_	7	case	_	_
+5	кӧсйӧны	кӧсйыны	VERB	V	Ind|Prs|Pl3	0	root	_	_
+6	тӧдны	тӧдны	VERB	V	Inf	5	xcomp	_	_
+7	сы	сійӧ	PRON	Pron	Pers|Sg3	6	obl	_	_
+8	йылысь	йылысь	ADP	Po	Sg|Ela	7	case	_	_
 9	дзик	дзик	ADV	Adv	_	10	advmod	_	_
-10	ставсӧ	став	PRON	Pron	_	6	obj	_	SpaceAfter=No
+10	ставсӧ	став	PRON	Pron	Sg|Acc|PxSg3	6	obj	_	SpaceAfter=No
 11	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = kpv_four_battles.004
 # text = Кыдзи сійӧ оліс ичӧтдырйиыс?
 # text_rus = Как жил он в детстве?
 1	Кыдзи	кыдзи	ADV	CONJ	_	3	advmod	_	_
-2	сійӧ	сійӧ	PRON	Pron	_	3	nsubj	_	_
-3	оліс	овны	VERB	V	_	0	root	_	_
-4	ичӧтдырйиыс	ичӧтдырйи	NOUN	N	_	3	obl	_	SpaceAfter=No
+2	сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	3	nsubj	_	_
+3	оліс	овны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
+4	ичӧтдырйиыс	ичӧтдырйи	NOUN	N	PxSg3	3	obl	_	SpaceAfter=No
 5	?	?	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = kpv_four_battles.005
 # text = Кыдзи сійӧ лои большевикӧн?
 # text_rus = Как он стал большевиком?
 1	Кыдзи	кыдзи	ADV	Adv	_	3	advmod	_	_
-2	сійӧ	сійӧ	PRON	Pron	_	3	nsubj	_	_
-3	лои	лоны	VERB	V	_	0	root	_	_
-4	большевикӧн	большевик	NOUN	N	_	3	obl	_	SpaceAfter=No
+2	сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	3	nsubj	_	_
+3	лои	лоны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
+4	большевикӧн	большевик	NOUN	N	Sg|Ins	3	obl	_	SpaceAfter=No
 5	?	?	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = kpv_four_battles.006
 # text = Кыдзи лои Краснӧй Армияса командирӧн?
 # text_rus = Как стал командиром Красной армии?
 1	Кыдзи	кыдзи	ADV	Adv	_	2	advmod	_	_
-2	лои	лоны	VERB	V	_	0	root	_	_
+2	лои	лоны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 3	Краснӧй	краснӧй	ADJ	A	_	4	amod	_	_
 4	Армияса	армияса	ADJ	A	_	5	amod	_	_
-5	командирӧн	командир	NOUN	N	_	2	obl	_	SpaceAfter=No
+5	командирӧн	командир	NOUN	N	Sg|Ins	2	obl	_	SpaceAfter=No
 6	?	?	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv_four_battles.007
 # text = Кыдзи нуӧдіс бойӧ миянлысь армияясӧс белӧйяслы паныд?
 # text_rus = Как вел в бой против белых наши армии?
 1	Кыдзи	кыдзи	ADV	Adv	_	2	advmod	_	_
-2	нуӧдіс	нуӧдны	VERB	V	_	0	root	_	_
-3	бойӧ	бой	NOUN	N	_	2	obl	_	_
-4	миянлысь	ми	PRON	Pron	_	5	nmod	_	_
-5	армияясӧс	армия	NOUN	N	_	2	obj	_	_
-6	белӧйяслы	белӧй	ADJ	A	_	2	obl	_	_
+2	нуӧдіс	нуӧдны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
+3	бойӧ	бой	NOUN	N	Sg|Ill	2	obl	_	_
+4	миянлысь	ми	PRON	Pron	Pers|Pl1|Abl	5	nmod	_	_
+5	армияясӧс	армия	NOUN	N	Pl|Acc	2	obj	_	_
+6	белӧйяслы	белӧй	NOUN	N	Pl|Dat	2	obl	_	_
 7	паныд	паныд	ADP	Po	_	6	case	_	SpaceAfter=No
 8	?	?	PUNCT	CLB	_	2	punct	_	_
 
@@ -985,8 +985,8 @@
 # text = Кыдзи вермывліс врагъясӧс?
 # text_rus = Как побеждал врагов?
 1	Кыдзи	кыдзи	ADV	Adv	_	2	advmod	_	_
-2	вермывліс	вермывлыны	VERB	V	_	0	root	_	_
-3	врагъясӧс	враг	NOUN	N	_	2	obj	_	SpaceAfter=No
+2	вермывліс	вермывлыны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
+3	врагъясӧс	враг	NOUN	N	Pl|Acc	2	obj	_	SpaceAfter=No
 4	?	?	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv_four_battles.009
@@ -1047,15 +1047,15 @@
 20	.	.	CLB	_	_	2	punct	_	_
 
 # sent_id = kpv_four_battles.011
-# text = Дженьыдик висьтӧ ыджыд мортлӧн олӧмыс оз тӧр .
+# text = Дженьыдик висьтӧ ыджыд мортлӧн олӧмыс оз тӧр.
 # text_rus = Жизнь большого человека не укладывается в короткий рассказ.
 1	Дженьыдик	дженьыдик	ADJ	A	_	2	amod	_	_
-2	висьтӧ	висьт	NOUN	N	_	7	obl	_	_
+2	висьтӧ	висьт	NOUN	N	Sg|Ill	7	obl	_	_
 3	ыджыд	ыджыд	ADJ	A	_	4	amod	_	_
-4	мортлӧн	морт	NOUN	N	_	5	nmod	_	_
-5	олӧмыс	олӧм	NOUN	N	_	7	nsubj	_	_
-6	оз	оз	AUX	V	_	7	aux	_	_
-7	тӧр	тӧрны	VERB	V	_	0	root	_	SpaceAfter=No
+4	мортлӧн	морт	NOUN	N	Sg|Gen	5	nmod	_	_
+5	олӧмыс	олӧм	NOUN	N	Sg|Nom|PxSg3	7	nsubj	_	_
+6	оз	оз	AUX	V	Neg|Ind|Prs|Sg3	7	aux	_	_
+7	тӧр	тӧрны	VERB	V	ConNeg	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	7	punct	_	_
 
 # sent_id = kpv_four_battles.012
@@ -1072,10 +1072,10 @@
 9	обыкновеннӧй	обыкновеннӧй	A	_	_	_	_	_	_
 10	боевӧй	боевӧй	A	_	_	_	_	_	_
 11	случай	случай	N	_	Sg|Nom	5	obj	_	_
-12	йылысь	йылысь	Po	_	Spat|Sg|Ela	_	_	_	SpaceAfter=No
+12	йылысь	йылысь	Po	_	Sg|Ela	_	_	_	SpaceAfter=No
 13	,	,	CLB	_	_	_	_	_	_
 14	кодъяс	коді	Pron	_	Pl|Nom|Rel	_	_	_	_
-15	коркӧ	коркӧ	Pron	_	Der/кӧ|Indef	_	_	_	SpaceAfter=No
+15	коркӧ	коркӧ	Pron	_	Indef	_	_	_	SpaceAfter=No
 16	,	,	CLB	_	_	_	_	_	_
 17	гражданскӧй	гражданскӧй	A	_	_	_	_	_	_
 18	война	война	N	_	Sg|Nom	_	_	_	_
@@ -1083,7 +1083,7 @@
 20	,	,	CLB	_	_	_	_	_	_
 21	вӧвліны	вӧвлыны	V	_	Ind|Prt1|Pl3	_	_	_	_
 22	фронт	фронт	N	_	Sg|Nom	_	_	_	_
-23	вылын	вылын	Po	_	Spat|Sg|Ine	_	_	_	_
+23	вылын	вылын	Po	_	Sg|Ine	_	_	_	_
 24	Климент	Климент	N	_	Prop|Sg|Nom	_	_	_	_
 25	Ефремовичкӧд	Ефрем	N	_	Prop|Sg|Com	_	_	_	SpaceAfter=No
 26	.	.	CLB	_	_	_	_	_	_
@@ -1109,12 +1109,12 @@
 16	,	,	CLB	_	_	17	punct	_	_
 17	Царицын	Царицын	N	_	Prop|Sg|Nom	18	nmod	_	_
 18	карлань	кар	N	_	Sg|Apr	13	conj	_	_
-19	(	(	PUNCT	_	LEFT	22	punct	_	SpaceAfter=No
+19	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
 20	ӧні	ӧні	Adv	_	_	22	advmod	_	_
 21	сійӧ	сійӧ	Pron	_	Pers|Sg3|Nom	22	nsubj	_	_
 22	шусьӧ	шусьыны	V	_	Ind|Prs|Sg3	_	_	_	_
 23	Сталинградӧн	Сталинград	N	_	Prop|Sg|Ins	22	obl	_	SpaceAfter=No
-24	)	)	PUNCT	_	RIGHT	22	punct	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
 25	.	.	CLB	_	_	_	_	_	_
 
 # sent_id = kpv_four_battles.015
@@ -1184,18 +1184,18 @@
 # sent_id = kpv_four_battles.019
 # text = Враг быттьӧ сыліс кытчӧкӧ.
 # text_rus = Враг точно бесследно провалился куда-то.
-1	Враг	враг	NOUN	N	_	3	nsubj	_	_
+1	Враг	враг	NOUN	N	Sg|Nom	3	nsubj	_	_
 2	быттьӧ	быттьӧ	PART	Pcle	_	3	advmod	_	_
-3	сыліс	сывны	VERB	V	_	0	root	_	_
-4	кытчӧкӧ	кытчӧ	ADV	Adv	_	3	advmod	_	SpaceAfter=No
+3	сыліс	сывны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
+4	кытчӧкӧ	кытчӧ	ADV	Adv	Ill	3	advmod	_	SpaceAfter=No
 5	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = kpv_four_battles.020
 # text = Кытчӧ сійӧ воши?
 # text_rus = Куда он делся?
-1	Кытчӧ	кытчӧ	ADV	Adv	_	3	advmod	_	_
-2	сійӧ	сійӧ	PRON	Pron	_	3	nsubj	_	_
-3	воши	вошны	VERB	V	_	0	root	_	SpaceAfter=No
+1	Кытчӧ	кытчӧ	ADV	Adv	Ill	3	advmod	_	_
+2	сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	3	nsubj	_	_
+3	воши	вошны	VERB	V	Ind|Prt1|Sg3	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = kpv_four_battles.021
@@ -1209,9 +1209,9 @@
 # sent_id = kpv_four_battles.022
 # text = Некод оз тӧд!
 # text_rus = Неизвестно!
-1	Некод	некод	PRON	Pron	_	3	nsubj	_	_
-2	оз	оз	AUX	V	_	3	aux	_	_
-3	тӧд	тӧдны	VERB	V	_	0	root	_	SpaceAfter=No
+1	Некод	некод	PRON	Pron	Neg|Sg|Nom	3	nsubj	_	_
+2	оз	оз	AUX	V	Neg|Ind|Prs|Sg3	3	aux	_	_
+3	тӧд	тӧдны	VERB	V	ConNeg	0	root	_	SpaceAfter=No
 4	!	!	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = kpv_four_battles.023
@@ -1241,7 +1241,7 @@
 9	кӧні	кӧні	Adv	_	Ine|Pr|Sg|Rel	10	advmod	_	_
 10	сійӧ	сійӧ	Pron	_	Pers|Sg3|Nom	7	acl	_	_
 11	и	и	CS	_	_	12	punct	_	_
-12	мый	мый	Pron	_	N|Nom|Rel	14	obj	_	_
+12	мый	мый	Pron	_	Nom|Rel	14	obj	_	_
 13	сійӧ	сійӧ	Pron	_	Pers|Sg3|Nom	14	nsubj	_	_
 14	вӧчӧ	вӧчны	V	_	Ind|Prs|Sg3	7	advcl	_	SpaceAfter=No
 15	.	.	CLB	_	_	2	punct	_	_
@@ -1254,7 +1254,7 @@
 3	ӧні	ӧні	Adv	_	_	1	advmod	_	_
 4	жӧ	жӧ	Pcle	_	_	1	discourse	_	_
 5	мунны	мунны	V	_	Inf	1	xcomp	_	_
-6	смелӧй	смел	A	_	N|Sg|Nom|PxSg1	7	amod	_	_
+6	смелӧй	смел	A	_	Sg|Nom|PxSg1	7	amod	_	_
 7	разведкаӧ	разведка	N	_	Sg|Ill	5	obl	_	SpaceAfter=No
 8	,	,	CLB	_	_	9	punct	_	_
 9	воӧдчыны	воӧдчыны	V	_	Inf	5	conj	_	_
@@ -1500,7 +1500,7 @@
 7	калиткаяссьыс	калитка	N	_	Pl|Ela|PxSg3	3	conj	_	_
 8	мотор	мотор	N	_	Sg|Nom	9	nmod	_	_
 9	шум	шум	N	_	Sg|Nom	11	obl	_	_
-10	вылӧ	вылӧ	Po	_	Spat|Sg|Ill	9	case	_	_
+10	вылӧ	вылӧ	Po	_	Sg|Ill	9	case	_	_
 11	котӧртісны	котӧртны	V	_	Ind|Prt1|Pl3	0	root	_	_
 12	нин	нин	Adv	_	_	14	advmod	_	_
 13	вооружитчӧм	вооружитчӧм	VERB	_	Sg|Nom	14	acl	_	_
@@ -1510,13 +1510,13 @@
 # sent_id = kpv_four_battles.041
 # text = Казакъяс!
 # text_rus = Казаки!
-1	Казакъяс	казак	NOUN	N	PL|Nom	0	root	_	SpaceAfter=No
+1	Казакъяс	казак	NOUN	N	Pl|Nom	0	root	_	SpaceAfter=No
 2	!	!	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = kpv_four_battles.042
 # text = Белӧйяс!
 # text_rus = Белые!
-1	Белӧйяс	белӧй	NOUN	N	PL|Nom	0	root	_	SpaceAfter=No
+1	Белӧйяс	белӧй	NOUN	N	Pl|Nom	0	root	_	SpaceAfter=No
 2	!	!	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = kpv_four_battles.043
@@ -1640,7 +1640,7 @@
 # text_rus = Залегли под пулями, бандиты?
 1	Водінныд	водны	V	_	Ind|Prt1|Pl2	0	root	_	_
 2	пуляяс	пуля	N	_	Pl|Nom	1	obl	_	_
-3	улӧ	ув	Po	_	Spat|Sg|Ill	2	case	_	SpaceAfter=No
+3	улӧ	ув	Po	_	Sg|Ill	2	case	_	SpaceAfter=No
 4	,	,	CLB	_	_	5	punct	_	_
 5	бандитъяс	бандит	N	_	Pl|Nom	1	vocative	_	SpaceAfter=No
 6	?	?	CLB	_	_	1	punct	_	_
@@ -1709,7 +1709,7 @@
 # text = — Мый?
 # text_rus = — Что?
 1	—	—	PUNCT	_	_	2	punct	_	_
-2	Мый	мый	Pron	_	N|Nom|Interr	0	root	_	SpaceAfter=No
+2	Мый	мый	Pron	_	Nom|Interr	0	root	_	SpaceAfter=No
 3	?	?	CLB	_	_	2	punct	_	_
 
 # sent_id = kpv_four_battles.062
@@ -1742,7 +1742,7 @@
 7	,	,	CLB	_	_	8	punct	_	_
 8	кыссьӧны	кыссьыны	V	_	Ind|Prs|Pl3	4	conj	_	_
 9	турун	турун	N	_	Sg|Nom	8	obl	_	_
-10	пӧвстті	пӧвст	Po	_	Spat|Sg|Tra	9	case	_	SpaceAfter=No
+10	пӧвстті	пӧвст	Po	_	Sg|Tra	9	case	_	SpaceAfter=No
 11	,	,	CLB	_	_	12	punct	_	_
 12	старайтчӧны	старайтчыны	V	_	Ind|Prs|Pl3	4	conj	_	_
 13	воӧдчыны	воӧдчыны	V	_	Inf	12	xcomp	_	_
@@ -1756,7 +1756,7 @@
 # text_rus = Их пули бьют по броневику так, что у людей в машине от грохота чуть не лопаются перепонки в ушах.
 1	Налӧн	найӧ	Pron	_	Pers|Pl3|Gen	2	nmod	_	_
 2	пуляясыс	пуля	N	_	Pl|Nom|PxSg3	3	nsubj	_	_
-3	сяргӧны	сяргыны	V	_	IV|Ind|Prs|Pl3	0	X	_	_
+3	сяргӧны	сяргыны	V	_	Ind|Prs|Pl3	0	X	_	_
 4	броневикӧ	броневик	N	_	Sg|Ill	3	obl	_	_
 5	сідз	сідз	Adv	_	_	3	advmod	_	SpaceAfter=No
 6	,	,	CLB	_	_	7	punct	_	_
@@ -1785,7 +1785,7 @@
 8	да	да	CC	_	_	10	conj	_	_
 9	сталь	сталь	N	_	Abs	10	nmod	_	_
 10	торпыригъяс	торпыриг	N	_	Pl|Nom	7	conj	_	_
-11	вылӧ	вылӧ	Po	_	Spat|Sg|Ill	10	case	_	SpaceAfter=No
+11	вылӧ	вылӧ	Po	_	Sg|Ill	10	case	_	SpaceAfter=No
 12	.	.	CLB	_	_	2	punct	_	_
 
 # sent_id = kpv_four_battles.067
@@ -1793,18 +1793,18 @@
 # text_rus = Эти брызги врываются в узкие щели боевых окошек, ранят руки, лицо, прожигают насквозь одежду…
 1	Тайӧ	тайӧ	Pron	_	Dem|Sg|Nom|@>N	2	det	_	_
 2	торпыригъясыс	торпыриг	N	_	Pl|Nom|PxSg3	3	obl	_	_
-3	пырӧны	пырны	V	_	IV|Ind|Prs|Pl3	0	root	_	_
+3	пырӧны	пырны	V	_	Ind|Prs|Pl3	0	root	_	_
 4	боевӧй	боевӧй	A	_	Abs	5	amod	_	_
 5	ӧшинь	ӧшинь	N	_	Sg|Nom	7	nmod	_	_
 6	векньыдик	векньыдик	A	_	Abs	7	amod	_	_
 7	щельясӧд	щель	N	_	Pl|Prl	3	obl	_	SpaceAfter=No
 8	,	,	CLB	_	_	9	punct	_	_
-9	ранитӧны	ранитны	V	_	TV|Ind|Prs|Pl3	3	conj	_	_
+9	ранитӧны	ранитны	V	_	Ind|Prs|Pl3	3	conj	_	_
 10	кияснысӧ	ки	N	_	Pl|Acc|PxPl3	9	obj	_	SpaceAfter=No
 11	,	,	CLB	_	_	10	punct	_	_
 12	чужӧмнысӧ	чужӧм	N	_	Sg|Acc|PxPl3	10	conj	_	SpaceAfter=No
 13	,	,	CLB	_	_	12	punct	_	_
-14	соталӧны	сотавны	V	_	TV|Ind|Prs|Pl3	3	conj	_	_
+14	соталӧны	сотавны	V	_	Ind|Prs|Pl3	3	conj	_	_
 15	паськӧмнысӧ	паськӧм	N	_	Sg|Acc|PxPl3	14	obj	_	_
 16	пырыс	пыр	Po	_	PxSg3	15	case	_	SpaceAfter=No
 17	…	…	CLB	_	_	3	punct	_	_
@@ -1812,21 +1812,21 @@
 # sent_id = kpv_four_battles.068
 # text = Шоферыс, том зонка на, дзикӧдз растеряйтчис.
 # text_rus = Водитель машины, еще молодой парнишка, совсем растерялся.
-1	Шоферыс	шофёр	NOUN	N	_	8	nsubj	_	SpaceAfter=No
+1	Шоферыс	шофёр	NOUN	N	Sg|Nom	8	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	CLB	_	1	punct	_	_
 3	том	том	ADJ	A	_	4	amod	_	_
-4	зонка	зонка	NOUN	N	_	1	appos	_	_
+4	зонка	зонка	NOUN	N	Sg|Nom	1	appos	_	_
 5	на	на	ADV	Adv	_	4	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	8	punct	_	_
-7	дзикӧдз	дзикӧдз	ADV	Adv	_	8	advmod	_	_
-8	растеряйтчис	растеряйтчыны	VERB	V	_	0	root	_	SpaceAfter=No
+7	дзикӧдз	дзикӧдз	ADV	Adv	Ter	8	advmod	_	_
+8	растеряйтчис	растеряйтчыны	VERB	V	Ind|Prt1|Sg3	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	8	punct	_	_
 
 # sent_id = kpv_four_battles.069
 # text = Мый вӧчны ?
 # text_rus = Что делать?
 1	Мый	мый	PRON	Pron	_	2	obj	_	_
-2	вӧчны	вӧчны	VERB	V	_	0	root	_	SpaceAfter=No
+2	вӧчны	вӧчны	VERB	V	Inf	0	root	_	SpaceAfter=No
 3	?	?	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv_four_battles.070
@@ -1840,17 +1840,17 @@
 # text = Кыдз лоны?
 # text_rus = Как быть-то?
 1	Кыдз	кыдз	Adv	_	_	2	advmod	_	_
-2	лоны	лоны	V	_	IV|Inf	0	root	_	SpaceAfter=No
+2	лоны	лоны	V	_	Inf	0	root	_	SpaceAfter=No
 3	?	?	CLB	_	_	2	punct	_	_
 
 # sent_id = kpv_four_battles.072
 # text = Вошим ми, — шӧпкӧдіс сійӧ.
 # text_rus = Пропали-мы, — бормотал он.
-1	Вошим	вошны	V	_	IV|Ind|Prt1|Pl1	0	root	_	_
+1	Вошим	вошны	V	_	Ind|Prt1|Pl1	0	root	_	_
 2	ми	ми	Pron	_	Pers|Pl1|Nom	1	nsubj	_	SpaceAfter=No
 3	,	,	CLB	_	_	2	punct	_	_
 4	—	—	PUNCT	_	_	5	punct	_	_
-5	шӧпкӧдіс	шӧпкӧдны	V	_	TV|Ind|Prt1|Sg3	1	parataxis	_	_
+5	шӧпкӧдіс	шӧпкӧдны	V	_	Ind|Prt1|Sg3	1	parataxis	_	_
 6	сійӧ	сійӧ	Pron	_	Pers|Sg3|Nom	5	nsubj	_	SpaceAfter=No
 7	.	.	CLB	_	_	5	punct	_	_
 
@@ -1859,172 +1859,172 @@
 # text = Чорыд киыс Ворошиловлӧн усис сылы пельпом вылас.
 # text_rus = Твердая рука Ворошилова легла ему на плечо.
 1	Чорыд	чорыд	ADJ	A	_	2	amod	_	_
-2	киыс	ки	NOUN	N	_	4	nsubj	_	_
-3	Ворошиловлӧн	Ворошилов	NOUN	N	_	2	nmod	_	_
-4	усис	усьны	VERB	V	_	0	root	_	_
-5	сылы	сійӧ	PRON	Pron	_	6	nmod	_	_
-6	пельпом	пельпом	NOUN	N	_	4	obl	_	_
-7	вылас	вылын	ADP	Po	_	6	case	_	SpaceAfter=No
+2	киыс	ки	NOUN	N	Sg|Nom|PxSg3	4	nsubj	_	_
+3	Ворошиловлӧн	Ворошилов	NOUN	N	Sg|Gen	2	nmod	_	_
+4	усис	усьны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
+5	сылы	сійӧ	PRON	Pron	Pers|Sg3|Dat	6	nmod	_	_
+6	пельпом	пельпом	NOUN	N	Sg|Nom	4	obl	_	_
+7	вылас	вылын	ADP	Po	Sg|Ill|PxSg3	6	case	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = kpv-gt.01
 # text = Ныв ёртыслы гижис письмӧ.
 # text_rus = 
-1	Ныв	ныв	NOUN	N	_	3	nsubj	_	_
-2	ёртыслы	ёрт	NOUN	N	_	3	obl	_	_
-3	гижис	гижны	VERB	V	_	0	root	_	_
-4	письмӧ	письмӧ	NOUN	N	_	3	obj	_	SpaceAfter=No
+1	Ныв	ныв	NOUN	N	Sg|Nom	3	nsubj	_	_
+2	ёртыслы	ёрт	NOUN	N	Sg|Dat|PxSg3	3	obl	_	_
+3	гижис	гижны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
+4	письмӧ	письмӧ	NOUN	N	Sg|Acc	3	obj	_	SpaceAfter=No
 5	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = kpv-gt.02
 # text = Меным кажитчӧ, мый зэрӧ.
 # text_rus = Мне кажется, что идёт дождь.
-1	Меным	ме	PRON	Pron	_	2	obl	_	_
-2	кажитчӧ	кажитчыны	VERB	V	_	0	root	_	SpaceAfter=No
+1	Меным	ме	PRON	Pron	Pers|Sg1|Dat	2	obl	_	_
+2	кажитчӧ	кажитчыны	VERB	V	Ind|Prs|Sg3	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	CLB	_	2	punct	_	_
 4	мый	мый	SCONJ	_	_	5	mark	_	_
-5	зэрӧ	зэрны	VERB	V	_	2	ccomp	_	SpaceAfter=No
+5	зэрӧ	зэрны	VERB	V	Ind|Prs|Sg3	2	ccomp	_	SpaceAfter=No
 6	.	_	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv-gt.03
 # text = Сійӧ заводитліс чӧвтны куритчӧмсӧ да юӧмсӧ.
 # text_rus = Он попытался бросить курить и пить.
-1	Сійӧ	сійӧ	PRON	Pron	_	2	nsubj	_	_
-2	заводитліс	заводітны	VERB	V	_	0	root	_	_
-3	чӧвтны	чӧвтны	VERB	V	_	2	xcomp	_	_
-4	куритчӧмсӧ	куритчӧм	NOUN	N	_	3	obj	_	_
+1	Сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	2	nsubj	_	_
+2	заводитліс	заводітны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
+3	чӧвтны	чӧвтны	VERB	V	Inf	2	xcomp	_	_
+4	куритчӧмсӧ	куритчӧм	NOUN	N	Sg|Acc	3	obj	_	_
 5	да	да	CCONJ	CC	_	4	cc	_	_
-6	юӧмсӧ	юӧм	NOUN	N	_	4	conj	_	SpaceAfter=No
+6	юӧмсӧ	юӧм	NOUN	N	Sg|Acc	4	conj	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv-gt.04
 # text = Кӧсъян мунны?
 # text_rus = Хочешь пойти?
-1	Кӧсъян	кӧсйыны	VERB	V	_	0	root	_	_
-2	мунны	мунны	VERB	V	_	1	xcomp	_	SpaceAfter=No
+1	Кӧсъян	кӧсйыны	VERB	V	Ind|Prs|Sg2	0	root	_	_
+2	мунны	мунны	VERB	V	Inf	1	xcomp	_	SpaceAfter=No
 3	?	?	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = kpv-gt.05
 # text = Сэм, восьты ӧшиньсӧ!
 # text_rus = Сэм, открой окно!
-1	Сэм	сэм	PROPN	N	_	3	vocative	_	SpaceAfter=No
+1	Сэм	сэм	PROPN	N	Sg|Nom	3	vocative	_	SpaceAfter=No
 2	,	,	PUNCT	CLB	_	1	punct	_	_
-3	восьты	восьтны	VERB	V	_	0	root	_	_
-4	ӧшиньсӧ	ӧшинь	NOUN	N	_	3	obj	_	SpaceAfter=No
+3	восьты	восьтны	VERB	V	Imprt|Sg2	0	root	_	_
+4	ӧшиньсӧ	ӧшинь	NOUN	N	Sg|Acc|PxSg3	3	obj	_	SpaceAfter=No
 5	!	!	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = kpv-gt.06
 # text = Сійӧ тшӧктіс верӧсыслы мыськыны машинасӧ.
 # text_rus = Она заставила мужа помыть машину.
-1	Сійӧ	сійӧ	PRON	Pron	_	2	nsubj	_	_
-2	тшӧктіс	тшӧктыны	VERB	V	_	0	root	_	_
-3	верӧсыслы	верӧс	NOUN	N	_	2	obl	_	_
-4	мыськыны	мыськыны	VERB	V	_	2	xcomp	_	_
-5	машинасӧ	машина	NOUN	N	_	4	obj	_	SpaceAfter=No
+1	Сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	2	nsubj	_	_
+2	тшӧктіс	тшӧктыны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
+3	верӧсыслы	верӧс	NOUN	N	Sg|Dat|PxSg3	2	obl	_	_
+4	мыськыны	мыськыны	VERB	V	Inf	2	xcomp	_	_
+5	машинасӧ	машина	NOUN	N	Sg|Acc|PxSg3	4	obj	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv-gt.07
 # text = Петилӧн суседыс краситӧма заборсӧ.
 # text_rus = Сосед Пети покрасил забор.
-1	Петилӧн	Пети	PROPN	N	_	2	nmod	_	_
-2	суседыс	сусед	NOUN	N	_	3	nsubj	_	_
-3	краситӧма	краситны	VERB	V	_	0	root	_	_
-4	заборсӧ	забор	NOUN	N	_	3	obj	_	SpaceAfter=No
+1	Петилӧн	Пети	PROPN	N	Sg|Gen	2	nmod	_	_
+2	суседыс	сусед	NOUN	N	Sg|Nom|PxSg3	3	nsubj	_	_
+3	краситӧма	краситны	VERB	V	Ind|Prt2|Sg3	0	root	_	_
+4	заборсӧ	забор	NOUN	N	Sg|Acc|PxSg3	3	obj	_	SpaceAfter=No
 5	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = kpv-gt.08
-# text = Менам батьӧ тэнад батьсьыд бурджык.
+# text = Менам батьӧй тэнад батьсьыд бурджык.
 # text_rus = Мой папа круче твоего.
-1	Менам	ме	PRON	Pron	_	2	nmod	_	_
-2	батьӧ	бать	NOUN	N	_	5	nsubj	_	_
-3	тэнад	тэ	PRON	Pron	_	4	nmod	_	_
-4	батьсьыд	бать	NOUN	N	_	5	obl	_	_
-5	бурджык	бур	ADJ	A	_	0	root	_	SpaceAfter=No
+1	Менам	ме	PRON	Pron	Pers|Sg1|Gen	2	nmod	_	_
+2	батьӧй	бать	NOUN	N	Sg|Nom|PxSg1	5	nsubj	_	_
+3	тэнад	тэ	PRON	Pron	Pers|Sg2|Gen	4	nmod	_	_
+4	батьсьыд	бать	NOUN	N	Sg|Ela|PxSg2	5	obl	_	_
+5	бурджык	бур	ADJ	A	Comp	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = kpv-gt.09
 # text = Мери шедӧдіс бронза, Питер - эзысь, а Джейн - зарни.
 # text_rus = Мэри выиграла бронзу, Питер - серебро, а Джейн - золото.
-1	Мери	Мери	PROPN	N	_	2	nsubj	_	_
-2	шедӧдіс	шедӧдны	VERB	V	_	0	root	_	_
-3	бронза	бронза	NOUN	N	_	2	obj	_	_
-4	Питер	Питер	PROPN	N	_	1	conj	_	_
-5	эзысь	эзысь	NOUN	N	_	3	conj	_	_
+1	Мери	Мери	PROPN	N	Sg|Nom	2	nsubj	_	_
+2	шедӧдіс	шедӧдны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
+3	бронза	бронза	NOUN	N	Sg|Acc	2	obj	_	_
+4	Питер	Питер	PROPN	N	Sg|Nom	1	conj	_	_
+5	эзысь	эзысь	NOUN	N	Sg|Acc	3	conj	_	_
 6	а	а	SCONJ	CS	_	2	cc	_	_
-7	Джейн	Джейн	PROPN	N	_	1	conj	_	_
-8	зарни	зарни	NOUN	N	_	3	conj	_	SpaceAfter=No
+7	Джейн	Джейн	PROPN	N	Sg|Nom	1	conj	_	_
+8	зарни	зарни	NOUN	N	Sg|Acc	3	conj	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv-gt.10
 # text = Игаузу - тайӧ ыджыд либӧ ичӧт канму?
 # text_rus = Игаузу, это большая или маленькая страна?
-1	Игаузу	Игаузу	PROPN	N	_	7	nsubj	_	_
+1	Игаузу	Игаузу	PROPN	N	Sg|Nom	7	nsubj	_	_
 2	-	-	PUNCT	CLB	_	1	punct	_	_
-3	тайӧ	тайӧ	PRON	Pron	_	7	det	_	_
+3	тайӧ	тайӧ	PRON	Pron	Dem|Sg|Nom	7	det	_	_
 4	ыджыд	ыджыд	ADJ	A	_	7	amod	_	_
 5	либӧ	либӧ	CCONJ	CC	_	4	cc	_	_
 6	ичӧт	ичӧт	ADJ	A	_	4	conj	_	_
-7	канму	канму	NOUN	N	_	0	root	_	SpaceAfter=No
+7	канму	канму	NOUN	N	Sg|Nom	0	root	_	SpaceAfter=No
 8	?	?	PUNCT	CLB	_	7	punct	_	_
 
 # sent_id = kpv-gt.11
 # text = Эз позь бӧрйыны ни Питер Смитӧс, ни Мери Браунӧс.
 # text_rus = Нельзя было выбрать ни Питера Смита, ни Мэри Браун.
-1	Эз	оз	AUX	V	_	2	aux	_	_
-2	позь	позьны	VERB	V	_	0	root	_	_
-3	бӧрйыны	бӧрйыны	VERB	V	_	2	xcomp	_	_
+1	Эз	оз	AUX	V	Neg|Ind|Prt|Sg3	2	aux	_	_
+2	позь	позьны	VERB	V	ConNeg	0	root	_	_
+3	бӧрйыны	бӧрйыны	VERB	V	Inf	2	xcomp	_	_
 4	ни	ни	PART	Pcle	_	5	advmod	_	_
-5	Питер	Питер	PROPN	N	_	3	obj	_	_
-6	Смитӧс	Смит	PROPN	N	_	5	flat	_	SpaceAfter=No
+5	Питер	Питер	PROPN	N	Sg|Nom	3	obj	_	_
+6	Смитӧс	Смит	PROPN	N	Sg|Acc	5	flat	_	SpaceAfter=No
 7	,	,	PUNCT	CLB	_	8	punct	_	_
 8	ни	ни	PART	Pcle	_	9	advmod	_	_
-9	Мери	Мери	PROPN	N	_	5	conj	_	_
-10	Браунӧс	Браун	PROPN	N	_	9	flat	_	SpaceAfter=No
+9	Мери	Мери	PROPN	N	Sg|Nom	5	conj	_	_
+10	Браунӧс	Браун	PROPN	N	Sg|Acc	9	flat	_	SpaceAfter=No
 11	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv-gt.12
 # text = Найӧ дзик оз тӧдны, коді тайӧс гижис.
 # text_rus = Они понятия не имеют, кто это написал.
-1	Найӧ	найӧ	PRON	Pron	_	4	nsubj	_	_
+1	Найӧ	найӧ	PRON	Pron	Pers|Pl3|Nom	4	nsubj	_	_
 2	дзик	дзик	ADV	Adv	_	4	advmod	_	_
-3	оз	оз	AUX	V	_	4	aux	_	_
-4	тӧдны	тӧдны	VERB	V	_	0	root	_	_
-5	коді	коді	PRON	Pron	_	7	nsubj	_	_
-6	тайӧс	тайӧ	PRON	Pron	_	7	obj	_	_
-7	гижис	гижны	VERB	V	_	4	acl	_	SpaceAfter=No
+3	оз	оз	AUX	V	Neg|Ind|Prs|Pl3	4	aux	_	_
+4	тӧдны	тӧдны	VERB	V	ConNeg	0	root	_	_
+5	коді	коді	PRON	Pron	Sg|Nom	7	nsubj	_	_
+6	тайӧс	тайӧ	PRON	Pron	Dem|Sg|Acc	7	obj	_	_
+7	гижис	гижны	VERB	V	Ind|Prt1|Sg3	4	acl	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = kpv-gt.13
 # text = Мый вылӧ тэ видзӧдан?
 # text_rus = На что ты смотришь?
 1	Мый	мый	PRON	Pron	_	4	obj	_	_
-2	вылӧ	вылӧ	ADP	Po	_	1	case	_	_
-3	тэ	тэ	PRON	Pron	_	4	nsubj	_	_
-4	видзӧдан	видзӧдны	VERB	V	_	0	root	_	SpaceAfter=No
+2	вылӧ	вылӧ	ADP	Po	Sg|Ill	1	case	_	_
+3	тэ	тэ	PRON	Pron	Pers|Sg2|Nom	4	nsubj	_	_
+4	видзӧдан	видзӧдны	VERB	V	Ind|Prs|Sg2	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = kpv-gt.14
 # text = Тэ кыдзи мӧвпалан, кор верман волыны?
 # text_rus = Как ты думаешь, кoгда ты сможешь прийти?
-1	Тэ	тэ	PRON	Pron	_	3	nsubj	_	_
+1	Тэ	тэ	PRON	Pron	Pers|Sg2|Nom	3	nsubj	_	_
 2	кыдзи	кыдзи	ADV	Adv	_	3	advmod	_	_
-3	мӧвпалан	мӧвпавны	VERB	V	_	0	root	_	SpaceAfter=No
+3	мӧвпалан	мӧвпавны	VERB	V	Ind|Prs|Sg2	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	3	punct	_	_
 5	кор	кор	ADV	Adv	_	6	advmod	_	_
-6	верман	вермыны	VERB	V	_	3	advcl	_	_
-7	волыны	волыны	VERB	V	_	6	xcomp	_	SpaceAfter=No
+6	верман	вермыны	VERB	V	Ind|Prs|Sg2	3	advcl	_	_
+7	волыны	волыны	VERB	V	Inf	6	xcomp	_	SpaceAfter=No
 8	?	?	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = kpv-gt.15
 # text = Сійӧ ньӧбис машина, а вокыс сӧмын велосипед.
 # text_rus = Он купил машину, а его брат - только велосипед.
-1	Сійӧ	сійӧ	PRON	Pron	_	2	nsubj	_	_
-2	ньӧбис	ньӧбны	VERB	V	_	0	root	_	_
-3	машина	машина	NOUN	N	_	2	obj	_	_
+1	Сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	2	nsubj	_	_
+2	ньӧбис	ньӧбны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
+3	машина	машина	NOUN	N	Sg|Acc	2	obj	_	_
 4	а	а	SCONJ	CS	_	5	mark	_	_
-5	вокыс	вок	NOUN	N	_	2	conj	_	_
+5	вокыс	вок	NOUN	N	Sg|Nom|PxSg3	2	conj	_	_
 6	сӧмын	сӧмын	ADV	Adv	_	7	advmod	_	_
-7	велосипед	велосипед	NOUN	N	_	3	conj	_	SpaceAfter=No
+7	велосипед	велосипед	NOUN	N	Sg|Nom	3	conj	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv-gt.16
@@ -2042,60 +2042,60 @@
 # sent_id = kpv-gt.17
 # text = Сылы коліс юрсисӧ мичаа вӧчны, но мыйлакӧ тайӧ лунӧ сійӧ эз кӧсйы.
 # text_rus = Ей нужно было сделать причёску, но почему-то в тот день она не захотела.
-1	Сылы	сійӧ	PRON	Pron	_	2	nsubj	_	_
-2	коліс	ковны	VERB	V	_	0	root	_	_
-3	юрсисӧ	юрси	NOUN	N	_	5	obj	_	_
+1	Сылы	сійӧ	PRON	Pron	Pers|Sg3|Dat	2	nsubj	_	_
+2	коліс	ковны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
+3	юрсисӧ	юрси	NOUN	N	Sg|Acc|PxSg3	5	obj	_	_
 4	мичаа	мича	ADV	Adv	_	5	advmod	_	_
-5	вӧчны	вӧчны	VERB	V	_	2	xcomp	_	SpaceAfter=No
+5	вӧчны	вӧчны	VERB	V	Inf	2	xcomp	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	2	punct	_	_
 7	но	но	SCONJ	CS	_	13	conj	_	_
-8	мыйлакӧ	мыйла	ADV	Adv	_	13	advmod	_	_
-9	тайӧ	тайӧ	PRON	Pron	_	10	det	_	_
-10	лунӧ	лунӧ	NOUN	N	_	13	advmod	_	_
-11	сійӧ	сійӧ	PRON	Pron	_	13	nsubj	_	_
-12	эз	эз	AUX	V	_	13	aux	_	_
-13	кӧсйы	кӧсйыны	VERB	V	_	2	advcl	_	SpaceAfter=No
+8	мыйлакӧ	мыйла	ADV	Adv	Indef	13	advmod	_	_
+9	тайӧ	тайӧ	PRON	Pron	Dem|Sg|Nom	10	det	_	_
+10	лунӧ	лунӧ	NOUN	N	Sg|Ill	13	advmod	_	_
+11	сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	13	nsubj	_	_
+12	эз	эз	AUX	V	Neg|Ind|Prt|Sg3	13	aux	_	_
+13	кӧсйы	кӧсйыны	VERB	V	ConNeg	2	advcl	_	SpaceAfter=No
 14	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv-gt.18
 # text = Ме эг вермы сійӧс вӧтӧдны, сы вӧсна мый сійӧ зэв тэрыба котӧртіс.
 # text_rus = Я не смог его догнать, потому что он слишком быстро бежал.
-1	Ме	ме	PRON	Pron	_	3	nsubj	_	_
-2	эг	оз	AUX	V	_	3	aux	_	_
-3	вермы	вермыны	VERB	V	_	0	root	_	_
-4	сійӧс	сійӧ	PRON	Pron	_	5	obj	_	_
-5	вӧтӧдны	вӧтӧдны	VERB	V	_	3	xcomp	_	SpaceAfter=No
+1	Ме	ме	PRON	Pron	Pers|Sg1|Nom	3	nsubj	_	_
+2	эг	оз	AUX	V	Neg|Ind|Prt|Sg1	3	aux	_	_
+3	вермы	вермыны	VERB	V	ConNeg	0	root	_	_
+4	сійӧс	сійӧ	PRON	Pron	Pers|Sg3|Acc	5	obj	_	_
+5	вӧтӧдны	вӧтӧдны	VERB	V	Inf	3	xcomp	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	7	punct	_	_
-7	сы	сійӧ	PRON	Pron	_	13	advmod	_	_
+7	сы	сійӧ	PRON	Pron	Pers|Sg3	13	advmod	_	_
 8	вӧсна	вӧсна	ADP	Po	_	7	case	_	_
 9	мый	мый	SCONJ	CS	_	13	mark	_	_
-10	сійӧ	сійӧ	PRON	Pron	_	13	nsubj	_	_
+10	сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	13	nsubj	_	_
 11	зэв	зэв	ADV	Adv	_	12	advmod	_	_
 12	тэрыба	тэрыб	ADV	Adv	_	13	advmod	_	_
-13	котӧртіс	котӧртыны	VERB	V	_	3	advcl	_	SpaceAfter=No
+13	котӧртіс	котӧртыны	VERB	V	Ind|Prt1|Sg3	3	advcl	_	SpaceAfter=No
 14	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = kpv-gt.19
 # text = Тайӧ Петрсянь письмӧ, да сійӧс тӧрыт вайисны.
 # text_rus = Это письмо от Петра, и его доставили вчера.
-1	Тайӧ	тайӧ	PRON	Pron	_	3	det	_	_
-2	Петрсянь	Петр	NOUN	N	_	3	obl	_	_
-3	письмӧ	письмӧ	NOUN	N	_	0	root	_	SpaceAfter=No
+1	Тайӧ	тайӧ	PRON	Pron	Dem|Sg|Nom	3	det	_	_
+2	Петрсянь	Петр	NOUN	N	Sg|Egr	3	obl	_	_
+3	письмӧ	письмӧ	NOUN	N	Sg|Nom	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	3	punct	_	_
 5	да	да	CCONJ	CC	_	8	mark	_	_
-6	сійӧс	сійӧ	PRON	Pron	_	8	obj	_	_
+6	сійӧс	сійӧ	PRON	Pron	Pers|Sg3|Acc	8	obj	_	_
 7	тӧрыт	тӧрыт	ADV	Adv	_	8	advmod	_	_
-8	вайисны	вайны	VERB	V	_	3	advcl	3:advcl	SpaceAfter=No
+8	вайисны	вайны	VERB	V	Ind|Prt1|Pl3	3	advcl	3:advcl	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = kpv-gt.20
 # text = Сійӧ быдмис Парижын, Францияса юркарын.
 # text_rus = Она выросла в Париже, в столице Франции.
-1	Сійӧ	сійӧ	PRON	Pron	_	2	nsubj	_	_
-2	быдмис	быдмыны	VERB	V	_	0	root	_	_
-3	Парижын	Париж	PROPN	N	_	2	obl	_	_
+1	Сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	2	nsubj	_	_
+2	быдмис	быдмыны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
+3	Парижын	Париж	PROPN	N	Sg|Ine	2	obl	_	_
 4	Францияса	Франция	ADJ	Adj	_	5	amod	_	_
-5	юркарын	юркар	NOUN	N	_	3	appos	4:amod	SpaceAfter=No
+5	юркарын	юркар	NOUN	N	Sg|Ine	3	appos	4:amod	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # text = Сійӧ пыр жӧ гижис Максимлы зэв кузь да зэв стрӧг письмӧ, кӧні Валентина Ивановна моз жӧ нимтіс сійӧс «сюсь йӧйӧн».
@@ -2120,11 +2120,11 @@
 17	жӧ	жӧ	PART	Pcle	_	16	discourse	_	_
 18	нимтіс	нимтыны	VERB	V	Ind|Prt1|Sg3	11	acl	_	_
 19	сійӧс	сійӧ	PRON	Pron	Pers|Sg3|Acc	18	obj	_	_
-20	«	«	PUNCT	PUNCT	LEFT	22	punct	_	SpaceAfter=No
+20	«	«	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
 21	сюсь	сюсь	ADJ	A	_	22	amod	_	_
 22	йӧйӧн	йӧй	ADJ	A	Sg|Ins	18	nmod	_	SpaceAfter=No
-23	»	»	PUNCT	PUNCT	RIGHT	22	punct	_	SpaceAfter=No
-24	.	.	PUNCT	CLB	CLB	4	punct	_	_
+23	»	»	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # text = Ва, керӧс, из, му, сынӧд некор эз вӧвны ловъяӧсь, сы понда найӧясӧс ог шуӧй кулӧм торъясӧн — шуам ловтӧм торъяс
 # text_rus = 
@@ -2178,7 +2178,7 @@
 # sent_id = new_4
 1	Тайӧ	тайӧ	PRON	Pron	Dem|Sg|Nom	2	det	_	_
 2	нигаыс	нига	NOUN	N	Sg|Nom|PxSg3	3	nsubj	_	_
-3	сетас	сетны	VERB	V	TV|Ind|Fut|Sg3	0	root	_	_
+3	сетас	сетны	VERB	V	Ind|Fut|Sg3	0	root	_	_
 4	сӧмын	сӧмын	ADV	Adv	_	3	advmod	_	_
 5	ичӧтик	ичӧтик	ADJ	A	Sg|Nom	6	amod	_	_
 6	юкӧн	юкӧн	NOUN	N	Sg|Acc	3	obj	_	_
@@ -2197,7 +2197,7 @@
 6	,	,	PUNCT	CLB	_	7	punct	_	_
 7	медся	медся	PART	Pcle	_	8	advmod	_	_
 8	ёна	ёна	ADV	Adv	_	9	advmod	_	_
-9	жугӧдӧ	жугӧдны	VERB	V	TV|Ind|Prs|Sg3	5	ccomp	_	_
+9	жугӧдӧ	жугӧдны	VERB	V	Ind|Prs|Sg3	5	ccomp	_	_
 10	тыястӧ	ты	NOUN	N	Pl|Acc|PxSg2	9	obj	_	SpaceAfter=No
 11	.	.	PUNCT	CLB	_	5	punct	_	_
 
@@ -2227,7 +2227,7 @@
 # sent_id = new_8
 1	Аскинас	аскинас	ADV	Adv	_	3	advmod	_	_
 2	сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	3	nsubj	_	_
-3	шуис	шуны	VERB	V	TV|Ind|Prt1|Sg3	0	root	_	_
+3	шуис	шуны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 4	Машалы	Маша	NOUN	N	Prop|Sem|Sg|Dat	3	obl	_	SpaceAfter=No
 5	,	,	PUNCT	CLB	_	6	punct	_	_
 6	тэ	тэ	PRON	Pron	Pers|Sg2|Nom	9	nsubj	_	_
