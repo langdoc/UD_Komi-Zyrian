@@ -1,3 +1,253 @@
+# text = Рӧдитчи ме шейсят четвёртэй годын октяб тӧлысе тундраын .
+1	Рӧдитчи	рӧдитчыны	V	_	Ind|Prt1|Sg1	0	root	_	_
+2	ме	ме	Pron	_	Pers|Sg1|Nom	1	nsubj	_	_
+3	шейсят	шейсят	Num	_	Card|Sg|Prl	4	nummod	_	_
+4	четвёртэй	четвёртэй	Det	_	Ord|Abs	5	nummod	_	_
+5	годын	год	N	_	Sg|Ine	1	obl	_	_
+6	октяб	октяб	N	_	Prop|Abs	7	nmod	_	_
+7	тӧлысьӧ	тӧлысь	N	_	Sg|Ill	1	obl	_	_
+8	тундраын	тундра	N	_	Sg|Ine	1	obl	_	_
+9	.	.	CLB	_	_	1	punct	_	_
+
+# text = Сэсся велэдчи , быдтіс баб миянумес . 
+1	Сэсся	сэсся	Adv	_	_	2	advmod	_	_
+2	велӧдчи	велӧдчыны	V	_	Refl|Ind|Prt1|Sg1	0	X	_	_
+3	,	,	CLB	_	_	2	punct	_	_
+4	быдтіс	быдтыны	V	_	TV|Ind|Prt1|Sg3	2	ccomp	_	_
+5	баб	баб	N	_	Sg|Acc	4	nsubj	_	_
+6	миянӧс	ми	Pron	_	Pers|Pl1|Acc	4	obj	_	_
+7	.	.	CLB	_	_	2	punct	_	_
+
+# text = Десятой класс закончитэм бӧрын , гожемъяснас , правда , быд гожем ветлі родительяс доре тундраа , десятой класс закончитэм бӧрын куим во служиті подводнэй лодка вылын , флотын .
+1	Десятой	Десятой	_	_	_	2	nummod	_	_
+2	класс	класс	N	_	Sg|Nom	3	obl	_	_
+3	закончитэм	закончитэм	_	_	_	12	advcl	_	_
+4	бӧрын	бӧр	Po	_	Spat|Sg|Ine	3	case	_	_
+5	,	,	CLB	_	_	6	punct	_	_
+6	гожемъяснас	гожемъяснас	_	_	conj	12	advmod	_	_
+7	,	,	CLB	_	_	8	punct	_	_
+8	правда	правда	N	_	Sg|Nom	12	advmod	_	_
+9	,	,	CLB	_	_	10	punct	_	_
+10	быд	быд	N	_	Sg|Nom	11	det	_	_
+11	гожем	гожем	_	_	_	12	obl	_	_
+12	ветлі	ветлыны	V	_	IV|Ind|Prt1|Sg1	0	root	_	_
+13	родительяс	родитель	N	_	Pl|Nom	12	obl	_	_
+14	доре	дор	Po	_	Ill	13	case	_	_
+15	тундраа	тундра	N	_	Sg|Ill	12	obl	_	_
+16	,	,	CLB	_	_	17	punct	_	_
+17	десятой	десятой	_	_	_	18	nummod	_	_
+18	класс	класс	N	_	Sg|Nom	19	nmod	_	_
+19	закончитэм	закончитэм	_	_	_	23	advcl	_	_
+20	бӧрын	бӧр	Po	_	Spat|Sg|Ine	19	case	_	_
+21	куим	куим	Num	_	Card|Abs	22	nummod	_	_
+22	во	во	N	_	Sg|Nom	23	obl	_	_
+23	служиті	служитны	V	_	IV|Ind|Prt1|Sg1	0	X	_	_
+24	подводнэй	подводнэй	A	_	_	25	amod	_	_
+25	лодка	лодка	N	_	Abs	23	obl	_	_
+26	вылын	вылын	Po	_	Spat|Sg|Ine	25	case	_	_
+27	,	,	CLB	_	_	28	punct	_	_
+28	флотын	флот	N	_	Sg|Ine	25	conj	_	_
+29	.	.	CLB	_	_	12	punct	_	_
+
+# text = Сы бӧрын устроитчи рӧбитны , локті ас сиктэ да .
+1	Сы	сійӧ	Pron	_	Pers|Sg3|Cmpl	3	advmod	_	_
+2	бӧрын	бӧр	Po	_	Spat|Sg|Ine	1	case	_	_
+3	устроитчи	устроитчыны	V	_	Ind|Prt1|Sg1	0	root	_	_
+4	рӧбитны	рӧбитны	V	_	IV|Inf	3	xcomp	_	_
+5	,	,	CLB	_	_	6	punct	_	_
+6	локті	локны	V	_	IV|Ind|Prt1|Sg1	3	ccomp	_	_
+7	ас	ас	A	_	Refl|Abs	8	nmod	_	_
+8	сиктэ	сикт	N	_	Sg|Ill	6	obl	_	_
+9	да	да	CS	_	_	8	discourse	_	_
+10	.	.	CLB	_	_	3	punct	_	_
+
+
+# text = Телевидение , ой , телевышка , телестанция вылын рӧбиті кык во .
+1	Телевидение	телевидение	N	_	Sg|Nom	7	conj	_	_
+2	,	,	CLB	_	_	3	punct	_	_
+3	ой	ой	Interj	_	_	9	discourse	_	_
+4	,	,	CLB	_	_	5	punct	_	_
+5	телевышка	телевышка	_	_	_	7	conj	_	_
+6	,	,	CLB	_	_	7	punct	_	_
+7	телестанция	телестанция	_	_	_	9	obl	_	_
+8	вылын	вылын	Po	_	Spat|Sg|Ine	7	case	_	_
+9	рӧбиті	рӧбитны	V	_	IV|Ind|Prt1|Err/Dial|Sg3	0	root	_	_
+10	кык	кык	Num	_	Card|Abs|@>N	11	nummod	_	_
+11	во	во	N	_	Sg|Nom|@<SUBJ	9	obl	_	_
+12	.	.	CLB	_	_	9	punct	_	_
+
+# text = Сэсся кувсис менам мам.
+1	Сэсся	сэсся	Adv	_	_	2	advmod	_	_
+2	кувсис	кувсьыны	V	_	Refl|Ind|Prt1|Sg3	0	root	_	_
+3	менам	ме	Pron	_	Pers|Sg1|Gen	4	nmod	_	_
+4	мам	мам	N	_	Sg|Nom	2	nsubj	_	_
+5	.	.	CLB	_	_	2	punct	_	_
+
+
+# text = И ме петі тундраа ортсасьны аелы .
+1	И	и	CC	_	_	3	mark	_	_
+2	ме	ме	Pron	_	Pers|Sg1|Nom	3	nsubj	_	_
+3	петі	петны	V	_	IV|Ind|Prt1|Sg1	0	root	_	_
+4	тундраӧ	тундра	N	_	Sg|Ill	3	obl	_	_
+5	отсасьны	отсасьны	V	_	Refl|Inf	3	xcomp	_	_
+6	аелы	ай	N	_	Sg|Dat|PxSg1	5	obl	_	_
+7	.	.	CLB	_	_	3	punct	_	_
+
+# text = Тундраын ветлі сизим во , керка кари аслум вокъяскед , дядьяскед .
+1	Тундраын	тундра	N	_	Sg|Ine	2	obl	_	_
+2	ветлі	ветлыны	V	_	IV|Ind|Prt1|Sg1	0	root	_	_
+3	сизим	сизим	Num	_	Card|Abs	4	nummod	_	_
+4	во	во	N	_	Sg|Nom	2	nmod	_	_
+5	,	,	CLB	_	_	6	punct	_	_
+6	керка	керка	N	_	Sg|Nom	7	obj	_	_
+7	кари	карны	V	_	IV|Ind|Prt1|Sg1	2	ccomp	_	_
+8	аслум	аслум	Pron	_	_	9	nmod	_	_
+9	вокъяскед	вок	N	_	Pl|Err/Dial|Com	7	obl	_	_
+10	,	,	CLB	_	_	11	punct	_	_
+11	дядьяскед	дядь	N	_	Pl|Err/Dial|Com	9	conj	_	_
+12	.	.	CLB	_	_	2	punct	_	_
+
+# text = Супругаа , кудз висьтооны , абу оленевод да , приведитчис кольччыны .
+1	Супругаа	супруга	N	_	_	7	nsubj	_	_
+2	,	,	CLB	_	_	3	punct	_	_
+3	кудз	кудз	Adv	_	Manner|Err/Orth|Rel	4	advmod	_	_
+4	висьтооны	висьтооны	V	_	Inf	7	parataxis	_	_
+5	,	,	CLB	_	_	6	punct	_	_
+6	абу	абу	Pcle	_	Neg	7	aux	_	_
+7	оленевод	оленевод	N	_	_	0	root	_	_
+8	да	да	CS	_	_	7	discourse	_	_
+9	,	,	CLB	_	_	10	punct	_	_
+10	приведитчис	приведитчыны	V	_	IV|Ind|Prt1|Sg3	7	ccomp	_	_
+11	кольччыны	кольччыны	V	_	Refl|Inf	10	xcomp	_	_
+12	.	.	CLB	_	_	7	punct	_	_
+
+# text = Воліс же тундраас , но из , абу понравитчема , оз вермы сыа сэтшем условиеясас .
+1	Воліс	волыны	V	_	IV|Ind|Prt1|Sg3	0	root	_	_
+2	жӧ	жӧ	Pcle	_	_	1	discourse	_	_
+3	тундраас	тундра	N	_	Sg|Ill|PxSg3	1	obl	_	_
+4	,	,	CLB	_	_	5	punct	_	_
+5	но	но	CC	_	_	9	cc	_	_
+6	эз	оз	V	_	Neg|Ind|Prt|Sg3	8	conj	_	_
+7	,	,	CLB	_	_	6	punct	_	_
+8	абу	абу	Pcle	_	Neg	9	aux	_	_
+9	понравитчӧма	понравитчӧма	V	_	_	1	conj	_	_
+10	,	,	CLB	_	_	11	punct	_	_
+11	оз	оз	V	_	Neg|Ind|Prs|Sg3	12	aux	_	_
+12	вермы	вермыны	V	_	IV|ConNeg	1	ccomp	_	_
+13	сійӧ	сійӧ	Pron	_	Pers|Sg3|Nom	12	nsubj	_	_
+14	сэтшӧм	сэтшӧм	A	_	Sg|Acc	15	amod	_	_
+15	условиеясас	условие	N	_	Pl|Ill|PxSg3	12	obl	_	_
+16	.	.	CLB	_	_	1	punct	_	_
+
+# text = Гожемъясын волыыліс челядькед .
+1	Гожӧмъясын	гожӧм	N	_	Pl|Ine	2	obl	_	_
+2	волывліс	волывлыны	V	_	IV|Ind|Prt1|Sg3	0	root	_	_
+3	челядькед	челядь	N	_	Sg|Err/Dial|Com	2	obl	_	_
+4	.	.	CLB	_	_	2	punct	_	_
+
+# text = Рӧбиті стрӧительствоын нёль во .
+1	Рӧбиті	рӧбитны	V	_	IV|Ind|Prt1|Err/Dial|Sg3	0	root	_	_
+2	стрӧительствоын	стрӧительство	N	_	Sg|Ine	1	obl	_	_
+3	нёль	нёль	Num	_	Card|Abs|@>N	4	nummod	_	_
+4	во	во	N	_	Sg|Nom|@<SUBJ	1	nmod	_	_
+5	.	.	CLB	_	_	1	punct	_	_
+
+# text = Керкаяс стрӧитім , гаражъяс , баняяс .
+1	Керкаяс	керка	N	_	Pl|Acc	2	obj	_	_
+2	стрӧитім	стрӧитны	V	_	TV|Ind|Prt1|Pl1	0	root	_	_
+3	,	,	CLB	_	_	4	punct	_	_
+4	гаражъяс	гараж	N	_	Pl|Acc	1	conj	_	_
+5	,	,	CLB	_	_	6	punct	_	_
+6	баняяс	баня	N	_	Sg|Ill|PxSg3	1	conj	_	_
+7	.	.	CLB	_	_	2	punct	_	_
+
+# text = Кочегариті , окмыс во , навернэ , кочегариті .
+1	Кочегариті	кочегаритны	V	_	IV|Ind|Prt1|Sg1	0	root	_	_
+2	,	,	CLB	_	_	3	punct	_	_
+3	ӧкмыс	ӧкмыс	Num	_	Card|Abs|@>N	4	nummod	_	_
+4	во	во	N	_	Sg|Nom	1	nmod	_	_
+5	,	,	CLB	_	_	6	punct	_	_
+6	навернӧ	навернӧ	Adv	_	@<ADVL	1	advmod	_	_
+7	,	,	CLB	_	_	8	punct	_	_
+8	кочегариті	кочегаритны	V	_	IV|Ind|Prt1|Sg1	1	conj	_	_
+9	.	.	CLB	_	_	1	punct	_	_
+
+
+# text = А эні нин сизим во кудз висены кокъясэ и ог вермы ветлыны , веське с удовольствием пета тундраа , но …
+1	А	а	Pcle	_	_	2	mark	_	_
+2	ӧні	ӧні	Adv	_	_	7	advmod	_	_
+3	нин	нин	Pcle	_	_	2	advmod	_	_
+4	сизим	сизим	Num	_	Card|Abs|@>N	5	nummod	_	_
+5	во	во	N	_	Abs	7	nmod	_	_
+6	кудз	кудз	Adv	_	_	7	advmod	_	_
+7	висьӧны	висьны	V	_	IV|Ind|Prs|Pl3	0	root	_	_
+8	кокъясӧ	кок	N	_	Pl|Ill	7	obl	_	_
+9	и	и	CC	_	_	11	cc	_	_
+10	ог	оз	V	_	Neg|Ind|Prs|Sg1	11	aux	_	_
+11	вермы	вермыны	V	_	TV|ConNeg	7	ccomp	_	_
+12	ветлыны	ветлыны	V	_	IV|Inf	11	xcomp	_	_
+13	,	,	CLB	_	_	14	punct	_	_
+14	эськӧ	эськӧ	Pcle	_	_	15	advmod	_	_
+15	с	с	Pre	_	_	16	case	_	_
+16	удовольствием	удовольствием	_	_	@обл	17	obl	_	_
+17	пета	петны	V	_	IV|Ind|Prs|Sg1	7	ccomp	_	_
+18	тундраа	тундра	N	_	Sg|Ill	17	obl	_	_
+19	,	,	CLB	_	_	20	punct	_	_
+20	но	но	Interj	_	_	7	discourse	_	_
+21	…	…	CLB	_	_	7	punct	_	_
+
+# text = Медбӧрын лэччылі Нярьян-Маре тоже оленеводствоо , Нарьян-Марскей ОПХ-а .
+1	Медбӧрын	медбӧрын	Adv	_	Ine	2	advmod	_	_
+2	лэччылі	лэччывны	V	_	IV|Ind|Prt1|Sg1	0	root	_	_
+3	Нярьян-Маре	Нярьян-Мар	N	_	Sg|Ill	2	obl	_	_
+4	тожӧ	тожӧ	Adv	_	_	2	advmod	_	_
+5	оленеводствоо	оленеводство	N	_	Sg|Ill	2	obl	_	_
+6	,	,	CLB	_	_	7	punct	_	_
+7	Нарьян-Марскей	Нарьян-Марскей	A	_	_	8	amod	_	_
+8	ОПХ-а	ОПХ	N	_	Ill	5	conj	_	_
+9	.	.	CLB	_	_	2	punct	_	_
+
+# text = Девять месяцев проработайті , кокъясэ висьмисныс дзикедз , и приведитчис каны , чӧтны сіес рӧбетасэ .
+1	Девять	Девять	_	_	_	2	nummod	_	_
+2	месяцев	месяцев	_	_	_	3	obl	_	_
+3	проработайті	проработайтны	V	_	IV|Ind|Prt1|Sg1	0	root	_	_
+4	,	,	CLB	_	_	5	punct	_	_
+5	кокъясӧ	кок	N	_	Pl|Ill	6	obl	_	_
+6	висьмисны	висьмыны	V	_	IV|Ind|Prt1|Pl3	3	ccomp	_	_
+7	дзикедз	дзикедз	_	_	_	6	advmod	_	_
+8	,	,	CLB	_	_	9	punct	_	_
+9	и	и	CC	_	_	10	mark	_	_
+10	приведитчис	приведитчыны	V	_	IV|Ind|Prt1|Sg3	3	ccomp	_	_
+11	кайны	кайны	V	_	IV|Inf	10	xcomp	_	_
+12	,	,	CLB	_	_	13	punct	_	_
+13	чӧтны	чӧтны	_	_	_	3	ccomp	_	_
+14	сійӧс	сійӧ	Pron	_	Pers|Sg3|Acc	13	obj	_	_
+15	рӧбетасӧ	рӧбетасӧ	_	_	_	13	obj	_	_
+16	.	.	CLB	_	_	3	punct	_	_
+
+# text = Вот эні гортын сизим во нин , сизимед во нин , инвалидность вылын .
+1	Вот	вот	Pcle	_	_	2	discourse	_	_
+2	ӧні	ӧні	Adv	_	_	5	advmod	_	_
+3	гортын	горт	N	_	Sg|Ine	5	obl	_	_
+4	сизим	сизим	Num	_	Card|Abs	5	nummod	_	_
+5	во	во	N	_	Abs	0	root	_	_
+6	нин	нин	Pcle	_	_	5	advmod	_	_
+7	,	,	CLB	_	_	8	punct	_	_
+8	сизимӧд	сизим	Det	_	Ord|Abs	9	nummod	_	_
+9	во	во	N	_	Abs	5	conj	_	_
+10	нин	нин	Pcle	_	_	9	advmod	_	_
+11	,	,	CLB	_	_	12	punct	_	_
+12	инвалидность	инвалидность	N	_	Sg|Nom	5	nmod	_	_
+13	вылын	вылын	Po	_	Spat|Sg|Ine	12	case	_	_
+14	.	.	CLB	_	_	5	punct	_	_
+
+# text = Второй группа инвалидность имейта . 
+1	Второй	второй	A	_	_	2	amod	_	_
+2	группа	группа	N	_	Sg|Nom	4	obj	_	_
+3	инвалидность	инвалидность	N	_	Sg|Gen	2	nmod	_	_
+4	имейта	имейта	V	_	Ind|Prs|Sg1	0	root	_	_
+5	.	.	CLB	_	_	4	punct	_	_
+
 # text = Ме, кӧнечнэ же, кык лун вӧлі в шоке от Тайланда, потому что, но, менэ страны Юго - Восточной Азии зэй из привлекайтныс.
 # sent_id = kpv_izva20140330-1-b-097
 # corpus_version = f0d4b02b2cdba3ddf9e5bd1c5cd875167b4e97fc
