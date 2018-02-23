@@ -1,499 +1,499 @@
 # text = Рӧдитчи ме шейсят четвёртэй годын октяб тӧлысе тундраын .
-1	Рӧдитчи	рӧдитчыны	V	_	Ind|Prt1|Sg1	0	root	_	_
-2	ме	ме	Pron	_	Pers|Sg1|Nom	1	nsubj	_	_
-3	шейсят	шейсят	Num	_	Card|Sg|Prl	4	nummod	_	_
-4	четвёртэй	четвёртэй	Det	_	Ord|Abs	5	nummod	_	_
-5	годын	год	N	_	Sg|Ine	1	obl	_	_
-6	октяб	октяб	N	_	Prop|Abs	7	nmod	_	_
-7	тӧлысьӧ	тӧлысь	N	_	Sg|Ill	1	obl	_	_
-8	тундраын	тундра	N	_	Sg|Ine	1	obl	_	_
-9	.	.	CLB	_	_	1	punct	_	_
+1	Рӧдитчи	рӧдитчыны	_	V	Ind|Prt1|Sg1	0	root	_	_
+2	ме	ме	_	Pron	Pers|Sg1|Nom	1	nsubj	_	_
+3	шейсят	шейсят	_	Num	Card|Sg|Prl	4	nummod	_	_
+4	четвёртэй	четвёртэй	_	Det	Ord|Abs	5	nummod	_	_
+5	годын	год	_	N	Sg|Ine	1	obl	_	_
+6	октяб	октяб	_	N	Prop|Abs	7	nmod	_	_
+7	тӧлысьӧ	тӧлысь	_	N	Sg|Ill	1	obl	_	_
+8	тундраын	тундра	_	N	Sg|Ine	1	obl	_	_
+9	.	.	_	CLB	_	1	punct	_	_
 
 # text = Сэсся велэдчи , быдтіс баб миянумес . 
-1	Сэсся	сэсся	Adv	_	_	2	advmod	_	_
-2	велӧдчи	велӧдчыны	V	_	Refl|Ind|Prt1|Sg1	0	X	_	_
-3	,	,	CLB	_	_	2	punct	_	_
-4	быдтіс	быдтыны	V	_	TV|Ind|Prt1|Sg3	2	ccomp	_	_
-5	баб	баб	N	_	Sg|Acc	4	nsubj	_	_
-6	миянӧс	ми	Pron	_	Pers|Pl1|Acc	4	obj	_	_
-7	.	.	CLB	_	_	2	punct	_	_
+1	Сэсся	сэсся	_	Adv	_	2	advmod	_	_
+2	велӧдчи	велӧдчыны	_	V	Refl|Ind|Prt1|Sg1	0	X	_	_
+3	,	,	_	CLB	_	2	punct	_	_
+4	быдтіс	быдтыны	_	V	TV|Ind|Prt1|Sg3	2	ccomp	_	_
+5	баб	баб	_	N	Sg|Acc	4	nsubj	_	_
+6	миянӧс	ми	_	Pron	Pers|Pl1|Acc	4	obj	_	_
+7	.	.	_	CLB	_	2	punct	_	_
 
 # text = Десятой класс закончитэм бӧрын , гожемъяснас , правда , быд гожем ветлі родительяс доре тундраа , десятой класс закончитэм бӧрын куим во служиті подводнэй лодка вылын , флотын .
-1	Десятой	Десятой	_	_	_	2	nummod	_	_
-2	класс	класс	N	_	Sg|Nom	3	obl	_	_
-3	закончитэм	закончитэм	_	_	_	12	advcl	_	_
-4	бӧрын	бӧр	Po	_	Spat|Sg|Ine	3	case	_	_
-5	,	,	CLB	_	_	6	punct	_	_
-6	гожемъяснас	гожемъяснас	_	_	conj	12	advmod	_	_
-7	,	,	CLB	_	_	8	punct	_	_
-8	правда	правда	N	_	Sg|Nom	12	advmod	_	_
-9	,	,	CLB	_	_	10	punct	_	_
-10	быд	быд	N	_	Sg|Nom	11	det	_	_
-11	гожем	гожем	_	_	_	12	obl	_	_
-12	ветлі	ветлыны	V	_	IV|Ind|Prt1|Sg1	0	root	_	_
-13	родительяс	родитель	N	_	Pl|Nom	12	obl	_	_
-14	доре	дор	Po	_	Ill	13	case	_	_
-15	тундраа	тундра	N	_	Sg|Ill	12	obl	_	_
-16	,	,	CLB	_	_	17	punct	_	_
-17	десятой	десятой	_	_	_	18	nummod	_	_
-18	класс	класс	N	_	Sg|Nom	19	nmod	_	_
-19	закончитэм	закончитэм	_	_	_	23	advcl	_	_
-20	бӧрын	бӧр	Po	_	Spat|Sg|Ine	19	case	_	_
-21	куим	куим	Num	_	Card|Abs	22	nummod	_	_
-22	во	во	N	_	Sg|Nom	23	obl	_	_
-23	служиті	служитны	V	_	IV|Ind|Prt1|Sg1	0	X	_	_
-24	подводнэй	подводнэй	A	_	_	25	amod	_	_
-25	лодка	лодка	N	_	Abs	23	obl	_	_
-26	вылын	вылын	Po	_	Spat|Sg|Ine	25	case	_	_
-27	,	,	CLB	_	_	28	punct	_	_
-28	флотын	флот	N	_	Sg|Ine	25	conj	_	_
-29	.	.	CLB	_	_	12	punct	_	_
+1	Десятой	Десятой	_	Num	_	2	nummod	_	_
+2	класс	класс	_	N	Sg|Nom	3	obl	_	_
+3	закончитэм	закончитэм	_	V	_	12	advcl	_	_
+4	бӧрын	бӧр	_	Po	Spat|Sg|Ine	3	case	_	_
+5	,	,	_	CLB	_	6	punct	_	_
+6	гожемъяснас	гожемъяснас	_	Adv	_	12	advmod	_	_
+7	,	,	_	CLB	_	8	punct	_	_
+8	правда	правда	_	Adv	_	12	advmod	_	_
+9	,	,	_	CLB	_	10	punct	_	_
+10	быд	быд	_	N	Sg|Nom	11	det	_	_
+11	гожем	гожем	_	N	_	12	obl	_	_
+12	ветлі	ветлыны	_	V	IV|Ind|Prt1|Sg1	0	root	_	_
+13	родительяс	родитель	_	N	Pl|Nom	12	obl	_	_
+14	доре	дор	_	Po	Ill	13	case	_	_
+15	тундраа	тундра	_	N	Sg|Ill	12	obl	_	_
+16	,	,	_	CLB	_	17	punct	_	_
+17	десятой	десятой	_	Num	_	18	nummod	_	_
+18	класс	класс	_	N	Sg|Nom	19	nmod	_	_
+19	закончитэм	закончитэм	_	V	_	23	advcl	_	_
+20	бӧрын	бӧр	_	Po	Spat|Sg|Ine	19	case	_	_
+21	куим	куим	_	Num	Card|Abs	22	nummod	_	_
+22	во	во	_	N	Sg|Nom	23	obl	_	_
+23	служиті	служитны	_	V	IV|Ind|Prt1|Sg1	0	X	_	_
+24	подводнэй	подводнэй	_	A	_	25	amod	_	_
+25	лодка	лодка	_	N	Abs	23	obl	_	_
+26	вылын	вылын	_	Po	Sg|Ine	25	case	_	_
+27	,	,	_	CLB	_	28	punct	_	_
+28	флотын	флот	_	N	Sg|Ine	25	conj	_	_
+29	.	.	_	CLB	_	12	punct	_	_
 
 # text = Сы бӧрын устроитчи рӧбитны , локті ас сиктэ да .
-1	Сы	сійӧ	Pron	_	Pers|Sg3|Cmpl	3	advmod	_	_
-2	бӧрын	бӧр	Po	_	Spat|Sg|Ine	1	case	_	_
-3	устроитчи	устроитчыны	V	_	Ind|Prt1|Sg1	0	root	_	_
-4	рӧбитны	рӧбитны	V	_	IV|Inf	3	xcomp	_	_
-5	,	,	CLB	_	_	6	punct	_	_
-6	локті	локны	V	_	IV|Ind|Prt1|Sg1	3	ccomp	_	_
-7	ас	ас	A	_	Refl|Abs	8	nmod	_	_
-8	сиктэ	сикт	N	_	Sg|Ill	6	obl	_	_
-9	да	да	CS	_	_	8	discourse	_	_
-10	.	.	CLB	_	_	3	punct	_	_
+1	Сы	сійӧ	_	Pron	Pers|Sg3|Cmpl	3	advmod	_	_
+2	бӧрын	бӧр	_	Po	Spat|Sg|Ine	1	case	_	_
+3	устроитчи	устроитчыны	_	V	Ind|Prt1|Sg1	0	root	_	_
+4	рӧбитны	рӧбитны	_	V	IV|Inf	3	xcomp	_	_
+5	,	,	_	CLB	_	6	punct	_	_
+6	локті	локны	_	V	IV|Ind|Prt1|Sg1	3	ccomp	_	_
+7	ас	ас	_	A	Refl|Abs	8	nmod	_	_
+8	сиктэ	сикт	_	N	Sg|Ill	6	obl	_	_
+9	да	да	_	CS	_	8	discourse	_	_
+10	.	.	_	CLB	_	3	punct	_	_
 
 
 # text = Телевидение , ой , телевышка , телестанция вылын рӧбиті кык во .
-1	Телевидение	телевидение	N	_	Sg|Nom	7	conj	_	_
-2	,	,	CLB	_	_	3	punct	_	_
-3	ой	ой	Interj	_	_	9	discourse	_	_
-4	,	,	CLB	_	_	5	punct	_	_
+1	Телевидение	телевидение	_	N	Sg|Nom	7	conj	_	_
+2	,	,	_	CLB	_	3	punct	_	_
+3	ой	ой	_	Interj	_	9	discourse	_	_
+4	,	,	_	CLB	_	5	punct	_	_
 5	телевышка	телевышка	_	_	_	7	conj	_	_
-6	,	,	CLB	_	_	7	punct	_	_
+6	,	,	_	CLB	_	7	punct	_	_
 7	телестанция	телестанция	_	_	_	9	obl	_	_
-8	вылын	вылын	Po	_	Spat|Sg|Ine	7	case	_	_
-9	рӧбиті	рӧбитны	V	_	IV|Ind|Prt1|Err/Dial|Sg3	0	root	_	_
-10	кык	кык	Num	_	Card|Abs|@>N	11	nummod	_	_
-11	во	во	N	_	Sg|Nom|@<SUBJ	9	obl	_	_
-12	.	.	CLB	_	_	9	punct	_	_
+8	вылын	вылын	_	Po	Spat|Sg|Ine	7	case	_	_
+9	рӧбиті	рӧбитны	_	V	IV|Ind|Prt1|Err/Dial|Sg3	0	root	_	_
+10	кык	кык	_	Num	Card|Abs|@>N	11	nummod	_	_
+11	во	во	_	N	Sg|Nom|@<SUBJ	9	obl	_	_
+12	.	.	_	CLB	_	9	punct	_	_
 
 # text = Сэсся кувсис менам мам.
-1	Сэсся	сэсся	Adv	_	_	2	advmod	_	_
-2	кувсис	кувсьыны	V	_	Refl|Ind|Prt1|Sg3	0	root	_	_
-3	менам	ме	Pron	_	Pers|Sg1|Gen	4	nmod	_	_
-4	мам	мам	N	_	Sg|Nom	2	nsubj	_	_
-5	.	.	CLB	_	_	2	punct	_	_
+1	Сэсся	сэсся	_	Adv	_	2	advmod	_	_
+2	кувсис	кувсьыны	_	V	Refl|Ind|Prt1|Sg3	0	root	_	_
+3	менам	ме	_	Pron	Pers|Sg1|Gen	4	nmod	_	_
+4	мам	мам	_	N	Sg|Nom	2	nsubj	_	_
+5	.	.	_	CLB	_	2	punct	_	_
 
 
 # text = И ме петі тундраа ортсасьны аелы .
-1	И	и	CC	_	_	3	mark	_	_
-2	ме	ме	Pron	_	Pers|Sg1|Nom	3	nsubj	_	_
-3	петі	петны	V	_	IV|Ind|Prt1|Sg1	0	root	_	_
-4	тундраӧ	тундра	N	_	Sg|Ill	3	obl	_	_
-5	отсасьны	отсасьны	V	_	Refl|Inf	3	xcomp	_	_
-6	аелы	ай	N	_	Sg|Dat|PxSg1	5	obl	_	_
-7	.	.	CLB	_	_	3	punct	_	_
+1	И	и	_	CC	_	3	mark	_	_
+2	ме	ме	_	Pron	Pers|Sg1|Nom	3	nsubj	_	_
+3	петі	петны	_	V	IV|Ind|Prt1|Sg1	0	root	_	_
+4	тундраӧ	тундра	_	N	Sg|Ill	3	obl	_	_
+5	отсасьны	отсасьны	_	V	Refl|Inf	3	xcomp	_	_
+6	аелы	ай	_	N	Sg|Dat|PxSg1	5	obl	_	_
+7	.	.	_	CLB	_	3	punct	_	_
 
 # text = Тундраын ветлі сизим во , керка кари аслум вокъяскед , дядьяскед .
-1	Тундраын	тундра	N	_	Sg|Ine	2	obl	_	_
-2	ветлі	ветлыны	V	_	IV|Ind|Prt1|Sg1	0	root	_	_
-3	сизим	сизим	Num	_	Card|Abs	4	nummod	_	_
-4	во	во	N	_	Sg|Nom	2	nmod	_	_
-5	,	,	CLB	_	_	6	punct	_	_
-6	керка	керка	N	_	Sg|Nom	7	obj	_	_
-7	кари	карны	V	_	IV|Ind|Prt1|Sg1	2	ccomp	_	_
-8	аслум	аслум	Pron	_	_	9	nmod	_	_
-9	вокъяскед	вок	N	_	Pl|Err/Dial|Com	7	obl	_	_
-10	,	,	CLB	_	_	11	punct	_	_
-11	дядьяскед	дядь	N	_	Pl|Err/Dial|Com	9	conj	_	_
-12	.	.	CLB	_	_	2	punct	_	_
+1	Тундраын	тундра	_	N	Sg|Ine	2	obl	_	_
+2	ветлі	ветлыны	_	V	IV|Ind|Prt1|Sg1	0	root	_	_
+3	сизим	сизим	_	Num	Card|Abs	4	nummod	_	_
+4	во	во	_	N	Sg|Nom	2	nmod	_	_
+5	,	,	_	CLB	_	6	punct	_	_
+6	керка	керка	_	N	Sg|Nom	7	obj	_	_
+7	кари	карны	_	V	IV|Ind|Prt1|Sg1	2	ccomp	_	_
+8	аслум	аслум	_	Pron	_	9	nmod	_	_
+9	вокъяскед	вок	_	N	Pl|Err/Dial|Com	7	obl	_	_
+10	,	,	_	CLB	_	11	punct	_	_
+11	дядьяскед	дядь	_	N	Pl|Err/Dial|Com	9	conj	_	_
+12	.	.	_	CLB	_	2	punct	_	_
 
 # text = Супругаа , кудз висьтооны , абу оленевод да , приведитчис кольччыны .
-1	Супругаа	супруга	N	_	_	7	nsubj	_	_
-2	,	,	CLB	_	_	3	punct	_	_
-3	кудз	кудз	Adv	_	Manner|Err/Orth|Rel	4	advmod	_	_
-4	висьтооны	висьтооны	V	_	Inf	7	parataxis	_	_
-5	,	,	CLB	_	_	6	punct	_	_
-6	абу	абу	Pcle	_	Neg	7	aux	_	_
-7	оленевод	оленевод	N	_	_	0	root	_	_
-8	да	да	CS	_	_	7	discourse	_	_
-9	,	,	CLB	_	_	10	punct	_	_
-10	приведитчис	приведитчыны	V	_	IV|Ind|Prt1|Sg3	7	ccomp	_	_
-11	кольччыны	кольччыны	V	_	Refl|Inf	10	xcomp	_	_
-12	.	.	CLB	_	_	7	punct	_	_
+1	Супругаа	супруга	_	N	_	7	nsubj	_	_
+2	,	,	_	CLB	_	3	punct	_	_
+3	кудз	кудз	_	Adv	Manner|Err/Orth|Rel	4	advmod	_	_
+4	висьтооны	висьтооны	_	V	Inf	7	parataxis	_	_
+5	,	,	_	CLB	_	6	punct	_	_
+6	абу	абу	_	Pcle	Neg	7	aux	_	_
+7	оленевод	оленевод	_	N	_	0	root	_	_
+8	да	да	_	CS	_	7	discourse	_	_
+9	,	,	_	CLB	_	10	punct	_	_
+10	приведитчис	приведитчыны	_	V	IV|Ind|Prt1|Sg3	7	ccomp	_	_
+11	кольччыны	кольччыны	_	V	Refl|Inf	10	xcomp	_	_
+12	.	.	_	CLB	_	7	punct	_	_
 
 # text = Воліс же тундраас , но из , абу понравитчема , оз вермы сыа сэтшем условиеясас .
-1	Воліс	волыны	V	_	IV|Ind|Prt1|Sg3	0	root	_	_
-2	жӧ	жӧ	Pcle	_	_	1	discourse	_	_
-3	тундраас	тундра	N	_	Sg|Ill|PxSg3	1	obl	_	_
-4	,	,	CLB	_	_	5	punct	_	_
-5	но	но	CC	_	_	9	cc	_	_
-6	эз	оз	V	_	Neg|Ind|Prt|Sg3	8	conj	_	_
-7	,	,	CLB	_	_	6	punct	_	_
-8	абу	абу	Pcle	_	Neg	9	aux	_	_
-9	понравитчӧма	понравитчӧма	V	_	_	1	conj	_	_
-10	,	,	CLB	_	_	11	punct	_	_
-11	оз	оз	V	_	Neg|Ind|Prs|Sg3	12	aux	_	_
-12	вермы	вермыны	V	_	IV|ConNeg	1	ccomp	_	_
-13	сійӧ	сійӧ	Pron	_	Pers|Sg3|Nom	12	nsubj	_	_
-14	сэтшӧм	сэтшӧм	A	_	Sg|Acc	15	amod	_	_
-15	условиеясас	условие	N	_	Pl|Ill|PxSg3	12	obl	_	_
-16	.	.	CLB	_	_	1	punct	_	_
+1	Воліс	волыны	_	V	IV|Ind|Prt1|Sg3	0	root	_	_
+2	жӧ	жӧ	_	Pcle	_	1	discourse	_	_
+3	тундраас	тундра	_	N	Sg|Ill|PxSg3	1	obl	_	_
+4	,	,	_	CLB	_	5	punct	_	_
+5	но	но	_	CC	_	9	cc	_	_
+6	эз	оз	_	V	Neg|Ind|Prt|Sg3	8	conj	_	_
+7	,	,	_	CLB	_	6	punct	_	_
+8	абу	абу	_	Pcle	Neg	9	aux	_	_
+9	понравитчӧма	понравитчӧма	_	V	_	1	conj	_	_
+10	,	,	_	CLB	_	11	punct	_	_
+11	оз	оз	_	V	Neg|Ind|Prs|Sg3	12	aux	_	_
+12	вермы	вермыны	_	V	IV|ConNeg	1	ccomp	_	_
+13	сійӧ	сійӧ	_	Pron	Pers|Sg3|Nom	12	nsubj	_	_
+14	сэтшӧм	сэтшӧм	_	A	Sg|Acc	15	amod	_	_
+15	условиеясас	условие	_	N	Pl|Ill|PxSg3	12	obl	_	_
+16	.	.	_	CLB	_	1	punct	_	_
 
 # text = Гожемъясын волыыліс челядькед .
-1	Гожӧмъясын	гожӧм	N	_	Pl|Ine	2	obl	_	_
-2	волывліс	волывлыны	V	_	IV|Ind|Prt1|Sg3	0	root	_	_
-3	челядькед	челядь	N	_	Sg|Err/Dial|Com	2	obl	_	_
-4	.	.	CLB	_	_	2	punct	_	_
+1	Гожӧмъясын	гожӧм	_	N	Pl|Ine	2	obl	_	_
+2	волывліс	волывлыны	_	V	IV|Ind|Prt1|Sg3	0	root	_	_
+3	челядькед	челядь	_	N	Sg|Err/Dial|Com	2	obl	_	_
+4	.	.	_	CLB	_	2	punct	_	_
 
 # text = Рӧбиті стрӧительствоын нёль во .
-1	Рӧбиті	рӧбитны	V	_	IV|Ind|Prt1|Err/Dial|Sg3	0	root	_	_
-2	стрӧительствоын	стрӧительство	N	_	Sg|Ine	1	obl	_	_
-3	нёль	нёль	Num	_	Card|Abs|@>N	4	nummod	_	_
-4	во	во	N	_	Sg|Nom|@<SUBJ	1	nmod	_	_
-5	.	.	CLB	_	_	1	punct	_	_
+1	Рӧбиті	рӧбитны	_	V	IV|Ind|Prt1|Err/Dial|Sg3	0	root	_	_
+2	стрӧительствоын	стрӧительство	_	N	Sg|Ine	1	obl	_	_
+3	нёль	нёль	_	Num	Card|Abs|@>N	4	nummod	_	_
+4	во	во	_	N	Sg|Nom|@<SUBJ	1	nmod	_	_
+5	.	.	_	CLB	_	1	punct	_	_
 
 # text = Керкаяс стрӧитім , гаражъяс , баняяс .
-1	Керкаяс	керка	N	_	Pl|Acc	2	obj	_	_
-2	стрӧитім	стрӧитны	V	_	TV|Ind|Prt1|Pl1	0	root	_	_
-3	,	,	CLB	_	_	4	punct	_	_
-4	гаражъяс	гараж	N	_	Pl|Acc	1	conj	_	_
-5	,	,	CLB	_	_	6	punct	_	_
-6	баняяс	баня	N	_	Sg|Ill|PxSg3	1	conj	_	_
-7	.	.	CLB	_	_	2	punct	_	_
+1	Керкаяс	керка	_	N	Pl|Acc	2	obj	_	_
+2	стрӧитім	стрӧитны	_	V	TV|Ind|Prt1|Pl1	0	root	_	_
+3	,	,	_	CLB	_	4	punct	_	_
+4	гаражъяс	гараж	_	N	Pl|Acc	1	conj	_	_
+5	,	,	_	CLB	_	6	punct	_	_
+6	баняяс	баня	_	N	Sg|Ill|PxSg3	1	conj	_	_
+7	.	.	_	CLB	_	2	punct	_	_
 
 # text = Кочегариті , окмыс во , навернэ , кочегариті .
-1	Кочегариті	кочегаритны	V	_	IV|Ind|Prt1|Sg1	0	root	_	_
-2	,	,	CLB	_	_	3	punct	_	_
-3	ӧкмыс	ӧкмыс	Num	_	Card|Abs|@>N	4	nummod	_	_
-4	во	во	N	_	Sg|Nom	1	nmod	_	_
-5	,	,	CLB	_	_	6	punct	_	_
-6	навернӧ	навернӧ	Adv	_	@<ADVL	1	advmod	_	_
-7	,	,	CLB	_	_	8	punct	_	_
-8	кочегариті	кочегаритны	V	_	IV|Ind|Prt1|Sg1	1	conj	_	_
-9	.	.	CLB	_	_	1	punct	_	_
+1	Кочегариті	кочегаритны	_	V	IV|Ind|Prt1|Sg1	0	root	_	_
+2	,	,	_	CLB	_	3	punct	_	_
+3	ӧкмыс	ӧкмыс	_	Num	Card|Abs|@>N	4	nummod	_	_
+4	во	во	_	N	Sg|Nom	1	nmod	_	_
+5	,	,	_	CLB	_	6	punct	_	_
+6	навернӧ	навернӧ	_	Adv	@<ADVL	1	advmod	_	_
+7	,	,	_	CLB	_	8	punct	_	_
+8	кочегариті	кочегаритны	_	V	IV|Ind|Prt1|Sg1	1	conj	_	_
+9	.	.	_	CLB	_	1	punct	_	_
 
 
 # text = А эні нин сизим во кудз висены кокъясэ и ог вермы ветлыны , веське с удовольствием пета тундраа , но …
-1	А	а	Pcle	_	_	2	mark	_	_
-2	ӧні	ӧні	Adv	_	_	7	advmod	_	_
-3	нин	нин	Pcle	_	_	2	advmod	_	_
-4	сизим	сизим	Num	_	Card|Abs|@>N	5	nummod	_	_
-5	во	во	N	_	Abs	7	nmod	_	_
-6	кудз	кудз	Adv	_	_	7	advmod	_	_
-7	висьӧны	висьны	V	_	IV|Ind|Prs|Pl3	0	root	_	_
-8	кокъясӧ	кок	N	_	Pl|Ill	7	obl	_	_
-9	и	и	CC	_	_	11	cc	_	_
-10	ог	оз	V	_	Neg|Ind|Prs|Sg1	11	aux	_	_
-11	вермы	вермыны	V	_	TV|ConNeg	7	ccomp	_	_
-12	ветлыны	ветлыны	V	_	IV|Inf	11	xcomp	_	_
-13	,	,	CLB	_	_	14	punct	_	_
-14	эськӧ	эськӧ	Pcle	_	_	15	advmod	_	_
-15	с	с	Pre	_	_	16	case	_	_
+1	А	а	_	Pcle	_	2	mark	_	_
+2	ӧні	ӧні	_	Adv	_	7	advmod	_	_
+3	нин	нин	_	Pcle	_	2	advmod	_	_
+4	сизим	сизим	_	Num	Card|Abs|@>N	5	nummod	_	_
+5	во	во	_	N	Abs	7	nmod	_	_
+6	кудз	кудз	_	Adv	_	7	advmod	_	_
+7	висьӧны	висьны	_	V	IV|Ind|Prs|Pl3	0	root	_	_
+8	кокъясӧ	кок	_	N	Pl|Ill	7	obl	_	_
+9	и	и	_	CC	_	11	cc	_	_
+10	ог	оз	_	V	Neg|Ind|Prs|Sg1	11	aux	_	_
+11	вермы	вермыны	_	V	TV|ConNeg	7	ccomp	_	_
+12	ветлыны	ветлыны	_	V	IV|Inf	11	xcomp	_	_
+13	,	,	_	CLB	_	14	punct	_	_
+14	эськӧ	эськӧ	_	Pcle	_	15	advmod	_	_
+15	с	с	_	Pre	_	16	case	_	_
 16	удовольствием	удовольствием	_	_	@обл	17	obl	_	_
-17	пета	петны	V	_	IV|Ind|Prs|Sg1	7	ccomp	_	_
-18	тундраа	тундра	N	_	Sg|Ill	17	obl	_	_
-19	,	,	CLB	_	_	20	punct	_	_
-20	но	но	Interj	_	_	7	discourse	_	_
-21	…	…	CLB	_	_	7	punct	_	_
+17	пета	петны	_	V	IV|Ind|Prs|Sg1	7	ccomp	_	_
+18	тундраа	тундра	_	N	Sg|Ill	17	obl	_	_
+19	,	,	_	CLB	_	20	punct	_	_
+20	но	но	_	Interj	_	7	discourse	_	_
+21	…	…	_	CLB	_	7	punct	_	_
 
 # text = Медбӧрын лэччылі Нярьян-Маре тоже оленеводствоо , Нарьян-Марскей ОПХ-а .
-1	Медбӧрын	медбӧрын	Adv	_	Ine	2	advmod	_	_
-2	лэччылі	лэччывны	V	_	IV|Ind|Prt1|Sg1	0	root	_	_
-3	Нярьян-Маре	Нярьян-Мар	N	_	Sg|Ill	2	obl	_	_
-4	тожӧ	тожӧ	Adv	_	_	2	advmod	_	_
-5	оленеводствоо	оленеводство	N	_	Sg|Ill	2	obl	_	_
-6	,	,	CLB	_	_	7	punct	_	_
-7	Нарьян-Марскей	Нарьян-Марскей	A	_	_	8	amod	_	_
-8	ОПХ-а	ОПХ	N	_	Ill	5	conj	_	_
-9	.	.	CLB	_	_	2	punct	_	_
+1	Медбӧрын	медбӧрын	_	Adv	Ine	2	advmod	_	_
+2	лэччылі	лэччывны	_	V	IV|Ind|Prt1|Sg1	0	root	_	_
+3	Нярьян-Маре	Нярьян-Мар	_	N	Sg|Ill	2	obl	_	_
+4	тожӧ	тожӧ	_	Adv	_	2	advmod	_	_
+5	оленеводствоо	оленеводство	_	N	Sg|Ill	2	obl	_	_
+6	,	,	_	CLB	_	7	punct	_	_
+7	Нарьян-Марскей	Нарьян-Марскей	_	A	_	8	amod	_	_
+8	ОПХ-а	ОПХ	_	N	Ill	5	conj	_	_
+9	.	.	_	CLB	_	2	punct	_	_
 
 # text = Девять месяцев проработайті , кокъясэ висьмисныс дзикедз , и приведитчис каны , чӧтны сіес рӧбетасэ .
 1	Девять	Девять	_	_	_	2	nummod	_	_
 2	месяцев	месяцев	_	_	_	3	obl	_	_
-3	проработайті	проработайтны	V	_	IV|Ind|Prt1|Sg1	0	root	_	_
-4	,	,	CLB	_	_	5	punct	_	_
-5	кокъясӧ	кок	N	_	Pl|Ill	6	obl	_	_
-6	висьмисны	висьмыны	V	_	IV|Ind|Prt1|Pl3	3	ccomp	_	_
+3	проработайті	проработайтны	_	V	IV|Ind|Prt1|Sg1	0	root	_	_
+4	,	,	_	CLB	_	5	punct	_	_
+5	кокъясӧ	кок	_	N	Pl|Ill	6	obl	_	_
+6	висьмисны	висьмыны	_	V	IV|Ind|Prt1|Pl3	3	ccomp	_	_
 7	дзикедз	дзикедз	_	_	_	6	advmod	_	_
-8	,	,	CLB	_	_	9	punct	_	_
-9	и	и	CC	_	_	10	mark	_	_
-10	приведитчис	приведитчыны	V	_	IV|Ind|Prt1|Sg3	3	ccomp	_	_
-11	кайны	кайны	V	_	IV|Inf	10	xcomp	_	_
-12	,	,	CLB	_	_	13	punct	_	_
+8	,	,	_	CLB	_	9	punct	_	_
+9	и	и	_	CC	_	10	mark	_	_
+10	приведитчис	приведитчыны	_	V	IV|Ind|Prt1|Sg3	3	ccomp	_	_
+11	кайны	кайны	_	V	IV|Inf	10	xcomp	_	_
+12	,	,	_	CLB	_	13	punct	_	_
 13	чӧтны	чӧтны	_	_	_	3	ccomp	_	_
-14	сійӧс	сійӧ	Pron	_	Pers|Sg3|Acc	13	obj	_	_
+14	сійӧс	сійӧ	_	Pron	Pers|Sg3|Acc	13	obj	_	_
 15	рӧбетасӧ	рӧбетасӧ	_	_	_	13	obj	_	_
-16	.	.	CLB	_	_	3	punct	_	_
+16	.	.	_	CLB	_	3	punct	_	_
 
 # text = Вот эні гортын сизим во нин , сизимед во нин , инвалидность вылын .
-1	Вот	вот	Pcle	_	_	2	discourse	_	_
-2	ӧні	ӧні	Adv	_	_	5	advmod	_	_
-3	гортын	горт	N	_	Sg|Ine	5	obl	_	_
-4	сизим	сизим	Num	_	Card|Abs	5	nummod	_	_
-5	во	во	N	_	Abs	0	root	_	_
-6	нин	нин	Pcle	_	_	5	advmod	_	_
-7	,	,	CLB	_	_	8	punct	_	_
-8	сизимӧд	сизим	Det	_	Ord|Abs	9	nummod	_	_
-9	во	во	N	_	Abs	5	conj	_	_
-10	нин	нин	Pcle	_	_	9	advmod	_	_
-11	,	,	CLB	_	_	12	punct	_	_
-12	инвалидность	инвалидность	N	_	Sg|Nom	5	nmod	_	_
-13	вылын	вылын	Po	_	Spat|Sg|Ine	12	case	_	_
-14	.	.	CLB	_	_	5	punct	_	_
+1	Вот	вот	_	Pcle	_	2	discourse	_	_
+2	ӧні	ӧні	_	Adv	_	5	advmod	_	_
+3	гортын	горт	_	N	Sg|Ine	5	obl	_	_
+4	сизим	сизим	_	Num	Card|Abs	5	nummod	_	_
+5	во	во	_	N	Abs	0	root	_	_
+6	нин	нин	_	Pcle	_	5	advmod	_	_
+7	,	,	_	CLB	_	8	punct	_	_
+8	сизимӧд	сизим	_	Det	Ord|Abs	9	nummod	_	_
+9	во	во	_	N	Abs	5	conj	_	_
+10	нин	нин	_	Pcle	_	9	advmod	_	_
+11	,	,	_	CLB	_	12	punct	_	_
+12	инвалидность	инвалидность	_	N	Sg|Nom	5	nmod	_	_
+13	вылын	вылын	_	Po	Spat|Sg|Ine	12	case	_	_
+14	.	.	_	CLB	_	5	punct	_	_
 
 # text = Второй группа инвалидность имейта . 
-1	Второй	второй	A	_	_	2	amod	_	_
-2	группа	группа	N	_	Sg|Nom	4	obj	_	_
-3	инвалидность	инвалидность	N	_	Sg|Gen	2	nmod	_	_
-4	имейта	имейта	V	_	Ind|Prs|Sg1	0	root	_	_
-5	.	.	CLB	_	_	4	punct	_	_
+1	Второй	второй	_	A	_	2	amod	_	_
+2	группа	группа	_	N	Sg|Nom	4	obj	_	_
+3	инвалидность	инвалидность	_	N	Sg|Gen	2	nmod	_	_
+4	имейта	имейта	_	V	Ind|Prs|Sg1	0	root	_	_
+5	.	.	_	CLB	_	4	punct	_	_
 
 # text = Ме рӧдитчылі одиннадцатого мая тысяча девятьсот шестьдесят второй год вылын.
 # text_rus = Я родилась одиннадцатого мая в тысяча девятьсот шестьдесят втором году.
 # text_eng = I was born on the 11th of May, 1961.
-1	Ме	ме	Pron	_	Pers|Sg1|Nom	2	nsubj	_	_
-2	рӧдитчылі	рӧдитчывны	V	_	IV|Ind|Prt1|Sg1	0	X	_	_
+1	Ме	ме	_	Pron	Pers|Sg1|Nom	2	nsubj	_	_
+2	рӧдитчылі	рӧдитчывны	_	V	IV|Ind|Prt1|Sg1	0	X	_	_
 3	одиннадцатого	одиннадцатого	_	_	_	_	x	_	_
 4	мая	мая	_	_	_	_	x	_	_
-5	тысяча	тысяча	Num	_	Card|Abs|@>N	_	x	_	_
+5	тысяча	тысяча	_	Num	Card|Abs|@>N	_	x	_	_
 6	девятьсот	девятьсот	_	_	_	_	x	_	_
 7	шестьдесят	шестьдесят	_	_	_	_	x	_	_
 8	второй	второй	_	_	_	_	x	_	_
 9	год	год	_	_	_	2	obl	_	_
-10	вылын	вылын	Po	_	Spat|Sg|Ine	9	ADVL	_	_
-11	.	.	CLB	_	_	2	punct	_	_
+10	вылын	вылын	_	Po	Spat|Sg|Ine	9	ADVL	_	_
+11	.	.	_	CLB	_	2	punct	_	_
 
 # text = Рӧдитчылі Ляпинын, Ляпиныс - сыа стариннэй название, а эні современнэй кылэн шуэныс вӧлэсьсэ Саранпауль, Берёзовский район Ханты-Мансийскей автономнэй округын.
 # text_rus = Родилась в Ляпине, Ляпин - это старинное название, а сейчас на современном языке деревню называют Саранпауль, Березовский район в Ханты-Мансийском автономном округе.
 # text_eng = I was born in Lyapin, Lyapin is an old name, nowadays, in contemporary language the village is called Saranpaul', Berezovsky rayon, in Khanty-Mansi Autonomous Okrug.
-1	Рӧдитчылі	рӧдитчывны	V	_	IV|Ind|Prt1|Err/Dial|Sg3	0	root	_	_
-2	Ляпинын	Ляпин	N	_	Prop|Sem/Sur|Sem/Mal|Sg|Ine	1	X	_	_
-3	,	,	CLB	_	_	4	x	_	_
-4	Ляпиныс	Ляпин	N	_	Prop|Sem/Sur|Sem/Mal|Sg|Nom|PxSg3|@<SUBJ	0	x	_	_
-5	-	-	PUNCT	_	_	_	x	_	_
+1	Рӧдитчылі	рӧдитчывны	_	V	IV|Ind|Prt1|Err/Dial|Sg3	0	root	_	_
+2	Ляпинын	Ляпин	_	N	Prop|Sem/Sur|Sem/Mal|Sg|Ine	1	X	_	_
+3	,	,	_	CLB	_	4	x	_	_
+4	Ляпиныс	Ляпин	_	N	Prop|Sem/Sur|Sem/Mal|Sg|Nom|PxSg3|@<SUBJ	0	x	_	_
+5	-	-	_	PUNCT	_	_	x	_	_
 6	сыа	сыа	_	_	_	8	x	_	_
-7	стариннэй	стариннӧй	Err/Dial	_	A|Abs	8	X	_	_
+7	стариннэй	стариннӧй	_	Err/Dial	A|Abs	8	X	_	_
 8	название	название	_	_	_	4	x	_	_
-9	,	,	CLB	_	_	10	x	_	_
-10	а	а	CC	_	_	14	mark	_	_
+9	,	,	_	CLB	_	10	x	_	_
+10	а	а	_	CC	_	14	mark	_	_
 11	эні	эні	_	_	_	14	advmod	_	_
 12	современнэй	современнэй	_	_	_	13	nmod	_	_
-13	кылэн	кы	N	_	Sg|Err/Dial|Gen|@>N	14	obl	_	_
+13	кылэн	кы	_	N	Sg|Err/Dial|Gen|@>N	14	obl	_	_
 14	шуэныс	шуэныс	_	_	_	_	x	_	_
 15	вӧлэсьсэ	вӧлэсьсэ	_	_	_	14	obj	_	_
 16	Саранпауль	Саранпауль	_	_	_	15	nmod	_	_
-17	,	,	CLB	_	_	18	x	_	_
+17	,	,	_	CLB	_	18	x	_	_
 18	Берёзовский	Берёзовский	_	_	_	19	x	_	_
-19	район	район	N	_	Abs	22	X	_	_
+19	район	район	_	N	Abs	22	X	_	_
 20	Ханты-Мансийскей	Ханты-Мансийскей	_	_	_	21	x	_	_
-21	автономнэй	автономнӧй	Err/Dial	_	A|Abs	22	X	_	_
-22	округын	округ	N	_	Sg|Ine	0	X	_	_
-23	.	.	CLB	_	_	1	x	_	_
+21	автономнэй	автономнӧй	_	Err/Dial	A|Abs	22	X	_	_
+22	округын	округ	_	N	Sg|Ine	0	X	_	_
+23	.	.	_	CLB	_	1	x	_	_
 
 # text = Ми квайтэнэсь семьяанум.
 # text_rus = Нас в семье шестеро.
 # text_eng = We were 6 children in my family.
-1	Ми	ми	Pron	_	Pers|Pl1|Nom	3	nsubj	_	_
+1	Ми	ми	_	Pron	Pers|Pl1|Nom	3	nsubj	_	_
 2	квайтэнэсь	квайтэнэсь	_	_	_	3	nummod	_	_
 3	семьяанум	семьяанум	_	_	_	_	x	_	_
-4	.	.	CLB	_	_	3	punct	_	_
+4	.	.	_	CLB	_	3	punct	_	_
 
 # text = Значит, нёль чой и кык вок.
 # text_rus = Значит, четыре сестры и два брата.
 # text_eng = So, four sisters and two brothers.
-1	Значит	значитны	V	_	IV|Imprt|Sg2	4	mark	_	_
-2	,	,	CLB	_	_	1	x	_	_
-3	нёль	нёль	Num	_	Card|Abs|@>N	4	x	_	_
-4	чой	чой	N	_	Sg|Nom	0	X	_	_
-5	и	и	Pcle	_	_	6	PCLE	_	_
-6	кык	кык	Num	_	Card|Abs|@>N	7	x	_	_
-7	вок	вок	N	_	Sg|Nom	4	conj	_	_
-8	.	.	CLB	_	_	_	x	_	_
+1	Значит	значитны	_	V	IV|Imprt|Sg2	4	mark	_	_
+2	,	,	_	CLB	_	1	x	_	_
+3	нёль	нёль	_	Num	Card|Abs|@>N	4	x	_	_
+4	чой	чой	_	N	Sg|Nom	0	X	_	_
+5	и	и	_	Pcle	_	6	PCLE	_	_
+6	кык	кык	_	Num	Card|Abs|@>N	7	x	_	_
+7	вок	вок	_	N	Sg|Nom	4	conj	_	_
+8	.	.	_	CLB	_	_	x	_	_
 
 # text = Ми, ме рӧдитчылі, ае и маме, ае немсэ рӧбитэма кӧрдорын и рӧбитіс.
 # text_rus = Мы, я родилась, мои родители, мой отец всю жизнь работал в тундре.
 # text_eng = We, I was born, my parents, my father worked all his life in tundra.
-1	Ми	ми	Pron	_	Pers|Pl1|Nom	0	VOC	_	_
-2	,	,	CLB	_	_	1	x	_	_
-3	ме	ме	Pron	_	Pers|Sg1|Nom	4	SUBJ>	_	_
-4	рӧдитчылі	рӧдитчывны	V	_	IV|Ind|Prt1|Sg1	0	X	_	_
-5	,	,	CLB	_	_	4	x	_	_
-6	ае	ай	N	_	Sg|Err/Dial|Ill|@<ADVL	3	x	_	_
-7	и	и	CC	_	_	0	X	_	_
-8	маме	мам	N	_	Sg|Err/Dial|Ill|@<ADVL	3	x	_	_
-9	,	,	CLB	_	_	8	x	_	_
-10	ае	ай	N	_	Sg|Err/Dial|Ill|@<ADVL	12	x	_	_
+1	Ми	ми	_	Pron	Pers|Pl1|Nom	0	VOC	_	_
+2	,	,	_	CLB	_	1	x	_	_
+3	ме	ме	_	Pron	Pers|Sg1|Nom	4	SUBJ>	_	_
+4	рӧдитчылі	рӧдитчывны	_	V	IV|Ind|Prt1|Sg1	0	X	_	_
+5	,	,	_	CLB	_	4	x	_	_
+6	ае	ай	_	N	Sg|Err/Dial|Ill|@<ADVL	3	x	_	_
+7	и	и	_	CC	_	0	X	_	_
+8	маме	мам	_	N	Sg|Err/Dial|Ill|@<ADVL	3	x	_	_
+9	,	,	_	CLB	_	8	x	_	_
+10	ае	ай	_	N	Sg|Err/Dial|Ill|@<ADVL	12	x	_	_
 11	немсэ	немсэ	_	_	_	_	x	_	_
-12	рӧбитэма	рӧбитны	V	_	IV|Err/Dial|Ind|Prt2|Sg3	0	X	_	_
+12	рӧбитэма	рӧбитны	_	V	IV|Err/Dial|Ind|Prt2|Sg3	0	X	_	_
 13	кӧрдорын	кӧрдорын	_	_	_	12	x	_	_
-14	и	и	Pcle	_	_	15	PCLE	_	_
-15	рӧбитіс	рӧбитны	V	_	IV|Ind|Prt1|Sg3	0	X	_	_
-16	.	.	CLB	_	_	1	x	_	_
+14	и	и	_	Pcle	_	15	PCLE	_	_
+15	рӧбитіс	рӧбитны	_	V	IV|Ind|Prt1|Sg3	0	X	_	_
+16	.	.	_	CLB	_	1	x	_	_
 
 # text = Эсся, значит, сыа вӧйна вылэ зэй водз сюрліс, дас сизим, дас кӧкъямыс аресэн только, только волэма.
 # text_rus = Затем, значит, он был на войне очень молодым, ему было только семнадцать, восемнадцать лет.
 # text_eng = Then, so, at the war time he was very young, he was only 17, 18-year-old.
-1	Эсся	эсся	Adv	_	_	10	advmod	_	_
-2	,	,	CLB	_	_	1	x	_	_
-3	значит	значитны	V	_	IV|Imprt|Sg2	10	advmod	_	_
-4	,	,	CLB	_	_	3	x	_	_
+1	Эсся	эсся	_	Adv	_	10	advmod	_	_
+2	,	,	_	CLB	_	1	x	_	_
+3	значит	значитны	_	V	IV|Imprt|Sg2	10	advmod	_	_
+4	,	,	_	CLB	_	3	x	_	_
 5	сыа	сыа	_	_	_	10	nsubj	_	_
 6	вӧйна	вӧйна	_	_	_	10	obl	_	_
-7	вылэ	выв	N	_	Relat|Sg|Err/Dial|Ill|@<ADVL	6	case	_	_
+7	вылэ	выв	_	N	Relat|Sg|Err/Dial|Ill|@<ADVL	6	case	_	_
 8	зэй	зэй	_	_	_	9	x	_	_
-9	водз	водз	A	_	Sg|Nom	10	SUBJ>	_	_
-10	сюрліс	сюрлыны	V	_	IV|Ind|Prt1|Sg3	0	X	_	_
-11	,	,	CLB	_	_	12	x	_	_
-12	дас	дас	Num	_	Card|Sg|Nom	13	SUBJ>	_	_
-13	сизим	сизим	Num	_	Card|Sg|Nom	0	SUBJ>	_	_
-14	,	,	CLB	_	_	15	x	_	_
-15	дас	дас	Num	_	Card|Sg|Nom	16	SUBJ>	_	_
-16	кӧкъямыс	кӧкъямыс	Num	_	Card|Sg|Nom	17	SUBJ>	_	_
+9	водз	водз	_	A	Sg|Nom	10	SUBJ>	_	_
+10	сюрліс	сюрлыны	_	V	IV|Ind|Prt1|Sg3	0	X	_	_
+11	,	,	_	CLB	_	12	x	_	_
+12	дас	дас	_	Num	Card|Sg|Nom	13	SUBJ>	_	_
+13	сизим	сизим	_	Num	Card|Sg|Nom	0	SUBJ>	_	_
+14	,	,	_	CLB	_	15	x	_	_
+15	дас	дас	_	Num	Card|Sg|Nom	16	SUBJ>	_	_
+16	кӧкъямыс	кӧкъямыс	_	Num	Card|Sg|Nom	17	SUBJ>	_	_
 17	аресэн	аресэн	_	_	_	21	advmod	_	_
 18	только	только	_	_	_	21	advmod	_	_
-19	,	,	CLB	_	_	20	x	_	_
+19	,	,	_	CLB	_	20	x	_	_
 20	только	только	_	_	_	21	x	_	_
-21	волэма	волыны	V	_	IV|Err/Dial|Ind|Prt2|Sg3	0	X	_	_
-22	.	.	CLB	_	_	10	x	_	_
+21	волэма	волыны	_	V	IV|Err/Dial|Ind|Prt2|Sg3	0	X	_	_
+22	.	.	_	CLB	_	10	x	_	_
 
 # text = Армияа колэма мунны, значит, воома повесткаыс, сыа сорок первей год вылэ, а двадцать третьей год выыса ае, значит, а и вӧйнаыс суома, и ае мунэма вӧйна вылэ.
 # text_rus = Надо было идти в армию, значит, пришла повестка на сорок первый год, а отец двадцать третьего года рождения, значит, и война началась (букв. застала), и мой отец пошел на войну.
 # text_eng = It was necessary to go to army, he received a summons in 1941, and he was born in 23 (1923), so, and the war started, and my father went to war.
-1	Армияа	армия	N	_	Sg|Nom	2	obl	_	_
-2	колэма	ковны	Ind	_	Prt2|Sg3	0	X	_	_
-3	мунны	мунны	V	_	IV|Inf	2	xcomp	_	_
-4	,	,	CLB	_	_	5	punct	_	_
-5	значит	значитны	V	_	IV|Imprt|Sg2	7	discourse	_	_
-6	,	,	CLB	_	_	5	punct	_	_
-7	воома	воома	Ind	_	Prt2|Sg3	2	ccomp	_	_
-8	повесткаыс	повестка	N	_	Sg|Nom|PxSg3	7	nsubj	_	_
-9	,	,	CLB	_	_	10	punct	_	_
+1	Армияа	армия	_	N	Sg|Nom	2	obl	_	_
+2	колэма	ковны	_	Ind	Prt2|Sg3	0	X	_	_
+3	мунны	мунны	_	V	IV|Inf	2	xcomp	_	_
+4	,	,	_	CLB	_	5	punct	_	_
+5	значит	значитны	_	V	IV|Imprt|Sg2	7	discourse	_	_
+6	,	,	_	CLB	_	5	punct	_	_
+7	воома	воома	_	Ind	Prt2|Sg3	2	ccomp	_	_
+8	повесткаыс	повестка	_	N	Sg|Nom|PxSg3	7	nsubj	_	_
+9	,	,	_	CLB	_	10	punct	_	_
 10	сыа	сыа	_	_	_	13	nsubj	_	_
 11	сорок	сорок	_	_	_	12	nummod	_	_
 12	первей	первей	_	_	_	13	nummod	_	_
 13	год	год	_	_	_	2	ccomp	_	_
-14	вылэ	выв	N	_	Relat|Sg|Err/Dial|Ill|@<ADVL	13	case	_	_
-15	,	,	CLB	_	_	16	punct	_	_
-16	а	а	CC	_	_	20	cc	_	_
+14	вылэ	выв	_	N	Relat|Sg|Err/Dial|Ill|@<ADVL	13	case	_	_
+15	,	,	_	CLB	_	16	punct	_	_
+16	а	а	_	CC	_	20	cc	_	_
 17	двадцать	двадцать	_	_	_	18	nummod	_	_
 18	третьей	третьей	_	_	_	19	nummod	_	_
 19	год	год	_	_	_	20	nmod	_	_
 20	выыса	выыса	_	_	_	2	ccomp	_	_
-21	ае	ай	N	_	Sg|Err/Dial|Ill|@<ADVL	20	nsubj	_	_
-22	,	,	CLB	_	_	23	punct	_	_
-23	значит	значитны	V	_	IV|Imprt|Sg2	28	discourse	_	_
-24	,	,	CLB	_	_	23	punct	_	_
-25	а	а	CC	_	_	28	cc	_	_
-26	и	и	Pcle	_	_	27	discourse	_	_
+21	ае	ай	_	N	Sg|Err/Dial|Ill|@<ADVL	20	nsubj	_	_
+22	,	,	_	CLB	_	23	punct	_	_
+23	значит	значитны	_	V	IV|Imprt|Sg2	28	discourse	_	_
+24	,	,	_	CLB	_	23	punct	_	_
+25	а	а	_	CC	_	28	cc	_	_
+26	и	и	_	Pcle	_	27	discourse	_	_
 27	вӧйнаыс	вӧйнаыс	_	_	_	28	nsubj	_	_
 28	суома	суома	_	_	_	7	ccomp	_	_
-29	,	,	CLB	_	_	30	punct	_	_
-30	и	и	CC	_	_	32	cc	_	_
-31	ае	ай	N	_	Sg|Err/Dial|Ill|@<ADVL	32	nsubj	_	_
-32	мунэма	мунны	V	_	Ind|Prt2|Sg3	0	X	_	_
+29	,	,	_	CLB	_	30	punct	_	_
+30	и	и	_	CC	_	32	cc	_	_
+31	ае	ай	_	N	Sg|Err/Dial|Ill|@<ADVL	32	nsubj	_	_
+32	мунэма	мунны	_	V	Ind|Prt2|Sg3	0	X	_	_
 33	вӧйна	вӧйна	_	_	_	32	obl	_	_
-34	вылэ	выв	N	_	Relat|Sg|Err/Dial|Ill|@<ADVL	33	case	_	_
-35	.	.	CLB	_	_	2	punct	_	_
+34	вылэ	выв	_	N	Relat|Sg|Err/Dial|Ill|@<ADVL	33	case	_	_
+35	.	.	_	CLB	_	2	punct	_	_
 
 # text = Омскейын, значит, военнэй училище, не вӧеннэй училище, а курсъяс, подготовка куим месеча прӧйдитэма, и вӧюйтіс сыа Ленинградскей фронт вылын.
 # text_rus = Значит, в Омском военном училище, не военное училище, а курсы, трехмесячную подгодтовку прошел, и воевал он на Ленинградском фронте.
 # text_eng = So, in Omsk military college, not military college, but courses, he had three-month training, and he fought at the Leningrad front.
 1	Омскейын	Омскейын	_	_	_	6	nmod	_	_
-2	,	,	CLB	_	_	3	x	_	_
-3	значит	значитны	V	_	IV|Imprt|Sg2	6	discourse	_	_
-4	,	,	CLB	_	_	3	x	_	_
-5	военнэй	военнӧй	Err/Dial	_	A|Abs	6	amod	_	_
-6	училище	училище	N	_	Sg|Nom	0	SUBJ>	_	_
-7	,	,	CLB	_	_	6	x	_	_
-8	не	не	Pcle	_	_	9	advmod	_	_
+2	,	,	_	CLB	_	3	x	_	_
+3	значит	значитны	_	V	IV|Imprt|Sg2	6	discourse	_	_
+4	,	,	_	CLB	_	3	x	_	_
+5	военнэй	военнӧй	_	Err/Dial	A|Abs	6	amod	_	_
+6	училище	училище	_	N	Sg|Nom	0	SUBJ>	_	_
+7	,	,	_	CLB	_	6	x	_	_
+8	не	не	_	Pcle	_	9	advmod	_	_
 9	вӧеннэй	вӧеннэй	_	_	_	10	amod	_	_
-10	училище	училище	N	_	Sg|Nom	6	conj	_	_
-11	,	,	CLB	_	_	12	x	_	_
-12	а	а	CC	_	_	0	X	_	_
-13	курсъяс	курс	N	_	Pl|Nom	18	nsubj	_	_
-14	,	,	CLB	_	_	13	x	_	_
+10	училище	училище	_	N	Sg|Nom	6	conj	_	_
+11	,	,	_	CLB	_	12	x	_	_
+12	а	а	_	CC	_	0	X	_	_
+13	курсъяс	курс	_	N	Pl|Nom	18	nsubj	_	_
+14	,	,	_	CLB	_	13	x	_	_
 15	подготовка	подготовка	_	_	_	13	conj	_	_
-16	куим	куим	Num	_	Card|Sg|Nom	17	nummod	_	_
+16	куим	куим	_	Num	Card|Sg|Nom	17	nummod	_	_
 17	месеча	месеча	_	_	_	18	obl	_	_
-18	прӧйдитэма	прӧйдитны	V	_	Ind|Prt2|Sg3	0	X	_	_
-19	,	,	CLB	_	_	20	punct	_	_
-20	и	и	CC	_	_	21	cc	_	_
+18	прӧйдитэма	прӧйдитны	_	V	Ind|Prt2|Sg3	0	X	_	_
+19	,	,	_	CLB	_	20	punct	_	_
+20	и	и	_	CC	_	21	cc	_	_
 21	вӧюйтіс	вӧюйтіс	_	_	_	18	ccomp	_	_
 22	сыа	сыа	_	_	_	21	nsubj	_	_
 23	Ленинградскей	Ленинградскей	_	_	_	24	amod	_	_
-24	фронт	фронт	N	_	Abs	21	obl	_	_
-25	вылын	вылын	Po	_	Spat|Sg|Ine	24	case	_	_
-26	.	.	CLB	_	_	18	punct	_	_
+24	фронт	фронт	_	N	Abs	21	obl	_	_
+25	вылын	вылын	_	Po	Spat|Sg|Ine	24	case	_	_
+26	.	.	_	CLB	_	18	punct	_	_
 
 # text = Рӧдитчи ме вӧрзялыгдырйи.
 # text_rus = Я родилась во время начала каслания.
 # text_eng = 
-1	Рӧдитчи	рӧдитчыны	V	_	Refl|Ind|Prt1|Sg1	0	X	_	_
-2	ме	ме	Pron	_	Pers|Sg1|Nom|@<SUBJ	1	nsubj	_	_
+1	Рӧдитчи	рӧдитчыны	_	V	Refl|Ind|Prt1|Sg1	0	X	_	_
+2	ме	ме	_	Pron	Pers|Sg1|Nom|@<SUBJ	1	nsubj	_	_
 3	вӧрзялыгдырйи	вӧрзялыгдырйи	_	_	_	1	advmod	_	_
-4	.	.	CLB	_	_	1	punct	_	_
+4	.	.	_	CLB	_	1	punct	_	_
 
 # text = Кор миян ае-маме вӧрзисныс, но, стадыс миян, колхоз "Красный Октябрь", да?
 # text_rus = Когда наши родители начали каслать, ну стадо у нас (было) в колхозе "Красный Октябрь", да?
 # text_eng = 
-1	Кор	кор	Adv	_	Temp|Rel	4	advmod	_	_
-2	миян	ми	Pron	_	Pers|Pl1|Gen|@>N	3	nmod	_	_
+1	Кор	кор	_	Adv	Temp|Rel	4	advmod	_	_
+2	миян	ми	_	Pron	Pers|Pl1|Gen|@>N	3	nmod	_	_
 3	ае-маме	ае-маме	_	_	_	4	nsubj	_	_
 4	вӧрзисныс	вӧрзисныс	_	_	#0	_	x	_	_
-5	,	,	CLB	_	_	6	punct	_	_
-6	но	но	CC	_	_	8	cc	_	_
-7	,	,	CLB	_	_	6	punct	_	_
+5	,	,	_	CLB	_	6	punct	_	_
+6	но	но	_	CC	_	8	cc	_	_
+7	,	,	_	CLB	_	6	punct	_	_
 8	стадыс	стадыс	_	_	_	4	ccomp	_	_
-9	миян	ми	Pron	_	Pers|Pl1|Gen|@>N	8	nmod	_	_
-10	,	,	CLB	_	_	11	punct	_	_
-11	колхоз	колхоз	N	_	Abs	8	nsubj	_	_
-12	Красный	Красный	N	_	Prop|Sem/Sur|Sem/Mal|Sg|Acc|@<OBJ	11	nmod	_	_
-13	Октябрь	октябрь	N	_	Sem/Time|Sg|Nom|@<ADVL	12	flat	_	_
-14	,	,	CLB	_	_	15	punct	_	_
-15	да	да	CS	_	_	11	discourse	_	_
-16	?	?	CLB	_	_	4	punct	_	_
+9	миян	ми	_	Pron	Pers|Pl1|Gen|@>N	8	nmod	_	_
+10	,	,	_	CLB	_	11	punct	_	_
+11	колхоз	колхоз	_	N	Abs	8	nsubj	_	_
+12	Красный	Красный	_	N	Prop|Sem/Sur|Sem/Mal|Sg|Acc|@<OBJ	11	nmod	_	_
+13	Октябрь	октябрь	_	N	Sem/Time|Sg|Nom|@<ADVL	12	flat	_	_
+14	,	,	_	CLB	_	15	punct	_	_
+15	да	да	_	CS	_	11	discourse	_	_
+16	?	?	_	CLB	_	4	punct	_	_
 
 # text = Вто-, вторая бригада оленеводческая, висьтооны ке, мӧдэд бригада, да?
 # text_rus = Вторая оленеводческая бригада, если сказать, вторая бригада, да?
 # text_eng = 
 1	Вто-	Вто-	_	_	_	3	x	_	_
-2	,	,	CLB	_	_	1	x	_	_
+2	,	,	_	CLB	_	1	x	_	_
 3	вторая	вторая	_	_	_	4	nummod	_	_
-4	бригада	бригада	N	_	Sg|Nom|#0	_	x	_	_
+4	бригада	бригада	_	N	Sg|Nom|#0	_	x	_	_
 5	оленеводческая	оленеводческая	_	_	_	4	amod	_	_
-6	,	,	CLB	_	_	7	punct	_	_
+6	,	,	_	CLB	_	7	punct	_	_
 7	висьтооны	висьтооны	_	_	_	11	mark	_	_
 8	ке	ке	_	_	_	7	discourse	_	_
-9	,	,	CLB	_	_	10	punct	_	_
+9	,	,	_	CLB	_	10	punct	_	_
 10	мӧдэд	мӧдэд	_	_	_	11	nummod	_	_
-11	бригада	бригада	N	_	Sg|Nom	4	conj	_	_
-12	,	,	CLB	_	_	13	punct	_	_
-13	да	да	CS	_	_	11	discourse	_	_
-14	?	?	CLB	_	_	4	punct	_	_
+11	бригада	бригада	_	N	Sg|Nom	4	conj	_	_
+12	,	,	_	CLB	_	13	punct	_	_
+13	да	да	_	CS	_	11	discourse	_	_
+14	?	?	_	CLB	_	4	punct	_	_
 
 # text = И этія, миян ӧттӧрйи вӧрзялісныс Из сае.
 # text_rus = И это, у нас всегда каслали за Урал.
 # text_eng = 
-1	И	и	CC	_	_	2	cc	_	_
+1	И	и	_	CC	_	2	cc	_	_
 2	этія	этія	_	_	_	6	discourse	_	_
-3	,	,	CLB	_	_	4	punct	_	_
-4	миян	ми	Pron	_	Pers|Pl1|Gen|@>N	6	nsubj	_	_
+3	,	,	_	CLB	_	4	punct	_	_
+4	миян	ми	_	Pron	Pers|Pl1|Gen|@>N	6	nsubj	_	_
 5	ӧттӧрйи	ӧттӧрйи	_	_	_	6	advmod	_	_
 6	вӧрзялісныс	вӧрзялісныс	_	_	_	_	x	_	_
-7	Из	из	N	_	Abs	6	obl	_	_
-8	сае	сай	N	_	Relat|Sg|Err/Dial|Ill|@<ADVL	7	case	_	_
-9	.	.	CLB	_	_	6	punct	_	_
+7	Из	из	_	N	Abs	6	obl	_	_
+8	сае	сай	_	N	Relat|Sg|Err/Dial|Ill|@<ADVL	7	case	_	_
+9	.	.	_	CLB	_	6	punct	_	_
 
 # text = И ӧні бара же мӧдісныс вӧрзёоны.
 # text_rus = И сейчас тоже начали каслать.
 # text_eng = 
-1	И	и	CC	_	_	5	cc	_	_
-2	ӧні	ӧні	Adv	_	_	5	advmod	_	_
-3	бара	бара	Pcle	_	_	5	advmod	_	_
+1	И	и	_	CC	_	5	cc	_	_
+2	ӧні	ӧні	_	Adv	_	5	advmod	_	_
+3	бара	бара	_	Pcle	_	5	advmod	_	_
 4	же	же	_	_	_	3	goeswith	_	_
-5	мӧдісныс	мӧдісныс	V	_	_	_	x	_	_
-6	вӧрзёоны	вӧрзёоны	V	_	_	5	xcomp	_	_
-7	.	.	CLB	_	_	5	punct	_	_
+5	мӧдісныс	мӧдісныс	_	V	_	_	x	_	_
+6	вӧрзёоны	вӧрзёоны	_	V	_	5	xcomp	_	_
+7	.	.	_	CLB	_	5	punct	_	_
 
 # text = Но маме как раз тыра вӧліс, думайтэныс, гашке, вӧрзям да и, ничего, бур лоо ставыс да.
 # text_rus = Ну, мама как раз беременная была, думают, может, начнем каслать и ничего, всё будет хорошо.
@@ -507,31 +507,31 @@
 # text_rus = Запуржило, и они обратно вернулись на место чума, возвратились на место старого чума.
 # text_eng = 
 1	Пургамема	Пургамема	_	_	_	_	x	_	_
-2	,	,	CLB	_	_	3	punct	_	_
-3	и	и	CC	_	_	5	cc	_	_
-4	бӧр	бӧр	N	_	Relat|Sg|Nom	5	advmod	_	_
-5	косісны	косны	V	_	IV|Ind|Prt1|Pl3	1	ccomp	_	_
-6	чом	чом	N	_	Sg|Nom	7	nmod	_	_
+2	,	,	_	CLB	_	3	punct	_	_
+3	и	и	_	CC	_	5	cc	_	_
+4	бӧр	бӧр	_	N	Relat|Sg|Nom	5	advmod	_	_
+5	косісны	косны	_	V	IV|Ind|Prt1|Pl3	1	ccomp	_	_
+6	чом	чом	_	N	Sg|Nom	7	nmod	_	_
 7	местэас	местэас	_	_	_	5	obl	_	_
-8	,	,	CLB	_	_	9	punct	_	_
-9	важ	важ	A	_	Abs	10	amod	_	_
-10	чом	чом	N	_	Sg|Nom	11	nmod	_	_
+8	,	,	_	CLB	_	9	punct	_	_
+9	важ	важ	_	A	Abs	10	amod	_	_
+10	чом	чом	_	N	Sg|Nom	11	nmod	_	_
 11	местэас	местэас	_	_	_	12	obl	_	_
 12	косісныс	косісныс	_	_	_	5	conj	_	_
-13	.	.	CLB	_	_	1	punct	_	_
+13	.	.	_	CLB	_	1	punct	_	_
 
 # text = И сэк и ме сэн самей и рӧдитти.
 # text_rus = И тогда и я именно там и родилась.
 # text_eng = 
-1	И	и	CC	_	_	8	cc	_	_
-2	сэк	сэк	Adv	_	_	8	advmod	_	_
-3	и	и	Pcle	_	_	4	discourse	_	_
-4	ме	ме	Pron	_	Pers|Sg1|Nom	8	nsubj	_	_
-5	сэн	сэн	Adv	_	@<ADVL	8	advmod	_	_
-6	самей	сам	N	_	Sg|Err/Dial|Nom|PxSg1	8	advmod	_	_
-7	и	и	Pcle	_	_	6	discourse	_	_
+1	И	и	_	CC	_	8	cc	_	_
+2	сэк	сэк	_	Adv	_	8	advmod	_	_
+3	и	и	_	Pcle	_	4	discourse	_	_
+4	ме	ме	_	Pron	Pers|Sg1|Nom	8	nsubj	_	_
+5	сэн	сэн	_	Adv	@<ADVL	8	advmod	_	_
+6	самей	сам	_	N	Sg|Err/Dial|Nom|PxSg1	8	advmod	_	_
+7	и	и	_	Pcle	_	6	discourse	_	_
 8	рӧдитти	рӧдитти	_	_	_	_	x	_	_
-9	.	.	CLB	_	_	8	punct	_	_
+9	.	.	_	CLB	_	8	punct	_	_
 
 # text = Вот и висьтоола тай, но, кодке висьт-, Микул вок корке тай висьталэма: патриотка.
 # text_rus = Вот и говорю, ну, кто-то ска-, вот когда-то брат Николай сказал было: патриотка.
@@ -544,15 +544,15 @@
 # text = Так что, никучем иностраннэй местаясэ ог ветлоо.
 # text_rus = Так что, в никакие иностранные места не езжу.
 # text_eng = 
-1	Так	такны	V	_	IV|Imprt|Sg2	8	mark	_	_
+1	Так	такны	_	V	IV|Imprt|Sg2	8	mark	_	_
 2	что	что	_	_	_	1	fixed	_	_
-3	,	,	CLB	_	_	2	punct	_	_
+3	,	,	_	CLB	_	2	punct	_	_
 4	никучем	никучем	_	_	_	5	advmod	_	_
-5	иностраннэй	иностраннӧй	A	_	Abs	6	advmod	_	_
-6	местаясэ	места	N	_	Pl|Ill|@<ADVL	8	obl	_	_
-7	ог	оз	V	_	Neg|Ind|Prs|Sg1	8	aux	_	_
+5	иностраннэй	иностраннӧй	_	A	Abs	6	advmod	_	_
+6	местаясэ	места	_	N	Pl|Ill|@<ADVL	8	obl	_	_
+7	ог	оз	_	V	Neg|Ind|Prs|Sg1	8	aux	_	_
 8	ветлоо	ветлоо	_	_	_	_	x	_	_
-9	.	.	CLB	_	_	8	punct	_	_
+9	.	.	_	CLB	_	8	punct	_	_
 
 # text = Из сае токо ветлала, потому что мӧд, мӧдэд луныс, да, менам сэн нин воссис нин.
 # text_rus = Только езжу за Урал, потому что второй день, да, мой уже там начался.
@@ -573,53 +573,53 @@
 # text = Маме вед сэчем же гӧг баб вӧліс: сыа зэй уна мыйке, челядь босьтіс, примитіс.
 # text_rus = Моя мама тоже такой повивальной бабкой была: она ведь очень много это, детей взяла, приняла.
 # text_eng = 
-1	Маме	мам	N	_	Sg|Err/Dial|Ill|@<ADVL	6	nsubj	_	_
-2	вед	вед	Pcle	_	_	1	PCLE	_	_
+1	Маме	мам	_	N	Sg|Err/Dial|Ill|@<ADVL	6	nsubj	_	_
+2	вед	вед	_	Pcle	_	1	PCLE	_	_
 3	сэчем	сэчем	_	_	_	6	advmod	_	_
 4	же	же	_	_	_	3	discourse	_	_
-5	гӧг	гӧг	N	_	Abs	6	compound	_	_
-6	баб	баб	N	_	Sg|Nom	0	SUBJ>	_	_
-7	вӧліс	вӧвны	V	_	IV|Ind|Prt1|Sg3	6	aux	_	_
-8	:	:	CLB	_	_	6	x	_	_
+5	гӧг	гӧг	_	N	Abs	6	compound	_	_
+6	баб	баб	_	N	Sg|Nom	0	SUBJ>	_	_
+7	вӧліс	вӧвны	_	V	IV|Ind|Prt1|Sg3	6	aux	_	_
+8	:	:	_	CLB	_	6	x	_	_
 9	сыа	сыа	_	_	_	_	x	_	_
 10	зэй	зэй	_	_	_	_	x	_	_
-11	уна	уна	Qnt	_	Sg|Nom	0	SUBJ>	_	_
+11	уна	уна	_	Qnt	Sg|Nom	0	SUBJ>	_	_
 12	мыйке	мыйке	_	_	_	_	x	_	_
-13	,	,	CLB	_	_	6	x	_	_
-14	челядь	челядь	N	_	Sg|Nom	0	SUBJ>	_	_
-15	босьтіс	босьтны	V	_	Ind|Prt1|Sg3	0	X	_	_
-16	,	,	CLB	_	_	15	x	_	_
-17	примитіс	примитны	V	_	Ind|Prt1|Sg3	0	X	_	_
-18	.	.	CLB	_	_	6	x	_	_
+13	,	,	_	CLB	_	6	x	_	_
+14	челядь	челядь	_	N	Sg|Nom	0	SUBJ>	_	_
+15	босьтіс	босьтны	_	V	Ind|Prt1|Sg3	0	X	_	_
+16	,	,	_	CLB	_	15	x	_	_
+17	примитіс	примитны	_	V	Ind|Prt1|Sg3	0	X	_	_
+18	.	.	_	CLB	_	6	x	_	_
 
 # text = Пока лёк из ло, но, пока, не то что лёк-а.
 # text_rus = Пока не стала плохой, ну, пока, не то что плохой.
 # text_eng = 
-1	Пока	пока	Adv	_	_	2	advmod	_	_
-2	лёк	лёк	A	_	Abs	0	X	_	_
-3	из	из	V	_	Neg	4	aux	_	_
-4	ло	лоны	V	_	ConNeg	2	aux	_	_
-5	,	,	CLB	_	_	6	punct	_	_
-6	но	но	CC	_	_	13	cc	_	_
-7	,	,	CLB	_	_	8	punct	_	_
-8	пока	пока	Adv	_	@<ADVL	13	advmod	_	_
-9	,	,	CLB	_	_	10	punct	_	_
-10	не	не	Pcle	_	_	11	advmod	_	_
-11	то	то	Pcle	_	_	13	advmod	_	_
+1	Пока	пока	_	Adv	_	2	advmod	_	_
+2	лёк	лёк	_	A	Abs	0	X	_	_
+3	из	из	_	V	Neg	4	aux	_	_
+4	ло	лоны	_	V	ConNeg	2	aux	_	_
+5	,	,	_	CLB	_	6	punct	_	_
+6	но	но	_	CC	_	13	cc	_	_
+7	,	,	_	CLB	_	8	punct	_	_
+8	пока	пока	_	Adv	@<ADVL	13	advmod	_	_
+9	,	,	_	CLB	_	10	punct	_	_
+10	не	не	_	Pcle	_	11	advmod	_	_
+11	то	то	_	Pcle	_	13	advmod	_	_
 12	что	что	_	_	_	11	goeswith	_	_
-13	лёк-а	лёк	A	_	Sg|Nom|Clt|Clt/а	2	conj	_	_
-14	.	.	CLB	_	_	2	punct	_	_
+13	лёк-а	лёк	_	A	Sg|Nom|Clt|Clt/а	2	conj	_	_
+14	.	.	_	CLB	_	2	punct	_	_
 
 # text = Пока из вермы, пока вермис.
 # text_rus = Пока не стала мочь, пока могла.
 # text_eng = 
-1	Пока	пока	Adv	_	_	3	advmod	_	_
-2	из	из	V	_	_	3	aux	_	_
-3	вермы	вермыны	V	_	ConNeg	0	X	_	_
-4	,	,	CLB	_	_	5	punct	_	_
-5	пока	пока	Adv	_	@<ADVL	6	advmod	_	_
-6	вермис	вермыны	V	_	TV|Ind|Prt1|Sg3	3	X	_	_
-7	.	.	CLB	_	_	3	punct	_	_
+1	Пока	пока	_	Adv	_	3	advmod	_	_
+2	из	из	_	V	_	3	aux	_	_
+3	вермы	вермыны	_	V	ConNeg	0	X	_	_
+4	,	,	_	CLB	_	5	punct	_	_
+5	пока	пока	_	Adv	@<ADVL	6	advmod	_	_
+6	вермис	вермыны	_	V	TV|Ind|Prt1|Sg3	3	X	_	_
+7	.	.	_	CLB	_	3	punct	_	_
 
 # text = Примитіс сэн, босьтіс, мукедыс роч кыы да мыйке-майда.
 # text_rus = Принимала там, брала, некоторые русские да что.
@@ -628,50 +628,50 @@
 # text = И сыа ачыс ветліс, эта, бабаясыс доре или сы доре ваедісны, медланнэ примитіс челядьсэ?
 # text_rus = И она сама ходила, это, к женщинам или к ней приводили, чтобы она приняла ребенка?
 # text_eng = 
-1	И	и	CC	_	_	4	cc	_	_
+1	И	и	_	CC	_	4	cc	_	_
 2	сыа	сыа	_	_	_	4	nsubj	_	_
-3	ачыс	ас	Pron	_	Refl|Sg3|Nom	4	nmod	_	_
-4	ветліс	ветлыны	V	_	IV|Ind|Prt1|Sg3	0	X	_	_
-5	,	,	CLB	_	_	6	punct	_	_
-6	эта	этайӧ	Pron	_	Dem|Sg|Cmpl	4	discourse	_	_
-7	,	,	CLB	_	_	6	punct	_	_
-8	бабаясыс	баба	N	_	Pl|Nom|PxSg3	4	obl	_	_
-9	доре	дор	N	_	Relat|Sg|Err/Dial|Ill|@<ADVL	8	case	_	_
+3	ачыс	ас	_	Pron	Refl|Sg3|Nom	4	nmod	_	_
+4	ветліс	ветлыны	_	V	IV|Ind|Prt1|Sg3	0	X	_	_
+5	,	,	_	CLB	_	6	punct	_	_
+6	эта	этайӧ	_	Pron	Dem|Sg|Cmpl	4	discourse	_	_
+7	,	,	_	CLB	_	6	punct	_	_
+8	бабаясыс	баба	_	N	Pl|Nom|PxSg3	4	obl	_	_
+9	доре	дор	_	N	Relat|Sg|Err/Dial|Ill|@<ADVL	8	case	_	_
 10	или	или	_	_	_	13	cc	_	_
-11	сы	сійӧ	Pron	_	Dem	13	obl	_	_
-12	доре	дор	N	_	Relat|Sg|Err/Dial|Ill|@<ADVL	11	case	_	_
+11	сы	сійӧ	_	Pron	Dem	13	obl	_	_
+12	доре	дор	_	N	Relat|Sg|Err/Dial|Ill|@<ADVL	11	case	_	_
 13	ваедісны	ваедісны	_	_	_	4	conj	_	_
-14	,	,	CLB	_	_	15	punct	_	_
+14	,	,	_	CLB	_	15	punct	_	_
 15	медланнэ	медланнэ	_	_	_	16	advmod	_	_
-16	примитіс	примитны	V	_	TV|Ind|Prt1|Sg3	4	ccomp	_	_
-17	челядьсэ	челядь	N	_	Sg|Err/Dial|Acc|PxSg3	16	obj	_	_
-18	?	?	CLB	_	_	4	punct	_	_
+16	примитіс	примитны	_	V	TV|Ind|Prt1|Sg3	4	ccomp	_	_
+17	челядьсэ	челядь	_	N	Sg|Err/Dial|Acc|PxSg3	16	obj	_	_
+18	?	?	_	CLB	_	4	punct	_	_
 
 # text = Но, сыа вед няпойнэй чом, да, сыа походнэй чом вӧліс, только-только пуктыны и мӧдасы воедны, да.
 # text_rus = Ну, это ведь няпойный чум, да, это был походный чум, только-только поставить и завтра побежать, да.
 # text_eng = 
-1	Но	но	Pcle	_	_	6	cc	_	_
-2	,	,	CLB	_	_	1	punct	_	_
+1	Но	но	_	Pcle	_	6	cc	_	_
+2	,	,	_	CLB	_	1	punct	_	_
 3	сыа	сыа	_	_	_	6	nsubj	_	_
-4	вед	вед	Pcle	_	_	6	discourse	_	_
+4	вед	вед	_	Pcle	_	6	discourse	_	_
 5	няпойнэй	няпойнэй	_	_	_	6	amod	_	_
-6	чом	чом	N	_	Sg|Nom	0	SUBJ>	_	_
-7	,	,	CLB	_	_	8	punct	_	_
-8	да	да	CS	_	_	12	cc	_	_
-9	,	,	CLB	_	_	8	punct	_	_
+6	чом	чом	_	N	Sg|Nom	0	SUBJ>	_	_
+7	,	,	_	CLB	_	8	punct	_	_
+8	да	да	_	CS	_	12	cc	_	_
+9	,	,	_	CLB	_	8	punct	_	_
 10	сыа	сыа	_	_	_	12	nsubj	_	_
 11	походнэй	походнэй	_	_	_	12	amod	_	_
-12	чом	чом	N	_	Sg|Nom	6	conj	_	_
-13	вӧліс	вӧвны	V	_	IV|Ind|Prt1|Sg3	12	aux	_	_
-14	,	,	CLB	_	_	15	punct	_	_
+12	чом	чом	_	N	Sg|Nom	6	conj	_	_
+13	вӧліс	вӧвны	_	V	IV|Ind|Prt1|Sg3	12	aux	_	_
+14	,	,	_	CLB	_	15	punct	_	_
 15	только-только	только-только	_	_	_	16	advmod	_	_
-16	пуктыны	пуктыны	V	_	TV|Inf	0	X	_	_
-17	и	и	Pcle	_	_	18	cc	_	_
+16	пуктыны	пуктыны	_	V	TV|Inf	0	X	_	_
+17	и	и	_	Pcle	_	18	cc	_	_
 18	мӧдасы	мӧдасы	_	_	_	16	conj	_	_
 19	воедны	воедны	_	_	_	18	xcomp	_	_
-20	,	,	CLB	_	_	21	punct	_	_
-21	да	да	CS	_	_	19	discourse	_	_
-22	.	.	CLB	_	_	6	punct	_	_
+20	,	,	_	CLB	_	21	punct	_	_
+21	да	да	_	CS	_	19	discourse	_	_
+22	.	.	_	CLB	_	6	punct	_	_
 
 # text = Ме, кӧнечнэ же, кык лун вӧлі в шоке от Тайланда, потому что, но, менэ страны Юго - Восточной Азии зэй из привлекайтныс.
 # sent_id = kpv_izva20140330-1-b-097
@@ -788,7 +788,7 @@
 11	сідз	сідз	ADV	Adv	_	13	mark	_	_
 12	и	и	PART	Pcle	_	13	discourse	_	mixed
 13	смыло	смыть	VERB	V	_	9	conj	_	rus
-14	всю	весь	DET	_	Sg|Acc	15	det	_	rus
+14	всю	весь	_	DET	Sg|Acc	15	det	_	rus
 15	деревню	деревня	NOUN	N	Sg|Acc	13	obj	_	rus|SpaceAfter=No
 16	.	.	PUNCT	CLB	_	15	punct	_	_
 
