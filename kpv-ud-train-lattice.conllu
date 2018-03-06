@@ -226,7 +226,7 @@
 # text_rus = Она выросла в Париже, в столице Франции.
 1	Сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	2	nsubj	_	_
 2	быдмис	быдмыны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
-3	Парижын	Париж	PROPN	N	Sg|Ine	2	obl	_	_
+3	Парижын	Париж	PROPN	N	Sg|Ine	2	obl	_	SpaceAfter=No
 4	,	_	PUNCT	_	_	5	punct	_	_
 5	Францияса	Франция	ADJ	Adj	_	6	amod	_	_
 6	юркарын	юркар	NOUN	N	Sg|Ine	3	appos	_	SpaceAfter=No
