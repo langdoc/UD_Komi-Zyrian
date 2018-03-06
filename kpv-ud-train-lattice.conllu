@@ -119,11 +119,12 @@
 1	Найӧ	найӧ	PRON	Pron	Pers|Pl3|Nom	4	nsubj	_	_
 2	дзик	дзик	ADV	Adv	_	4	advmod	_	_
 3	оз	оз	AUX	V	Neg|Ind|Prs|Pl3	4	aux	_	_
-4	тӧдны	тӧдны	VERB	V	ConNeg	0	root	_	_
-5	коді	коді	PRON	Pron	Sg|Nom	7	nsubj	_	_
-6	тайӧс	тайӧ	PRON	Pron	Dem|Sg|Acc	7	obj	_	_
-7	гижис	гижны	VERB	V	Ind|Prt1|Sg3	4	acl	_	SpaceAfter=No
-8	.	.	PUNCT	CLB	_	4	punct	_	_
+4	тӧдны	тӧдны	VERB	V	ConNeg	0	root	_	SpaceAfter=No
+5	,	_	PUNCT	_	_	6	punct	_	_
+6	коді	коді	PRON	Pron	Sg|Nom	8	nsubj	_	_
+7	тайӧс	тайӧ	PRON	Pron	Dem|Sg|Acc	8	obj	_	_
+8	гижис	гижны	VERB	V	Ind|Prt1|Sg3	4	acl	_	SpaceAfter=No
+9	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = kpv-ccc.13
 # text = Мый вылӧ тэ видзӧдан?
