@@ -1867,16 +1867,16 @@
 7	вылас	вылын	ADP	Po	Sg|Ill|PxSg3	6	case	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	4	punct	_	_
 
-# sent_id = kpv-gt.01
+# sent_id = kpv-ccc.01
 # text = Ныв ёртыслы гижис письмӧ.
-# text_rus = 
+# text_rus = Девушка написала письмо своему другу.
 1	Ныв	ныв	NOUN	N	Sg|Nom	3	nsubj	_	_
 2	ёртыслы	ёрт	NOUN	N	Sg|Dat|PxSg3	3	obl	_	_
 3	гижис	гижны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 4	письмӧ	письмӧ	NOUN	N	Sg|Acc	3	obj	_	SpaceAfter=No
 5	.	.	PUNCT	CLB	_	3	punct	_	_
 
-# sent_id = kpv-gt.02
+# sent_id = kpv-ccc.02
 # text = Меным кажитчӧ, мый зэрӧ.
 # text_rus = Мне кажется, что идёт дождь.
 1	Меным	ме	PRON	Pron	Pers|Sg1|Dat	2	obl	_	_
@@ -1886,7 +1886,7 @@
 5	зэрӧ	зэрны	VERB	V	Ind|Prs|Sg3	2	ccomp	_	SpaceAfter=No
 6	.	_	PUNCT	CLB	_	2	punct	_	_
 
-# sent_id = kpv-gt.03
+# sent_id = kpv-ccc.03
 # text = Сійӧ заводитліс чӧвтны куритчӧмсӧ да юӧмсӧ.
 # text_rus = Он попытался бросить курить и пить.
 1	Сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	2	nsubj	_	_
@@ -1897,14 +1897,14 @@
 6	юӧмсӧ	юӧм	NOUN	N	Sg|Acc	4	conj	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	2	punct	_	_
 
-# sent_id = kpv-gt.04
+# sent_id = kpv-ccc.04
 # text = Кӧсъян мунны?
 # text_rus = Хочешь пойти?
 1	Кӧсъян	кӧсйыны	VERB	V	Ind|Prs|Sg2	0	root	_	_
 2	мунны	мунны	VERB	V	Inf	1	xcomp	_	SpaceAfter=No
 3	?	?	PUNCT	CLB	_	1	punct	_	_
 
-# sent_id = kpv-gt.05
+# sent_id = kpv-ccc.05
 # text = Сэм, восьты ӧшиньсӧ!
 # text_rus = Сэм, открой окно!
 1	Сэм	сэм	PROPN	N	Sg|Nom	3	vocative	_	SpaceAfter=No
@@ -1913,7 +1913,7 @@
 4	ӧшиньсӧ	ӧшинь	NOUN	N	Sg|Acc|PxSg3	3	obj	_	SpaceAfter=No
 5	!	!	PUNCT	CLB	_	3	punct	_	_
 
-# sent_id = kpv-gt.06
+# sent_id = kpv-ccc.06
 # text = Сійӧ тшӧктіс верӧсыслы мыськыны машинасӧ.
 # text_rus = Она заставила мужа помыть машину.
 1	Сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	2	nsubj	_	_
@@ -1923,7 +1923,7 @@
 5	машинасӧ	машина	NOUN	N	Sg|Acc|PxSg3	4	obj	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	2	punct	_	_
 
-# sent_id = kpv-gt.07
+# sent_id = kpv-ccc.07
 # text = Петилӧн суседыс краситӧма заборсӧ.
 # text_rus = Сосед Пети покрасил забор.
 1	Петилӧн	Пети	PROPN	N	Sg|Gen	2	nmod	_	_
@@ -1932,7 +1932,7 @@
 4	заборсӧ	забор	NOUN	N	Sg|Acc|PxSg3	3	obj	_	SpaceAfter=No
 5	.	.	PUNCT	CLB	_	3	punct	_	_
 
-# sent_id = kpv-gt.08
+# sent_id = kpv-ccc.08
 # text = Менам батьӧй тэнад батьсьыд бурджык.
 # text_rus = Мой папа круче твоего.
 1	Менам	ме	PRON	Pron	Pers|Sg1|Gen	2	nmod	_	_
@@ -1942,7 +1942,7 @@
 5	бурджык	бур	ADJ	A	Comp	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	5	punct	_	_
 
-# sent_id = kpv-gt.09
+# sent_id = kpv-ccc.09
 # text = Мери шедӧдіс бронза, Питер - эзысь, а Джейн - зарни.
 # text_rus = Мэри выиграла бронзу, Питер - серебро, а Джейн - золото.
 1	Мери	Мери	PROPN	N	Sg|Nom	2	nsubj	_	_
@@ -1955,7 +1955,7 @@
 8	зарни	зарни	NOUN	N	Sg|Acc	3	conj	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	2	punct	_	_
 
-# sent_id = kpv-gt.10
+# sent_id = kpv-ccc.10
 # text = Игаузу - тайӧ ыджыд либӧ ичӧт канму?
 # text_rus = Игаузу, это большая или маленькая страна?
 1	Игаузу	Игаузу	PROPN	N	Sg|Nom	7	nsubj	_	_
@@ -1967,7 +1967,7 @@
 7	канму	канму	NOUN	N	Sg|Nom	0	root	_	SpaceAfter=No
 8	?	?	PUNCT	CLB	_	7	punct	_	_
 
-# sent_id = kpv-gt.11
+# sent_id = kpv-ccc.11
 # text = Эз позь бӧрйыны ни Питер Смитӧс, ни Мери Браунӧс.
 # text_rus = Нельзя было выбрать ни Питера Смита, ни Мэри Браун.
 1	Эз	оз	AUX	V	Neg|Ind|Prt|Sg3	2	aux	_	_
@@ -1982,7 +1982,7 @@
 10	Браунӧс	Браун	PROPN	N	Sg|Acc	9	flat	_	SpaceAfter=No
 11	.	.	PUNCT	CLB	_	2	punct	_	_
 
-# sent_id = kpv-gt.12
+# sent_id = kpv-ccc.12
 # text = Найӧ дзик оз тӧдны, коді тайӧс гижис.
 # text_rus = Они понятия не имеют, кто это написал.
 1	Найӧ	найӧ	PRON	Pron	Pers|Pl3|Nom	4	nsubj	_	_
@@ -1994,7 +1994,7 @@
 7	гижис	гижны	VERB	V	Ind|Prt1|Sg3	4	acl	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	4	punct	_	_
 
-# sent_id = kpv-gt.13
+# sent_id = kpv-ccc.13
 # text = Мый вылӧ тэ видзӧдан?
 # text_rus = На что ты смотришь?
 1	Мый	мый	PRON	Pron	_	4	obj	_	_
@@ -2003,7 +2003,7 @@
 4	видзӧдан	видзӧдны	VERB	V	Ind|Prs|Sg2	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	CLB	_	4	punct	_	_
 
-# sent_id = kpv-gt.14
+# sent_id = kpv-ccc.14
 # text = Тэ кыдзи мӧвпалан, кор верман волыны?
 # text_rus = Как ты думаешь, кoгда ты сможешь прийти?
 1	Тэ	тэ	PRON	Pron	Pers|Sg2|Nom	3	nsubj	_	_
@@ -2015,7 +2015,7 @@
 7	волыны	волыны	VERB	V	Inf	6	xcomp	_	SpaceAfter=No
 8	?	?	PUNCT	CLB	_	3	punct	_	_
 
-# sent_id = kpv-gt.15
+# sent_id = kpv-ccc.15
 # text = Сійӧ ньӧбис машина, а вокыс сӧмын велосипед.
 # text_rus = Он купил машину, а его брат - только велосипед.
 1	Сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	2	nsubj	_	_
@@ -2027,7 +2027,7 @@
 7	велосипед	велосипед	NOUN	N	Sg|Nom	3	conj	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	2	punct	_	_
 
-# sent_id = kpv-gt.16
+# sent_id = kpv-ccc.16
 # text = Питер да Мери кутчысьлісны да петісны вежӧсысь.
 # text_rus = Питер и Мэри обнялись и вышли из комнаты.
 1	Питер	Питер	PROPN	N	Prop|Sg|Nom	4	nsubj	_	_
@@ -2039,7 +2039,7 @@
 7	вежӧсысь	вежӧс	NOUN	N	Sg|Ela	6	obl	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	4	punct	_	_
 
-# sent_id = kpv-gt.17
+# sent_id = kpv-ccc.17
 # text = Сылы коліс юрсисӧ мичаа вӧчны, но мыйлакӧ тайӧ лунӧ сійӧ эз кӧсйы.
 # text_rus = Ей нужно было сделать причёску, но почему-то в тот день она не захотела.
 1	Сылы	сійӧ	PRON	Pron	Pers|Sg3|Dat	2	nsubj	_	_
@@ -2057,7 +2057,7 @@
 13	кӧсйы	кӧсйыны	VERB	V	ConNeg	2	advcl	_	SpaceAfter=No
 14	.	.	PUNCT	CLB	_	2	punct	_	_
 
-# sent_id = kpv-gt.18
+# sent_id = kpv-ccc.18
 # text = Ме эг вермы сійӧс вӧтӧдны, сы вӧсна мый сійӧ зэв тэрыба котӧртіс.
 # text_rus = Я не смог его догнать, потому что он слишком быстро бежал.
 1	Ме	ме	PRON	Pron	Pers|Sg1|Nom	3	nsubj	_	_
@@ -2075,7 +2075,7 @@
 13	котӧртіс	котӧртыны	VERB	V	Ind|Prt1|Sg3	3	advcl	_	SpaceAfter=No
 14	.	.	PUNCT	CLB	_	3	punct	_	_
 
-# sent_id = kpv-gt.19
+# sent_id = kpv-ccc.19
 # text = Тайӧ Петрсянь письмӧ, да сійӧс тӧрыт вайисны.
 # text_rus = Это письмо от Петра, и его доставили вчера.
 1	Тайӧ	тайӧ	PRON	Pron	Dem|Sg|Nom	3	det	_	_
@@ -2088,7 +2088,7 @@
 8	вайисны	вайны	VERB	V	Ind|Prt1|Pl3	3	advcl	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	3	punct	_	_
 
-# sent_id = kpv-gt.20
+# sent_id = kpv-ccc.20
 # text = Сійӧ быдмис Парижын, Францияса юркарын.
 # text_rus = Она выросла в Париже, в столице Франции.
 1	Сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	2	nsubj	_	_
