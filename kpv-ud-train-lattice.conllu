@@ -120,7 +120,7 @@
 2	дзик	дзик	ADV	Adv	_	4	advmod	_	_
 3	оз	оз	AUX	V	Neg|Ind|Prs|Pl3	4	aux	_	_
 4	тӧдны	тӧдны	VERB	V	ConNeg	0	root	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	6	punct	_	_
+5	,	,	PUNCT	CLB	_	6	punct	_	_
 6	коді	коді	PRON	Pron	Sg|Nom	8	nsubj	_	_
 7	тайӧс	тайӧ	PRON	Pron	Dem|Sg|Acc	8	obj	_	_
 8	гижис	гижны	VERB	V	Ind|Prt1|Sg3	4	acl	_	SpaceAfter=No
@@ -153,7 +153,7 @@
 1	Сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	2	nsubj	_	_
 2	ньӧбис	ньӧбны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 3	машина	машина	NOUN	N	Sg|Acc	2	obj	_	_
-4	,	,	PUNCT	_	_	5	punct	_	_
+4	,	,	PUNCT	CLB	_	5	punct	_	_
 5	а	а	SCONJ	CS	_	6	mark	_	_
 6	вокыс	вок	NOUN	N	Sg|Nom|PxSg3	2	conj	_	_
 7	сӧмын	сӧмын	ADV	Adv	_	8	advmod	_	_
