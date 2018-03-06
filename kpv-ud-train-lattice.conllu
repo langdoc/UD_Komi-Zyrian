@@ -120,7 +120,7 @@
 2	дзик	дзик	ADV	Adv	_	4	advmod	_	_
 3	оз	оз	AUX	V	Neg|Ind|Prs|Pl3	4	aux	_	_
 4	тӧдны	тӧдны	VERB	V	ConNeg	0	root	_	SpaceAfter=No
-5	,	_	PUNCT	_	_	6	punct	_	_
+5	,	,	PUNCT	_	_	6	punct	_	_
 6	коді	коді	PRON	Pron	Sg|Nom	8	nsubj	_	_
 7	тайӧс	тайӧ	PRON	Pron	Dem|Sg|Acc	8	obj	_	_
 8	гижис	гижны	VERB	V	Ind|Prt1|Sg3	4	acl	_	SpaceAfter=No
@@ -153,11 +153,12 @@
 1	Сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	2	nsubj	_	_
 2	ньӧбис	ньӧбны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 3	машина	машина	NOUN	N	Sg|Acc	2	obj	_	_
-4	а	а	SCONJ	CS	_	5	mark	_	_
-5	вокыс	вок	NOUN	N	Sg|Nom|PxSg3	2	conj	_	_
-6	сӧмын	сӧмын	ADV	Adv	_	7	advmod	_	_
-7	велосипед	велосипед	NOUN	N	Sg|Nom	3	conj	_	SpaceAfter=No
-8	.	.	PUNCT	CLB	_	2	punct	_	_
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	а	а	SCONJ	CS	_	6	mark	_	_
+6	вокыс	вок	NOUN	N	Sg|Nom|PxSg3	2	conj	_	_
+7	сӧмын	сӧмын	ADV	Adv	_	8	advmod	_	_
+8	велосипед	велосипед	NOUN	N	Sg|Nom	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv-ccc.16
 # text = Питер да Мери кутчысьлісны да петісны вежӧсысь.
@@ -226,6 +227,7 @@
 1	Сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	2	nsubj	_	_
 2	быдмис	быдмыны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 3	Парижын	Париж	PROPN	N	Sg|Ine	2	obl	_	_
-4	Францияса	Франция	ADJ	Adj	_	5	amod	_	_
-5	юркарын	юркар	NOUN	N	Sg|Ine	3	appos	_	SpaceAfter=No
-6	.	.	PUNCT	CLB	_	2	punct	_	_
+4	,	_	PUNCT	_	_	5	punct	_	_
+5	Францияса	Франция	ADJ	Adj	_	6	amod	_	_
+6	юркарын	юркар	NOUN	N	Sg|Ine	3	appos	_	SpaceAfter=No
+7	.	.	PUNCT	CLB	_	2	punct	_	_
