@@ -15,7 +15,7 @@
 1	Сэсся	сэсся	_	Adv	_	2	advmod	_	_
 2	велӧдчи	велӧдчыны	_	V	Refl|Ind|Prt1|Sg1	0	root	_	SpaceAfter=No
 3	,	,	_	CLB	_	2	punct	_	_
-4	быдтіс	быдтыны	_	V	TV|Ind|Prt1|Sg3	2	ccomp	_	_
+4	быдтіс	быдтыны	_	V	Ind|Prt1|Sg3	2	ccomp	_	_
 5	баб	баб	_	N	Sg|Acc	4	nsubj	_	_
 6	миянӧс	ми	_	Pron	Pers|Pl1|Acc	4	obj	_	SpaceAfter=No
 7	.	.	_	CLB	_	2	punct	_	_
@@ -75,7 +75,7 @@
 6	,	,	_	CLB	_	7	punct	_	_
 7	телестанция	телестанция	_	N	Sg|Nom	9	obl	_	_
 8	вылын	вылын	_	Po	Sg|Ine	7	case	_	_
-9	рӧбиті	рӧбитны	_	V	Ind|Prt1|Sg3	0	root	_	_
+9	рӧбиті	рӧбитны	_	V	Ind|Prt1|Sg1	0	root	_	_
 10	кык	кык	_	Num	Card|Abs	11	nummod	_	_
 11	во	во	_	N	Sg|Nom	9	obl	_	SpaceAfter=No
 12	.	.	_	CLB	_	9	punct	_	_
@@ -117,7 +117,7 @@
 # text = Супругаа, кудз висьтооны, абу оленевод да, приведитчис кольччыны.
 1	Супругаа	супруга	_	N	_	7	nsubj	_	SpaceAfter=No
 2	,	,	_	CLB	_	3	punct	_	_
-3	кудз	кудз	_	Adv	Manner|Err/Orth|Rel	4	advmod	_	_
+3	кудз	кудз	_	Adv	Rel	4	advmod	_	_
 4	висьтооны	висьтооны	_	V	Inf	7	parataxis	_	SpaceAfter=No
 5	,	,	_	CLB	_	6	punct	_	_
 6	абу	абу	_	Pcle	Neg	7	aux	_	_
@@ -156,7 +156,7 @@
 
 # sent_id = 
 # text = Рӧбиті стрӧительствоын нёль во.
-1	Рӧбиті	рӧбитны	_	V	Ind|Prt1|Sg3	0	root	_	_
+1	Рӧбиті	рӧбитны	_	V	Ind|Prt1|Sg1	0	root	_	_
 2	стрӧительствоын	стрӧительство	_	N	Sg|Ine	1	obl	_	_
 3	нёль	нёль	_	Num	Card|Abs	4	nummod	_	_
 4	во	во	_	N	Sg|Nom	1	nmod	_	SpaceAfter=No
@@ -165,11 +165,11 @@
 # sent_id = 
 # text = Керкаяс стрӧитім, гаражъяс, баняяс.
 1	Керкаяс	керка	_	N	Pl|Acc	2	obj	_	_
-2	стрӧитім	стрӧитны	_	V	TV|Ind|Prt1|Pl1	0	root	_	SpaceAfter=No
+2	стрӧитім	стрӧитны	_	V	Ind|Prt1|Pl1	0	root	_	SpaceAfter=No
 3	,	,	_	CLB	_	4	punct	_	_
 4	гаражъяс	гараж	_	N	Pl|Acc	1	conj	_	SpaceAfter=No
 5	,	,	_	CLB	_	6	punct	_	_
-6	баняяс	баня	_	N	Sg|Ill|PxSg3	1	conj	_	SpaceAfter=No
+6	баняяс	баня	_	N	Pl|Acc	1	conj	_	SpaceAfter=No
 7	.	.	_	CLB	_	2	punct	_	_
 
 # sent_id = 
@@ -179,7 +179,7 @@
 3	ӧкмыс	ӧкмыс	_	Num	Card|Abs	4	nummod	_	_
 4	во	во	_	N	Sg|Nom	1	nmod	_	SpaceAfter=No
 5	,	,	_	CLB	_	6	punct	_	_
-6	навернӧ	навернӧ	_	Adv	@<ADVL	1	advmod	_	SpaceAfter=No
+6	навернӧ	навернӧ	_	Adv	_	1	advmod	_	SpaceAfter=No
 7	,	,	_	CLB	_	8	punct	_	_
 8	кочегариті	кочегаритны	_	V	Ind|Prt1|Sg1	1	conj	_	SpaceAfter=No
 9	.	.	_	CLB	_	1	punct	_	_
@@ -196,7 +196,7 @@
 8	кокъясӧ	кок	_	N	Pl|Ill	7	obl	_	_
 9	и	и	_	CC	_	11	cc	_	_
 10	ог	оз	_	V	Neg|Ind|Prs|Sg1	11	aux	_	_
-11	вермы	вермыны	_	V	TV|ConNeg	7	ccomp	_	_
+11	вермы	вермыны	_	V	ConNeg	7	ccomp	_	_
 12	ветлыны	ветлыны	_	V	Inf	11	xcomp	_	SpaceAfter=No
 13	,	,	_	CLB	_	14	punct	_	_
 14	эськӧ	эськӧ	_	Pcle	_	15	advmod	_	_
@@ -277,20 +277,20 @@
 7	шестьдесят	шестьдесят	_	Num	_	_	x	_	_
 8	второй	второй	_	A	_	_	x	_	_
 9	год	год	_	N	Sg|Nom	2	obl	_	_
-10	вылын	вылын	_	Po	Sg|Ine	9	ADVL	_	SpaceAfter=No
+10	вылын	вылын	_	Po	Sg|Ine	9	x	_	SpaceAfter=No
 11	.	.	_	CLB	_	2	punct	_	_
 
 # sent_id = 
 # text = Рӧдитчылі Ляпинын, Ляпиныс - сыа стариннэй название, а эні современнэй кылэн шуэныс вӧлэсьсэ Саранпауль, Берёзовский район Ханты-Мансийскей автономнэй округын.
 # text_rus = Родилась в Ляпине, Ляпин - это старинное название, а сейчас на современном языке деревню называют Саранпауль, Березовский район в Ханты-Мансийском автономном округе.
 # text_eng = I was born in Lyapin, Lyapin is an old name, nowadays, in contemporary language the village is called Saranpaul', Berezovsky rayon, in Khanty-Mansi Autonomous Okrug.
-1	Рӧдитчылі	рӧдитчывны	_	V	Ind|Prt1|Sg3	0	root	_	_
+1	Рӧдитчылі	рӧдитчывны	_	V	Ind|Prt1|Sg1	0	root	_	_
 2	Ляпинын	Ляпин	_	N	Prop|Sg|Ine	1	X	_	SpaceAfter=No
 3	,	,	_	CLB	_	4	x	_	_
 4	Ляпиныс	Ляпин	_	N	Prop|Sg|Nom|PxSg3	0	x	_	_
 5	-	-	_	PUNCT	_	_	x	_	_
 6	сыа	сыа	_	Pron	Pers|Sg3|Nom	8	x	_	_
-7	стариннэй	стариннӧй	_	Err/Dial	A|Abs	8	X	_	_
+7	стариннэй	стариннӧй	_	A	Abs	8	X	_	_
 8	название	название	_	N	Sg|Nom	4	x	_	SpaceAfter=No
 9	,	,	_	CLB	_	10	x	_	_
 10	а	а	_	CC	_	14	mark	_	_
@@ -321,7 +321,7 @@
 # text = Значит, нёль чой и кык вок.
 # text_rus = Значит, четыре сестры и два брата.
 # text_eng = So, four sisters and two brothers.
-1	Значит	значитны	_	V	Imprt|Sg2	4	mark	_	SpaceAfter=No
+1	Значит	значит	_	PART	Pcle	4	mark	_	SpaceAfter=No
 2	,	,	_	CLB	_	1	x	_	_
 3	нёль	нёль	_	Num	Card|Abs	4	x	_	_
 4	чой	чой	_	N	Sg|Nom	0	X	_	_
@@ -339,9 +339,9 @@
 3	ме	ме	_	Pron	Pers|Sg1|Nom	4	SUBJ>	_	_
 4	рӧдитчылі	рӧдитчывны	_	V	Ind|Prt1|Sg1	0	X	_	SpaceAfter=No
 5	,	,	_	CLB	_	4	x	_	_
-6	ае	ай	_	N	Sg|Ill	3	x	_	_
+6	ае	ай	_	N	Sg|Nom|PxSg1	3	x	_	_
 7	и	и	_	CC	_	0	X	_	_
-8	маме	мам	_	N	Sg|Ill	3	x	_	SpaceAfter=No
+8	маме	мам	_	N	Sg|Nom|PxSg1	3	x	_	SpaceAfter=No
 9	,	,	_	CLB	_	8	x	_	_
 10	ае	ай	_	N	Sg|Nom|PxSg1	12	x	_	_
 11	немсэ	немсэ	_	N	Sg|Acc|PxSg3	_	x	_	_
@@ -382,11 +382,11 @@
 # text = Армияа колэма мунны, значит, воома повесткаыс, сыа сорок первей год вылэ, а двадцать третьей год выыса ае, значит, а и вӧйнаыс суома, и ае мунэма вӧйна вылэ.
 # text_rus = Надо было идти в армию, значит, пришла повестка на сорок первый год, а отец двадцать третьего года рождения, значит, и война началась (букв. застала), и мой отец пошел на войну.
 # text_eng = It was necessary to go to army, he received a summons in 1941, and he was born in 23 (1923), so, and the war started, and my father went to war.
-1	Армияа	армия	_	N	Sg|Nom	2	obl	_	_
+1	Армияа	армия	_	N	Sg|Ill	2	obl	_	_
 2	колэма	ковны	_	Ind	Prt2|Sg3	0	X	_	_
 3	мунны	мунны	_	V	Inf	2	xcomp	_	SpaceAfter=No
 4	,	,	_	CLB	_	5	punct	_	_
-5	значит	значитны	_	Pcle	_	7	discourse	_	SpaceAfter=No
+5	значит	значит	_	Pcle	_	7	discourse	_	SpaceAfter=No
 6	,	,	_	CLB	_	5	punct	_	_
 7	воома	воома	_	Ind	Prt2|Sg3	2	ccomp	_	_
 8	повесткаыс	повестка	_	N	Sg|Nom|PxSg3	7	nsubj	_	SpaceAfter=No
@@ -404,7 +404,7 @@
 20	выыса	выыса	_	A	_	2	ccomp	_	_
 21	ае	ай	_	N	Sg|Ill	20	nsubj	_	SpaceAfter=No
 22	,	,	_	CLB	_	23	punct	_	_
-23	значит	значитны	_	Pcle	_	28	discourse	_	SpaceAfter=No
+23	значит	значит	_	Pcle	_	28	discourse	_	SpaceAfter=No
 24	,	,	_	CLB	_	23	punct	_	_
 25	а	а	_	CC	_	28	cc	_	_
 26	и	и	_	Pcle	_	27	discourse	_	_
@@ -424,7 +424,7 @@
 # text_eng = So, in Omsk military college, not military college, but courses, he had three-month training, and he fought at the Leningrad front.
 1	Омскейын	Омскейын	_	A	Ine	6	nmod	_	SpaceAfter=No
 2	,	,	_	CLB	_	3	x	_	_
-3	значит	значитны	_	Pcle	_	6	discourse	_	SpaceAfter=No
+3	значит	значит	_	Pcle	_	6	discourse	_	SpaceAfter=No
 4	,	,	_	CLB	_	3	x	_	_
 5	военнэй	военнӧй	_	A	Abs	6	amod	_	_
 6	училище	училище	_	N	Sg|Nom	0	SUBJ>	_	SpaceAfter=No
@@ -462,7 +462,7 @@
 # text = Кор миян ае-маме вӧрзисныс, но, стадыс миян, колхоз "Красный Октябрь", да?
 # text_rus = Когда наши родители начали каслать, ну стадо у нас (было) в колхозе "Красный Октябрь", да?
 # text_eng = 
-1	Кор	кор	_	Adv	Temp|Rel	4	advmod	_	_
+1	Кор	кор	_	Adv	Rel	4	advmod	_	_
 2	миян	ми	_	Pron	Pers|Pl1|Gen	3	nmod	_	_
 3	ае-маме	ае-маме	_	N	Sg|Nom|PxSg1	4	nsubj	_	_
 4	вӧрзисныс	вӧрзисныс	_	V	Ind|Prt1|Pl3	0	root	_	SpaceAfter=No
@@ -508,7 +508,7 @@
 4	миян	ми	_	Pron	Pers|Pl1|Gen	6	nsubj	_	_
 5	ӧттӧрйи	ӧттӧрйи	_	Adv	_	6	advmod	_	_
 6	вӧрзялісныс	вӧрзялісныс	_	V	Ind|Prt1|Pl3	_	x	_	_
-7	Из	из	_	N	Abs	6	obl	_	_
+7	Из	из	PROPN	N	Abs	6	obl	_	_
 8	сае	сай	_	N	Relat|Sg|Ill	7	case	_	SpaceAfter=No
 9	.	.	_	CLB	_	6	punct	_	_
 
@@ -592,7 +592,7 @@
 3	и	и	_	Pcle	_	4	discourse	_	_
 4	ме	ме	_	Pron	Pers|Sg1|Nom	8	nsubj	_	_
 5	сэн	сэн	_	Adv	_	8	advmod	_	_
-6	самей	сам	_	N	Sg|Nom|PxSg1	8	advmod	_	_
+6	самей	сам	_	Adv	_	8	advmod	_	_
 7	и	и	_	Pcle	_	6	discourse	_	_
 8	рӧдитти	рӧдитти	_	V	Ind|Prt1|Sg1	_	x	_	SpaceAfter=No
 9	.	.	_	CLB	_	8	punct	_	_
@@ -611,11 +611,11 @@
 8	кодке	кодке	_	_	_	9	nsubj	_	_
 9	висьт-	висьт-	_	_	_	3	conj	_	SpaceAfter=No
 10	,	,	CLB	_	_	11	punct	_	_
-11	Микул	Микул	N	_	Prop|Sem/Mal|Sg|Nom	12	nmod	_	_
+11	Микул	Микул	N	_	Prop|Sg|Nom	12	nmod	_	_
 12	вок	вок	N	_	Sg|Nom	15	nsubj	_	_
 13	корке	корке	_	_	_	15	advmod	_	_
 14	тай	тай	Pcle	_	_	15	discourse	_	_
-15	висьталэма	висьтавны	V	_	TV|Err/Dial|Ind|Prt2|Sg3	3	conj	_	SpaceAfter=No
+15	висьталэма	висьтавны	V	_	Ind|Prt2|Sg3	3	conj	_	SpaceAfter=No
 16	:	:	CLB	_	_	17	punct	_	_
 17	патриотка	патриотка	_	_	_	15	appos	_	SpaceAfter=No
 18	.	.	CLB	_	_	3	punct	_	_
@@ -629,21 +629,21 @@
 3	мыйке	мыйке	_	_	_	1	discourse	_	SpaceAfter=No
 4	,	,	CLB	_	_	5	punct	_	_
 5	ас	ас	A	_	Refl|Abs	6	nmod	_	_
-6	муас	му	N	_	Sg|Ill|PxSg3|@<ADVL	7	obl	_	_
-7	рӧдиттьыны	рӧдиттьыны	_	_	_	8	xcomp	_	_
+6	муас	му	N	_	Sg|Ill|PxSg3	7	obl	_	_
+7	рӧдиттьыны	рӧдиттьыны	V	_	Inf	8	xcomp	_	_
 8	мӧдэма	мӧдны	V	_	Ind|Prt2|Sg1	0	X	_	SpaceAfter=No
 9	,	,	CLB	_	_	10	punct	_	_
-10	абу	абу	Pcle	_	Neg	11	aux	_	_
+10	абу	абу	PART	_	Neg	11	aux	_	_
 11	мӧдэма	мӧдны	V	_	Ind|Prt2|Sg3	8	conj	_	SpaceAfter=No
 12	,	,	CLB	_	_	13	punct	_	_
 13	оз	оз	V	_	Neg|Ind|Prs|Sg3	15	conj	_	SpaceAfter=No
 14	,	,	CLB	_	_	15	punct	_	_
-15	абу	абу	Pcle	_	Neg	16	aux	_	_
+15	абу	абу	PART	_	Neg	16	aux	_	_
 16	мӧдэма	мӧдны	V	_	Ind|Prt2|Sg3	8	conj	_	_
 17	тытэн	тытэн	_	_	_	16	obl	_	SpaceAfter=No
 18	,	,	CLB	_	_	19	punct	_	_
-19	Из	из	N	_	Abs	21	obl	_	_
-20	сайын	сайын	Po	_	Spat|Sg|Ine	19	case	_	_
+19	Из	из	PROPN	N	Abs	21	obl	_	_
+20	сайын	сайын	ADP	_	Sg|Ine	19	case	_	_
 21	рӧдиттьынысэ	рӧдиттьынысэ	_	_	_	8	ccomp	_	SpaceAfter=No
 22	.	.	CLB	_	_	8	punct	_	_
 
@@ -651,7 +651,7 @@
 # text = Так что, никучем иностраннэй местаясэ ог ветлоо.
 # text_rus = Так что, в никакие иностранные места не езжу.
 # text_eng = 
-1	Так	такны	_	V	Imprt|Sg2	8	mark	_	_
+1	Так	так	_	Pcle	_	8	mark	_	_
 2	что	что	_	Pron	_	1	fixed	_	SpaceAfter=No
 3	,	,	_	CLB	_	2	punct	_	_
 4	никучем	никучем	_	Pron	Neg	5	advmod	_	_
@@ -666,13 +666,13 @@
 # text_rus = Только езжу за Урал, потому что второй день, да, мой уже там начался.
 # text_eng = 
 1	Из	из	N	_	Abs	4	obl	_	_
-2	сае	сай	N	_	Relat|Sg|Err/Dial|Ill|@<ADVL	1	case	_	_
+2	сае	сай	N	_	Relat|Sg|Ill	1	case	_	_
 3	токо	токо	_	_	_	4	advmod	_	_
 4	ветлала	ветлыны	V	_	Ind|Prs|Sg1	0	X	_	SpaceAfter=No
 5	,	,	CLB	_	_	6	punct	_	_
 6	потому	потому	_	_	_	11	advmod	_	_
 7	что	что	_	_	_	6	goeswith	_	_
-8	мӧд	мӧд	Det	_	Ord|Sg|Nom|@>N	10	conj	_	SpaceAfter=No
+8	мӧд	мӧд	Det	_	Ord|Sg|Nom	10	conj	_	SpaceAfter=No
 9	,	,	CLB	_	_	10	punct	_	_
 10	мӧдэд	мӧдэд	_	_	_	11	nummod	_	_
 11	луныс	лун	N	_	Sg|Nom|PxSg3	0	SUBJ>	_	SpaceAfter=No
@@ -680,10 +680,10 @@
 13	да	да	CS	_	_	11	discourse	_	SpaceAfter=No
 14	,	,	CLB	_	_	15	punct	_	_
 15	менам	ме	Pron	_	Pers|Sg1|Gen	11	nmod	_	_
-16	сэн	сэн	Adv	_	@<ADVL	18	advmod	_	_
+16	сэн	сэн	Adv	_	_	18	advmod	_	_
 17	нин	нин	Pcle	_	_	18	advmod	_	_
 18	воссис	воссьыны	V	_	Refl|Ind|Prt1|Sg3	4	advcl	_	_
-19	нин	нин	N	_	Sg|Nom|@<SUBJ	18	advmod	_	SpaceAfter=No
+19	нин	нин	N	_	Sg|Nom	18	advmod	_	SpaceAfter=No
 20	.	.	CLB	_	_	4	punct	_	_
 
 # sent_id = 
@@ -721,14 +721,14 @@
 # text_rus = Это на Уралом, так что, мне места возле Салехарда тоже как родная родина.
 # text_eng = 
 1	Из	из	N	_	Abs	_	x	_	_
-2	сайын	сайын	Po	_	Spat|Sg|Ine	1	case	_	_
+2	сайын	сайын	Po	_	Sg|Ine	1	case	_	_
 3	сыа	сыа	_	_	#3	_	x	_	SpaceAfter=No
 4	,	,	CLB	_	_	_	x	_	_
-5	так	такны	V	_	IV|Imprt|Sg2	0	X	_	_
+5	так	такны	Pcle	_	_	0	X	_	_
 6	что	что	_	_	_	_	x	_	SpaceAfter=No
 7	,	,	CLB	_	_	_	x	_	_
 8	меам	меам	_	_	_	_	x	_	_
-9	Салехард	Салехард	N	_	Sem/Plc|Prop|Sg|Nom	0	X	_	_
+9	Салехард	Салехард	N	_	Prop|Sg|Nom	0	X	_	_
 10	местэыс	местэыс	_	_	_	_	x	_	_
 11	тоже	тоже	_	_	_	_	x	_	_
 12	рӧднэй	рӧднӧй	A	_	Abs	0	X	_	_
@@ -744,13 +744,13 @@
 2	,	,	CLB	_	_	3	punct	_	_
 3	кучем	кучем	_	_	_	5	advmod	_	_
 4	пӧрысь	пӧрысь	Adv	_	_	5	advmod	_	_
-5	бабушка	бабушка	N	_	Sem/Hum|Sg|Nom	0	SUBJ>	_	_
-6	сэн	сэн	Adv	_	@<ADVL	7	advmod	_	_
-7	лоас	лоны	V	_	IV|Ind|Fut|Sg3	5	cop	_	SpaceAfter=No
+5	бабушка	бабушка	N	_	Sg|Nom	0	SUBJ>	_	_
+6	сэн	сэн	Adv	_	_	7	advmod	_	_
+7	лоас	лоны	V	_	Ind|Fut|Sg3	5	cop	_	SpaceAfter=No
 8	,	,	CLB	_	_	9	punct	_	_
 9	сыа	сыа	_	_	_	5	conj	_	_
 10	и	и	Pcle	_	_	11	discourse	_	_
-11	лоас	лоны	V	_	IV|Ind|Fut|Sg3	9	cop	_	SpaceAfter=No
+11	лоас	лоны	V	_	Ind|Fut|Sg3	9	cop	_	SpaceAfter=No
 12	.	.	CLB	_	_	5	punct	_	_
 
 # sent_id = 
@@ -782,12 +782,12 @@
 # text_eng = 
 1	Пока	пока	_	Adv	_	2	advmod	_	_
 2	лёк	лёк	_	A	Abs	0	X	_	_
-3	из	из	_	V	Neg	4	aux	_	_
+3	из	из	_	V	Neg|Ind|Prt|Sg3	4	aux	_	_
 4	ло	лоны	_	V	ConNeg	2	aux	_	SpaceAfter=No
 5	,	,	_	CLB	_	6	punct	_	_
 6	но	но	_	CC	_	13	cc	_	SpaceAfter=No
 7	,	,	_	CLB	_	8	punct	_	_
-8	пока	пока	_	Adv	@<ADVL	13	advmod	_	SpaceAfter=No
+8	пока	пока	_	Adv	_	13	advmod	_	SpaceAfter=No
 9	,	,	_	CLB	_	10	punct	_	_
 10	не	не	_	Pcle	_	11	advmod	_	_
 11	то	то	_	Pcle	_	13	advmod	_	_
@@ -803,8 +803,8 @@
 2	из	из	_	V	_	3	aux	_	_
 3	вермы	вермыны	_	V	ConNeg	0	X	_	SpaceAfter=No
 4	,	,	_	CLB	_	5	punct	_	_
-5	пока	пока	_	Adv	@<ADVL	6	advmod	_	_
-6	вермис	вермыны	_	V	TV|Ind|Prt1|Sg3	3	X	_	SpaceAfter=No
+5	пока	пока	_	Adv	_	6	advmod	_	_
+6	вермис	вермыны	_	V	Ind|Prt1|Sg3	3	X	_	SpaceAfter=No
 7	.	.	_	CLB	_	3	punct	_	_
 
 # sent_id = 
@@ -839,7 +839,7 @@
 10	или	или	_	CC	_	13	cc	_	_
 11	сы	сійӧ	_	Pron	Dem	13	obl	_	_
 12	доре	дор	_	N	Relat|Sg|Ill	11	case	_	_
-13	ваедісны	ваедісны	_	V	Ind|Prt1|Sg3	4	conj	_	SpaceAfter=No
+13	ваедісны	ваедны	_	V	Ind|Prt1|Pl3	4	conj	_	SpaceAfter=No
 14	,	,	_	CLB	_	15	punct	_	_
 15	медланнэ	медланнэ	_	Adv	_	16	advmod	_	_
 16	примитіс	примитны	_	V	Ind|Prt1|Sg3	4	ccomp	_	_
@@ -865,7 +865,7 @@
 13	вӧліс	вӧвны	_	V	Ind|Prt1|Sg3	12	aux	_	SpaceAfter=No
 14	,	,	_	CLB	_	15	punct	_	_
 15	только-только	только-только	_	Adv	_	16	advmod	_	_
-16	пуктыны	пуктыны	_	V	TV|Inf	0	X	_	_
+16	пуктыны	пуктыны	_	V	Inf	0	X	_	_
 17	и	и	_	Pcle	_	18	cc	_	_
 18	мӧдасы	мӧдасы	_	Adv	_	16	conj	_	_
 19	воедны	воедны	_	V	Inf	18	xcomp	_	SpaceAfter=No
@@ -952,7 +952,7 @@
 # text = ог тӧд, мен кажитче, без репетитора сыа невозможнэ.
 # corpus_version = f0d4b02b2cdba3ddf9e5bd1c5cd875167b4e97fc
 1	Ог	оз	AUX	V	Neg|Ind|Prs|Sg1	2	aux	_	_
-2	тӧд	тӧдны	VERB	V	TV|ConNeg	0	root	_	SpaceAfter=No
+2	тӧд	тӧдны	VERB	V	ConNeg	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	CLB	_	4	punct	_	_
 4	мен	ме	PRON	Pron	Pers|Sg1|Dat	5	nsubj	_	_
 5	кажитче	кажитчыны	VERB	V	Refl|Ind|Prs|Sg3	2	parataxis	_	SpaceAfter=No
@@ -978,12 +978,12 @@
 1	Ваыс	ва	NOUN	N	Sg|Nom|PxSg3	9	csubj	_	_
 2	зэв	зэв	ADV	Adv	_	3	advmod	_	_
 3	ыджыд	ыджыд	ADJ	A	Sg|Nom	1	amod	_	_
-4	кор	кор	ADV	Adv	Rel|Temp	1	advmod	_	_
+4	кор	кор	ADV	Adv	Rel	1	advmod	_	_
 5	вӧлі	вӧвны	VERB	V	Ind|Prt1|Sg3	1	cop	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	7	punct	_	_
 7	дак	дак	SCONJ	CS	_	9	mark	_	rus
 8	берегсӧ	берег	NOUN	N	Sg|Acc|PxSg3	9	obj	_	_
-9	жугöдöді	жыгӧдны	VERB	V	Ind|Pst1|Sg3	0	root	_	SpaceAfter=No
+9	жугöдöді	жыгӧдны	VERB	V	Ind|Prt1|Sg3	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	CLB	_	9	punct	_	_
 11	сідз	сідз	ADV	Adv	_	13	mark	_	_
 12	и	и	PART	Pcle	_	13	discourse	_	mixed
@@ -1008,7 +1008,7 @@
 # sent_id = izva_2
 # text = Став вӧлэсьсэ километров четыреста будет.
 1	Став	став	DET	Pron	Sg|Nom	2	det	_	_
-2	вӧлэсьсэ	вӧлэсь	NOUN	N	Sg|Nom|Clt|Clt	5	nsubj	_	_
+2	вӧлэсьсэ	вӧлэсь	NOUN	N	Sg|Nom|Clt	5	nsubj	_	_
 3	километров	километр	NOUN	N	Pl|Gen	5	obl	_	rus
 4	четыреста	четыреста	NUM	Num	Card|Sg|Nom	3	nummod	_	rus
 5	будет	лоны	VERB	V	Ind|Fut|Sg3	0	root	_	rus|SpaceAfter=No
@@ -1024,14 +1024,14 @@
 6	сэтысянь	сэтысянь	ADV	Adv	_	5	advmod	_	SpaceAfter=No
 7	,	,	PUNCT	CLB	_	6	punct	_	_
 8	и	и	CCONJ	CC	_	9	cc	_	mixed
-9	висьталӧма	висьтавны	VERB	V	TV|Ind|Prt2|Sg3	5	conj	_	SpaceAfter=No
+9	висьталӧма	висьтавны	VERB	V	Ind|Prt2|Sg3	5	conj	_	SpaceAfter=No
 10	:	:	PUNCT	CLB	_	9	punct	_	_
-11	колӧны	ковны	VERB	V	TV|Ind|Prs|Pl3	9	advcl	_	SpaceAfter=No
+11	колӧны	ковны	VERB	V	Ind|Prs|Pl3	9	advcl	_	SpaceAfter=No
 12	,	,	PUNCT	CLB	_	11	punct	_	_
 13	для	для	ADP	Pr	_	15	case	_	rus
 14	оформления	оформление	NOUN	N	Neu|Sg|Gen	16	obl	_	rus
 15	спектаклей	спектакль	NOUN	N	Msc|Pl|Gen	14	nmod	_	rus
-16	колӧны	ковны	VERB	V	TV|Ind|Prs|Pl3	11	parataxis	_	_
+16	колӧны	ковны	VERB	V	Ind|Prs|Pl3	11	parataxis	_	_
 17	коми	коми	NOUN	N	Sg|Nom	18	nmod	_	_
 18	песняяс	песня	NOUN	N	Pl|Nom	16	nsubj	_	mixed|SpaceAfter=No
 19	.	.	PUNCT	CLB	_	5	punct	_	_
@@ -1051,7 +1051,7 @@
 1	Ме	ме	PRON	Pron	Pers|Sg1|Nom	2	nsubj	_	_
 2	рӧдитчи	рӧдитчыны	VERB	V	Refl|Ind|Prt1|Sg1	0	root	_	_
 3	сорок	сорок	NUM	Num	Nom	4	nummod	_	rus
-4	первом	первый	ADJ	A	Sg|Loc	5	amod	_	rus
+4	первом	первый	ADJ	A	Sg|Ins	5	amod	_	rus
 5	году	год	NOUN	N	Sg|Dat	2	obl	_	rus|SpaceAfter=No
 6	,	,	PUNCT	CLB	_	5	punct	_	_
 7	девятого	девятый	ADJ	A	Sg|Gen	8	amod	_	rus
@@ -1074,7 +1074,7 @@
 12	чё	чё	_	_	_	15	obj	_	rus|SpaceAfter=No
 13	-	-	PUNCT	CLB	_	12	goeswith	_	SpaceAfter=No
 14	то	чё-то	PART	Pcle	_	12	goeswith	_	rus
-15	делал	делать	VERB	V	Pst|Sg	4	conj	_	rus|SpaceAfter=No
+15	делал	делать	VERB	V	Prt|Sg	4	conj	_	rus|SpaceAfter=No
 16	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = kpv_izva20150403-2-b.062
@@ -1086,7 +1086,7 @@
 5	плечо	плечо	NOUN	N	Sg|Acc	8	obl	_	rus
 6	дӧраысь	дӧра	NOUN	N	Sg|Ela	7	nmod	_	_
 7	сумка	сумка	NOUN	N	Sg|Nom	8	obj	_	rus
-8	вурӧма	вурны	VERB	V	TV|Ind|Prt2|Sg3	0	root	_	SpaceAfter=No
+8	вурӧма	вурны	VERB	V	Ind|Prt2|Sg3	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	8	punct	_	_
 
 # sent_id = kpv_izva20150403-2-b.114
@@ -1095,7 +1095,7 @@
 2	,	,	PUNCT	CLB	_	1	punct	_	_
 3	он	оз	VERB	V	Neg|Ind|Prs|Sg2	5	aux	_	_
 4	живносьсэ	живнось	NOUN	N	Acc	5	obj	_	mixed
-5	сдайт	сдайтны	VERB	V	TV|ConNeg	0	root	_	rus|SpaceAfter=No
+5	сдайт	сдайтны	VERB	V	ConNeg	0	root	_	rus|SpaceAfter=No
 6	,	,	PUNCT	CLB	_	5	punct	_	_
 7	но	но	CCONJ	CC	_	11	cc	_	mixed
 8	какой	какой	DET	Det	_	11	amod	_	rus|SpaceAfter=No
@@ -1106,12 +1106,12 @@
 13	,	,	PUNCT	CLB	_	12	punct	_	_
 14	сколько	сколько	ADV	Adv	Rel	16	advmod	_	rus
 15	налог	налог	NOUN	N	Sg|Nom	16	obj	_	rus
-16	сетасны	сетны	VERB	V	TV|Ind|Fut|Pl3	11	ccomp	_	_
+16	сетасны	сетны	VERB	V	Ind|Fut|Pl3	11	ccomp	_	_
 17	мыйтӧм	мыйтӧм	PRON	Pron	NonHum|Rel	16	advmod	_	SpaceAfter=No
 18	,	,	PUNCT	CLB	_	17	punct	_	_
 19	сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Acc	21	obj	_	_
 20	и	и	PART	Pcle	_	21	discourse	_	mixed
-21	сдайтан	сдайтны	VERB	V	TV|Ind|Prs|Sg2	5	advcl	_	rus|SpaceAfter=No
+21	сдайтан	сдайтны	VERB	V	Ind|Prs|Sg2	5	advcl	_	rus|SpaceAfter=No
 22	.	.	PUNCT	CLB	_	21	punct	_	_
 
 # sent_id = kpv_vym19570000-292_1a-Vym-1-43
@@ -1131,7 +1131,7 @@
 # text = И менум предложитісны должность директора межпоселенческого клубного объединения.
 1	И	и	CCONJ	CC	_	3	cc	_	mixed
 2	меным	ме	PRON	Pron	Pers|Sg1|Dat	3	iobj	_	_
-3	предложитісны	предложитны	VERB	V	TV|Ind|Prt1|Pl3	0	root	_	mixed
+3	предложитісны	предложитны	VERB	V	Ind|Prt1|Pl3	0	root	_	mixed
 4	должность	должность	NOUN	N	Sg|Nom	3	obj	_	rus
 5	директора	директор	NOUN	N	Sg|Gen	4	nmod	_	rus
 6	межпоселенческого	межпоселенческий	ADJ	A	Sg|Gen	7	amod	_	rus
@@ -1143,9 +1143,9 @@
 # text = Коркӧ давно жили да были цар гожъя.
 1	Коркӧ	коркӧ	ADV	Adv	_	3	advmod	_	_
 2	давно	давно	ADV	Adv	_	3	advmod	_	rus
-3	жили	жить	VERB	V	Pst|Pl	0	root	_	rus
+3	жили	жить	VERB	V	Prt|Pl	0	root	_	rus
 4	да	да	CCONJ	CC	_	5	cc	_	_
-5	были	быть	VERB	V	Pst|Pl	3	conj	_	rus
+5	были	быть	VERB	V	Prt|Pl	3	conj	_	rus
 6	цар	цар	NOUN	N	Sg|Nom	7	nmod	_	mixed
 7	гожъя	гожъя	NOUN	N	Sg|Nom	3	nsubj	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	3	punct	_	_
@@ -1153,11 +1153,11 @@
 # sent_id = kpv_vym19570000-292_1a-Vym-1-11
 # text = Однажды один-от мужик решился обмануть тайӧ царскӧй семятӧ.
 1	Однажды	однажды	ADV	Adv	_	6	advmod	_	rus
-2	один	один	NUM	Num	Num	5	nummod	_	rus|SpaceAfter=No
+2	один	один	NUM	Num	Nom|Sg	5	nummod	_	rus|SpaceAfter=No
 3	-	-	PUNCT	CLB	_	2	goeswith	_	SpaceAfter=No
 4	от	от	PART	Pcle	_	2	goeswith	_	rus
 5	мужик	мужик	NOUN	N	Nom|Sg	6	nsubj	_	rus
-6	решился	решить	VERB	V	Pst|Sg	0	root	_	rus
+6	решился	решить	VERB	V	Prt|Sg	0	root	_	rus
 7	обмануть	обмануть	VERB	V	Inf	6	xcomp	_	rus
 8	тайӧ	тайӧ	DET	Pron	Dem|Sg|Nom	10	det	_	_
 9	царскӧй	царскӧй	ADJ	A	Sg|Nom	10	amod	_	mixed
@@ -1170,7 +1170,7 @@
 2	мужик	мужик	NOUN	N	Sg|Nom	5	nsubj	_	rus|SpaceAfter=No
 3	-	-	PUNCT	PUNCT	_	2	goeswith	_	SpaceAfter=No
 4	от	от	PART	Pcle	_	2	goeswith	_	rus
-5	зашол	зайти	VERB	V	Pst|Sg3	0	root	_	rus
+5	зашол	зайти	VERB	V	Prt|Sg3	0	root	_	rus
 6	мӧд	мӧд	PRON	Pron	Dem	7	amod	_	_
 7	комнатаас	комната	NOUN	N	Sg|Ill|PxSg3	5	obl	_	mixed|SpaceAfter=No
 8	,	,	PUNCT	CLB	_	7	punct	_	_
@@ -1181,7 +1181,7 @@
 13	доцка	доцка	NOUN	N	Sg|Nom	5	advcl	_	rus|SpaceAfter=No
 14	-	-	PUNCT	CLB	_	13	goeswith	_	SpaceAfter=No
 15	то	то	PART	Pcle	_	13	goeswith	_	rus
-16	была	быть	VERB	V	Pst|Fem|Sg	13	cop	_	rus|SpaceAfter=No
+16	была	быть	VERB	V	Prt|Fem|Sg	13	cop	_	rus|SpaceAfter=No
 17	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = kpv_izva19580000-083
@@ -1199,7 +1199,7 @@
 2	во	во	NOUN	N	Sg|Nom	7	obl	_	_
 3	бӧрас	бӧрын	ADP	Po	Sg|Ine|PxSg3	2	case	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	3	punct	_	_
-5	значит	значит	ADV	Adv	_	7	appos	_	rus|SpaceAfter=No
+5	значит	значит	PART	Pcle	_	7	appos	_	rus|SpaceAfter=No
 6	,	,	PUNCT	CLB	_	5	punct	_	_
 7	машкуритчӧны	машкуритчыны	VERB	V	Ind|Prs|Pl3	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	7	punct	_	_
@@ -1211,9 +1211,9 @@
 3	деньга	деньга	NOUN	N	Sg|Nom	6	obl	_	mixed
 4	вылас	вылын	ADP	Po	Sg|Ill|PxSg3	3	case	_	_
 5	сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	6	nsubj	_	_
-6	ньӧбис	ньӧбны	VERB	V	TV|Ind|Prt1|Sg3	0	root	_	SpaceAfter=No
+6	ньӧбис	ньӧбны	VERB	V	Ind|Prt1|Sg3	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	CLB	_	6	punct	_	_
-8	значит	значит	ADV	Adv	_	6	appos	_	rus|SpaceAfter=No
+8	значит	значит	PART	Pcle	_	6	appos	_	rus|SpaceAfter=No
 9	,	,	PUNCT	CLB	_	8	punct	_	_
 10	лыж	лыж	NOUN	N	Sg|Nom	11	nmod	_	rus
 11	комплект	комплект	NOUN	N	Sg|Acc	6	obj	_	rus|SpaceAfter=No
@@ -1237,25 +1237,25 @@
 # sent_id = kpv_izva20150407-4-a.0219
 # text = Сэтэн лиса вӧлі, песцы были, норки были.
 1	Сэтӧн	сэтӧн	ADV	Adv	_	2	advmod	_	_
-2	лиса	лиса	NOUN	N	Sg|Nom	0	root	_	rus
+2	лиса	лиса	NOUN	N	Sg|Nom	0	root	_	rus|Note=Check
 3	вӧлі	вӧвны	VERB	V	Ind|Prt1|Sg3	2	cop	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	3	punct	_	_
 5	песцы	песец	NOUN	N	Msc|Pl|Nom	2	appos	_	rus
-6	были	быть	VERB	V	Pst|Pl	5	cop	_	rus|SpaceAfter=No
+6	были	быть	VERB	V	Prt|Pl	5	cop	_	rus|SpaceAfter=No
 7	,	,	PUNCT	CLB	_	6	punct	_	_
 8	норки	норка	NOUN	N	Pl|Nom	2	appos	_	rus
-9	были	быть	VERB	V	Pst|Pl	8	cop	_	rus|SpaceAfter=No
+9	были	быть	VERB	V	Prt|Pl	8	cop	_	rus|SpaceAfter=No
 10	.	.	PUNCT	CLB	_	9	punct	_	_
 
 # sent_id = kpv_izva20140325-2-a-279
 # text = Считай, три раза в год пересчитывайтэны стадосэ.
-1	Считай	считать	VERB	V	TV|Imprt|Sg2	7	discourse	_	rus|SpaceAfter=No
+1	Считай	считать	VERB	V	Imprt|Sg2	7	discourse	_	rus|SpaceAfter=No
 2	,	,	PUNCT	CLB	_	1	punct	_	_
 3	три	три	NUM	Num	Card|Sg|Nom	4	nummod	_	rus
 4	раза	раз	NOUN	N	Sg|Gen	7	obl	_	rus
 5	в	в	ADP	Pr	_	6	case	_	rus
 6	год	год	NOUN	N	Sg|Nom	4	nmod	_	rus
-7	пересчитывайтэны	пересчитывайтны	VERB	V	TV|Ind|Prs|Pl3	0	root	_	mixed
+7	пересчитывайтэны	пересчитывайтны	VERB	V	Ind|Prs|Pl3	0	root	_	mixed
 8	стадосӧ	стадосӧ	NOUN	N	Sg|Acc|PxSg3	7	obj	_	mixed|SpaceAfter=No
 9	.	.	PUNCT	CLB	_	7	punct	_	_
 
@@ -1272,7 +1272,7 @@
 9	детство	детство	NOUN	N	Sg|Nom	0	root	_	rus
 10	у	у	ADP	Pr	_	11	case	_	rus
 11	нас	мы	PRON	Pron	Pers|Pl1|Gen	9	obl	_	rus
-12	было	быть	VERB	V	Pst|Sg	9	cop	_	rus|SpaceAfter=No
+12	было	быть	VERB	V	Prt|Sg	9	cop	_	rus|SpaceAfter=No
 13	.	.	PUNCT	CLB	_	9	punct	_	_
 
 # sent_id = kpv_izva20150403-3-b.1311
@@ -1293,7 +1293,7 @@
 14	ме	ме	PRON	Pron	Pers|Sg1|Nom	17	nsubj	_	_
 15	некодöс	некод	PRON	Pron	Neg|Sg|Acc	17	obj	_	_
 16	ог	оз	VERB	V	Neg|Ind|Prs|Sg1	17	aux	_	_
-17	тӧд	тӧдны	VERB	V	TV|ConNeg	9	advcl	_	SpaceAfter=No
+17	тӧд	тӧдны	VERB	V	ConNeg	9	advcl	_	SpaceAfter=No
 18	.	.	PUNCT	CLB	_	9	punct	_	_
 
 # sent_id = kpv_izva20150407-1-b.125
@@ -1306,11 +1306,11 @@
 6	чтоб	чтоб	_	CS	_	9	mark	_	rus
 7	по	по	ADP	Pr	_	8	case	_	rus
 8	прозвищу	прозвище	NOUN	N	Sg|Dat	9	obj	_	rus
-9	знали	знать	VERB	V	Pst|Pl	0	root	_	rus|SpaceAfter=No
+9	знали	знать	VERB	V	Prt|Pl	0	root	_	rus|SpaceAfter=No
 10	,	,	PUNCT	CLB	_	9	punct	_	_
 11	у	у	NOUN	N	case	12	case	_	rus
 12	нас	я	PRON	Pron	Pers|Pl1|Gen	13	obl	_	rus
-13	бабушка	бабушка	NOUN	N	Sem|Sg|Nom	14	nmod	_	rus
+13	бабушка	бабушка	NOUN	N	Sg|Nom	14	nmod	_	rus
 14	Елена	Елена	NOUN	N	Prop|Sem|Sg|Nom	15	nsubj	_	_
 15	вӧлі	вӧвны	VERB	V	Ind|Prt1|Sg3	19	cop	_	_
 16	Зӧт	Зӧт	NOUN	N	Prop|Sem|Sg|Nom	15	nmod	_	_
