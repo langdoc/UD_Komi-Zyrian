@@ -90,6 +90,7 @@
 
 # sent_id = 
 # text = И ме петі тундраа ортсасьны аелы.
+# text_eng = And I went to help my father at the tundra.
 1	И	и	_	CC	_	3	mark	_	_
 2	ме	ме	_	Pron	Pers|Sg1|Nom	3	nsubj	_	_
 3	петі	петны	_	V	Ind|Prt1|Sg1	0	root	_	_
@@ -530,23 +531,23 @@
 # text_eng = 
 1	Но	но	_	Pcle	_	2	PCLE	_	_
 2	маме	мам	_	N	Sg|Ill	_	x	_	_
-3	как	как	_	_	_	5	x	_	_
+3	как	как	_	Adv	_	5	x	_	_
 4	раз	раз	_	N	Sg|Nom	3	SUBJ>	_	_
 5	тыра	тыр	_	Adv	_	0	root	_	_
 6	вӧліс	вӧвны	_	V	Ind|Prt1|Sg3	5	cop	_	SpaceAfter=No
 7	,	,	_	CLB	_	8	x	_	_
-8	думайтэныс	думайтэныс	_	_	_	_	x	_	SpaceAfter=No
+8	думайтэныс	думайтэныс	_	V	Ind|Prt1|Pl3	_	x	_	SpaceAfter=No
 9	,	,	_	CLB	_	10	x	_	_
-10	гашке	гашке	_	_	_	_	x	_	SpaceAfter=No
+10	гашке	гашке	_	Adv	_	_	x	_	SpaceAfter=No
 11	,	,	_	CLB	_	12	x	_	_
 12	вӧрзям	вӧрзьыны	_	V	Ind|Prs|Pl1	5	X	_	_
 13	да	да	_	Pcle	_	12	PCLE	_	_
 14	и	и	_	Pcle	_	13	PCLE	_	SpaceAfter=No
 15	,	,	_	CLB	_	16	x	_	_
-16	ничего	ничего	_	_	_	5	x	_	SpaceAfter=No
+16	ничего	ничего	_	Adv	_	5	x	_	SpaceAfter=No
 17	,	,	_	CLB	_	18	x	_	_
 18	бур	бур	_	A	Sg|Nom	19	x	_	_
-19	лоо	лоо	_	_	_	5	x	_	_
+19	лоо	лоо	_	V	Ind|Prs|Sg3	5	x	_	_
 20	ставыс	став	_	Pron	Sg|Nom|PxSg3	19	nsubj	_	_
 21	да	да	_	CS	_	20	discourse	_	SpaceAfter=No
 22	.	.	_	CLB	_	5	x	_	_
