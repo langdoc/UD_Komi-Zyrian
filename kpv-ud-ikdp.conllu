@@ -1,5 +1,6 @@
 # sent_id = missing_id_1
 # text = Рӧдитчи ме шейсят четвёртэй годын октяб тӧлысе тундраын.
+# text_rus = 
 1	Рӧдитчи	рӧдитчыны	_	V	Ind|Prt1|Sg1	0	root	_	_
 2	ме	ме	_	Pron	Pers|Sg1|Nom	1	nsubj	_	_
 3	шейсят	шейсят	_	Num	Card|Sg|Prl	4	nummod	_	_
@@ -12,6 +13,7 @@
 
 # sent_id = missing_id_2
 # text = Сэсся велэдчи, быдтіс баб миянумес. 
+# text_rus = 
 1	Сэсся	сэсся	_	Adv	_	2	advmod	_	_
 2	велӧдчи	велӧдчыны	_	V	Refl|Ind|Prt1|Sg1	0	root	_	SpaceAfter=No
 3	,	,	_	CLB	_	2	punct	_	_
@@ -22,6 +24,7 @@
 
 # sent_id = missing_id_3
 # text = Десятой класс закончитэм бӧрын, гожемъяснас, правда, быд гожем ветлі родительяс доре тундраа, десятой класс закончитэм бӧрын куим во служиті подводнэй лодка вылын, флотын.
+# text_rus = 
 1	Десятой	Десятой	_	Num	_	2	nummod	_	_
 2	класс	класс	_	N	Sg|Nom	3	obl	_	_
 3	закончитэм	закончитэм	_	V	_	12	advcl	_	_
@@ -54,6 +57,7 @@
 
 # sent_id = missing_id_3
 # text = Сы бӧрын устроитчи рӧбитны, локті ас сиктэ да.
+# text_rus = 
 1	Сы	сійӧ	_	Pron	Pers|Sg3|Cmpl	3	advmod	_	_
 2	бӧрын	бӧр	_	Po	Sg|Ine	1	case	_	_
 3	устроитчи	устроитчыны	_	V	Ind|Prt1|Sg1	0	root	_	_
@@ -67,6 +71,7 @@
 
 # sent_id = missing_id_4
 # text = Телевидение, ой, телевышка, телестанция вылын рӧбиті кык во.
+# text_rus = 
 1	Телевидение	телевидение	_	N	Sg|Nom	7	conj	_	SpaceAfter=No
 2	,	,	_	CLB	_	3	punct	_	_
 3	ой	ой	_	Interj	_	9	discourse	_	SpaceAfter=No
@@ -82,6 +87,7 @@
 
 # sent_id = missing_id_5
 # text = Сэсся кувсис менам мам.
+# text_rus = 
 1	Сэсся	сэсся	_	Adv	_	2	advmod	_	_
 2	кувсис	кувсьыны	_	V	Refl|Ind|Prt1|Sg3	0	root	_	_
 3	менам	ме	_	Pron	Pers|Sg1|Gen	4	nmod	_	_
@@ -91,6 +97,7 @@
 # sent_id = missing_id_6
 # text = И ме петі тундраа ортсасьны аелы.
 # text_eng = And I went to help my father at the tundra.
+# text_rus = 
 1	И	и	_	CC	_	3	mark	_	_
 2	ме	ме	_	Pron	Pers|Sg1|Nom	3	nsubj	_	_
 3	петі	петны	_	V	Ind|Prt1|Sg1	0	root	_	_
@@ -101,6 +108,7 @@
 
 # sent_id = missing_id_7
 # text = Тундраын ветлі сизим во, керка кари аслум вокъяскед, дядьяскед.
+# text_rus = 
 1	Тундраын	тундра	_	N	Sg|Ine	2	obl	_	_
 2	ветлі	ветлыны	_	V	Ind|Prt1|Sg1	0	root	_	_
 3	сизим	сизим	_	Num	Card|Abs	4	nummod	_	_
@@ -116,6 +124,7 @@
 
 # sent_id = missing_id_8
 # text = Супругаа, кудз висьтооны, абу оленевод да, приведитчис кольччыны.
+# text_rus = 
 1	Супругаа	супруга	_	N	_	7	nsubj	_	SpaceAfter=No
 2	,	,	_	CLB	_	3	punct	_	_
 3	кудз	кудз	_	Adv	Rel	4	advmod	_	_
@@ -131,6 +140,7 @@
 
 # sent_id = missing_id_9
 # text = Воліс же тундраас, но из, абу понравитчема, оз вермы сыа сэтшем условиеясас.
+# text_rus = 
 1	Воліс	волыны	_	V	Ind|Prt1|Sg3	0	root	_	_
 2	жӧ	жӧ	_	Pcle	_	1	discourse	_	_
 3	тундраас	тундра	_	N	Sg|Ill|PxSg3	1	obl	_	SpaceAfter=No
@@ -150,6 +160,7 @@
 
 # sent_id = missing_id_10
 # text = Гожемъясын волыыліс челядькед.
+# text_rus = 
 1	Гожӧмъясын	гожӧм	_	N	Pl|Ine	2	obl	_	_
 2	волывліс	волывлыны	_	V	Ind|Prt1|Sg3	0	root	_	_
 3	челядькед	челядь	_	N	Sg|Com	2	obl	_	SpaceAfter=No
@@ -157,6 +168,7 @@
 
 # sent_id = missing_id_11
 # text = Рӧбиті стрӧительствоын нёль во.
+# text_rus = 
 1	Рӧбиті	рӧбитны	_	V	Ind|Prt1|Sg1	0	root	_	_
 2	стрӧительствоын	стрӧительство	_	N	Sg|Ine	1	obl	_	_
 3	нёль	нёль	_	Num	Card|Abs	4	nummod	_	_
@@ -165,6 +177,7 @@
 
 # sent_id = missing_id_12
 # text = Керкаяс стрӧитім, гаражъяс, баняяс.
+# text_rus = 
 1	Керкаяс	керка	_	N	Pl|Acc	2	obj	_	_
 2	стрӧитім	стрӧитны	_	V	Ind|Prt1|Pl1	0	root	_	SpaceAfter=No
 3	,	,	_	CLB	_	4	punct	_	_
@@ -175,6 +188,7 @@
 
 # sent_id = missing_id_13
 # text = Кочегариті, окмыс во, навернэ, кочегариті.
+# text_rus = 
 1	Кочегариті	кочегаритны	_	V	Ind|Prt1|Sg1	0	root	_	SpaceAfter=No
 2	,	,	_	CLB	_	3	punct	_	_
 3	ӧкмыс	ӧкмыс	_	Num	Card|Abs	4	nummod	_	_
@@ -187,6 +201,7 @@
 
 # sent_id = missing_id_14
 # text = А эні нин сизим во кудз висены кокъясэ и ог вермы ветлыны, веське с удовольствием пета тундраа, но…
+# text_rus = 
 1	А	а	_	Pcle	_	2	mark	_	_
 2	ӧні	ӧні	_	Adv	_	7	advmod	_	_
 3	нин	нин	_	Pcle	_	2	advmod	_	_
@@ -211,6 +226,7 @@
 
 # sent_id = missing_id_15
 # text = Медбӧрын лэччылі Нярьян-Маре тоже оленеводствоо, Нарьян-Марскей ОПХ-а.
+# text_rus = 
 1	Медбӧрын	медбӧрын	_	Adv	Ine	2	advmod	_	_
 2	лэччылі	лэччывны	_	V	Ind|Prt1|Sg1	0	root	_	_
 3	Нярьян-Маре	Нярьян-Мар	_	N	Sg|Ill	2	obl	_	_
@@ -223,6 +239,7 @@
 
 # sent_id = missing_id_16
 # text = Девять месяцев проработайті, кокъясэ висьмисныс дзикедз, и приведитчис каны, чӧтны сіес рӧбетасэ.
+# text_rus = 
 1	Девять	Девять	_	Num	_	2	nummod	_	_
 2	месяцев	месяцев	_	N	Pl|Gen	3	obl	_	_
 3	проработайті	проработайтны	_	V	Ind|Prt1|Sg1	0	root	_	SpaceAfter=No
@@ -242,14 +259,15 @@
 
 # sent_id = missing_id_17
 # text = Вот эні гортын сизим во нин, сизимед во нин, инвалидность вылын.
+# text_rus = 
 1	Вот	вот	_	Pcle	_	2	discourse	_	_
-2	ӧні	ӧні	_	Adv	_	5	advmod	_	_
+2	эні	эні	_	Adv	_	5	advmod	_	_
 3	гортын	горт	_	N	Sg|Ine	5	obl	_	_
 4	сизим	сизим	_	Num	Card|Abs	5	nummod	_	_
 5	во	во	_	N	Abs	0	root	_	_
 6	нин	нин	_	Pcle	_	5	advmod	_	SpaceAfter=No
 7	,	,	_	CLB	_	8	punct	_	_
-8	сизимӧд	сизим	_	Det	Ord|Abs	9	nummod	_	_
+8	сизимед	сизим	_	Det	Ord|Abs	9	nummod	_	_
 9	во	во	_	N	Abs	5	conj	_	_
 10	нин	нин	_	Pcle	_	9	advmod	_	SpaceAfter=No
 11	,	,	_	CLB	_	12	punct	_	_
@@ -259,6 +277,7 @@
 
 # sent_id = missing_id_18
 # text = Второй группа инвалидность имейта. 
+# text_rus = 
 1	Второй	второй	_	A	_	2	amod	_	_
 2	группа	группа	_	N	Sg|Nom	4	obj	_	_
 3	инвалидность	инвалидность	_	N	Sg|Gen	2	nmod	_	_
@@ -877,6 +896,7 @@
 # sent_id = kpv_izva20140330-1-b-097
 # text = Ме, кӧнечнэ же, кык лун вӧлі в шоке от Тайланда, потому что, но, менэ страны Юго - Восточной Азии зэй из привлекайтныс.
 # corpus_version = f0d4b02b2cdba3ddf9e5bd1c5cd875167b4e97fc
+# text_rus = 
 1	Ме	ме	PRON	Pron	Pers|Sg1|Nom	10	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	CLB	_	3	punct	_	_
 3	конечно	конечно	ADV	Adv	_	10	discourse	_	rus
@@ -906,6 +926,7 @@
 
 # sent_id = kpv_izva20140330-1-b-176
 # text = Сыысь, гашке, оз бросайтчы в глаза, потому что уна йӧз.
+# text_rus = 
 # corpus_version = f0d4b02b2cdba3ddf9e5bd1c5cd875167b4e97fc
 1	Сыысь	сійӧ	PRON	Pron	Pers|Sg3|Ela	6	obl	_	SpaceAfter=No
 2	,	,	PUNCT	CLB	_	3	punct	_	_
@@ -924,6 +945,7 @@
 
 # sent_id = kpv_izva20140329-1-b-541
 # text = А храмыс восьса дзик быд лун с десяти до часу.
+# text_rus = 
 # corpus_version = f0d4b02b2cdba3ddf9e5bd1c5cd875167b4e97fc
 1	А	а	CCONJ	CC	_	3	cc	_	mixed
 2	храмыс	храм	NOUN	N	Sg|Nom|PxSg3	3	nsubj	_	_
@@ -939,6 +961,7 @@
 
 # sent_id = kpv_izva20140325-2-a-094
 # text = Ӧні эське с удовольствием муна кӧр дорас.
+# text_rus = 
 # corpus_version = f0d4b02b2cdba3ddf9e5bd1c5cd875167b4e97fc
 1	Ӧні	ӧні	ADV	Adv	_	5	advmod	_	_
 2	эське	эське	PART	Pcle	_	5	discourse	_	_
@@ -951,6 +974,7 @@
 
 # sent_id = kpv_izva20140330-1-b-336
 # text = ог тӧд, мен кажитче, без репетитора сыа невозможнэ.
+# text_rus = 
 # corpus_version = f0d4b02b2cdba3ddf9e5bd1c5cd875167b4e97fc
 1	Ог	оз	AUX	V	Neg|Ind|Prs|Sg1	2	aux	_	_
 2	тӧд	тӧдны	VERB	V	ConNeg	0	root	_	SpaceAfter=No
@@ -966,6 +990,7 @@
 
 # sent_id = missing_id_48
 # text = До школьного возраста ветлі родительяскед тундраын.
+# text_rus = 
 1	До	до	ADP	Pr	_	3	case	_	rus
 2	школьного	школьный	ADJ	A	Sg|Gen	3	amod	_	rus
 3	возраста	возраст	NOUN	N	Sg|Gen	4	nmod	_	rus
@@ -976,6 +1001,7 @@
 
 # sent_id = missing_id_49
 # text = Ваыс зэй ыджыд кор вӧлі, дак берегсэ жугедэді, сідз и смыло всю деревню.
+# text_rus = 
 1	Ваыс	ва	NOUN	N	Sg|Nom|PxSg3	9	csubj	_	_
 2	зэв	зэв	ADV	Adv	_	3	advmod	_	_
 3	ыджыд	ыджыд	ADJ	A	Sg|Nom	1	amod	_	_
@@ -995,6 +1021,7 @@
 
 # sent_id = missing_id_50
 # text = Менам ае пырема тридцеть седьмой годын в Ненецкий олень-совхоз.
+# text_rus = 
 1	Менам	ме	PRON	Pron	Pers|Sg1|Gen	2	nmod	_	_
 2	айӧй	ай	NOUN	N	Sg|Nom|PxSg1	3	nsubj	_	_
 3	пырӧма	пырны	VERB	V	Ind|Prt2|Sg3	0	root	_	_
@@ -1008,6 +1035,7 @@
 
 # sent_id = missing_id_51
 # text = Став вӧлэсьсэ километров четыреста будет.
+# text_rus = 
 1	Став	став	DET	Pron	Sg|Nom	2	det	_	_
 2	вӧлэсьсэ	вӧлэсь	NOUN	N	Sg|Nom|Clt	5	nsubj	_	_
 3	километров	километр	NOUN	N	Pl|Gen	5	obl	_	rus
@@ -1017,6 +1045,7 @@
 
 # sent_id = kpv_izva20140324-5dom_tradici-c.190
 # text = Сіес Генриетта Петровналы кодке звӧнитчылэма сэтысянь, и висьталэма: колэныс, для оформления спектаклей колэныс коми песняяс. 
+# text_rus = 
 1	Сійӧс	сійӧ	PRON	Pron	Pers|Sg3|Acc	5	obj	_	_
 2	Генриетта	Генриетта	NOUN	Prop	Prop|Sg|Nom	5	iobj	_	_
 3	Петровналы	Пётр	NOUN	Prop	N|Prop|Sg|Dat	2	flat	_	_
@@ -1039,6 +1068,7 @@
 
 # sent_id = kpv_izva20140329-1-b-438
 # text = Именнэ для девушек вӧлі ачыс сарафан.
+# text_rus = 
 1	Именно	именно	ADV	Adv	_	3	advmod	_	rus
 2	для	для	ADP	Pr	_	3	case	_	rus
 3	девушек	дешувка	NOUN	N	Pl|Gen	6	nmod	_	rus
@@ -1049,6 +1079,7 @@
 
 # sent_id = kpv_izva20150403-2-b.014
 # text = Ме рӧдитчи сорок первом году, девятого юля.
+# text_rus = 
 1	Ме	ме	PRON	Pron	Pers|Sg1|Nom	2	nsubj	_	_
 2	рӧдитчи	рӧдитчыны	VERB	V	Refl|Ind|Prt1|Sg1	0	root	_	_
 3	сорок	сорок	NUM	Num	Nom	4	nummod	_	rus
@@ -1061,6 +1092,7 @@
 
 # sent_id = kpv_izva20150403-2-b.021
 # text = А ае тоже рӧбитіс столярын ли слесарьын ли, но, чё-то делал. 
+# text_rus = 
 1	А	а	CCONJ	CC	_	4	cc	_	_
 2	айӧй	ай	NOUN	N	Sg|Nom|PxSg1	4	nsubj	_	_
 3	тоже	тоже	PART	Pcle	_	4	discourse	_	_
@@ -1080,6 +1112,7 @@
 
 # sent_id = kpv_izva20150403-2-b.062
 # text = Сылэн вӧлі этадз через плечо дӧраысь сумка вурема.
+# text_rus = 
 1	Сылӧн	сійӧ	PRON	Pron	Pers|Sg3|Gen	8	nsubj	_	_
 2	вӧлі	вӧвны	VERB	V	Ind|Prt1|Sg3	8	aux	_	_
 3	этадз	этадз	ADV	Adv	_	5	advmod	_	_
@@ -1092,6 +1125,7 @@
 
 # sent_id = kpv_izva20150403-2-b.114
 # text = Он, он живносьсэ сдайт, но какой-то процент там, сколько налог сетасныс мыйттэм, сіе и сдайтан.
+# text_rus = 
 1	Он	оз	VERB	V	Neg|Ind|Prs|Sg2	3	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	CLB	_	1	punct	_	_
 3	он	оз	VERB	V	Neg|Ind|Prs|Sg2	5	aux	_	_
@@ -1117,6 +1151,7 @@
 
 # sent_id = kpv_vym19570000-292_1a-Vym-1-43
 # text = У меня-то завидь петаліс-а на ваше пение.
+# text_rus = 
 1	У	у	ADP	Pr	_	2	case	_	rus
 2	меня	я	PRON	Pron	_	6	obl	_	rus|SpaceAfter=No
 3	-	-	PUNCT	CLB	_	2	goeswith	_	SpaceAfter=No
@@ -1130,6 +1165,7 @@
 
 # sent_id = missing_id_52
 # text = И менум предложитісны должность директора межпоселенческого клубного объединения.
+# text_rus = 
 1	И	и	CCONJ	CC	_	3	cc	_	mixed
 2	меным	ме	PRON	Pron	Pers|Sg1|Dat	3	iobj	_	_
 3	предложитісны	предложитны	VERB	V	Ind|Prt1|Pl3	0	root	_	mixed
@@ -1142,6 +1178,7 @@
 
 # sent_id = kpv_vym19570000-292_1a-Vym-1-06
 # text = Коркӧ давно жили да были цар гожъя.
+# text_rus = 
 1	Коркӧ	коркӧ	ADV	Adv	_	3	advmod	_	_
 2	давно	давно	ADV	Adv	_	3	advmod	_	rus
 3	жили	жить	VERB	V	Prt|Pl	0	root	_	rus
@@ -1153,6 +1190,7 @@
 
 # sent_id = kpv_vym19570000-292_1a-Vym-1-11
 # text = Однажды один-от мужик решился обмануть тайӧ царскӧй семятӧ.
+# text_rus = 
 1	Однажды	однажды	ADV	Adv	_	6	advmod	_	rus
 2	один	один	NUM	Num	Nom|Sg	5	nummod	_	rus|SpaceAfter=No
 3	-	-	PUNCT	CLB	_	2	goeswith	_	SpaceAfter=No
@@ -1187,6 +1225,7 @@
 
 # sent_id = kpv_izva19580000-083
 # text = Вот тайӧ сразу синмад тыдовтчӧ.
+# text_rus = 
 1	Вот	вот	PART	Pcle	_	5	discourse	_	rus
 2	тайӧ	тайӧ	PRON	Pron	Dem|Sg|Nom	5	nsubj	_	_
 3	сразу	сразу	ADV	Adv	_	5	advmod	_	rus
@@ -1196,6 +1235,7 @@
 
 # sent_id = kpv_izva20140404IgusevJA-b-342
 # text = Выль во бӧрас, значит, машкуритчӧны.
+# text_rus = 
 1	Выль	выл	ADJ	A	Sg|Nom	2	nmod	_	_
 2	во	во	NOUN	N	Sg|Nom	7	obl	_	_
 3	бӧрас	бӧрын	ADP	Po	Sg|Ine|PxSg3	2	case	_	SpaceAfter=No
@@ -1207,6 +1247,7 @@
 
 # sent_id = kpv_izva20140324-1-b-541
 # text = Вот сы деньга вылас сыа ньӧбис, значит, лыж комплект, да?
+# text_rus = 
 1	Вот	вот	PART	Pcle	_	6	discourse	_	rus
 2	сы	сійӧ	PRON	Pron	Pers|Sg3	3	nmod	_	_
 3	деньга	деньга	NOUN	N	Sg|Nom	6	obl	_	mixed
@@ -1237,6 +1278,7 @@
 
 # sent_id = kpv_izva20150407-4-a.0219
 # text = Сэтэн лиса вӧлі, песцы были, норки были.
+# text_rus = 
 1	Сэтӧн	сэтӧн	ADV	Adv	_	2	advmod	_	_
 2	лиса	лиса	NOUN	N	Sg|Nom	0	root	_	rus|Note=Check
 3	вӧлі	вӧвны	VERB	V	Ind|Prt1|Sg3	2	cop	_	SpaceAfter=No
@@ -1250,6 +1292,7 @@
 
 # sent_id = kpv_izva20140325-2-a-279
 # text = Считай, три раза в год пересчитывайтэны стадосэ.
+# text_rus = 
 1	Считай	считать	VERB	V	Imprt|Sg2	7	discourse	_	rus|SpaceAfter=No
 2	,	,	PUNCT	CLB	_	1	punct	_	_
 3	три	три	NUM	Num	Card|Sg|Nom	4	nummod	_	rus
@@ -1262,6 +1305,7 @@
 
 # sent_id = kpv_izva20150403-3-b.0182
 # text = Только вот сы мында и мыйке, такое детство у нас было.
+# text_rus = 
 1	Только	только	PART	Adv	_	3	advmod	_	rus
 2	вот	вот	PART	Pcle	_	9	discourse	_	rus
 3	сы	сійӧ	PRON	Pron	Pers|Sg3|Cmpl	4	nmod	_	_
@@ -1277,7 +1321,8 @@
 13	.	.	PUNCT	CLB	_	9	punct	_	_
 
 # sent_id = kpv_izva20150403-3-b.1311
-# text = Вот у меня сэтэн выйым, гашке, братан, сестренница, а ме никодэс ог тӧд. 
+# text = Вот у меня сэтэн выйым, гашке, братан, сестренница, а ме никодэс ог тӧд.
+# text_rus =  
 1	Вот	вот	PART	Pcle	_	9	discourse	_	rus
 2	у	у	ADP	Pr	_	3	case	_	rus
 3	меня	я	PRON	Pron	Pers|Sg1|Gen	9	obl	_	rus
@@ -1299,6 +1344,7 @@
 
 # sent_id = kpv_izva20150407-1-b.125
 # text = И как коми рӧдыс всегда чтоб по прозвищу знали, у нас бабушка Елена вӧлі Зӧт Дань Тимкалэн нылыс. 
+# text_rus = 
 1	И	и	_	CC	_	9	cc	_	mixed
 2	как	как	ADV	Adv	_	9	advmod	_	rus
 3	коми	коми	NOUN	N	Sg|Nom	4	nmod	_	_
@@ -1322,6 +1368,7 @@
 
 # sent_id = kpv_izva20150407-4-a.1108
 # text = Ребята ыдзыдэсь, ребята-то у меня большие.
+# text_rus = 
 1	Ребята	ребята	NOUN	N	_	2	nsubj	_	rus
 2	ыдзыдӧсь	ыджыд	ADJ	A	_	0	root	_	SpaceAfter=No
 3	,	_	PUNCT	CLB	_	2	punct	_	_
@@ -1334,11 +1381,12 @@
 10	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv_izva20140327-3-b-099
-# text = Но вӧвъяссӧ миян унаӧн видзӧны.
+# text = Но вӧӧяссэ миян унаэн видзены.
+# text_rus = 
 1	Но	но	CCONJ	CC	_	5	cc	_	mixed
-2	вӧвъяссӧ	вӧв	NOUN	N	_	5	obj	_	_
+2	вӧӧяссэ	вӧӧ	NOUN	N	_	5	obj	_	_
 3	миян	ми	PRON	Pron	_	5	obl	_	_
-4	унаӧн	уна	ADV	Adv	_	5	advmod	_	_
-5	видзӧны	видзны	VERB	V	_	0	root	_	SpaceAfter=No
+4	унаэн	уна	ADV	Adv	_	5	advmod	_	_
+5	видзены	видзны	VERB	V	_	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	5	punct	_	_
 
