@@ -24,7 +24,7 @@
 
 # sent_id = missing_id_3
 # text = Десятой класс закончитэм бӧрын, гожемъяснас, правда, быд гожем ветлі родительяс доре тундраа, десятой класс закончитэм бӧрын куим во служиті подводнэй лодка вылын, флотын.
-# text_rus = 
+# text_rus =
 1	Десятой	Десятой	_	Num	_	2	nummod	_	_
 2	класс	класс	_	N	Sg|Nom	3	obl	_	_
 3	закончитэм	закончитэм	_	V	_	12	advcl	_	_
@@ -47,7 +47,7 @@
 20	бӧрын	бӧр	_	Po	Sg|Ine	19	case	_	_
 21	куим	куим	_	Num	Card|Abs	22	nummod	_	_
 22	во	во	_	N	Sg|Nom	23	obl	_	_
-23	служиті	служитны	_	V	Ind|Prt1|Sg1	0	X	_	_
+23	служиті	служитны	_	V	Ind|Prt1|Sg1	12	ccomp	_	_
 24	подводнэй	подводнэй	_	A	_	25	amod	_	_
 25	лодка	лодка	_	N	Abs	23	obl	_	_
 26	вылын	вылын	_	Po	Sg|Ine	25	case	_	SpaceAfter=No
@@ -289,15 +289,15 @@
 # text_rus = Я родилась одиннадцатого мая в тысяча девятьсот шестьдесят втором году.
 # text_eng = I was born on the 11th of May, 1961.
 1	Ме	ме	_	Pron	Pers|Sg1|Nom	2	nsubj	_	_
-2	рӧдитчылі	рӧдитчывны	_	V	Ind|Prt1|Sg1	0	X	_	_
-3	одиннадцатого	одиннадцатого	_	A	Gen	_	x	_	_
-4	мая	мая	_	N	Sg|Gen	_	x	_	_
-5	тысяча	тысяча	_	Num	Card|Abs	_	x	_	_
-6	девятьсот	девятьсот	_	Num	_	_	x	_	_
-7	шестьдесят	шестьдесят	_	Num	_	_	x	_	_
-8	второй	второй	_	A	_	_	x	_	_
-9	год	год	_	N	Sg|Nom	2	obl	_	_
-10	вылын	вылын	_	Po	Sg|Ine	9	x	_	SpaceAfter=No
+2	рӧдитчылі	рӧдитчывны	_	V	Ind|Prt1|Sg1	0	root	_	_
+3	одиннадцатого	одиннадцатого	_	A	Gen	4	amod	_	_
+4	мая	мая	_	N	Sg|Gen	2	obl	_	_
+5	тысяча	тысяча	_	Num	Card|Abs	6	nummod	_	_
+6	девятьсот	девятьсот	_	Num	_	7	compound	_	_
+7	шестьдесят	шестьдесят	_	Num	_	8	compound	_	_
+8	второй	второй	_	A	_	4	amod	_	_
+9	год	год	_	N	Sg|Nom	4	nmod	_	_
+10	вылын	вылын	_	Po	Sg|Ine	9	case	_	SpaceAfter=No
 11	.	.	_	CLB	_	2	punct	_	_
 
 # sent_id = missing_id_20
