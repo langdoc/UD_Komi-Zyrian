@@ -292,7 +292,7 @@
 2	рӧдитчылі	рӧдитчывны	_	V	Ind|Prt1|Sg1	0	root	_	_
 3	одиннадцатого	одиннадцатого	_	A	Gen	4	amod	_	_
 4	мая	мая	_	N	Sg|Gen	2	obl	_	_
-5	тысяча	тысяча	_	Num	Card|Abs	6	nummod	_	_
+5	тысяча	тысяча	_	Num	Card|Abs	6	nummod	_	Note=Check
 6	девятьсот	девятьсот	_	Num	_	7	compound	_	_
 7	шестьдесят	шестьдесят	_	Num	_	8	compound	_	_
 8	второй	второй	_	A	_	4	amod	_	_
@@ -305,28 +305,28 @@
 # text_rus = Родилась в Ляпине, Ляпин - это старинное название, а сейчас на современном языке деревню называют Саранпауль, Березовский район в Ханты-Мансийском автономном округе.
 # text_eng = I was born in Lyapin, Lyapin is an old name, nowadays, in contemporary language the village is called Saranpaul', Berezovsky rayon, in Khanty-Mansi Autonomous Okrug.
 1	Рӧдитчылі	рӧдитчывны	_	V	Ind|Prt1|Sg1	0	root	_	_
-2	Ляпинын	Ляпин	_	N	Prop|Sg|Ine	1	X	_	SpaceAfter=No
-3	,	,	_	CLB	_	4	x	_	_
-4	Ляпиныс	Ляпин	_	N	Prop|Sg|Nom|PxSg3	0	x	_	_
-5	-	-	_	PUNCT	_	_	x	_	_
-6	сыа	сыа	_	Pron	Pers|Sg3|Nom	8	x	_	_
-7	стариннэй	стариннӧй	_	A	Abs	8	X	_	_
-8	название	название	_	N	Sg|Nom	4	x	_	SpaceAfter=No
-9	,	,	_	CLB	_	10	x	_	_
+2	Ляпинын	Ляпин	_	N	Prop|Sg|Ine	1	obl	_	SpaceAfter=No
+3	,	,	_	CLB	_	4	punct	_	_
+4	Ляпиныс	Ляпин	_	N	Prop|Sg|Nom|PxSg3	2	ccomp	_	_
+5	-	-	_	PUNCT	_	6	punct	_	_
+6	сыа	сыа	_	Pron	Pers|Sg3|Nom	8	nsubj	_	_
+7	стариннэй	стариннӧй	_	A	Abs	8	amod	_	_
+8	название	название	_	N	Sg|Nom	4	conj	_	SpaceAfter=No
+9	,	,	_	CLB	_	10	punct	_	_
 10	а	а	_	CC	_	14	mark	_	_
 11	эні	эні	_	Adv	_	14	advmod	_	_
 12	современнэй	современнэй	_	A	_	13	nmod	_	_
 13	кылэн	кы	_	N	Sg|Ins	14	obl	_	_
-14	шуэныс	шуэныс	_	V	Ind|Prs|Pl3	_	x	_	_
+14	шуэныс	шуэныс	_	V	Ind|Prs|Pl3	1	ccomp	_	_
 15	вӧлэсьсэ	вӧлэсьсэ	_	N	Sg|Acc	14	obj	_	_
 16	Саранпауль	Саранпауль	_	N	Prop|Sg|Nom	15	nmod	_	SpaceAfter=No
-17	,	,	_	CLB	_	18	x	_	_
-18	Берёзовский	Берёзовский	_	A	_	19	x	_	_
-19	район	район	_	N	Nom	22	X	_	_
-20	Ханты-Мансийскей	Ханты-Мансийскей	_	A	_	21	x	_	_
-21	автономнэй	автономнӧй	_	A	_	22	X	_	_
-22	округын	округ	_	N	Sg|Ine	0	X	_	SpaceAfter=No
-23	.	.	_	CLB	_	1	x	_	_
+17	,	,	_	CLB	_	18	punct	_	_
+18	Берёзовский	Берёзовский	_	A	_	19	amod	_	_
+19	район	район	_	N	Nom	22	nmod	_	_
+20	Ханты-Мансийскей	Ханты-Мансийскей	_	A	_	21	amod	_	_
+21	автономнэй	автономнӧй	_	A	_	22	amod	_	_
+22	округын	округ	_	N	Sg|Ine	16	nmod	_	SpaceAfter=No
+23	.	.	_	CLB	_	1	punct	_	_
 
 # sent_id = missing_id_21
 # text = Ми квайтэнэсь семьяанум.
@@ -342,34 +342,34 @@
 # text_rus = Значит, четыре сестры и два брата.
 # text_eng = So, four sisters and two brothers.
 1	Значит	значит	_	PART	Pcle	4	mark	_	SpaceAfter=No
-2	,	,	_	CLB	_	1	x	_	_
-3	нёль	нёль	_	Num	Card|Abs	4	x	_	_
-4	чой	чой	_	N	Sg|Nom	0	X	_	_
-5	и	и	_	Pcle	_	6	PCLE	_	_
-6	кык	кык	_	Num	Card|Abs	7	x	_	_
+2	,	,	_	CLB	_	1	punct	_	_
+3	нёль	нёль	_	Num	Card|Abs	4	nummod	_	_
+4	чой	чой	_	N	Sg|Nom	0	root	_	_
+5	и	и	_	Pcle	_	6	cc	_	_
+6	кык	кык	_	Num	Card|Abs	7	nummod	_	_
 7	вок	вок	_	N	Sg|Nom	4	conj	_	SpaceAfter=No
-8	.	.	_	CLB	_	_	x	_	_
+8	.	.	_	CLB	_	4	punct	_	_
 
 # sent_id = missing_id_23
 # text = Ми, ме рӧдитчылі, ае и маме, ае немсэ рӧбитэма кӧрдорын и рӧбитіс.
 # text_rus = Мы, я родилась, мои родители, мой отец всю жизнь работал в тундре.
 # text_eng = We, I was born, my parents, my father worked all his life in tundra.
-1	Ми	ми	_	Pron	Pers|Pl1|Nom	0	VOC	_	SpaceAfter=No
-2	,	,	_	CLB	_	1	x	_	_
-3	ме	ме	_	Pron	Pers|Sg1|Nom	4	SUBJ>	_	_
-4	рӧдитчылі	рӧдитчывны	_	V	Ind|Prt1|Sg1	0	X	_	SpaceAfter=No
-5	,	,	_	CLB	_	4	x	_	_
-6	ае	ай	_	N	Sg|Nom|PxSg1	3	x	_	_
-7	и	и	_	CC	_	0	X	_	_
-8	маме	мам	_	N	Sg|Nom|PxSg1	3	x	_	SpaceAfter=No
-9	,	,	_	CLB	_	8	x	_	_
-10	ае	ай	_	N	Sg|Nom|PxSg1	12	x	_	_
-11	немсэ	немсэ	_	N	Sg|Acc|PxSg3	_	x	_	_
+1	Ми	ми	_	Pron	Pers|Pl1|Nom	3	conj	_	SpaceAfter=No
+2	,	,	_	CLB	_	1	cc	_	_
+3	ме	ме	_	Pron	Pers|Sg1|Nom	4	nsubj	_	_
+4	рӧдитчылі	рӧдитчывны	_	V	Ind|Prt1|Sg1	0	root	_	SpaceAfter=No
+5	,	,	_	CLB	_	6	punct	_	_
+6	ае	ай	_	N	Sg|Nom|PxSg1	4	xcomp	_	_
+7	и	и	_	CC	_	8	cc	_	_
+8	маме	мам	_	N	Sg|Nom|PxSg1	6	conj	_	SpaceAfter=No
+9	,	,	_	CLB	_	10	punct	_	_
+10	ае	ай	_	N	Sg|Nom|PxSg1	6	conj	_	_
+11	немсэ	немсэ	ADV	N	Sg|Acc|PxSg3	12	advmod	_	_
 12	рӧбитэма	рӧбитны	_	V	Ind|Prt2|Sg3	0	X	_	_
-13	кӧрдорын	кӧрдорын	_	N	Sg|Ine	12	x	_	_
-14	и	и	_	Pcle	_	15	PCLE	_	_
-15	рӧбитіс	рӧбитны	_	V	Ind|Prt1|Sg3	0	X	_	SpaceAfter=No
-16	.	.	_	CLB	_	1	x	_	_
+13	кӧрдорын	кӧрдорын	_	N	Sg|Ine	12	obl	_	_
+14	и	и	_	Pcle	_	15	discourse	_	_
+15	рӧбитіс	рӧбитны	_	V	Ind|Prt1|Sg3	12	conj	_	SpaceAfter=No
+16	.	.	_	CLB	_	4	punct	_	_
 
 # sent_id = missing_id_24
 # text = Эсся, значит, сыа вӧйна вылэ зэй водз сюрліс, дас сизим, дас кӧкъямыс аресэн только, только волэма.
