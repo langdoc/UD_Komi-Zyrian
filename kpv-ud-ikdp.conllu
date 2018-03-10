@@ -1,4 +1,4 @@
-# sent_id = 
+# sent_id = missing_id_1
 # text = Рӧдитчи ме шейсят четвёртэй годын октяб тӧлысе тундраын.
 1	Рӧдитчи	рӧдитчыны	_	V	Ind|Prt1|Sg1	0	root	_	_
 2	ме	ме	_	Pron	Pers|Sg1|Nom	1	nsubj	_	_
@@ -10,7 +10,7 @@
 8	тундраын	тундра	_	N	Sg|Ine	1	obl	_	SpaceAfter=No
 9	.	.	_	CLB	_	1	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_2
 # text = Сэсся велэдчи, быдтіс баб миянумес. 
 1	Сэсся	сэсся	_	Adv	_	2	advmod	_	_
 2	велӧдчи	велӧдчыны	_	V	Refl|Ind|Prt1|Sg1	0	root	_	SpaceAfter=No
@@ -20,7 +20,7 @@
 6	миянӧс	ми	_	Pron	Pers|Pl1|Acc	4	obj	_	SpaceAfter=No
 7	.	.	_	CLB	_	2	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_3
 # text = Десятой класс закончитэм бӧрын, гожемъяснас, правда, быд гожем ветлі родительяс доре тундраа, десятой класс закончитэм бӧрын куим во служиті подводнэй лодка вылын, флотын.
 1	Десятой	Десятой	_	Num	_	2	nummod	_	_
 2	класс	класс	_	N	Sg|Nom	3	obl	_	_
@@ -52,7 +52,7 @@
 28	флотын	флот	_	N	Sg|Ine	25	conj	_	SpaceAfter=No
 29	.	.	_	CLB	_	12	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_3
 # text = Сы бӧрын устроитчи рӧбитны, локті ас сиктэ да.
 1	Сы	сійӧ	_	Pron	Pers|Sg3|Cmpl	3	advmod	_	_
 2	бӧрын	бӧр	_	Po	Sg|Ine	1	case	_	_
@@ -65,7 +65,7 @@
 9	да	да	_	Pcle	_	8	discourse	_	SpaceAfter=No
 10	.	.	_	CLB	_	3	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_4
 # text = Телевидение, ой, телевышка, телестанция вылын рӧбиті кык во.
 1	Телевидение	телевидение	_	N	Sg|Nom	7	conj	_	SpaceAfter=No
 2	,	,	_	CLB	_	3	punct	_	_
@@ -80,7 +80,7 @@
 11	во	во	_	N	Sg|Nom	9	obl	_	SpaceAfter=No
 12	.	.	_	CLB	_	9	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_5
 # text = Сэсся кувсис менам мам.
 1	Сэсся	сэсся	_	Adv	_	2	advmod	_	_
 2	кувсис	кувсьыны	_	V	Refl|Ind|Prt1|Sg3	0	root	_	_
@@ -88,18 +88,18 @@
 4	мам	мам	_	N	Sg|Nom	2	nsubj	_	SpaceAfter=No
 5	.	.	_	CLB	_	2	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_6
 # text = И ме петі тундраа ортсасьны аелы.
 # text_eng = And I went to help my father at the tundra.
 1	И	и	_	CC	_	3	mark	_	_
 2	ме	ме	_	Pron	Pers|Sg1|Nom	3	nsubj	_	_
 3	петі	петны	_	V	Ind|Prt1|Sg1	0	root	_	_
-4	тундраӧ	тундра	_	N	Sg|Ill	3	obl	_	_
-5	отсасьны	отсасьны	_	V	Refl|Inf	3	xcomp	_	_
+4	тундраа	тундра	_	N	Sg|Ill	3	obl	_	_
+5	ортсасьны	ортсасьны	_	V	Refl|Inf	3	xcomp	_	_
 6	аелы	ай	_	N	Sg|Dat|PxSg1	5	obl	_	SpaceAfter=No
 7	.	.	_	CLB	_	3	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_7
 # text = Тундраын ветлі сизим во, керка кари аслум вокъяскед, дядьяскед.
 1	Тундраын	тундра	_	N	Sg|Ine	2	obl	_	_
 2	ветлі	ветлыны	_	V	Ind|Prt1|Sg1	0	root	_	_
@@ -114,7 +114,7 @@
 11	дядьяскед	дядь	_	N	Pl|Com	9	conj	_	SpaceAfter=No
 12	.	.	_	CLB	_	2	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_8
 # text = Супругаа, кудз висьтооны, абу оленевод да, приведитчис кольччыны.
 1	Супругаа	супруга	_	N	_	7	nsubj	_	SpaceAfter=No
 2	,	,	_	CLB	_	3	punct	_	_
@@ -129,7 +129,7 @@
 11	кольччыны	кольччыны	_	V	Refl|Inf	10	xcomp	_	SpaceAfter=No
 12	.	.	_	CLB	_	7	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_9
 # text = Воліс же тундраас, но из, абу понравитчема, оз вермы сыа сэтшем условиеясас.
 1	Воліс	волыны	_	V	Ind|Prt1|Sg3	0	root	_	_
 2	жӧ	жӧ	_	Pcle	_	1	discourse	_	_
@@ -148,14 +148,14 @@
 15	условиеясас	условие	_	N	Pl|Ill|PxSg3	12	obl	_	SpaceAfter=No
 16	.	.	_	CLB	_	1	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_10
 # text = Гожемъясын волыыліс челядькед.
 1	Гожӧмъясын	гожӧм	_	N	Pl|Ine	2	obl	_	_
 2	волывліс	волывлыны	_	V	Ind|Prt1|Sg3	0	root	_	_
 3	челядькед	челядь	_	N	Sg|Com	2	obl	_	SpaceAfter=No
 4	.	.	_	CLB	_	2	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_11
 # text = Рӧбиті стрӧительствоын нёль во.
 1	Рӧбиті	рӧбитны	_	V	Ind|Prt1|Sg1	0	root	_	_
 2	стрӧительствоын	стрӧительство	_	N	Sg|Ine	1	obl	_	_
@@ -163,7 +163,7 @@
 4	во	во	_	N	Sg|Nom	1	nmod	_	SpaceAfter=No
 5	.	.	_	CLB	_	1	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_12
 # text = Керкаяс стрӧитім, гаражъяс, баняяс.
 1	Керкаяс	керка	_	N	Pl|Acc	2	obj	_	_
 2	стрӧитім	стрӧитны	_	V	Ind|Prt1|Pl1	0	root	_	SpaceAfter=No
@@ -173,7 +173,7 @@
 6	баняяс	баня	_	N	Pl|Acc	1	conj	_	SpaceAfter=No
 7	.	.	_	CLB	_	2	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_13
 # text = Кочегариті, окмыс во, навернэ, кочегариті.
 1	Кочегариті	кочегаритны	_	V	Ind|Prt1|Sg1	0	root	_	SpaceAfter=No
 2	,	,	_	CLB	_	3	punct	_	_
@@ -185,7 +185,7 @@
 8	кочегариті	кочегаритны	_	V	Ind|Prt1|Sg1	1	conj	_	SpaceAfter=No
 9	.	.	_	CLB	_	1	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_14
 # text = А эні нин сизим во кудз висены кокъясэ и ог вермы ветлыны, веське с удовольствием пета тундраа, но…
 1	А	а	_	Pcle	_	2	mark	_	_
 2	ӧні	ӧні	_	Adv	_	7	advmod	_	_
@@ -209,7 +209,7 @@
 20	но	но	_	Interj	_	7	discourse	_	SpaceAfter=No
 21	…	…	_	CLB	_	7	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_15
 # text = Медбӧрын лэччылі Нярьян-Маре тоже оленеводствоо, Нарьян-Марскей ОПХ-а.
 1	Медбӧрын	медбӧрын	_	Adv	Ine	2	advmod	_	_
 2	лэччылі	лэччывны	_	V	Ind|Prt1|Sg1	0	root	_	_
@@ -221,7 +221,7 @@
 8	ОПХ-а	ОПХ	_	N	Ill	5	conj	_	SpaceAfter=No
 9	.	.	_	CLB	_	2	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_16
 # text = Девять месяцев проработайті, кокъясэ висьмисныс дзикедз, и приведитчис каны, чӧтны сіес рӧбетасэ.
 1	Девять	Девять	_	Num	_	2	nummod	_	_
 2	месяцев	месяцев	_	N	Pl|Gen	3	obl	_	_
@@ -240,7 +240,7 @@
 15	рӧбетасӧ	рӧбетасӧ	_	N	Acc|PxSg3	13	obj	_	SpaceAfter=No
 16	.	.	_	CLB	_	3	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_17
 # text = Вот эні гортын сизим во нин, сизимед во нин, инвалидность вылын.
 1	Вот	вот	_	Pcle	_	2	discourse	_	_
 2	ӧні	ӧні	_	Adv	_	5	advmod	_	_
@@ -257,7 +257,7 @@
 13	вылын	вылын	_	Po	Sg|Ine	12	case	_	SpaceAfter=No
 14	.	.	_	CLB	_	5	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_18
 # text = Второй группа инвалидность имейта. 
 1	Второй	второй	_	A	_	2	amod	_	_
 2	группа	группа	_	N	Sg|Nom	4	obj	_	_
@@ -265,7 +265,7 @@
 4	имейта	имейта	_	V	Ind|Prs|Sg1	0	root	_	SpaceAfter=No
 5	.	.	_	CLB	_	4	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_19
 # text = Ме рӧдитчылі одиннадцатого мая тысяча девятьсот шестьдесят второй год вылын.
 # text_rus = Я родилась одиннадцатого мая в тысяча девятьсот шестьдесят втором году.
 # text_eng = I was born on the 11th of May, 1961.
@@ -281,7 +281,7 @@
 10	вылын	вылын	_	Po	Sg|Ine	9	x	_	SpaceAfter=No
 11	.	.	_	CLB	_	2	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_20
 # text = Рӧдитчылі Ляпинын, Ляпиныс - сыа стариннэй название, а эні современнэй кылэн шуэныс вӧлэсьсэ Саранпауль, Берёзовский район Ханты-Мансийскей автономнэй округын.
 # text_rus = Родилась в Ляпине, Ляпин - это старинное название, а сейчас на современном языке деревню называют Саранпауль, Березовский район в Ханты-Мансийском автономном округе.
 # text_eng = I was born in Lyapin, Lyapin is an old name, nowadays, in contemporary language the village is called Saranpaul', Berezovsky rayon, in Khanty-Mansi Autonomous Okrug.
@@ -309,7 +309,7 @@
 22	округын	округ	_	N	Sg|Ine	0	X	_	SpaceAfter=No
 23	.	.	_	CLB	_	1	x	_	_
 
-# sent_id = 
+# sent_id = missing_id_21
 # text = Ми квайтэнэсь семьяанум.
 # text_rus = Нас в семье шестеро.
 # text_eng = We were 6 children in my family.
@@ -318,7 +318,7 @@
 3	семьяанум	семьяанум	_	N	Sg|Nom|PxPl1	0	root	_	SpaceAfter=No
 4	.	.	_	CLB	_	3	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_22
 # text = Значит, нёль чой и кык вок.
 # text_rus = Значит, четыре сестры и два брата.
 # text_eng = So, four sisters and two brothers.
@@ -331,7 +331,7 @@
 7	вок	вок	_	N	Sg|Nom	4	conj	_	SpaceAfter=No
 8	.	.	_	CLB	_	_	x	_	_
 
-# sent_id = 
+# sent_id = missing_id_23
 # text = Ми, ме рӧдитчылі, ае и маме, ае немсэ рӧбитэма кӧрдорын и рӧбитіс.
 # text_rus = Мы, я родилась, мои родители, мой отец всю жизнь работал в тундре.
 # text_eng = We, I was born, my parents, my father worked all his life in tundra.
@@ -352,7 +352,7 @@
 15	рӧбитіс	рӧбитны	_	V	Ind|Prt1|Sg3	0	X	_	SpaceAfter=No
 16	.	.	_	CLB	_	1	x	_	_
 
-# sent_id = 
+# sent_id = missing_id_24
 # text = Эсся, значит, сыа вӧйна вылэ зэй водз сюрліс, дас сизим, дас кӧкъямыс аресэн только, только волэма.
 # text_rus = Затем, значит, он был на войне очень молодым, ему было только семнадцать, восемнадцать лет.
 # text_eng = Then, so, at the war time he was very young, he was only 17, 18-year-old.
@@ -379,7 +379,7 @@
 21	волэма	волыны	_	V	Ind|Prt2|Sg3	0	X	_	SpaceAfter=No
 22	.	.	_	CLB	_	10	x	_	_
 
-# sent_id = 
+# sent_id = missing_id_25
 # text = Армияа колэма мунны, значит, воома повесткаыс, сыа сорок первей год вылэ, а двадцать третьей год выыса ае, значит, а и вӧйнаыс суома, и ае мунэма вӧйна вылэ.
 # text_rus = Надо было идти в армию, значит, пришла повестка на сорок первый год, а отец двадцать третьего года рождения, значит, и война началась (букв. застала), и мой отец пошел на войну.
 # text_eng = It was necessary to go to army, he received a summons in 1941, and he was born in 23 (1923), so, and the war started, and my father went to war.
@@ -419,7 +419,7 @@
 34	вылэ	выв	_	Po	Sg|Ill	33	case	_	SpaceAfter=No
 35	.	.	_	CLB	_	2	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_26
 # text = Омскейын, значит, военнэй училище, не вӧеннэй училище, а курсъяс, подготовка куим месеча прӧйдитэма, и вӧюйтіс сыа Ленинградскей фронт вылын.
 # text_rus = Значит, в Омском военном училище, не военное училище, а курсы, трехмесячную подгодтовку прошел, и воевал он на Ленинградском фронте.
 # text_eng = So, in Omsk military college, not military college, but courses, he had three-month training, and he fought at the Leningrad front.
@@ -450,7 +450,7 @@
 25	вылын	вылын	_	Po	Sg|Ine	24	case	_	SpaceAfter=No
 26	.	.	_	CLB	_	18	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_27
 # text = Рӧдитчи ме вӧрзялыгдырйи.
 # text_rus = Я родилась во время начала каслания.
 # text_eng = 
@@ -459,7 +459,7 @@
 3	вӧрзялыгдырйи	вӧрзялыгдырйи	_	V	Ger	1	advmod	_	SpaceAfter=No
 4	.	.	_	CLB	_	1	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_28
 # text = Кор миян ае-маме вӧрзисныс, но, стадыс миян, колхоз "Красный Октябрь", да?
 # text_rus = Когда наши родители начали каслать, ну стадо у нас (было) в колхозе "Красный Октябрь", да?
 # text_eng = 
@@ -480,7 +480,7 @@
 15	да	да	_	Pcle	_	11	discourse	_	SpaceAfter=No
 16	?	?	_	CLB	_	4	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_29
 # text = Вто-, вторая бригада оленеводческая, висьтооны ке, мӧдэд бригада, да?
 # text_rus = Вторая оленеводческая бригада, если сказать, вторая бригада, да?
 # text_eng = 
@@ -499,7 +499,7 @@
 13	да	да	_	CS	_	11	discourse	_	SpaceAfter=No
 14	?	?	_	CLB	_	4	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_30
 # text = И этія, миян ӧттӧрйи вӧрзялісныс Из сае.
 # text_rus = И это, у нас всегда каслали за Урал.
 # text_eng = 
@@ -513,7 +513,7 @@
 8	сае	сай	_	N	Relat|Sg|Ill	7	case	_	SpaceAfter=No
 9	.	.	_	CLB	_	6	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_31
 # text = И ӧні бара же мӧдісныс вӧрзёоны.
 # text_rus = И сейчас тоже начали каслать.
 # text_eng = 
@@ -525,7 +525,7 @@
 6	вӧрзёоны	вӧрзёоны	_	V	Inf	5	xcomp	_	SpaceAfter=No
 7	.	.	_	CLB	_	5	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_32
 # text = Но маме как раз тыра вӧліс, думайтэныс, гашке, вӧрзям да и, ничего, бур лоо ставыс да.
 # text_rus = Ну, мама как раз беременная была, думают, может, начнем каслать и ничего, всё будет хорошо.
 # text_eng = 
@@ -552,7 +552,7 @@
 21	да	да	_	CS	_	20	discourse	_	SpaceAfter=No
 22	.	.	_	CLB	_	5	x	_	_
 
-# sent_id = 
+# sent_id = missing_id_33
 # text = Ну, только вӧрземаась, и пурга воссема.
 # text_rus = Ну, только начали каслать, и пурга началась.
 # text_eng = 
@@ -566,7 +566,7 @@
 8	воссема	воссьыны	_	V	Refl|Ind|Prt2|Sg3	4	ccomp	_	SpaceAfter=No
 9	.	.	_	CLB	_	4	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_34
 # text = Пургамема, и бӧр косісны чом местэас, важ чом местэас косісныс.
 # text_rus = Запуржило, и они обратно вернулись на место чума, возвратились на место старого чума.
 # text_eng = 
@@ -584,7 +584,7 @@
 12	косісныс	косісныс	_	V	Ind|Prt1|Pl3	5	conj	_	SpaceAfter=No
 13	.	.	_	CLB	_	1	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_35
 # text = И сэк и ме сэн самей и рӧдитти.
 # text_rus = И тогда и я именно там и родилась.
 # text_eng = 
@@ -598,7 +598,7 @@
 8	рӧдитти	рӧдитти	_	V	Ind|Prt1|Sg1	_	x	_	SpaceAfter=No
 9	.	.	_	CLB	_	8	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_36
 # text = Вот и висьтоола тай, но, кодке висьт-, Микул вок корке тай висьталэма: патриотка.
 # text_rus = Вот и говорю, ну, кто-то ска-, вот когда-то брат Николай сказал было: патриотка.
 # text_eng = 
@@ -621,7 +621,7 @@
 17	патриотка	патриотка	_	_	_	15	appos	_	SpaceAfter=No
 18	.	.	_	CLB	_	3	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_37
 # text = Ас, мыйке, ас муас рӧдиттьыны мӧдэма, абу мӧдэма, оз, абу мӧдэма тытэн, Из сайын рӧдиттьынысэ.
 # text_rus = На своей, это, на своей земле хотела родиться, не хотела, не хотела там, за Уралом родиться.
 # text_eng = 
@@ -648,7 +648,7 @@
 21	рӧдиттьынысэ	рӧдиттьынысэ	_	_	_	8	ccomp	_	SpaceAfter=No
 22	.	.	_	CLB	_	8	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_38
 # text = Так что, никучем иностраннэй местаясэ ог ветлоо.
 # text_rus = Так что, в никакие иностранные места не езжу.
 # text_eng = 
@@ -662,7 +662,7 @@
 8	ветлоо	ветлоо	_	V	ConNeg	_	x	_	SpaceAfter=No
 9	.	.	_	CLB	_	8	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_39
 # text = Из сае токо ветлала, потому что мӧд, мӧдэд луныс, да, менам сэн нин воссис нин.
 # text_rus = Только езжу за Урал, потому что второй день, да, мой уже там начался.
 # text_eng = 
@@ -687,7 +687,7 @@
 19	нин	нин	_	N	Sg|Nom	18	advmod	_	SpaceAfter=No
 20	.	.	_	CLB	_	4	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_40
 # text = Ну, палялі ас местэам, а мӧд луннас ми уже, абу мӧд луннас-а, сы луннас же вот, тытэн нин вӧлі.
 # text_rus = Ну, я проснулась на своем месте, а на следующий день мы уже, не на второй день, в тот же день вот, уже там была.
 # text_eng = 
@@ -717,7 +717,7 @@
 24	вӧлі	вӧвны	_	V	Ind|Prt1|Sg3	0	X	_	SpaceAfter=No
 25	.	.	_	CLB	_	20	_	_	_
 
-# sent_id = 
+# sent_id = missing_id_41
 # text = Из сайын сыа, так что, меам Салехард местэыс тоже рӧднэй рӧдина койд.
 # text_rus = Это на Уралом, так что, мне места возле Салехарда тоже как родная родина.
 # text_eng = 
@@ -737,7 +737,7 @@
 14	койд	койд	_	_	_	_	x	_	SpaceAfter=No
 15	.	.	_	CLB	_	_	x	_	_
 
-# sent_id = 
+# sent_id = missing_id_42
 # text = Ну, кучем пӧрысь бабушка сэн лоас, сыа и лоас.
 # text_rus = Ну, какая старая бабушка там будет, она и будет (повивальной бабкой).
 # text_eng = 
@@ -754,7 +754,7 @@
 11	лоас	лоны	_	V	Ind|Fut|Sg3	9	cop	_	SpaceAfter=No
 12	.	.	_	CLB	_	5	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_43
 # text = Маме вед сэчем же гӧг баб вӧліс: сыа зэй уна мыйке, челядь босьтіс, примитіс.
 # text_rus = Моя мама тоже такой повивальной бабкой была: она ведь очень много это, детей взяла, приняла.
 # text_eng = 
@@ -777,7 +777,7 @@
 17	примитіс	примитны	_	V	Ind|Prt1|Sg3	0	X	_	SpaceAfter=No
 18	.	.	_	CLB	_	6	x	_	_
 
-# sent_id = 
+# sent_id = missing_id_44
 # text = Пока лёк из ло, но, пока, не то что лёк-а.
 # text_rus = Пока не стала плохой, ну, пока, не то что плохой.
 # text_eng = 
@@ -796,7 +796,7 @@
 13	лёк-а	лёк	_	A	Sg|Nom|Clt|Clt/а	2	conj	_	SpaceAfter=No
 14	.	.	_	CLB	_	2	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_45
 # text = Пока из вермы, пока вермис.
 # text_rus = Пока не стала мочь, пока могла.
 # text_eng = 
@@ -808,7 +808,7 @@
 6	вермис	вермыны	_	V	Ind|Prt1|Sg3	3	X	_	SpaceAfter=No
 7	.	.	_	CLB	_	3	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_46
 # text = Примитіс сэн, босьтіс, мукедыс роч кыы да мыйке-майда.
 # text_rus = Принимала там, брала, некоторые русские да что.
 # text_eng = 
@@ -824,7 +824,7 @@
 10	мыйке-майда	мыйке-майда	_	_	_	_	_	_	SpaceAfter=No
 11	.	.	_	CLB	_	7	_	_	_
 
-# sent_id = 
+# sent_id = missing_id_47
 # text = И сыа ачыс ветліс, эта, бабаясыс доре или сы доре ваедісны, медланнэ примитіс челядьсэ?
 # text_rus = И она сама ходила, это, к женщинам или к ней приводили, чтобы она приняла ребенка?
 # text_eng = 
@@ -847,7 +847,7 @@
 17	челядьсэ	челядь	_	N	Sg|Acc|PxSg3	16	obj	_	SpaceAfter=No
 18	?	?	_	CLB	_	4	punct	_	_
 
-# sent_id = 
+# sent_id = missing_id_48
 # text = Но, сыа вед няпойнэй чом, да, сыа походнэй чом вӧліс, только-только пуктыны и мӧдасы воедны, да.
 # text_rus = Ну, это ведь няпойный чум, да, это был походный чум, только-только поставить и завтра побежать, да.
 # text_eng = 
@@ -964,7 +964,7 @@
 10	невозможнэ	невозможнэ	ADV	Adv	_	5	acl	_	rus|SpaceAfter=No
 11	.	.	PUNCT	CLB	punct	2	punct	_	_
 
-# sent_id = izva_4
+# sent_id = missing_id_48
 # text = До школьного возраста ветлі родительяскед тундраын.
 1	До	до	ADP	Pr	_	3	case	_	rus
 2	школьного	школьный	ADJ	A	Sg|Gen	3	amod	_	rus
@@ -974,7 +974,7 @@
 6	тундраын	тундра	NOUN	N	Sg|Ine	4	obl	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	4	punct	_	_
 
-# sent_id = izva_3
+# sent_id = missing_id_49
 # text = Ваыс зэй ыджыд кор вӧлі, дак берегсэ жугедэді, сідз и смыло всю деревню.
 1	Ваыс	ва	NOUN	N	Sg|Nom|PxSg3	9	csubj	_	_
 2	зэв	зэв	ADV	Adv	_	3	advmod	_	_
@@ -993,7 +993,7 @@
 15	деревню	деревня	NOUN	N	Sg|Acc	13	obj	_	rus|SpaceAfter=No
 16	.	.	PUNCT	CLB	_	15	punct	_	_
 
-# sent_id = izva_1
+# sent_id = missing_id_50
 # text = Менам ае пырема тридцеть седьмой годын в Ненецкий олень-совхоз.
 1	Менам	ме	PRON	Pron	Pers|Sg1|Gen	2	nmod	_	_
 2	айӧй	ай	NOUN	N	Sg|Nom|PxSg1	3	nsubj	_	_
@@ -1006,7 +1006,7 @@
 9	олень-совхоз	олень-совхоз	NOUN	N	Sg|Nom	3	obl	_	rus|SpaceAfter=No
 10	.	.	PUNCT	CLB	_	3	punct	_	_
 
-# sent_id = izva_2
+# sent_id = missing_id_51
 # text = Став вӧлэсьсэ километров четыреста будет.
 1	Став	став	DET	Pron	Sg|Nom	2	det	_	_
 2	вӧлэсьсэ	вӧлэсь	NOUN	N	Sg|Nom|Clt	5	nsubj	_	_
@@ -1128,7 +1128,7 @@
 9	пение	пение	NOUN	N	_	6	obl	_	rus|SpaceAfter=No
 10	.	.	PUNCT	CLB	_	6	punct	_	_
 
-# sent_id = izva_new
+# sent_id = missing_id_52
 # text = И менум предложитісны должность директора межпоселенческого клубного объединения.
 1	И	и	CCONJ	CC	_	3	cc	_	mixed
 2	меным	ме	PRON	Pron	Pers|Sg1|Dat	3	iobj	_	_
