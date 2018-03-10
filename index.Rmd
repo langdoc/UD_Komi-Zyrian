@@ -1,0 +1,105 @@
+---
+title: "Komi-Zyrian UD corpus"
+author: Niko Partanen
+editor_options: 
+  chunk_output_type: console
+output:
+  html_document:
+    includes:
+      after_body: docs/after_body.html
+      in_header: docs/header.html
+    lib_dir: docs/lib
+    self_contained: no
+    toc: true
+    toc_float: true
+knit: (function(inputFile, encoding) { 
+      out_dir <- 'docs';
+      rmarkdown::render(inputFile,
+                        encoding=encoding, 
+                        output_file=file.path(dirname(inputFile), out_dir, 'index.html')) })
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+This is a HTML display into the trees annotated within upcoming Universal Dependencies Komi-Zyrian corpus. Actually there are too corpus, one based on written Komi materials that are in Public Domain, and another that is based on spoken language data from [IKDP project](https://langdoc.github.io/IKDP-2/). The work has been coordinated by Niko Partanen in LATTICE laboratory, but there have been several participants. The work connects closely to multilingual dependency parsing approach currently being developed in LATTICE. In case there are comments of questions, please contact Niko Partanen (nikotapiopartanen@gmail.com).
+
+The project goals and participants are better described in project's [README](https://github.com/langdoc/UD_Komi-Zyrian).
+
+
+```{r, results='asis', echo=FALSE, warning=FALSE}
+suppressPackageStartupMessages(library(tidyverse))
+library(purrr)
+library(purrrlyr)
+```
+
+## Lattice
+
+```{r, echo=FALSE}
+read_conllu <- function(conll_file = 'UD_North_Sami/sme-ud-test.conllu'){
+  
+  `%>%` <- dplyr::`%>%`
+  
+  conll_lines <- readr::read_file(conll_file)
+  
+  conll_lines %>% str_split("\n\n") %>%
+    map(~ str_split(.x, "\n")) %>%
+    .[[1]] %>%
+    map2(.y = 1:length(.), ~ tibble(sent_id = .x[str_detect(.x, "^# sent_id =")],
+                                    text = .x[str_detect(.x, "^# text =")],
+                                    text_rus = .x[str_detect(.x, "^# text_rus =")],
+                                    conllu = .x[str_detect(.x, "^\\d")],
+                                    uniq_id = .y)) %>%
+    bind_rows %>%
+    separate(col = conllu, into = c('form_id', 'form', 'lemma', 'upostag', 'xpostag', 'feats', 'head', 'deprel', 'deps', 'misc'), sep = "\t")
+  
+}
+
+as_conllu_div <- function(data){
+
+  data <- data %>%
+    group_by(sent_id) %>%
+    mutate(numbering = 1:n()) %>%
+    ungroup()
+
+  by_row(data, ~ paste0(.x$numbering, '\t', .x$form, '\t', .x$lemma, '\t', .x$upostag, '\t', .x$xpostag, '\t', '_', '\t', .x$head, '\t', .x$deprel, "\t_\t_", sep = '\n')) %>% 
+    .$.out %>% 
+    unlist %>% 
+    paste0(collapse = '') %>%
+    paste0(., "\n") %>%
+    map(~ shiny::div(shiny::div(class="conllu-parse", tabs="yes", .x), shiny::p(data$text_rus[1]))) %>%
+    .[[1]]
+
+}
+```
+
+
+```{r, results='asis', echo=FALSE}
+lattice <- read_conllu(conll_file = 'kpv-ud-lattice.conllu')
+
+lattice %>% 
+  distinct(sent_id) %>% 
+  pull(sent_id) %>%
+  map(~ lattice %>% filter(sent_id == .x) %>%
+        as_conllu_div()) %>%
+  shiny::div()
+
+```
+
+## IKDP
+
+```{r, results='asis', echo=FALSE}
+ikdp <- read_conllu('kpv-ud-ikdp.conllu')
+
+ikdp %>% 
+  distinct(sent_id) %>% 
+  pull(sent_id) %>%
+  map(~ ikdp %>% filter(sent_id == .x) %>%
+        as_conllu_div()) %>%
+  shiny::div()
+
+```
+
