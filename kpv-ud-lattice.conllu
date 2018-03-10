@@ -1982,8 +1982,9 @@
 7	чышкысьӧны	чышкысьны	VERB	V	Refl|Ind|Prs|Pl3	0	root	_	SpaceAfter=No
 8	?	?	PUNCT	CLB	_	7	punct	_	_
 
-# Доктор ордӧ воӧмаӧсь кык ичӧтик ныв .
+# text = Доктор ордӧ воӧмаӧсь кык ичӧтик ныв .
 # sent_id = new_7
+# text_rus = 
 1	Доктор	доктор	NOUN	N	Sg|Nom	3	obl	_	_
 2	ордӧ	ордӧ	ADP	Po	Spat|Sg|Ill	1	case	_	_
 3	воӧмаӧсь	воны	VERB	V	IV|Ind|Prt2|Pl3	0	root	_	_
@@ -1992,8 +1993,9 @@
 6	ныв	ныв	NOUN	N	Sg|Nom	3	nsubj	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	3	punct	_	_
 
-# Аскинас сійӧ шуис Машалы, тэ пӧ этша вира .
+# text = Аскинас сійӧ шуис Машалы, тэ пӧ этша вира .
 # sent_id = new_8
+# text_rus = 
 1	Аскинас	аскинас	ADV	Adv	_	3	advmod	_	_
 2	сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	3	nsubj	_	_
 3	шуис	шуны	VERB	V	Ind|Prt1|Sg3	0	root	_	_

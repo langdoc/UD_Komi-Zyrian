@@ -1205,6 +1205,7 @@
 
 # sent_id = kpv_vym19570000-292_1a-Vym-1-25+kpv_vym19570000-292_1a-Vym-1-26
 # text = Сесся мужик-от зашол мӧд комнатаас, а там у царичи доцка-то была.
+# text_rus = 
 1	Сэсся	сэсся	ADV	Adv	_	5	advmod	_	_
 2	мужик	мужик	NOUN	N	Sg|Nom	5	nsubj	_	rus|SpaceAfter=No
 3	-	-	PUNCT	PUNCT	_	2	goeswith	_	SpaceAfter=No
@@ -1265,6 +1266,7 @@
 
 # sent_id = kpv_izva19580000-145
 # text = Вот татшӧм половозрастнӧй разделенньӧ миян выйым коми кыв кузя.
+# text_rus = 
 1	Вот	вот	PART	Pcle	_	5	discourse	_	rus
 2	татшӧм	татшӧм	ADJ	A	Sg|Nom	4	det	_	_
 3	половозрастнӧй	половозрастнӧй	ADJ	A	Sg|Nom	4	amod	_	mixed
