@@ -819,7 +819,7 @@
 11	тэрыба	тэрыба	ADV	Adv	_	12	advmod	_	_
 12	кайи	кайны	VERB	V	Ind|Prt1|Sg3	5	conj	_	_
 13	паччӧр	паччӧр	NOUN	N	Sg|Nom	12	obl	_	_
-14	вылӧ	вылын	ADP	Po	Sg|Ill	13	case	_	_
+14	вылӧ	выв	ADP	Po	Sg|Ill	13	case	_	_
 15	шонтысьыштны	шонтысьыштны	VERB	V	Inf	12	xcomp	_	SpaceAfter=No
 16	,	,	PUNCT	CLB	_	17	punct	_	_
 17	став	став	PRON	Pron	Qnt	18	det	_	_
@@ -1011,7 +1011,7 @@
 17	дырйи	дырйи	_	Po	_	16	case	_	_
 18	сійӧ	сійӧ	_	Pron	Pers|Sg3|Nom	19	nsubj	_	_
 19	петас	петны	_	V	Ind|Fut|Sg3	_	_	_	_
-20	аслас	ас	_	Pron	Refl|Sg3|Gen	21	nmod	_	_
+20	аслас	ас	_	A	Refl|Sg3|Gen	21	amod	_	_
 21	вӧв	вӧв	_	N	Sg|Nom	19	obl	_	_
 22	вылын	вылын	_	Po	Spat|Sg|Ine	21	case	_	_
 23	Московскӧй	московскӧй	_	A	_	24	amod	_	_
@@ -1030,7 +1030,7 @@
 3	кӧть	кӧть	_	Pcle	_	5	discourse	_	_
 4	медся	медся	_	Adv	AdA	5	advmod	_	_
 5	главнӧйтор	главнӧйтор	_	N	Sg|Nom	2	obj	_	_
-6	йывсьыс	йыв	_	Po	Sg|Ela|PxSg3	5	case	_	SpaceAfter=No
+6	йывсьыс	йывсьыс	_	Po	Sg|Ela|PxSg3	5	case	_	SpaceAfter=No
 7	,	,	_	CLB	_	8	punct	_	_
 8	мый	мый	_	CONJ	_	9	advmod	_	_
 9	лолывліс	лолывлыны	_	V	Ind|Prt1|Sg3	5	acl	_	_
