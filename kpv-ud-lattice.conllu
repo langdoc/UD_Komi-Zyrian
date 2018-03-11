@@ -1325,7 +1325,7 @@
 5	известнӧ	известнӧ	_	N	Sg|Nom	4	xcomp	_	SpaceAfter=No
 6	,	,	_	CLB	_	7	punct	_	_
 7	мый	мый	_	CONJ	_	10	mark	_	_
-8	броневикса	броневик	_	A	_	9	amod	_	_
+8	броневикса	броневикса	_	A	_	9	amod	_	_
 9	командирӧн	командир	_	N	Sg|Ins	10	obl	_	_
 10	мунӧ	мунны	_	V	Ind|Prs|Sg3	5	advcl	_	_
 11	армияӧн	армия	_	N	Sg|Ins	12	nmod	_	_
