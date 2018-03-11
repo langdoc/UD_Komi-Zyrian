@@ -383,12 +383,12 @@
 6	вӧйна	вӧйна	_	N	Sg|Nom	10	obl	_	_
 7	вылэ	выв	_	Po	Sg|Ill	6	case	_	_
 8	зэй	зэй	_	Adv	_	9	x	_	_
-9	водз	водз	_	A	Sg|Nom	10	_	_	_
+9	водз	водз	_	Adv	Sg|Nom	10	advmod	_	_
 10	сюрліс	сюрлыны	_	V	Ind|Prt1|Sg3	0	_	_	SpaceAfter=No
-11	,	,	_	CLB	_	12	x	_	_
+11	,	,	_	CLB	_	12	punct	_	_
 12	дас	дас	_	Num	Card|Sg|Nom	13	_	_	_
 13	сизим	сизим	_	Num	Card|Sg|Nom	0	_	_	SpaceAfter=No
-14	,	,	_	CLB	_	15	x	_	_
+14	,	,	_	CLB	_	15	punct	_	_
 15	дас	дас	_	Num	Card|Sg|Nom	16	_	_	_
 16	кӧкъямыс	кӧкъямыс	_	Num	Card|Sg|Nom	17	_	_	_
 17	аресэн	аресэн	_	N	Sg|Ins	21	advmod	_	_
