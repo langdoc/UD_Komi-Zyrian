@@ -930,7 +930,7 @@
 # corpus_version = f0d4b02b2cdba3ddf9e5bd1c5cd875167b4e97fc
 1	Сыысь	сійӧ	PRON	Pron	Pers|Sg3|Ela	6	obl	_	SpaceAfter=No
 2	,	,	PUNCT	CLB	_	3	punct	_	_
-3	гашкӧ	гашкӧ	PART	Pcle	_	6	discourse	_	SpaceAfter=No
+3	гашкӧ	гашкӧ	ADV	Adv	_	6	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	5	punct	_	_
 5	оз	оз	AUX	V	Neg|Ind|Prs|Sg3	6	aux	_	_
 6	бросайтчы	бросайтчыны	VERB	V	ConNeg	0	root	_	mixed
@@ -1331,7 +1331,7 @@
 4	сэтӧн	сэтӧн	ADV	Adv	_	9	advmod	_	_
 5	выйым	выйым	PART	Pcle	_	9	cop	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	5	punct	_	_
-7	гашкӧ	гашкӧ	PART	Pcle	_	9	discourse	_	SpaceAfter=No
+7	гашкӧ	гашкӧ	ADV	Adv	_	9	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	CLB	_	7	punct	_	_
 9	братан	братан	NOUN	N	Sg|Nom	0	root	_	rus|SpaceAfter=No
 10	,	,	PUNCT	CLB	_	9	punct	_	_
