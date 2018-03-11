@@ -202,7 +202,7 @@
 # sent_id = missing_id_14
 # text = А эні нин сизим во кудз висены кокъясэ и ог вермы ветлыны, веське с удовольствием пета тундраа, но…
 # text_rus = 
-1	А	а	_	Pcle	_	2	mark	_	_
+1	А	а	_	CC	_	2	mark	_	_
 2	ӧні	ӧні	_	Adv	_	7	advmod	_	_
 3	нин	нин	_	Pcle	_	2	advmod	_	_
 4	сизим	сизим	_	Num	Card|Abs	5	nummod	_	_
