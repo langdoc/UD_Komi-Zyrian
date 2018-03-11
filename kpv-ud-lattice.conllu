@@ -33,7 +33,7 @@
 # text = Шондіыс нем жалиттӧг пӧжис.
 # text_rus = Солнце пекло, ничего не жалея.
 1	Шондіыс	шонді	NOUN	N	Sg|Nom|PxSg3	4	nsubj	_	_
-2	нем	нем	PRON	Pro	Neg|Sg|Nom	3	det	_	_
+2	нем	нем	PRON	Pron	Neg|Sg|Nom	3	det	_	_
 3	жалиттӧг	жалитны	VERB	V	Car|Ger	4	advcl	_	_
 4	пӧжис	пӧжны	VERB	V	Ind|Prt1|Sg3	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	CLB	_	4	punct	_	_
@@ -124,7 +124,7 @@
 # text_rus = Не заметил, как над головой один за другим стали появляться небольшие облака.
 1	Эг	оз	AUX	V	Ind|Prt|Sg1	3	aux	_	_
 2	и	и	PART	Pcle	_	3	advmod	_	_
-3	тӧдлы	тӧд	VERB	VERB	ConNeg	0	root	_	SpaceAfter=No
+3	тӧдлы	тӧд	VERB	V	ConNeg	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	11	punct	_	_
 5	кыдзи	кыдзи	ADV	Adv	Manner|Rel	11	advmod	_	_
 6	юр	юр	NOUN	N	Sg|Nom	11	obl	_	_
@@ -750,7 +750,7 @@
 # sent_id = belyx-011.066
 # text = Тэрыбджыка восьлавны вын-эбӧсӧй эз нин тырмы.
 # text_rus = Шагать быстрее сил уже не было.
-1	Тэрыбджыка	тэрыб	ADV	Adv	Adv	2	advmod	_	_
+1	Тэрыбджыка	тэрыб	ADV	Adv	_	2	advmod	_	_
 2	восьлавны	восьлавны	VERB	V	Inf	6	xcomp	_	_
 3	вын-эбӧсӧй	вын-эбӧс	NOUN	N	Sg|Nom|PxSg1	6	nsubj	_	_
 4	эз	оз	AUX	V	Neg|Ind|Pr|Sg3	6	aux	_	_
@@ -1027,10 +1027,10 @@
 # text_rus = Чтобы рассказать хотя бы о самом главном из того, что случилось в замечательной жизни товарища Ворошилова, понадобится не одна толстая книга.
 1	Медым	медым	_	CS	_	2	mark	_	_
 2	висьтавны	висьтавны	_	V	Inf	0	root	_	_
-3	кӧть	кӧть	_	PART	_	5	discourse	_	_
+3	кӧть	кӧть	_	Pcle	_	5	discourse	_	_
 4	медся	медся	_	Adv	AdA	5	advmod	_	_
 5	главнӧйтор	главнӧйтор	_	N	Sg|Nom	2	obj	_	_
-6	йывсьыс	йыв	_	ADP	Sg|Ela|PxSg3	5	case	_	SpaceAfter=No
+6	йывсьыс	йыв	_	Po	Sg|Ela|PxSg3	5	case	_	SpaceAfter=No
 7	,	,	_	CLB	_	8	punct	_	_
 8	мый	мый	_	CONJ	_	9	advmod	_	_
 9	лолывліс	лолывлыны	_	V	Ind|Prt1|Sg3	5	acl	_	_
@@ -1136,7 +1136,7 @@
 1	Быдлаысь	быдла	_	Adv	Spat|Ela	2	advmod	_	_
 2	кыліс	кывны	_	V	Ind|Prt1|Sg3	0	root	_	_
 3	винтовкаяслӧн	винтовка	_	N	Pl|Gen	4	nmod	_	_
-4	трачӧдчӧм	трачӧдчӧм	_	VERB	Sg|Nom	2	csubj	_	SpaceAfter=No
+4	трачӧдчӧм	трачӧдчӧм	_	V	Sg|Nom	2	csubj	_	SpaceAfter=No
 5	,	,	_	CLB	_	6	punct	_	_
 6	орудиеысь	орудие	_	N	Sg|Ela	7	nmod	_	_
 7	лыйлӧм	лыйлӧм	_	N	Sg|Nom	4	conj	_	SpaceAfter=No
@@ -1156,7 +1156,7 @@
 6	войскаяс	войска	_	N	Pl|Nom	10	nsubj	_	_
 7	ас	ас	_	A	Refl|Attr	8	nmod	_	_
 8	водзсьыныс	водз	_	Po	Sg|Ela|PxPl3	10	obl	_	_
-9	ылысь	ылын	_	ADP	Spat|Ela	8	case	_	_
+9	ылысь	ылын	_	Po	Spat|Ela	8	case	_	_
 10	аддзисны	аддзыны	_	V	Ind|Prt1|Pl3	21	advcl	_	_
 11	неыджыд	неыджыд	_	A	_	12	amod	_	_
 12	казацкӧй	казацкӧй	_	A	_	13	amod	_	_
@@ -1174,10 +1174,10 @@
 # sent_id = kpv_four_battles.018
 # text = Ни горзӧмъяс, ни лыйсьӧмъяс.
 # text_rus = Ни криков, ни выстрелов.
-1	Ни	ни	_	PART	_	2	advmod	_	_
+1	Ни	ни	_	Pcle	_	2	advmod	_	_
 2	горзӧмъяс	горзӧм	_	N	Pl|Nom	0	root	_	SpaceAfter=No
 3	,	,	_	CLB	_	4	punct	_	_
-4	ни	ни	_	PART	_	5	advmod	_	_
+4	ни	ни	_	Pcle	_	5	advmod	_	_
 5	лыйсьӧмъяс	лыйсьӧм	_	N	Pl|Nom	2	conj	_	SpaceAfter=No
 6	.	.	_	CLB	_	2	punct	_	_
 
@@ -1313,7 +1313,7 @@
 11	уланыс	ув	_	Po	Sg|Ill|PxPl3	10	case	_	_
 12	эз	оз	_	V	Neg|Ind|Pr|Sg3	13	aux	_	_
 13	вӧв	вӧвны	_	V	ConNeg	3	conj	_	SpaceAfter=No
-14	.	_	_	_	_	3	punct	_	_
+14	.	_	_	CLB	_	3	punct	_	_
 
 # sent_id = kpv_four_battles.029
 # text = Эрд вылӧ петігӧн лои известнӧ, мый броневикса командирӧн мунӧ армияӧн командуйтысь Климент Ефремович Ворошилов.
@@ -1388,7 +1388,7 @@
 3	сылӧн	сійӧ	_	Pron	Pers|Sg3|Gen	2	nmod	_	_
 4	вӧлі	вӧвны	_	V	Ind|Prt1|Sg3	5	cop	_	_
 5	куш	куш	_	A	_	0	root	_	SpaceAfter=No
-6	.	_	_	_	_	5	punct	_	_
+6	.	_	_	CLB	_	5	punct	_	_
 
 # sent_id = kpv_four_battles.033
 # text = Но врагъяс вермисны дзебсьыны бокиса переулокъясас.
@@ -1469,7 +1469,7 @@
 3	сэтысь	сэтысь	_	Adv	_	2	obl	_	_
 4	эз	оз	_	V	Neg|Ind|Pr|Sg3	5	aux	_	_
 5	вӧв	вӧвны	_	V	ConNeg	2	cop	_	SpaceAfter=No
-6	.	_	_	_	_	2	punct	_	_
+6	.	_	_	CLB	_	2	punct	_	_
 
 # sent_id = kpv_four_battles.039
 # text = Сэні, переулок помас, пу заборъяс дінӧ домавлӧмаӧсь седлӧа казацкӧй вӧвъясӧс.
@@ -1503,7 +1503,7 @@
 10	вылӧ	вылӧ	_	Po	Sg|Ill	9	case	_	_
 11	котӧртісны	котӧртны	_	V	Ind|Prt1|Pl3	0	root	_	_
 12	нин	нин	_	Adv	_	14	advmod	_	_
-13	вооружитчӧм	вооружитчӧм	_	VERB	Sg|Nom	14	acl	_	_
+13	вооружитчӧм	вооружитчӧм	_	V	Sg|Nom	14	acl	_	_
 14	йӧз	йӧз	_	N	Sg|Nom	11	nsubj	_	SpaceAfter=No
 15	.	.	_	CLB	_	11	punct	_	_
 
@@ -1550,7 +1550,7 @@
 # sent_id = kpv_four_battles.046
 # text = Мыйла тормозитін?
 # text_rus = Почему затормозил?
-1	Мыйла	мыйла	_	ADV	_	2	advmod	_	_
+1	Мыйла	мыйла	_	Adv	_	2	advmod	_	_
 2	тормозитін	тормозитны	_	V	Ind|Prt1|Sg2	0	root	_	SpaceAfter=No
 3	?	?	_	CLB	_	2	punct	_	_
 
@@ -1650,7 +1650,7 @@
 # text_rus = Водитель, закусив губу, рванул рычаг заднего хода.
 1	Шоферыс	шофёр	_	N	Sg|Nom|PxSg3	4	nsubj	_	_
 2	паръяссӧ	пар	_	N	Pl|Nom|Clt/сӧ	3	obj	_	_
-3	курччӧмӧн	курччӧм	_	VERB	Sg|Ins	4	advcl	_	_
+3	курччӧмӧн	курччӧм	_	V	Sg|Ins	4	advcl	_	_
 4	тракнитіс	тракнитны	_	V	Ind|Prt1|Sg3	0	root	_	_
 5	задньӧй	задньӧй	_	A	_	6	amod	_	_
 6	ходлысь	ход	_	N	Sg|Abl	7	nmod	_	_
@@ -1716,7 +1716,7 @@
 # text = Сюринныд краснӧй чӧртъяс?
 # text_rus = Попались, черти красные?..
 1	Сюринныд	сюрны	_	V	Ind|Prt1|Pl2	0	root	_	_
-2	краснӧй	краснӧӥ	_	ADJ	Sg|Nom	3	amod	_	_
+2	краснӧй	краснӧӥ	_	A	Sg|Nom	3	amod	_	_
 3	чӧртъяс	чӧрт	_	N	Pl|Nom	1	voc	_	SpaceAfter=No
 4	?	?	_	CLB	_	1	punct	_	_
 
@@ -1943,7 +1943,7 @@
 13	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # text = Тайӧ нигаыс сетас сӧмын ичӧтик юкӧн вӧр велӧдысьлы .
-# text_rus =
+# text_rus = 
 # sent_id = new_4
 1	Тайӧ	тайӧ	PRON	Pron	Dem|Sg|Nom	2	det	_	_
 2	нигаыс	нига	NOUN	N	Sg|Nom|PxSg3	3	nsubj	_	_
