@@ -355,7 +355,7 @@
 # text_rus = Мы, я родилась, мои родители, мой отец всю жизнь работал в тундре.
 # text_eng = We, I was born, my parents, my father worked all his life in tundra.
 1	Ми	ми	_	Pron	Pers|Pl1|Nom	3	conj	_	SpaceAfter=No
-2	,	,	_	CLB	_	1	cc	_	_
+2	,	,	_	CLB	_	1	punct	_	_
 3	ме	ме	_	Pron	Pers|Sg1|Nom	4	nsubj	_	_
 4	рӧдитчылі	рӧдитчывны	_	V	Ind|Prt1|Sg1	0	root	_	SpaceAfter=No
 5	,	,	_	CLB	_	6	punct	_	_
@@ -365,7 +365,7 @@
 9	,	,	_	CLB	_	10	punct	_	_
 10	ае	ай	_	N	Sg|Nom|PxSg1	6	conj	_	_
 11	немсэ	немсэ	ADV	N	Sg|Acc|PxSg3	12	advmod	_	_
-12	рӧбитэма	рӧбитны	_	V	Ind|Prt2|Sg3	0	X	_	_
+12	рӧбитэма	рӧбитны	_	V	Ind|Prt2|Sg3	0	_	_	_
 13	кӧрдорын	кӧрдорын	_	N	Sg|Ine	12	obl	_	_
 14	и	и	_	Pcle	_	15	discourse	_	_
 15	рӧбитіс	рӧбитны	_	V	Ind|Prt1|Sg3	12	conj	_	SpaceAfter=No
@@ -383,19 +383,19 @@
 6	вӧйна	вӧйна	_	N	Sg|Nom	10	obl	_	_
 7	вылэ	выв	_	Po	Sg|Ill	6	case	_	_
 8	зэй	зэй	_	Adv	_	9	x	_	_
-9	водз	водз	_	A	Sg|Nom	10	SUBJ>	_	_
-10	сюрліс	сюрлыны	_	V	Ind|Prt1|Sg3	0	X	_	SpaceAfter=No
+9	водз	водз	_	A	Sg|Nom	10	_	_	_
+10	сюрліс	сюрлыны	_	V	Ind|Prt1|Sg3	0	_	_	SpaceAfter=No
 11	,	,	_	CLB	_	12	x	_	_
-12	дас	дас	_	Num	Card|Sg|Nom	13	SUBJ>	_	_
-13	сизим	сизим	_	Num	Card|Sg|Nom	0	SUBJ>	_	SpaceAfter=No
+12	дас	дас	_	Num	Card|Sg|Nom	13	_	_	_
+13	сизим	сизим	_	Num	Card|Sg|Nom	0	_	_	SpaceAfter=No
 14	,	,	_	CLB	_	15	x	_	_
-15	дас	дас	_	Num	Card|Sg|Nom	16	SUBJ>	_	_
-16	кӧкъямыс	кӧкъямыс	_	Num	Card|Sg|Nom	17	SUBJ>	_	_
+15	дас	дас	_	Num	Card|Sg|Nom	16	_	_	_
+16	кӧкъямыс	кӧкъямыс	_	Num	Card|Sg|Nom	17	_	_	_
 17	аресэн	аресэн	_	N	Sg|Ins	21	advmod	_	_
 18	только	только	_	Adv	_	21	advmod	_	SpaceAfter=No
 19	,	,	_	CLB	_	20	x	_	_
 20	только	только	_	Adv	_	21	x	_	_
-21	волэма	волыны	_	V	Ind|Prt2|Sg3	0	X	_	SpaceAfter=No
+21	волэма	волыны	_	V	Ind|Prt2|Sg3	0	_	_	SpaceAfter=No
 22	.	.	_	CLB	_	10	x	_	_
 
 # sent_id = missing_id_25
@@ -403,7 +403,7 @@
 # text_rus = Надо было идти в армию, значит, пришла повестка на сорок первый год, а отец двадцать третьего года рождения, значит, и война началась (букв. застала), и мой отец пошел на войну.
 # text_eng = It was necessary to go to army, he received a summons in 1941, and he was born in 23 (1923), so, and the war started, and my father went to war.
 1	Армияа	армия	_	N	Sg|Ill	2	obl	_	_
-2	колэма	ковны	_	V	Prt2|Sg3	0	X	_	_
+2	колэма	ковны	_	V	Prt2|Sg3	0	_	_	_
 3	мунны	мунны	_	V	Inf	2	xcomp	_	SpaceAfter=No
 4	,	,	_	CLB	_	5	punct	_	_
 5	значит	значит	_	Pcle	_	7	discourse	_	SpaceAfter=No
@@ -433,7 +433,7 @@
 29	,	,	_	CLB	_	30	punct	_	_
 30	и	и	_	CC	_	32	cc	_	_
 31	ае	ай	_	N	Sg|Nom|PxSg1	32	nsubj	_	_
-32	мунэма	мунны	_	V	Ind|Prt2|Sg3	0	X	_	_
+32	мунэма	мунны	_	V	Ind|Prt2|Sg3	0	_	_	_
 33	вӧйна	вӧйна	_	N	Sg|Nom	32	obl	_	_
 34	вылэ	выв	_	Po	Sg|Ill	33	case	_	SpaceAfter=No
 35	.	.	_	CLB	_	2	punct	_	_
@@ -447,19 +447,19 @@
 3	значит	значит	_	Pcle	_	6	discourse	_	SpaceAfter=No
 4	,	,	_	CLB	_	3	x	_	_
 5	военнэй	военнӧй	_	A	Abs	6	amod	_	_
-6	училище	училище	_	N	Sg|Nom	0	SUBJ>	_	SpaceAfter=No
+6	училище	училище	_	N	Sg|Nom	0	_	_	SpaceAfter=No
 7	,	,	_	CLB	_	6	x	_	_
 8	не	не	_	Pcle	_	9	advmod	_	_
 9	вӧеннэй	вӧеннэй	_	A	_	10	amod	_	_
 10	училище	училище	_	N	Sg|Nom	6	conj	_	SpaceAfter=No
 11	,	,	_	CLB	_	12	x	_	_
-12	а	а	_	CC	_	0	X	_	_
+12	а	а	_	CC	_	0	_	_	_
 13	курсъяс	курс	_	N	Pl|Nom	18	nsubj	_	SpaceAfter=No
 14	,	,	_	CLB	_	13	x	_	_
 15	подготовка	подготовка	_	N	_	13	conj	_	_
 16	куим	куим	_	Num	Card|Sg|Nom	17	nummod	_	_
 17	месеча	месеча	_	N	_	18	obl	_	_
-18	прӧйдитэма	прӧйдитны	_	V	Ind|Prt2|Sg3	0	X	_	SpaceAfter=No
+18	прӧйдитэма	прӧйдитны	_	V	Ind|Prt2|Sg3	0	_	_	SpaceAfter=No
 19	,	,	_	CLB	_	20	punct	_	_
 20	и	и	_	CC	_	21	cc	_	_
 21	вӧюйтіс	вӧюйтіс	_	V	Ind|Prt1|Sg3	18	ccomp	_	_
@@ -548,10 +548,10 @@
 # text = Но маме как раз тыра вӧліс, думайтэныс, гашке, вӧрзям да и, ничего, бур лоо ставыс да.
 # text_rus = Ну, мама как раз беременная была, думают, может, начнем каслать и ничего, всё будет хорошо.
 # text_eng = 
-1	Но	но	_	Pcle	_	2	PCLE	_	_
+1	Но	но	_	Pcle	_	2	_	_	_
 2	маме	мам	_	N	Sg|Ill	_	x	_	_
 3	как	как	_	Adv	_	5	x	_	_
-4	раз	раз	_	N	Sg|Nom	3	SUBJ>	_	_
+4	раз	раз	_	N	Sg|Nom	3	_	_	_
 5	тыра	тыр	_	Adv	_	0	root	_	_
 6	вӧліс	вӧвны	_	V	Ind|Prt1|Sg3	5	cop	_	SpaceAfter=No
 7	,	,	_	CLB	_	8	x	_	_
@@ -559,9 +559,9 @@
 9	,	,	_	CLB	_	10	x	_	_
 10	гашке	гашке	_	Adv	_	_	x	_	SpaceAfter=No
 11	,	,	_	CLB	_	12	x	_	_
-12	вӧрзям	вӧрзьыны	_	V	Ind|Prs|Pl1	5	X	_	_
-13	да	да	_	Pcle	_	12	PCLE	_	_
-14	и	и	_	Pcle	_	13	PCLE	_	SpaceAfter=No
+12	вӧрзям	вӧрзьыны	_	V	Ind|Prs|Pl1	5	_	_	_
+13	да	да	_	Pcle	_	12	_	_	_
+14	и	и	_	Pcle	_	13	_	_	SpaceAfter=No
 15	,	,	_	CLB	_	16	x	_	_
 16	ничего	ничего	_	Adv	_	5	x	_	SpaceAfter=No
 17	,	,	_	CLB	_	18	x	_	_
@@ -626,7 +626,7 @@
 3	висьтоола	висьтоола	_	V	_	_	x	_	_
 4	тай	тай	_	Pcle	_	3	discourse	_	SpaceAfter=No
 5	,	,	_	CLB	_	6	punct	_	_
-6	но	но	_	CC	_	0	X	_	SpaceAfter=No
+6	но	но	_	CC	_	0	_	_	SpaceAfter=No
 7	,	,	_	CLB	_	8	punct	_	_
 8	кодке	кодке	_	Pron	_	9	nsubj	_	_
 9	висьт-	висьт-	_	V	_	3	conj	_	SpaceAfter=No
@@ -651,7 +651,7 @@
 5	ас	ас	_	A	Refl|Abs	6	nmod	_	_
 6	муас	му	_	N	Sg|Ill|PxSg3	7	obl	_	_
 7	рӧдиттьыны	рӧдиттьыны	_	V	Inf	8	xcomp	_	_
-8	мӧдэма	мӧдны	_	V	Ind|Prt2|Sg1	0	X	_	SpaceAfter=No
+8	мӧдэма	мӧдны	_	V	Ind|Prt2|Sg1	0	_	_	SpaceAfter=No
 9	,	,	_	CLB	_	10	punct	_	_
 10	абу	абу	_	Pcle	Neg	11	aux	_	_
 11	мӧдэма	мӧдны	_	V	Ind|Prt2|Sg3	8	conj	_	SpaceAfter=No
@@ -688,14 +688,14 @@
 1	Из	из	_	N	Abs	4	obl	_	_
 2	сае	сай	_	N	Relat|Sg|Ill	1	case	_	_
 3	токо	токо	_	Adv	_	4	advmod	_	_
-4	ветлала	ветлыны	_	V	Ind|Prs|Sg1	0	X	_	SpaceAfter=No
+4	ветлала	ветлыны	_	V	Ind|Prs|Sg1	0	_	_	SpaceAfter=No
 5	,	,	_	CLB	_	6	punct	_	_
 6	потому	потому	_	CS	_	11	advmod	_	_
 7	что	что	_	CS	_	6	goeswith	_	_
 8	мӧд	мӧд	_	Det	Ord|Sg|Nom	10	conj	_	SpaceAfter=No
 9	,	,	_	CLB	_	10	punct	_	_
 10	мӧдэд	мӧдэд	_	Num	_	11	nummod	_	_
-11	луныс	лун	_	N	Sg|Nom|PxSg3	0	SUBJ>	_	SpaceAfter=No
+11	луныс	лун	_	N	Sg|Nom|PxSg3	0	_	_	SpaceAfter=No
 12	,	,	_	CLB	_	13	punct	_	_
 13	да	да	_	CS	_	11	discourse	_	SpaceAfter=No
 14	,	,	_	CLB	_	15	punct	_	_
@@ -712,28 +712,28 @@
 # text_eng = 
 1	Ну	ну	_	Pcle	_	_	_	_	SpaceAfter=No
 2	,	,	_	CLB	_	1	_	_	_
-3	палялі	палявны	_	V	Ind|Prt1|Sg1	0	X	_	_
-4	ас	ас	_	A	Refl|Abs	0	X	_	_
+3	палялі	палявны	_	V	Ind|Prt1|Sg1	0	_	_	_
+4	ас	ас	_	A	Refl|Abs	0	_	_	_
 5	местэам	местэам	_	N	_	_	_	_	SpaceAfter=No
 6	,	,	_	CLB	_	7	_	_	_
-7	а	а	_	CC	_	0	X	_	_
-8	мӧд	мӧд	_	Pron	Dem	0	X	_	_
-9	луннас	лун	_	N	Sg|Ins|PxSg3	0	X	_	_
-10	ми	ми	_	Pron	Pers|Pl1|Nom	0	X	_	_
+7	а	а	_	CC	_	0	_	_	_
+8	мӧд	мӧд	_	Pron	Dem	0	_	_	_
+9	луннас	лун	_	N	Sg|Ins|PxSg3	0	_	_	_
+10	ми	ми	_	Pron	Pers|Pl1|Nom	0	_	_	_
 11	уже	уже	_	Adv	_	_	_	_	SpaceAfter=No
 12	,	,	_	CLB	_	11	_	_	_
-13	абу	абу	_	Pcle	Neg	14	PCLE	_	_
-14	мӧд	мӧдны	_	V	ConNeg	0	X	_	_
+13	абу	абу	_	Pcle	Neg	14	_	_	_
+14	мӧд	мӧдны	_	V	ConNeg	0	_	_	_
 15	луннас-а	луннас	_	Adv	Clt/а	13	_	_	SpaceAfter=No
 16	,	,	_	CLB	_	15	_	_	_
-17	сы	сійӧ	_	Pron	Dem	0	X	_	_
+17	сы	сійӧ	_	Pron	Dem	0	_	_	_
 18	луннас	луннас	_	Adv	_	13	_	_	_
 19	же	же	_	Pcle	_	_	_	_	_
-20	вот	вот	_	Pcle	_	0	PCLE	_	SpaceAfter=No
+20	вот	вот	_	Pcle	_	0	_	_	SpaceAfter=No
 21	,	,	_	CLB	_	20	_	_	_
 22	тытэн	тытэн	_	Adv	_	_	_	_	_
-23	нин	нин	_	Pcle	_	20	PCLE	_	_
-24	вӧлі	вӧвны	_	V	Ind|Prt1|Sg3	0	X	_	SpaceAfter=No
+23	нин	нин	_	Pcle	_	20	_	_	_
+24	вӧлі	вӧвны	_	V	Ind|Prt1|Sg3	0	_	_	SpaceAfter=No
 25	.	.	_	CLB	_	20	_	_	_
 
 # sent_id = missing_id_41
@@ -744,15 +744,15 @@
 2	сайын	сайын	_	Po	Sg|Ine	1	case	_	_
 3	сыа	сыа	_	Pron	#3	_	x	_	SpaceAfter=No
 4	,	,	_	CLB	_	_	x	_	_
-5	так	такны	_	Pcle	_	0	X	_	_
+5	так	такны	_	Pcle	_	0	_	_	_
 6	что	что	_	Pcle	_	_	x	_	SpaceAfter=No
 7	,	,	_	CLB	_	_	x	_	_
 8	меам	меам	_	Pron	_	_	x	_	_
-9	Салехард	Салехард	_	N	Prop|Sg|Nom	0	X	_	_
+9	Салехард	Салехард	_	N	Prop|Sg|Nom	0	_	_	_
 10	местэыс	местэыс	_	N	_	_	x	_	_
 11	тоже	тоже	_	Adv	_	_	x	_	_
-12	рӧднэй	рӧднӧй	_	A	Abs	0	X	_	_
-13	рӧдина	рӧдина	_	N	Sg|Nom	0	X	_	_
+12	рӧднэй	рӧднӧй	_	A	Abs	0	_	_	_
+13	рӧдина	рӧдина	_	N	Sg|Nom	0	_	_	_
 14	койд	койд	_	Po	_	_	x	_	SpaceAfter=No
 15	.	.	_	CLB	_	_	x	_	_
 
@@ -764,7 +764,7 @@
 2	,	,	_	CLB	_	3	punct	_	_
 3	кучем	кучем	_	Det	_	5	advmod	_	_
 4	пӧрысь	пӧрысь	_	Adv	_	5	advmod	_	_
-5	бабушка	бабушка	_	N	Sg|Nom	0	SUBJ>	_	_
+5	бабушка	бабушка	_	N	Sg|Nom	0	_	_	_
 6	сэн	сэн	_	Adv	_	7	advmod	_	_
 7	лоас	лоны	_	V	Ind|Fut|Sg3	5	cop	_	SpaceAfter=No
 8	,	,	_	CLB	_	9	punct	_	_
@@ -778,22 +778,22 @@
 # text_rus = Моя мама тоже такой повивальной бабкой была: она ведь очень много это, детей взяла, приняла.
 # text_eng = 
 1	Маме	мам	_	N	Sg|Ill	6	nsubj	_	_
-2	вед	вед	_	Pcle	_	1	PCLE	_	_
+2	вед	вед	_	Pcle	_	1	_	_	_
 3	сэчем	сэчем	_	Det	_	6	advmod	_	_
 4	же	же	_	Pcle	_	3	discourse	_	_
 5	гӧг	гӧг	_	N	Abs	6	compound	_	_
-6	баб	баб	_	N	Sg|Nom	0	SUBJ>	_	_
+6	баб	баб	_	N	Sg|Nom	0	_	_	_
 7	вӧліс	вӧвны	_	V	Ind|Prt1|Sg3	6	aux	_	SpaceAfter=No
 8	:	:	_	CLB	_	6	x	_	_
 9	сыа	сыа	_	Pron	Pers|Sg3|Nom	_	x	_	_
 10	зэй	зэй	_	Adv	_	_	x	_	_
-11	уна	уна	_	Qnt	Sg|Nom	0	SUBJ>	_	_
+11	уна	уна	_	Qnt	Sg|Nom	0	_	_	_
 12	мыйке	мыйке	_	Pron	_	_	x	_	SpaceAfter=No
 13	,	,	_	CLB	_	6	x	_	_
-14	челядь	челядь	_	N	Sg|Nom	0	SUBJ>	_	_
-15	босьтіс	босьтны	_	V	Ind|Prt1|Sg3	0	X	_	SpaceAfter=No
+14	челядь	челядь	_	N	Sg|Nom	0	_	_	_
+15	босьтіс	босьтны	_	V	Ind|Prt1|Sg3	0	_	_	SpaceAfter=No
 16	,	,	_	CLB	_	15	x	_	_
-17	примитіс	примитны	_	V	Ind|Prt1|Sg3	0	X	_	SpaceAfter=No
+17	примитіс	примитны	_	V	Ind|Prt1|Sg3	0	_	_	SpaceAfter=No
 18	.	.	_	CLB	_	6	x	_	_
 
 # sent_id = missing_id_44
@@ -801,7 +801,7 @@
 # text_rus = Пока не стала плохой, ну, пока, не то что плохой.
 # text_eng = 
 1	Пока	пока	_	Adv	_	2	advmod	_	_
-2	лёк	лёк	_	A	Abs	0	X	_	_
+2	лёк	лёк	_	A	Abs	0	_	_	_
 3	из	из	_	V	Neg|Ind|Prt|Sg3	4	aux	_	_
 4	ло	лоны	_	V	ConNeg	2	aux	_	SpaceAfter=No
 5	,	,	_	CLB	_	6	punct	_	_
@@ -821,25 +821,25 @@
 # text_eng = 
 1	Пока	пока	_	Adv	_	3	advmod	_	_
 2	из	из	_	V	_	3	aux	_	_
-3	вермы	вермыны	_	V	ConNeg	0	X	_	SpaceAfter=No
+3	вермы	вермыны	_	V	ConNeg	0	root	_	SpaceAfter=No
 4	,	,	_	CLB	_	5	punct	_	_
 5	пока	пока	_	Adv	_	6	advmod	_	_
-6	вермис	вермыны	_	V	Ind|Prt1|Sg3	3	X	_	SpaceAfter=No
+6	вермис	вермыны	_	V	Ind|Prt1|Sg3	3	_	_	SpaceAfter=No
 7	.	.	_	CLB	_	3	punct	_	_
 
 # sent_id = missing_id_46
 # text = Примитіс сэн, босьтіс, мукедыс роч кыы да мыйке-майда.
 # text_rus = Принимала там, брала, некоторые русские да что.
 # text_eng = 
-1	Примитіс	примитны	_	V	Ind|Prt1|Sg3	0	X	_	_
-2	сэн	сэн	_	Adv	_	0	X	_	SpaceAfter=No
+1	Примитіс	примитны	_	V	Ind|Prt1|Sg3	0	_	_	_
+2	сэн	сэн	_	Adv	_	0	_	_	SpaceAfter=No
 3	,	,	_	CLB	_	2	_	_	_
-4	босьтіс	босьтны	_	V	Ind|Prt1|Sg3	0	X	_	SpaceAfter=No
+4	босьтіс	босьтны	_	V	Ind|Prt1|Sg3	0	_	_	SpaceAfter=No
 5	,	,	_	CLB	_	4	_	_	_
-6	мукедыс	му	_	N	Sg|Com|PxSg3	0	X	_	_
+6	мукедыс	му	_	N	Sg|Com|PxSg3	0	_	_	_
 7	роч	роч	_	N	Sg|Nom	0	_	_	_
 8	кыы	кыы	_	N	_	_	_	_	_
-9	да	да	_	Pcle	_	_	PCLE	_	_
+9	да	да	_	Pcle	_	_	_	_	_
 10	мыйке-майда	мыйке-майда	_	Adv	_	_	_	_	SpaceAfter=No|Note=Check
 11	.	.	_	CLB	_	7	_	_	_
 
@@ -875,7 +875,7 @@
 3	сыа	сыа	_	Pron	Pers|Sg3|Nom	6	nsubj	_	_
 4	вед	вед	_	Pcle	_	6	discourse	_	_
 5	няпойнэй	няпойнэй	_	A	_	6	amod	_	_
-6	чом	чом	_	N	Sg|Nom	0	SUBJ>	_	SpaceAfter=No
+6	чом	чом	_	N	Sg|Nom	0	_	_	SpaceAfter=No
 7	,	,	_	CLB	_	8	punct	_	_
 8	да	да	_	CS	_	12	cc	_	SpaceAfter=No
 9	,	,	_	CLB	_	8	punct	_	_
@@ -885,7 +885,7 @@
 13	вӧліс	вӧвны	_	V	Ind|Prt1|Sg3	12	aux	_	SpaceAfter=No
 14	,	,	_	CLB	_	15	punct	_	_
 15	только-только	только-только	_	Adv	_	16	advmod	_	_
-16	пуктыны	пуктыны	_	V	Inf	0	X	_	_
+16	пуктыны	пуктыны	_	V	Inf	0	_	_	_
 17	и	и	_	Pcle	_	18	cc	_	_
 18	мӧдасы	мӧдасы	_	Adv	_	16	conj	_	_
 19	воедны	воедны	_	V	Inf	18	xcomp	_	SpaceAfter=No
