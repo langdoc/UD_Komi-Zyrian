@@ -1005,7 +1005,7 @@
 1	Ваыс	ва	NOUN	N	Sg|Nom|PxSg3	9	csubj	_	_
 2	зэв	зэв	ADV	Adv	_	3	advmod	_	_
 3	ыджыд	ыджыд	ADJ	A	Sg|Nom	1	amod	_	_
-4	кор	кор	ADV	Adv	Rel	1	advmod	_	_
+4	кор	кор	SCONJ	CS	Rel	1	mark	_	_
 5	вӧлі	вӧвны	VERB	V	Ind|Prt1|Sg3	1	cop	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	7	punct	_	_
 7	дак	дак	SCONJ	CS	_	9	mark	_	rus
