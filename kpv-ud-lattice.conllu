@@ -450,15 +450,17 @@
 3	бара	бара	ADV	Adv	_	4	advmod	_	_
 4	воис	воны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 5	зэв	зэв	ADV	Adv	_	6	advmod	_	_
-6	ыджыд	ыджыд	ADJ	A	_	7	amod	_	_
-7	тӧв·ныр	тӧв·ныр	NOUN	N	Sg|Nom	4	nsubj	_	SpaceAfter=No
-8	,	,	PUNCT	CLB	_	13	punct	_	_
-9	коді	коді	CCONJ	CC	_	13	nsubj	_	_
-10	муртса	муртса	ADV	Adv	_	13	advmod	_	_
-11	кок·йылысь	кок·йыв	NOUN	N	Sg|Ela	13	obl	_	_
-12	эз	оз	AUX	V	Neg|Ind|Prt|Sg3	13	aux	_	_
-13	пӧрӧд	пӧрӧдны	VERB	V	ConNeg	4	acl	_	SpaceAfter=No
-14	.	.	PUNCT	CLB	_	4	punct	_	_
+6	ыджыд	ыджыд	ADJ	A	_	8	amod	_	_
+7	тӧв	тӧв	NOUN	N	Sg|Nom	8	compound	_	SpaceAfter=No
+8	ныр	ныр	NOUN	N	Sg|Nom	4	nsubj	_	_
+9	,	,	PUNCT	CLB	_	15	punct	_	_
+10	коді	коді	CCONJ	CC	_	15	nsubj	_	_
+11	муртса	муртса	ADV	Adv	_	15	advmod	_	_
+12	кок	кок	NOUN	N	Sg|Nom	15	obl	_	_
+13	йылысь	йылысь	ADP	Po	Sg|Ela	12	case	_	_
+14	эз	оз	AUX	V	Neg|Ind|Prt|Sg3	15	aux	_	_
+15	пӧрӧд	пӧрӧдны	VERB	V	ConNeg	4	acl	_	SpaceAfter=No
+16	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.040
 # text = Лолӧй быдӧн эз кут сюрны, сэтшӧма ёсь тӧлыс сатшис горшӧ.
