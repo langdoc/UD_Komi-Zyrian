@@ -443,7 +443,7 @@
 6	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.039
-# text = Друг асыв-войвывсянь бара воис зэв ыджыд тӧв·ныр, коді муртса кок·йылысь эз пӧрӧд.
+# text = Друг асыв-войвывсянь бара воис зэв ыджыд тӧв ныр, коді муртса кок йылысь эз пӧрӧд.
 # text_rus = Вдруг с северо-востока опять пришёл порыв ветра, который чуть не сбил с ног.
 1	Друг	друг	ADV	Adv	_	4	advmod	_	_
 2	асыв-войвывсянь	асыв-войвыв	NOUN	N	Sg|Egr	4	obl	_	_
@@ -479,14 +479,15 @@
 12	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.041
-# text = Тӧв·ныркӧд тшӧтш сынӧдыс кутіс рудӧдны.
+# text = Тӧв ныркӧд тшӧтш сынӧдыс кутіс рудӧдны.
 # text_rus = Вместе с порывом ветра воздух становился серым.
-1	Тӧв·ныркӧд	тӧв·ныр	NOUN	N	Sg|Com	4	obl	_	_
-2	тшӧтш	тшӧтш	ADV	Adv	_	1	advmod	_	_
-3	сынӧдыс	сынӧд	NOUN	N	Sg|Nom|PxSg3	4	nsubj	_	_
-4	кутіс	кутны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
-5	рудӧдны	рудӧдны	VERB	V	Inf	4	xcomp	_	SpaceAfter=No
-6	.	.	PUNCT	CLB	_	4	punct	_	_
+1	Тӧв	тӧв	NOUN	N	Sg	2	compound	_	_
+2	ныркӧд	ныр	NOUN	N	Sg|Com	5	obl	_	_
+3	тшӧтш	тшӧтш	ADV	Adv	_	2	advmod	_	_
+4	сынӧдыс	сынӧд	NOUN	N	Sg|Nom|PxSg3	5	nsubj	_	_
+5	кутіс	кутны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
+6	рудӧдны	рудӧдны	VERB	V	Inf	5	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = belyx-011.042
 # text = Тайӧ рудыс зэв ӧдйӧ матыстчис мелань.
