@@ -532,14 +532,15 @@
 7	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = belyx-011.046
-# text = Тӧлыс да шерыс пӧрӧдісны кок·йывсьыд.
+# text = Тӧлыс да шерыс пӧрӧдісны кок йывсьыд.
 # text_rus = Ветер и град сбили с ног.
 1	Тӧлыс	тӧв	NOUN	N	Sg|Nom|PxSg3	4	nsubj	_	_
 2	да	да	CCONJ	CC	_	3	cc	_	_
 3	шерыс	шер	NOUN	N	Sg|Nom|PxSg3	1	conj	_	_
 4	пӧрӧдісны	пӧрӧдны	VERB	V	Ind|Prt1|Pl3	0	root	_	_
-5	кок·йывсьыд	кок·йыв	NOUN	N	Sg|Ela|PxSg2	4	obl	_	SpaceAfter=No
-6	.	.	PUNCT	CLB	_	4	punct	_	_
+5	кок	кок	NOUN	N	Sg|Nom	4	obl	_	SpaceAfter=No
+6	йывсьыд	йылысь	ADP	Po	Sg|Ela|PxSg2	5	case	_	_
+7	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.047
 # text = Туйыс зэр вӧснаыс лоис ичӧтик ю кодь.
