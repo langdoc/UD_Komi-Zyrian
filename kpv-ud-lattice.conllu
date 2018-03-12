@@ -168,7 +168,7 @@
 8	друг	друг	ADV	Adv	_	9	advmod	_	_
 9	тыдовтчис	тыдовтчыны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 10	эшкын	эшкын	NOUN	N	N|Sg	11	nmod	_	_
-11	кодь	кодь	ADJ	A	Sg|Nom	12	amod	_	_
+11	кодь	кодь	ADP	Po	Sg|Nom	10	case	_	_
 12	кымӧр	кымӧр	NOUN	N	Sg|Nom	13	nmod	_	_
 13	пласт	пласт	NOUN	N	Sg|Nom	9	nsubj	_	SpaceAfter=No
 14	,	,	PUNCT	CLB	_	18	punct	_	_
@@ -454,7 +454,7 @@
 7	тӧв·ныр	тӧв·ныр	NOUN	N	Sg|Nom	4	nsubj	_	SpaceAfter=No
 8	,	,	PUNCT	CLB	_	13	punct	_	_
 9	коді	коді	CCONJ	CC	_	13	nsubj	_	_
-10	муртса	муртса	ADJ	A	_	11	amod	_	_
+10	муртса	муртса	ADV	Adv	_	13	advmod	_	_
 11	кок·йылысь	кок·йыв	NOUN	N	Sg|Ela	13	obl	_	_
 12	эз	оз	AUX	V	Neg|Ind|Prt|Sg3	13	aux	_	_
 13	пӧрӧд	пӧрӧдны	VERB	V	ConNeg	4	acl	_	SpaceAfter=No
@@ -547,7 +547,7 @@
 4	лоис	лоны	VERB	V	Ind|Prt1|Sg3	7	cop	_	_
 5	ичӧтик	ичӧтик	ADJ	A	_	6	amod	_	_
 6	ю	ю	NOUN	N	Sg|Nom	7	compound	_	_
-7	кодь	кодь	ADJ	Adv	_	0	root	_	SpaceAfter=No
+7	кодь	кодь	ADJ	Adj	_	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	7	punct	_	_
 
 # sent_id = belyx-011.048
