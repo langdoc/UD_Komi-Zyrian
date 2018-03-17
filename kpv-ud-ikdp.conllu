@@ -716,7 +716,7 @@
 4	ас	ас	_	A	Refl|Abs	5	amod	_	_
 5	местэам	местэам	_	N	Sg|Ill|PxSg1	3	obl	_	SpaceAfter=No
 6	,	,	_	CLB	_	7	punct	_	_
-7	а	а	CC	CC	_	9	cc	_	_
+7	а	а	_	CC	_	9	cc	_	_
 8	мӧд	мӧд	_	Pron	Dem	9	dep	_	_
 9	луннас	лун	_	N	Sg|Ins|PxSg3	3	ccomp	_	_
 10	ми	ми	_	Pron	Pers|Pl1|Nom	15	nsubj	_	_
@@ -776,25 +776,25 @@
 # sent_id = missing_id_43
 # text = Маме вед сэчем же гӧг баб вӧліс: сыа зэй уна мыйке, челядь босьтіс, примитіс.
 # text_rus = Моя мама тоже такой повивальной бабкой была: она ведь очень много это, детей взяла, приняла.
-# text_eng = 
-1	Маме	мам	_	N	Sg|Ill	6	nsubj	_	Note=CheckAll
-2	вед	вед	_	Pcle	_	1	_	_	_
+# text_eng =
+1	Маме	мам	_	N	Sg|Nom|PxSg1	6	nsubj	_	Note=CheckAll
+2	вед	вед	_	Pcle	_	1	discourse	_	_
 3	сэчем	сэчем	_	Det	_	6	advmod	_	_
 4	же	же	_	Pcle	_	3	discourse	_	_
 5	гӧг	гӧг	_	N	Abs	6	compound	_	_
-6	баб	баб	_	N	Sg|Nom	0	_	_	_
+6	баб	баб	_	N	Sg|Nom	0	root	_	_
 7	вӧліс	вӧвны	_	V	Ind|Prt1|Sg3	6	aux	_	SpaceAfter=No
-8	:	:	_	CLB	_	6	x	_	_
-9	сыа	сыа	_	Pron	Pers|Sg3|Nom	_	x	_	_
-10	зэй	зэй	_	Adv	_	_	x	_	_
-11	уна	уна	_	Qnt	Sg|Nom	0	_	_	_
-12	мыйке	мыйке	_	Pron	_	_	x	_	SpaceAfter=No
-13	,	,	_	CLB	_	6	x	_	_
-14	челядь	челядь	_	N	Sg|Nom	0	_	_	_
-15	босьтіс	босьтны	_	V	Ind|Prt1|Sg3	0	_	_	SpaceAfter=No
-16	,	,	_	CLB	_	15	x	_	_
-17	примитіс	примитны	_	V	Ind|Prt1|Sg3	0	_	_	SpaceAfter=No
-18	.	.	_	CLB	_	6	x	_	_
+8	:	:	_	CLB	_	6	punct	_	_
+9	сыа	сыа	_	Pron	Pers|Sg3|Nom	12	nsubj	_	_
+10	зэй	зэй	_	Adv	_	12	advmod	_	_
+11	уна	уна	_	Qnt	Sg|Nom	12	advmod	_	_
+12	мыйке	мыйке	_	Pron	_	6	parataxis	_	SpaceAfter=No
+13	,	,	_	CLB	_	14	punct	_	_
+14	челядь	челядь	_	N	Sg|Nom	15	obj	_	_
+15	босьтіс	босьтны	_	V	Ind|Prt1|Sg3	12	conj	_	SpaceAfter=No
+16	,	,	_	CLB	_	15	punct	_	_
+17	примитіс	примитны	_	V	Ind|Prt1|Sg3	15	conj	_	SpaceAfter=No
+18	.	.	_	CLB	_	6	punct	_	_
 
 # sent_id = missing_id_44
 # text = Пока лёк из ло, но, пока, не то что лёк-а.
@@ -830,18 +830,18 @@
 # sent_id = missing_id_46
 # text = Примитіс сэн, босьтіс, мукедыс роч кыы да мыйке-майда.
 # text_rus = Принимала там, брала, некоторые русские да что.
-# text_eng = 
-1	Примитіс	примитны	_	V	Ind|Prt1|Sg3	0	_	_	Note=CheckAll
-2	сэн	сэн	_	Adv	_	0	_	_	SpaceAfter=No
-3	,	,	_	CLB	_	2	_	_	_
-4	босьтіс	босьтны	_	V	Ind|Prt1|Sg3	0	_	_	SpaceAfter=No
-5	,	,	_	CLB	_	4	_	_	_
-6	мукедыс	му	_	N	Sg|Com|PxSg3	0	_	_	_
-7	роч	роч	_	N	Sg|Nom	0	_	_	_
-8	кыы	кыы	_	N	_	_	_	_	_
-9	да	да	_	Pcle	_	_	_	_	_
-10	мыйке-майда	мыйке-майда	_	Adv	_	_	_	_	SpaceAfter=No|Note=Check
-11	.	.	_	CLB	_	7	_	_	_
+# text_eng =
+1	Примитіс	примитны	_	V	Ind|Prt1|Sg3	0	root	_	Note=CheckAll
+2	сэн	сэн	_	Adv	_	1	advmod	_	SpaceAfter=No
+3	,	,	_	CLB	_	4	punct	_	_
+4	босьтіс	босьтны	_	V	Ind|Prt1|Sg3	1	conj	_	SpaceAfter=No
+5	,	,	_	CLB	_	6	punct	_	_
+6	мукедыс	му	_	N	Sg|Com|PxSg3	8	nsubj	_	_
+7	роч	роч	_	N	Sg|Nom	8	nmod	_	_
+8	кыы	кыы	_	N	_	1	ccomp	_	_
+9	да	да	_	CC	_	10	cc	_	_
+10	мыйке-майда	мыйке-майда	_	Adv	_	8	conj	_	SpaceAfter=No|Note=Check
+11	.	.	_	CLB	_	1	punct	_	_
 
 # sent_id = missing_id_47
 # text = И сыа ачыс ветліс, эта, бабаясыс доре или сы доре ваедісны, медланнэ примитіс челядьсэ?
