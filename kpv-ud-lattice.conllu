@@ -865,8 +865,10 @@
 2	кодлыськӧ	коді	PRON	Pron	Sg|Abl|Der|Indef	4	obl	_	_
 3	весиг	весиг	ADV	Adv	_	4	advmod	_	_
 4	чашнитӧма	чашнитны	VERB	V	Ind|Prt2|Sg3	0	root	_	_
-5	керка·вевтсӧ	керка·вевт	NOUN	N	Sg|Acc|PxSg3	4	obj	_	SpaceAfter=No
-6	.	.	PUNCT	CLB	_	4	punct	_	_
+5	керка	керка	NOUN	N	Sg|Nom	6	compound	_	SpaceAfter=No
+6	вевтсӧ	вевт	NOUN	N	Sg|Acc|PxSg3	4	obj	_	_
+7	.	.	PUNCT	CLB	_	4	punct	_	_
+
 
 # sent_id = belyx-011.074
 # text = И шензи нӧшта, кор тӧдмалі, мый шерыслӧн туйыс зэв векньыдик и вӧлӧма.
