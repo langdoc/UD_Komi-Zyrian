@@ -710,31 +710,31 @@
 # text = Ну, палялі ас местэам, а мӧд луннас ми уже, абу мӧд луннас-а, сы луннас же вот, тытэн нин вӧлі.
 # text_rus = Ну, я проснулась на своем месте, а на следующий день мы уже, не на второй день, в тот же день вот, уже там была.
 # text_eng =
-1	Ну	ну	_	Pcle	_	3	_	_	SpaceAfter=No|Note=CheckAll
-2	,	,	_	CLB	_	1	_	_	_
-3	палялі	палявны	_	V	Ind|Prt1|Sg1	0	_	_	_
+1	Ну	ну	_	Pcle	_	3	cc	_	SpaceAfter=No|Note=CheckAll
+2	,	,	_	CLB	_	1	punct	_	_
+3	палялі	палявны	_	V	Ind|Prt1|Sg1	0	root	_	_
 4	ас	ас	_	A	Refl|Abs	5	amod	_	_
 5	местэам	местэам	_	N	Sg|Ill|PxSg1	3	obl	_	SpaceAfter=No
-6	,	,	_	CLB	_	7	_	_	_
-7	а	а	_	CC	_	0	_	_	_
-8	мӧд	мӧд	_	Pron	Dem	9	_	_	_
-9	луннас	лун	_	N	Sg|Ins|PxSg3	0	_	_	_
-10	ми	ми	_	Pron	Pers|Pl1|Nom	22	_	_	_
-11	уже	уже	_	Adv	_	_	_	_	SpaceAfter=No
-12	,	,	_	CLB	_	11	_	_	_
-13	абу	абу	_	Pcle	Neg	14	_	_	_
-14	мӧд	мӧдны	_	V	ConNeg	0	_	_	_
-15	луннас-а	луннас	_	Adv	Clt/а	13	_	_	SpaceAfter=No
-16	,	,	_	CLB	_	15	_	_	_
+6	,	,	_	CLB	_	7	punct	_	_
+7	а	а	CC	CC	_	9	cc	_	_
+8	мӧд	мӧд	_	Pron	Dem	9	dep	_	_
+9	луннас	лун	_	N	Sg|Ins|PxSg3	3	ccomp	_	_
+10	ми	ми	_	Pron	Pers|Pl1|Nom	15	nsubj	_	_
+11	уже	уже	_	Adv	_	15	advmod	_	SpaceAfter=No
+12	,	,	_	CLB	_	11	punct	_	_
+13	абу	абу	_	Pcle	Neg	15	cop	_	_
+14	мӧд	мӧдны	_	V	ConNeg	15	det	_	_
+15	луннас-а	луннас	_	Adv	Clt/а	22	csubj	_	SpaceAfter=No
+16	,	,	_	CLB	_	15	punct	_	_
 17	сы	сійӧ	_	Pron	Dem	18	det	_	_
-18	луннас	луннас	_	Adv	_	13	_	_	_
-19	же	же	_	Pcle	_	_	_	_	_
-20	вот	вот	_	Pcle	_	0	_	_	SpaceAfter=No
-21	,	,	_	CLB	_	20	_	_	_
-22	тытэн	тытэн	_	Adv	_	_	_	_	_
+18	луннас	луннас	_	Adv	_	15	conj	_	_
+19	же	же	_	Pcle	_	18	advmod	_	_
+20	вот	вот	_	Pcle	_	22	discourse	_	SpaceAfter=No
+21	,	,	_	CLB	_	20	punct	_	_
+22	тытэн	тытэн	_	Adv	_	3	advcl	_	_
 23	нин	нин	_	Adv	_	22	advmod	_	_
 24	вӧлі	вӧвны	_	V	Ind|Prt1|Sg3	22	cop	_	SpaceAfter=No
-25	.	.	_	CLB	_	20	_	_	_
+25	.	.	_	CLB	_	3	punct	_	_
 
 # sent_id = missing_id_41
 # text = Из сайын сыа, так что, меам Салехард местэыс тоже рӧднэй рӧдина койд.
