@@ -16,5 +16,6 @@ Some of the annotations have been taken from [this collection](http://ilazki.thi
     - Not all Russian is marked with full Russian morphological tags, i.e. gender is probably often missing
 - kpv-ud-ikpd.conllu still misses some basic annotations here and there
 - Things marked in misc column with Note=Check tag need to be checked specifically
+- Note=CheckAll means that everything in that sentence has to be checked, but there are only few of those now!
 
 Edits or comments are more than welcome!
