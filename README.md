@@ -7,3 +7,10 @@ The work is mainly done and coordinated by [Niko Partanen](https://github.com/ni
 Morphological annotations are created with [Giellatekno's](http://giellatekno.uit.no/) Komi-Zyrian morphological analysator, and the majority of dependencies are drawn manually, and there have been manual and semi-manual steps all over the place. However, the direction is toward more automatized methodology.
 
 Some of the annotations have been taken from [this collection](http://ilazki.thinkgeek.co.uk/brat/#/uralic/kpv), with the understanding that this data is intended as publicly available.
+
+## List of known problems
+
+- Subordinate clauses are often marked incorrectly
+- Conjunctions are classified haphazardly
+- Especially kpv-ud-ikdp.conllu treebank contains lots of Russian
+    - Not all Russian is marked with full Russian morphological tags, i.e. gender is probably often missing
