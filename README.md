@@ -14,3 +14,7 @@ Some of the annotations have been taken from [this collection](http://ilazki.thi
 - Conjunctions are classified haphazardly
 - Especially kpv-ud-ikdp.conllu treebank contains lots of Russian
     - Not all Russian is marked with full Russian morphological tags, i.e. gender is probably often missing
+- kpv-ud-ikpd.conllu still misses some basic annotations here and there
+- Things marked in misc column with Note=Check tag need to be checked specifically
+
+Edits or comments are more than welcome!
