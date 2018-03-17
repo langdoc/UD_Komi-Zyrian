@@ -30,12 +30,12 @@
 3	закончитэм	закончитэм	_	V	_	12	advcl	_	_
 4	бӧрын	бӧр	_	Po	Sg|Ine	3	case	_	SpaceAfter=No
 5	,	,	_	CLB	_	6	punct	_	_
-6	гожемъяснас	гожемъяснас	_	Adv	_	12	advmod	_	SpaceAfter=No
+6	гожемъяснас	гожемъяснас	_	N	Sg|Pl|Ins|PxSg3	12	obl	_	SpaceAfter=No
 7	,	,	_	CLB	_	8	punct	_	_
 8	правда	правда	_	Adv	_	12	advmod	_	SpaceAfter=No
 9	,	,	_	CLB	_	10	punct	_	_
 10	быд	быд	_	Pron	Sg|Nom	11	det	_	_
-11	гожем	гожем	_	N	_	12	obl	_	_
+11	гожем	гожем	_	N	Sg|Nom	12	obl	_	_
 12	ветлі	ветлыны	_	V	Ind|Prt1|Sg1	0	root	_	_
 13	родительяс	родитель	_	N	Pl|Nom	12	obl	_	_
 14	доре	дор	_	Po	Ill	13	case	_	_
@@ -125,13 +125,13 @@
 # sent_id = missing_id_8
 # text = Супругаа, кудз висьтооны, абу оленевод да, приведитчис кольччыны.
 # text_rus = 
-1	Супругаа	супруга	_	N	_	7	nsubj	_	SpaceAfter=No
+1	Супругаа	супруга	_	N	Sg|Nom|PxSg1	7	nsubj	_	SpaceAfter=No
 2	,	,	_	CLB	_	3	punct	_	_
 3	кудз	кудз	_	Adv	Rel	4	advmod	_	_
 4	висьтооны	висьтооны	_	V	Inf	7	parataxis	_	SpaceAfter=No
 5	,	,	_	CLB	_	6	punct	_	_
 6	абу	абу	_	Pcle	Neg	7	aux	_	_
-7	оленевод	оленевод	_	N	_	0	root	_	_
+7	оленевод	оленевод	_	N	Sg|Nom	0	root	_	_
 8	да	да	_	CS	_	7	discourse	_	SpaceAfter=No
 9	,	,	_	CLB	_	10	punct	_	_
 10	приведитчис	приведитчыны	_	V	Ind|Prt1|Sg3	7	ccomp	_	_
@@ -149,7 +149,7 @@
 6	эз	оз	_	V	Neg|Ind|Prt|Sg3	8	conj	_	SpaceAfter=No
 7	,	,	_	CLB	_	6	punct	_	_
 8	абу	абу	_	Pcle	Neg	9	aux	_	_
-9	понравитчӧма	понравитчӧма	_	V	_	1	conj	_	SpaceAfter=No
+9	понравитчема	понравитчыны	_	V	_	1	conj	_	SpaceAfter=No|Note=Check
 10	,	,	_	CLB	_	11	punct	_	_
 11	оз	оз	_	V	Neg|Ind|Prs|Sg3	12	aux	_	_
 12	вермы	вермыны	_	V	ConNeg	1	ccomp	_	_
@@ -203,8 +203,8 @@
 # text = А эні нин сизим во кудз висены кокъясэ и ог вермы ветлыны, веське с удовольствием пета тундраа, но…
 # text_rus = 
 1	А	а	_	CC	_	2	mark	_	_
-2	ӧні	ӧні	_	Adv	_	7	advmod	_	_
-3	нин	нин	_	Pcle	_	2	advmod	_	_
+2	эні	эні	_	Adv	_	7	advmod	_	_
+3	нин	нин	_	Adv	_	2	advmod	_	_
 4	сизим	сизим	_	Num	Card|Abs	5	nummod	_	_
 5	во	во	_	N	Abs	7	nmod	_	_
 6	кудз	кудз	_	Adv	_	7	advmod	_	_
@@ -221,7 +221,7 @@
 17	пета	петны	_	V	Ind|Prs|Sg1	7	ccomp	_	_
 18	тундраа	тундра	_	N	Sg|Ill	17	obl	_	SpaceAfter=No
 19	,	,	_	CLB	_	20	punct	_	_
-20	но	но	_	Interj	_	7	discourse	_	SpaceAfter=No
+20	но	но	_	Pcle	_	7	discourse	_	SpaceAfter=No
 21	…	…	_	CLB	_	7	punct	_	_
 
 # sent_id = missing_id_15
@@ -230,7 +230,7 @@
 1	Медбӧрын	медбӧрын	_	Adv	Ine	2	advmod	_	_
 2	лэччылі	лэччывны	_	V	Ind|Prt1|Sg1	0	root	_	_
 3	Нярьян-Маре	Нярьян-Мар	_	N	Sg|Ill	2	obl	_	_
-4	тожӧ	тожӧ	_	Adv	_	2	advmod	_	_
+4	тоже	тоже	_	Adv	_	2	advmod	_	_
 5	оленеводствоо	оленеводство	_	N	Sg|Ill	2	obl	_	SpaceAfter=No
 6	,	,	_	CLB	_	7	punct	_	_
 7	Нарьян-Марскей	Нарьян-Марскей	_	A	_	8	amod	_	_
@@ -345,7 +345,7 @@
 2	,	,	_	CLB	_	1	punct	_	_
 3	нёль	нёль	_	Num	Card|Abs	4	nummod	_	_
 4	чой	чой	_	N	Sg|Nom	0	root	_	_
-5	и	и	_	Pcle	_	6	cc	_	_
+5	и	и	_	CC	_	6	cc	_	_
 6	кык	кык	_	Num	Card|Abs	7	nummod	_	_
 7	вок	вок	_	N	Sg|Nom	4	conj	_	SpaceAfter=No
 8	.	.	_	CLB	_	4	punct	_	_
@@ -443,19 +443,19 @@
 # text_rus = Значит, в Омском военном училище, не военное училище, а курсы, трехмесячную подгодтовку прошел, и воевал он на Ленинградском фронте.
 # text_eng = So, in Omsk military college, not military college, but courses, he had three-month training, and he fought at the Leningrad front.
 1	Омскейын	Омскейын	_	A	Ine	6	nmod	_	SpaceAfter=No
-2	,	,	_	CLB	_	3	x	_	_
+2	,	,	_	CLB	_	3	punct	_	_
 3	значит	значит	_	Pcle	_	6	discourse	_	SpaceAfter=No
-4	,	,	_	CLB	_	3	x	_	_
+4	,	,	_	CLB	_	3	punct	_	_
 5	военнэй	военнӧй	_	A	Abs	6	amod	_	_
 6	училище	училище	_	N	Sg|Nom	0	_	_	SpaceAfter=No
-7	,	,	_	CLB	_	6	x	_	_
+7	,	,	_	CLB	_	6	punct	_	_
 8	не	не	_	Pcle	_	9	advmod	_	_
 9	вӧеннэй	вӧеннэй	_	A	_	10	amod	_	_
 10	училище	училище	_	N	Sg|Nom	6	conj	_	SpaceAfter=No
-11	,	,	_	CLB	_	12	x	_	_
-12	а	а	_	CC	_	0	_	_	_
+11	,	,	_	CLB	_	12	punct	_	_
+12	а	а	_	CC	_	13	cc	_	_
 13	курсъяс	курс	_	N	Pl|Nom	18	nsubj	_	SpaceAfter=No
-14	,	,	_	CLB	_	13	x	_	_
+14	,	,	_	CLB	_	13	punct	_	_
 15	подготовка	подготовка	_	N	_	13	conj	_	_
 16	куим	куим	_	Num	Card|Sg|Nom	17	nummod	_	_
 17	месеча	месеча	_	N	_	18	obl	_	_
@@ -502,11 +502,11 @@
 # sent_id = missing_id_29
 # text = Вто-, вторая бригада оленеводческая, висьтооны ке, мӧдэд бригада, да?
 # text_rus = Вторая оленеводческая бригада, если сказать, вторая бригада, да?
-# text_eng = 
-1	Вто-	Вто-	_	A	_	3	x	_	Note=Check|SpaceAfter=No
-2	,	,	_	CLB	_	1	x	_	_
+# text_eng =
+1	Вто-	Вто-	_	A	_	3	reparandum	_	Note=Check|SpaceAfter=No
+2	,	,	_	CLB	_	1	punct	_	_
 3	вторая	вторая	_	A	_	4	nummod	_	_
-4	бригада	бригада	_	N	Sg|Nom	0	x	_	_
+4	бригада	бригада	_	N	Sg|Nom	0	root	_	_
 5	оленеводческая	оленеводческая	_	A	_	4	amod	_	SpaceAfter=No
 6	,	,	_	CLB	_	7	punct	_	_
 7	висьтооны	висьтооны	_	V	Inf	11	mark	_	_
@@ -527,7 +527,7 @@
 3	,	,	_	CLB	_	4	punct	_	_
 4	миян	ми	_	Pron	Pers|Pl1|Gen	6	nsubj	_	_
 5	ӧттӧрйи	ӧттӧрйи	_	Adv	_	6	advmod	_	_
-6	вӧрзялісныс	вӧрзялісныс	_	V	Ind|Prt1|Pl3	_	x	_	_
+6	вӧрзялісныс	вӧрзялісныс	_	V	Ind|Prt1|Pl3	0	root	_	_
 7	Из	из	PROPN	N	Abs	6	obl	_	_
 8	сае	сай	_	N	Relat|Sg|Ill	7	case	_	SpaceAfter=No
 9	.	.	_	CLB	_	6	punct	_	_
@@ -540,7 +540,7 @@
 2	ӧні	ӧні	_	Adv	_	5	advmod	_	_
 3	бара	бара	_	Adv	_	5	advmod	_	_
 4	же	же	_	Pcle	_	3	goeswith	_	_
-5	мӧдісныс	мӧдісныс	_	V	Ind|Prt1|Pl3	_	x	_	_
+5	мӧдісныс	мӧдісныс	_	V	Ind|Prt1|Pl3	0	root	_	_
 6	вӧрзёоны	вӧрзёоны	_	V	Inf	5	xcomp	_	SpaceAfter=No
 7	.	.	_	CLB	_	5	punct	_	_
 
