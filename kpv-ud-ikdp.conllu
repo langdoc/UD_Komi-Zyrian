@@ -739,22 +739,22 @@
 # sent_id = missing_id_41
 # text = Из сайын сыа, так что, меам Салехард местэыс тоже рӧднэй рӧдина койд.
 # text_rus = Это на Уралом, так что, мне места возле Салехарда тоже как родная родина.
-# text_eng = 
+# text_eng =
 1	Из	из	_	N	Abs	_	x	_	_
 2	сайын	сайын	_	Po	Sg|Ine	1	case	_	_
-3	сыа	сыа	_	Pron	#3	_	x	_	SpaceAfter=No
-4	,	,	_	CLB	_	_	x	_	_
-5	так	такны	_	Pcle	_	0	_	_	_
-6	что	что	_	Pcle	_	_	x	_	SpaceAfter=No
-7	,	,	_	CLB	_	_	x	_	_
-8	меам	меам	_	Pron	_	_	x	_	_
-9	Салехард	Салехард	_	N	Prop|Sg|Nom	0	_	_	_
-10	местэыс	местэыс	_	N	_	_	x	_	_
-11	тоже	тоже	_	Adv	_	_	x	_	_
-12	рӧднэй	рӧднӧй	_	A	Abs	0	_	_	_
-13	рӧдина	рӧдина	_	N	Sg|Nom	0	_	_	_
-14	койд	койд	_	Po	_	_	x	_	SpaceAfter=No
-15	.	.	_	CLB	_	_	x	_	_
+3	сыа	сыа	_	Pron	Pers|Sg3|Nom	1	nsubj	_	SpaceAfter=No
+4	,	,	_	CLB	_	3	punct	_	_
+5	так	так	_	CS	_	10	mark	_	_
+6	что	что	_	Po	_	5	fixed	_	SpaceAfter=No
+7	,	,	_	CLB	_	6	punct	_	_
+8	меам	меам	_	Pron	Pers|Sg1|Gen	9	nmod	_	_
+9	Салехард	Салехард	_	N	Prop|Sg|Nom	10	nmod	_	_
+10	местэыс	местэыс	_	N	Sg|Nom|PxSg3	3	conj	_	_
+11	тоже	тоже	_	Adv	_	10	advmod	_	_
+12	рӧднэй	рӧднӧй	_	A	Abs	13	amod	_	_
+13	рӧдина	рӧдина	_	N	Sg|Nom	10	nmod	_	_
+14	койд	койд	_	Po	_	13	case	_	SpaceAfter=No
+15	.	.	_	CLB	_	1	punct	_	_
 
 # sent_id = missing_id_42
 # text = Ну, кучем пӧрысь бабушка сэн лоас, сыа и лоас.
