@@ -14,6 +14,7 @@ Some of the annotations have been taken from [this collection](http://ilazki.thi
 
 - Subordinate clauses are often marked incorrectly
 - Conjunctions are classified haphazardly
+- Annotations with negation seem to need attention
 - Especially kpv-ud-ikdp.conllu treebank contains lots of Russian
     - Not all Russian is marked with full Russian morphological tags, i.e. gender is probably often missing
 - kpv-ud-ikpd.conllu still misses some basic annotations here and there
