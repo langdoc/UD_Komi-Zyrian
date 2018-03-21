@@ -65,12 +65,12 @@ as_conllu_div <- function(data){
     mutate(numbering = 1:n()) %>%
     ungroup()
 
-  by_row(data, ~ paste0(.x$numbering, '\t', .x$form, '\t', .x$lemma, '\t', .x$upostag, '\t', .x$xpostag, '\t', '_', '\t', .x$head, '\t', .x$deprel, "\t_\t_", sep = '\n')) %>% 
+  by_row(data, ~ paste0(.x$numbering, '\t', .x$form, '\t', .x$lemma, '\t', .x$upostag, '\t', .x$xpostag, '\t', .x$feats, '\t', .x$head, '\t', .x$deprel, "\t_\t_", sep = '\n')) %>% 
     .$.out %>% 
     unlist %>% 
     paste0(collapse = '') %>%
     paste0(., "\n") %>%
-    map(~ shiny::div(shiny::div(class="conllu-parse", tabs="yes", .x), shiny::p(data$text_rus[1]))) %>%
+    map(~ shiny::div(shiny::div(class="conllu-parse", tabs="yes", .x), shiny::p(data$sent_id[1], shiny::br(), data$text_rus[1]))) %>%
     .[[1]]
 
 }
@@ -103,3 +103,79 @@ ikdp %>%
 
 ```
 
+## Information
+
+This section contains information about different things.
+
+The plot below shows the ratios of xpostags. This is particularly useful for checking that there are no entirely incorrect values there. This could also be checked easily with a controlled vocabulary.
+
+```{r, echo=FALSE}
+library(ggplot2)
+
+corpus <- bind_rows(lattice %>% mutate(corpus = "LATTICE"), ikdp %>% mutate(corpus = "IKDP"))
+
+corpus %>% ggplot(data = .,
+                aes(x = corpus, fill = xpostag)) +
+  geom_bar(position = "fill")
+
+# corpus %>% filter(xpostag == "_")
+```
+
+This shows the ratios of different dependency relations. The color scheme could be improved, and the display could be split by relation types, for example.
+
+```{r, echo=FALSE}
+corpus %>% ggplot(data = .,
+                aes(x = corpus, fill = deprel)) +
+  geom_bar(position = "fill")
+
+## corpus %>% filter(deprel == "PCLE")
+```
+
+Most common adverbs:
+
+```{r, echo=FALSE}
+
+corpus %>% filter(xpostag == "Adv") %>% 
+  count(lemma, sort = TRUE) %>% 
+  slice(1:10) %>% 
+  knitr::kable()
+
+```
+
+Most common prepositions:
+
+```{r, echo=FALSE}
+corpus %>% filter(xpostag == "Pr") %>% 
+  count(lemma, sort = TRUE) %>% 
+  slice(1:10) %>% 
+  knitr::kable()
+```
+
+Most common postpositions:
+
+```{r, echo=FALSE}
+corpus %>% filter(xpostag == "Po") %>% 
+  count(lemma, sort = TRUE) %>% 
+  slice(1:10) %>% 
+  knitr::kable()
+```
+
+```{r, echo=FALSE}
+corpus %>% filter(xpostag == "A") %>% 
+  count(lemma, sort = TRUE) %>% 
+  slice(1:10) %>% 
+  knitr::kable()
+```
+
+```{r, echo=FALSE}
+corpus %>% filter(xpostag == "Pcle") %>% 
+  count(lemma, sort = TRUE) %>% 
+  slice(20:nrow(.)) %>%
+  knitr::kable()
+```
+
+Things to add:
+
+- List of lemmas that have multiple pos-tags
+    - Signals that there are mistakes or that there is something that needs attention when tagging
+- Something else? I have to think about this.
