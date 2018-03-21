@@ -15,7 +15,7 @@
 1	Но	но	CCONJ	CC	_	5	cc	_	_
 2	чериыс	чери	NOUN	N	Sg|Nom|PxSg3	5	nsubj	_	_
 3	мыйлакӧ	мыйлакӧ	PRON	Pron	_	5	advmod	_	_
-4	эз	оз	AUX	V	Neg|Ind|Prt3	5	aux	_	_
+4	эз	оз	AUX	V	Neg|Ind|Prt3|Sg3	5	aux	_	_
 5	сёй	сёйны	VERB	V	ConNeg|Sg	0	root	_	_
 6	.	.	PUNCT	CLB	_	5	punct	_	SpaceAfter=No
 
@@ -34,7 +34,7 @@
 # text_rus = Солнце пекло, ничего не жалея.
 1	Шондіыс	шонді	NOUN	N	Sg|Nom|PxSg3	4	nsubj	_	_
 2	нем	нем	PRON	Pron	Neg|Sg|Nom	3	det	_	_
-3	жалиттӧг	жалитны	VERB	V	Car|Ger	4	advcl	_	_
+3	жалиттӧг	жалитны	VERB	V	Neg|Ger	4	advcl	_	_
 4	пӧжис	пӧжны	VERB	V	Ind|Prt1|Sg3	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	CLB	_	4	punct	_	_
 
@@ -70,9 +70,9 @@
 # text_rus = Даже прохлада, доносящаяся с реки, не помогала.
 1	Весиг	весиг	ADV	Adv	_	5	advmod	_	_
 2	юсянь	ю	NOUN	N	Sg|Egr	4	obl	_	_
-3	неуна	неуна	ADV	Adv	_	4	advmod	_	_
-4	локтысь	локны	VERB	V	_	5	acl	_	_
-5	ыркыдыс	ыркыд	NOUN	N	Sg|Nom|PxSg	7	nsubj	_	_
+3	неуна	неуна	ADV	Adv	Neg	4	advmod	_	_
+4	локтысь	локны	VERB	V	ActPrsPtc	5	acl	_	_
+5	ыркыдыс	ыркыд	NOUN	N	Sg|Nom|PxSg3	7	nsubj	_	_
 6	эз	оз	AUX	V	Neg|Ind|Prt3	7	aux	_	_
 7	кокньӧд	кокньӧдны	VERB	V	ConNeg|Sg	0	root	_	_
 8	.	.	PUNCT	CLB	_	7	punct	_	SpaceAfter=No
@@ -106,7 +106,7 @@
 5	кыськӧ	кысь	ADV	Adv	_	7	obl	_	_
 6	шур-шар	шур-шар	ADV	Adv	_	7	advmod	_	_
 7	воис	воны	VERB	V	Prt1|Sg3	0	root	_	_
-8	неыджыд	неыджыд	ADJ	A	_	9	amod	_	_
+8	неыджыд	неыджыд	ADJ	A	Neg	9	amod	_	_
 9	тӧвру	тӧвру	NOUN	N	Sg|Nom	7	nsubj	_	SpaceAfter=No
 10	.	.	PUNCT	CLB	_	7	punct	_	_
 
@@ -229,7 +229,7 @@
 # text = Кымӧрыс недыр повзьӧдчӧм бӧрын вешйис бокӧ.
 # text_rus = Туча после того, как немного попугала, ушла в сторону.
 1	Кымӧрыс	кымӧр	NOUN	N	Sg|Nom|PxSg3	5	nsubj	_	_
-2	недыр	недыр	ADV	Adv	_	3	advmod	_	_
+2	недыр	недыр	ADV	Adv	Neg	3	advmod	_	_
 3	повзьӧдчӧм	повзьӧдчыны	VERB	V	_	5	obl	_	_
 4	бӧрын	бӧр	ADP	Po	Sg|Ine	3	case	_	_
 5	вешйис	вешйыны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
@@ -293,7 +293,7 @@
 # sent_id = belyx-011.025
 # text = Тӧдлытӧг асыв-войвывсяньыс тыдовтчис нӧшта кымӧр пласт да ӧдйӧ кутіс кайны енэж шӧрлань.
 # text_rus = Незаметно с северо-востока показалась ещё туча и быстро стала направляться к середине неба.
-1	Тӧдлытӧг	тӧдлыны	VERB	V	_	3	advcl	_	_
+1	Тӧдлытӧг	тӧдлыны	VERB	V	Ger|Neg	3	advcl	_	_
 2	асыв-войвывсяньыс	асыв-войвыв	NOUN	N	Sg|Egr|PxSg3	3	obl	_	_
 3	тыдовтчис	тыдовтчыны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 4	нӧшта	нӧшта	ADV	Adv	_	3	advmod	_	_
@@ -557,7 +557,7 @@
 # sent_id = belyx-011.048
 # text = Дугдывтӧг гымаліс-чардаліс.
 # text_rus = Без конца гремел гром и сверкали молнии.
-1	Дугдывтӧг	дугдывны	VERB	V	Ger	2	advcl	_	_
+1	Дугдывтӧг	дугдывны	VERB	V	Ger|Neg	2	advcl	_	_
 2	гымаліс-чардаліс	гымавны-чардавны	VERB	V	Ind|Prt1|Sg3	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -587,7 +587,7 @@
 3	раскас	рас	NOUN	N	Sg|Ill|PxSg3	1	obl	_	_
 4	да	да	CCONJ	CC	_	5	cc	_	_
 5	сувті	сувтны	VERB	V	Ind|Prt1|Sg3	1	conj	_	_
-6	неыджыд	неыджыд	ADJ	A	_	7	amod	_	_
+6	неыджыд	неыджыд	ADJ	A	Neg	7	amod	_	_
 7	эрд	эрд	NOUN	N	Sg|Nom	5	obl	_	_
 8	вылӧ	вылын	ADP	Po	Spat|Sg|Ill	7	case	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	1	punct	_	_
@@ -619,7 +619,7 @@
 # text_rus = Но молния без остановок сверкала перед глазами.
 1	Но	но	CCONJ	CC	_	4	cc	_	_
 2	чардби	чардби	NOUN	N	Sg|Nom	4	nsubj	_	_
-3	дугдывтӧг	дугдывны	VERB	V	Car	4	advcl	_	_
+3	дугдывтӧг	дугдывны	VERB	V	Ger|Neg	4	advcl	_	_
 4	югъяліс	югъявны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 5	син	син	NOUN	N	N|Sg|Nom	4	obl	_	_
 6	водзын	водз	ADP	Po	Spat|Sg|Ine	5	case	_	SpaceAfter=No
@@ -892,7 +892,7 @@
 # sent_id = belyx-011.075
 # text = Неылысса сикт-грездын сы йылысь абу весиг тӧдлӧмаӧсь.
 # text_rus = В близлежащих селах и деревнях о нём даже не знали.
-1	Неылысса	неылысса	ADJ	A	_	2	amod	_	_
+1	Неылысса	неылысса	ADJ	A	Neg	2	amod	_	_
 2	сикт-грездын	сикт-грезд	NOUN	N	Sg|Ine	7	obl	_	_
 3	сы	сійӧ	PRON	Pron	Pers|Sg3|Cmpl	7	obj	_	_
 4	йылысь	йылысь	ADP	Po	Spat|Sg|Ela	3	case	_	_
@@ -1046,7 +1046,7 @@
 13	олӧмас	олӧм	_	N	Sg|Ine|PxSg3	9	obl	_	SpaceAfter=No
 14	,	,	_	CLB	_	15	punct	_	_
 15	ковмас	ковмыны	_	V	Ind|Fut|Sg3	5	acl	_	_
-16	не	не	_	Pcle	_	17	discourse	_	_
+16	не	не	_	Pcle	Neg	17	discourse	_	_
 17	ӧти	ӧти	_	Num	Card|Attr	19	nummod	_	_
 18	кыз	кыз	_	A	_	19	amod	_	_
 19	книга	книга	_	N	Sg|Nom	15	nsubj	_	SpaceAfter=No
@@ -1164,7 +1164,7 @@
 8	водзсьыныс	водз	_	Po	Sg|Ela|PxPl3	10	obl	_	_
 9	ылысь	ылын	_	Po	Spat|Ela	8	case	_	_
 10	аддзисны	аддзыны	_	V	Ind|Prt1|Pl3	21	advcl	_	_
-11	неыджыд	неыджыд	_	A	_	12	amod	_	_
+11	неыджыд	неыджыд	_	A	Neg	12	amod	_	_
 12	казацкӧй	казацкӧй	_	A	_	13	amod	_	_
 13	сикт	сикт	_	N	Sg|Nom	10	obj	_	SpaceAfter=No
 14	,	,	_	CLB	_	15	punct	_	_
@@ -1173,7 +1173,7 @@
 17	,	,	_	CLB	_	18	punct	_	_
 18	ставыс	став	_	Pron	Qnt|Sg|Nom|PxSg3	21	nsubj	_	_
 19	гӧгӧр	гӧгӧр	_	Adv	_	21	advmod	_	_
-20	виччысьтӧг	виччысьны	_	V	Car	21	advcl	_	_
+20	виччысьтӧг	виччысьны	_	V	Ger|Neg	21	advcl	_	_
 21	лӧнис	лӧньны	_	V	Ind|Prt1|Sg3	0	root	_	SpaceAfter=No
 22	.	.	_	CLB	_	21	punct	_	_
 
@@ -1209,7 +1209,7 @@
 # text_rus = Откуда налетит вновь?
 1	Кытысь	кытысь	_	Adv	Interr|Ela	2	advmod	_	_
 2	лэбыштас	лэбыштны	_	V	Ind|Fut|Sg3	0	root	_	_
-3	выльысь	выльысь	_	Adv	_	2	advmod	_	SpaceAfter=No
+3	выльысь	выльысь	_	Adv	Ela	2	advmod	_	SpaceAfter=No
 4	?	?	_	CLB	_	2	punct	_	_
 
 # sent_id = kpv_four_battles.022
@@ -1236,7 +1236,7 @@
 # sent_id = kpv_four_battles.024
 # text = Неприятель страшнӧй, бура кӧ он тӧд, кӧні сійӧ и мый сійӧ вӧчӧ.
 # text_rus = Неприятель страшен, если не знаешь в точности, где он и что он делает.
-1	Неприятель	неприятель	_	N	Sg|Nom	2	nsubj	_	_
+1	Неприятель	неприятель	_	N	Sg|Nom|Neg	2	nsubj	_	_
 2	страшнӧй	страшнӧй	_	A	_	0	root	_	SpaceAfter=No
 3	,	,	_	CLB	_	4	punct	_	_
 4	бура	бура	_	Adv	_	7	advmod	_	_
@@ -1335,7 +1335,7 @@
 9	командирӧн	командир	_	N	Sg|Ins	10	obl	_	_
 10	мунӧ	мунны	_	V	Ind|Prs|Sg3	5	advcl	_	_
 11	армияӧн	армия	_	N	Sg|Ins	12	nmod	_	_
-12	командуйтысь	командуйтысь	_	N	Sg|Nom	13	nmod	_	_
+12	командуйтысь	командуйтысь	_	V	ActPrsPtc	13	nmod	_	_
 13	Климент	Климент	_	N	Prop|Sg|Nom	10	nsubj	_	_
 14	Ефремович	Ефрем	_	N	Prop|Sg|Nom	13	flat:name	_	_
 15	Ворошилов	Ворошилов	_	N	Prop|Sg|Nom	13	flat:name	_	SpaceAfter=No
@@ -1411,7 +1411,7 @@
 # text = Одсӧ чинтытӧг, шоферыс машинасӧ веськӧдіс ӧти татшӧм переулокӧ, коді вӧлі зэв крутӧя кежӧ.
 # text_rus = Не замедляя хода, водитель направил машину в один из таких переулочков, изгибавшийся крутым коленом.
 1	Одсӧ	од	_	N	Sg|Nom|Clt/сӧ	2	nmod	_	_
-2	чинтытӧг	чинтыны	_	V	Car	6	advcl	_	SpaceAfter=No
+2	чинтытӧг	чинтыны	_	V	Ger|Neg	6	advcl	_	SpaceAfter=No
 3	,	,	_	CLB	_	4	punct	_	_
 4	шоферыс	шофёр	_	N	Sg|Nom|PxSg3	6	nsubj	_	_
 5	машинасӧ	машина	_	N	Sg|Nom|Clt/сӧ	6	obj	_	_
@@ -1472,7 +1472,7 @@
 # text_rus = Второго выхода из него не было.
 1	Мӧд	мӧд	_	Pron	Dem	2	nmod	_	_
 2	петанін	петанін	_	N	Sg|Nom	0	root	_	_
-3	сэтысь	сэтысь	_	Adv	_	2	obl	_	_
+3	сэтысь	сэтысь	_	Adv	Ela	2	obl	_	_
 4	эз	оз	_	V	Neg|Ind|Pr|Sg3	5	aux	_	_
 5	вӧв	вӧвны	_	V	ConNeg|Sg	2	cop	_	SpaceAfter=No
 6	.	_	_	CLB	_	2	punct	_	_
@@ -1693,7 +1693,7 @@
 # sent_id = kpv_four_battles.059
 # text = Не петны миянлы…
 # text_rus = Не выбраться нам…
-1	Не	не	_	Pcle	_	2	advmod	_	_
+1	Не	не	_	Pcle	Neg	2	advmod	_	_
 2	петны	петны	_	V	Inf	0	root	_	_
 3	миянлы	ми	_	Pron	Pers|Pl1|Dat	2	obl	_	SpaceAfter=No
 4	.	.	_	CLB	_	2	punct	_	_
@@ -1913,7 +1913,7 @@
 7	му	му	NOUN	N	Sg|Nom	1	list	_	SpaceAfter=No
 8	,	,	PUNCT	CLB	_	9	punct	_	_
 9	сынӧд	сынӧд	NOUN	N	Sg|Nom	1	list	_	_
-10	некор	некор	ADV	Adv	_	13	advmod	_	_
+10	некор	некор	ADV	Adv	Neg	13	advmod	_	_
 11	эз	оз	AUX	V	Neg|Ind|Prt|Sg3	12	aux	_	_
 12	вӧвны	вӧвны	VERB	V	ConNeg|Pl3	13	cop	_	_
 13	ловъяӧсь	ловъя	ADJ	A	Cop|Pl	0	root	_	SpaceAfter=No
