@@ -16,13 +16,13 @@
 2	чериыс	чери	NOUN	N	Sg|Nom|PxSg3	5	nsubj	_	_
 3	мыйлакӧ	мыйлакӧ	PRON	Pron	_	5	advmod	_	_
 4	эз	оз	AUX	V	Neg|Ind|Prt3	5	aux	_	_
-5	сёй	сёйны	VERB	V	Conneg	0	root	_	_
+5	сёй	сёйны	VERB	V	ConNeg|Sg	0	root	_	_
 6	.	.	PUNCT	CLB	_	5	punct	_	SpaceAfter=No
 
 # sent_id = belyx-011.002
 # text = Кӧть луныс вӧлі зэв мича.
 # text_rus = Хотя день был очень хорошим.
-1	Кӧть	кӧть	SCONJ	CS	_	5	mark	_	_
+1	Кӧть	кӧть	PART	Pcle	_	5	advmod	_	_
 2	луныс	лун	NOUN	N	Sg|Nom|PxSg3	5	nsubj	_	_
 3	вӧлі	вӧвны	VERB	V	Ind|Prt1|Sg3	5	cop	_	_
 4	зэв	зэв	ADV	Adv	_	5	advmod	_	_
@@ -46,7 +46,7 @@
 3	ӧти	ӧти	NUM	Num	Card	4	nummod	_	_
 4	кымӧртор	кымӧртор	NOUN	N	Sg|Nom	6	nsubj	_	_
 5	эз	оз	AUX	V	Neg|Ind|Prt3	6	aux	_	_
-6	тыдав	тыдавны	VERB	V	Conneg	0	root	_	SpaceAfter=No
+6	тыдав	тыдавны	VERB	V	Conneg|Sg	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = belyx-011.005
@@ -74,7 +74,7 @@
 4	локтысь	локны	VERB	V	_	5	acl	_	_
 5	ыркыдыс	ыркыд	NOUN	N	Sg|Nom|PxSg	7	nsubj	_	_
 6	эз	оз	AUX	V	Neg|Ind|Prt3	7	aux	_	_
-7	кокньӧд	кокньӧдны	VERB	V	ConNeg	0	root	_	_
+7	кокньӧд	кокньӧдны	VERB	V	ConNeg|Sg	0	root	_	_
 8	.	.	PUNCT	CLB	_	7	punct	_	SpaceAfter=No
 
 # sent_id = belyx-011.008
@@ -124,7 +124,7 @@
 # text_rus = Не заметил, как над головой один за другим стали появляться небольшие облака.
 1	Эг	оз	AUX	V	Ind|Prt|Sg1	3	aux	_	_
 2	и	и	PART	Pcle	_	3	advmod	_	_
-3	тӧдлы	тӧд	VERB	V	ConNeg	0	root	_	SpaceAfter=No
+3	тӧдлы	тӧд	VERB	V	ConNeg|Sg	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	11	punct	_	_
 5	кыдзи	кыдзи	ADV	Adv	Manner|Rel	11	advmod	_	_
 6	юр	юр	NOUN	N	Sg|Nom	11	obl	_	_
@@ -210,7 +210,7 @@
 1	Весиг	весиг	ADV	Adv	_	4	advmod	_	_
 2	бӧжсӧ	бӧж	NOUN	N	Sg|Acc|PxSg3	4	obj	_	_
 3	эз	оз	AUX	V	Ind|Prt|Sg1	4	aux	_	_
-4	петкӧдлы	петкӧдлыны	VERB	V	Conneg	0	root	_	SpaceAfter=No
+4	петкӧдлы	петкӧдлыны	VERB	V	Conneg|Sg	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.019
@@ -253,7 +253,7 @@
 12	сідз-тадз	сідз-тадз	ADV	Adv	_	15	advmod	_	_
 13	ставыс	став	PRON	Pron	Nom|PxSg3	15	nsubj	_	_
 14	оз	оз	AUX	V	Neg|Ind|Prs|Sg3	15	aux	_	_
-15	помась	помасьны	VERB	V	ConNeg	3	ccomp	_	SpaceAfter=No
+15	помась	помасьны	VERB	V	ConNeg|Sg	3	ccomp	_	SpaceAfter=No
 16	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = belyx-011.022
@@ -438,7 +438,7 @@
 1	Эг	оз	AUX	V	Neg|Ind|Prt|Sg1	4	aux	_	_
 2	нин	нин	ADV	Adv	_	4	advmod	_	_
 3	сэтшӧма	сэтшӧма	ADV	Adv	_	4	advmod	_	_
-4	кут	кутны	VERB	V	ConNeg	0	root	_	_
+4	кут	кутны	VERB	V	ConNeg|Sg	0	root	_	_
 5	тэрмасьны	тэрмасьны	VERB	V	Inf	4	xcomp	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	4	punct	_	_
 
@@ -459,7 +459,7 @@
 12	кок	кок	NOUN	N	Sg|Nom	15	obl	_	_
 13	йылысь	йылысь	ADP	Po	Sg|Ela	12	case	_	_
 14	эз	оз	AUX	V	Neg|Ind|Prt|Sg3	15	aux	_	_
-15	пӧрӧд	пӧрӧдны	VERB	V	ConNeg	4	acl	_	SpaceAfter=No
+15	пӧрӧд	пӧрӧдны	VERB	V	ConNeg|Sg	4	acl	_	SpaceAfter=No
 16	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.040
@@ -468,7 +468,7 @@
 1	Лолӧй	лов	NOUN	N	Sg|Nom|PxSg1	4	nsubj	_	_
 2	быдӧн	быд	NOUN	N	_	4	nmod	_	_
 3	эз	оз	AUX	V	Neg|Ind|Prt|Sg3	4	aux	_	_
-4	кут	кутны	VERB	V	ConNeg	0	root	_	_
+4	кут	кутны	VERB	V	ConNeg|Sg	0	root	_	_
 5	сюрны	сюрны	VERB	V	Inf	4	xcomp	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	10	punct	_	_
 7	сэтшӧма	сэтшӧма	ADV	Adv	_	10	advmod	_	_
@@ -527,7 +527,7 @@
 2	водзӧ	водз	ADV	Adv	Ill	1	advmod	_	_
 3	эг	оз	AUX	V	Neg|Ind|Prt|Sg1	5	aux	_	_
 4	нин	нин	ADV	Adv	_	5	advmod	_	_
-5	кут	кутны	VERB	V	ConNeg	0	root	_	_
+5	кут	кутны	VERB	V	ConNeg|Sg	0	root	_	_
 6	вермыны	вермыны	VERB	V	Inf	5	xcomp	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	5	punct	_	_
 
@@ -600,7 +600,7 @@
 3	улын	улын	ADP	Po	Spat|Ine	2	case	_	_
 4	сулавны	сулавны	VERB	V	Inf	6	xcomp	_	_
 5	оз	оз	AUX	V	Neg|Ind|Prs|Sg3	6	aux	_	_
-6	позь	позьны	VERB	V	ConNeg	0	root	_	SpaceAfter=No
+6	позь	позьны	VERB	V	ConNeg|Sg	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = belyx-011.053
@@ -780,7 +780,7 @@
 3	нӧ	нӧ	PART	Pcle	_	6	discourse	_	_
 4	водзджык	водзджык	ADV	Adv	_	6	advmod	_	_
 5	эн	оз	AUX	V	Neg|Ind|Pr|Sg2	6	aux	_	_
-6	вермы	вермыны	VERB	V	ConNeg	0	root	_	_
+6	вермы	вермыны	VERB	V	ConNeg|Sg	0	root	_	_
 7	кайны	кайны	VERB	V	Inf	6	xcomp	_	SpaceAfter=No
 8	,	,	PUNCT	CLB	_	11	punct	_	_
 9	—	—	PUNCT	PUNCT	_	11	punct	_	_
@@ -865,7 +865,7 @@
 2	кодлыськӧ	коді	PRON	Pron	Sg|Abl|Der|Indef	4	obl	_	_
 3	весиг	весиг	ADV	Adv	_	4	advmod	_	_
 4	чашнитӧма	чашнитны	VERB	V	Ind|Prt2|Sg3	0	root	_	_
-5	керка	керка	NOUN	N	Sg|Nom	6	compound	_	SpaceAfter=No
+5	керка	керка	NOUN	N	Sg|Acc|PxSg3	6	compound	_	SpaceAfter=No
 6	вевтсӧ	вевт	NOUN	N	Sg|Acc|PxSg3	4	obj	_	_
 7	.	.	PUNCT	CLB	_	4	punct	_	_
 
@@ -1061,7 +1061,7 @@
 4	мортлӧн	морт	NOUN	N	Sg|Gen	5	nmod	_	_
 5	олӧмыс	олӧм	NOUN	N	Sg|Nom|PxSg3	7	nsubj	_	_
 6	оз	оз	AUX	V	Neg|Ind|Prs|Sg3	7	aux	_	_
-7	тӧр	тӧрны	VERB	V	ConNeg	0	root	_	SpaceAfter=No
+7	тӧр	тӧрны	VERB	V	ConNeg|Sg	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	7	punct	_	_
 
 # sent_id = kpv_four_battles.012
@@ -1217,7 +1217,7 @@
 # text_rus = Неизвестно!
 1	Некод	некод	PRON	Pron	Neg|Sg|Nom	3	nsubj	_	_
 2	оз	оз	AUX	V	Neg|Ind|Prs|Sg3	3	aux	_	_
-3	тӧд	тӧдны	VERB	V	ConNeg	0	root	_	SpaceAfter=No
+3	тӧд	тӧдны	VERB	V	ConNeg|Sg	0	root	_	SpaceAfter=No
 4	!	!	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = kpv_four_battles.023
@@ -1242,7 +1242,7 @@
 4	бура	бура	_	Adv	_	7	advmod	_	_
 5	кӧ	кӧ	_	CS	_	7	advmod	_	_
 6	он	оз	_	V	Neg|Ind|Prs|Sg2	7	aux	_	_
-7	тӧд	тӧдны	_	V	ConNeg	2	advcl	_	SpaceAfter=No
+7	тӧд	тӧдны	_	V	ConNeg|Sg	2	advcl	_	SpaceAfter=No
 8	,	,	_	CLB	_	9	punct	_	_
 9	кӧні	кӧні	_	Adv	Ine|Pr|Sg|Rel	10	advmod	_	_
 10	сійӧ	сійӧ	_	Pron	Pers|Sg3|Nom	7	acl	_	_
@@ -1271,7 +1271,7 @@
 14	тӧдмавны	тӧдмавны	_	V	Inf	5	conj	_	SpaceAfter=No
 15	,	,	_	CLB	_	16	punct	_	_
 16	оз-ӧ	оз	_	V	Neg|Ind|Prs|Sg3|Clt/ӧ	17	aux	_	_
-17	дзебсясь	дзебсясьны	_	V	ConNeg	14	ccomp	_	_
+17	дзебсясь	дзебсясьны	_	V	ConNeg|Sg	14	ccomp	_	_
 18	сэні	сэні	_	Adv	_	17	advmod	_	_
 19	враг	враг	_	N	Sg|Nom	17	nsubj	_	SpaceAfter=No
 20	.	.	_	CLB	_	1	punct	_	_
@@ -1318,7 +1318,7 @@
 10	кипод	кипод	_	N	Sg|Nom	13	obl	_	_
 11	уланыс	ув	_	Po	Sg|Ill|PxPl3	10	case	_	_
 12	эз	оз	_	V	Neg|Ind|Pr|Sg3	13	aux	_	_
-13	вӧв	вӧвны	_	V	ConNeg	3	conj	_	SpaceAfter=No
+13	вӧв	вӧвны	_	V	ConNeg|Sg	3	conj	_	SpaceAfter=No
 14	.	_	_	CLB	_	3	punct	_	_
 
 # sent_id = kpv_four_battles.029
@@ -1474,7 +1474,7 @@
 2	петанін	петанін	_	N	Sg|Nom	0	root	_	_
 3	сэтысь	сэтысь	_	Adv	_	2	obl	_	_
 4	эз	оз	_	V	Neg|Ind|Pr|Sg3	5	aux	_	_
-5	вӧв	вӧвны	_	V	ConNeg	2	cop	_	SpaceAfter=No
+5	вӧв	вӧвны	_	V	ConNeg|Sg	2	cop	_	SpaceAfter=No
 6	.	_	_	CLB	_	2	punct	_	_
 
 # sent_id = kpv_four_battles.039
@@ -1580,7 +1580,7 @@
 # text_rus = С ходу не развернешься, товарищ командир!
 1	Мунігмозыс	мунны	_	V	Der/иг|Ger|Der/моз|Ger|PxSg3	3	advcl	_	_
 2	он	оз	_	V	Neg|Ind|Prs|Sg2	3	aux	_	_
-3	тӧр	тӧрны	_	V	ConNeg	_	_	_	_
+3	тӧр	тӧрны	_	V	ConNeg|Sg	_	_	_	_
 4	бергӧдчыныс	бергӧдчыны	_	V	Inf|Px3	3	xcomp	_	SpaceAfter=No
 5	,	,	_	CLB	_	_	_	_	_
 6	командир	командир	_	N	Sg|Nom	7	nmod	_	_
@@ -1593,7 +1593,7 @@
 1	Сійӧ	сійӧ	_	Pron	Pers|Sg3|Nom	4	nsubj	_	_
 2	эз	оз	_	V	Neg|Ind|Pr|Sg3	4	aux	_	_
 3	на	на	_	Pcle	_	2	discourse	_	_
-4	удит	удитны	_	V	Conneg	0	root	_	_
+4	удит	удитны	_	V	ConNeg|Sg	0	root	_	_
 5	шуны	шуны	_	V	Inf	4	xcomp	_	_
 6	тайӧс	тайӧ	_	Pron	Dem|Sg|Acc	5	obj	_	SpaceAfter=No
 7	,	,	_	CLB	_	8	punct	_	_
@@ -1638,7 +1638,7 @@
 # text = Эз кажитчы!
 # text_rus = Не понравилось?
 1	Эз	оз	_	V	Neg|Ind|Pr|Sg3	2	aux	_	_
-2	кажитчы	кажитчыны	_	V	ConNeg	0	root	_	SpaceAfter=No
+2	кажитчы	кажитчыны	_	V	ConNeg|Sg	0	root	_	SpaceAfter=No
 3	!	!	_	CLB	_	2	punct	_	_
 
 # sent_id = kpv_four_battles.054
@@ -1773,7 +1773,7 @@
 11	пытшса	пытшса	_	A	Abs	12	amod	_	_
 12	йӧзлӧн	йӧз	_	N	Sg|Gen	13	nmod	_	_
 13	чуть	чуть	_	Adv	_	15	advmod	_	_
-14	оз	оз	_	V	Neg|Ind|Prs|Pl3	15	aux	_	_
+14	оз	оз	_	V	Neg|Ind|Prs	15	aux	_	_
 15	потласьны	потласьны	_	V	ConNeg|Pl3	0	_	_	SpaceAfter=No
 16	.	.	_	CLB	_	3	ccomp	_	_
 
@@ -1922,7 +1922,7 @@
 16	понда	понда	ADP	Po	_	15	case	_	_
 17	найӧясӧс	найӧ	PRON	Pron	Pers|Pl3|Acc	19	obj	_	_
 18	ог	оз	AUX	V	Neg|Ind|Prs|Sg1	19	aux	_	_
-19	шуӧй	шуны	VERB	V	ConNeg|Pl3	13	advcl	_	_
+19	шуӧй	шуны	VERB	V	ConNeg|Pl1	13	advcl	_	_
 20	кулӧм	кулӧм	ADJ	A	Sg|Nom	21	amod	_	_
 21	торъясӧн	тор	N	N	Pl|Ins	19	obl	_	_
 22	—	—	PUNCT	CLB	_	23	punct	_	_
